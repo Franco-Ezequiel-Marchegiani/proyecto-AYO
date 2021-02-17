@@ -3,54 +3,9 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 @media only screen and (max-width: 320px){
-    /* NavBar */
-    .navbar__nav{
-        background-color: $gris__oscuro;
-        color:$gris__oscuro;
-            .container-fluid{
-                background-color: $gris__oscuro;
-                color: $gris__oscuro;
-                    .btn__header{
-                     background-color: $blanco;
-                     color: $gris__oscuro;   
-                    }
-                    .navbar-collapse{
-                        background-color: $gris__oscuro;
-                        padding: 30px 0px 20px 5px;
-                        .nav-link{
-                            color:$blanco;
-                            line-height: 28.8px;
-                            font-size: 24px;
-                            font-weight: 700;
-                            font-style: normal;
-                        }
-                    }
-            }
-            .btn__container{
-                
-                    .button__navbar{
-                        font-size: 16px;
-                        font-weight: 400;
-                        font-style: normal;
-                        line-height: 24px;
-                        background-color: $negro__header;
-                        color:$blanco;
-                        width: 115px;
-                        height: 48px;
-                        left: 20px;
-                        top: 554px;
-                        border: 1px solid #FFFFFF;
-                        box-sizing: border-box;
-                        border-radius: 40px;
-                    }
-                    .btn__unete{
-                        margin-right: 10px;
-                    }
-            }
-    }
     /* Sección Imagen de Home */
     .imagen__inicio__home{
-        background-image: url("../imagenes/imagenInicioHome.jpg");
+        background-image: url("../imagenes/home/imagenInicioHome.jpg");
         background-repeat: no-repeat;
         background-size: 100%;
         position: relative;
@@ -163,10 +118,62 @@ body{
             padding-left: 20px;
             .container__objetivos__border{
                 border-left: 1px solid #DFE5EB;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                img{
+                    padding-left: 8px;
+                }
                 p{
-                    span{
-                        border-left: 1px solid #1CABE2;
-                    }
+                    padding-left: 8px;
+                    padding-right: 20px;
+                    
+                }
+                
+                .divBorder1::before{
+                    content: "|";
+                    background-color:$azul__oscuro;
+                    position: relative;
+                    top: 31px;
+                    width: 1px;
+                    left: -2px;
+                }
+                .divBorder2::before{
+                    content: "|";
+                    background-color:$azul__oscuro;
+                    position: relative;
+                    top: 31px;
+                    width: 1px;
+                    left: -2px;
+                }
+                .divBorder3::before{
+                    content: "|";
+                    background-color:$azul__oscuro;
+                    position: relative;
+                    top: 31px;
+                    width: 1px;
+                    left: -2px;
+                }
+                .divBorder4::before{
+                    content: "|";
+                    background-color:$azul__oscuro;
+                    position: relative;
+                    top: 31px;
+                    width: 1px;
+                    left: -2px;
+                }
+                .divBorder5::before{
+                    content: "|";
+                    background-color:$azul__oscuro;
+                    position: relative;
+                    top: 31px;
+                    width: 1px;
+                    left: -2px;
+                }
+                .text__bottom__objetivoDesarrollo{
+                    padding-bottom: 40px;
                 }
             }
         }
@@ -215,6 +222,18 @@ body{
         font-weight: bold;
         font-size: 24px;
         line-height: 120%;
+        .emprende{
+            color: $celeste;
+        }
+        .impulso{
+            color: $verde;
+        }
+        .incuba{
+            color: $amarillo;
+        }
+        .acelera{
+            color: $rojo;
+        }
     }
     .card-text{
         grid-area:texto;
@@ -243,7 +262,7 @@ body{
     }
     /* Sección "Medicion De Impacto */
     .medicionImpacto{
-        background-color: $gris__oscuro;
+        background-image: url("../imagenes/home/fondoMedicionimpacto.png");
         display: grid;
         grid-template-areas:
         "logo"
@@ -281,11 +300,12 @@ body{
         line-height: 20px;
     }
     .boton__medicionImpacto{
-        padding-bottom: 40px;
+        margin-bottom: 50px;
         justify-self: center;
         grid-area: boton;
-        background: #FFFFFF;
+        background: $blanco;
         border-radius: 40px;
+        border-style: unset;
         padding: 12px 40px;
         color: $negro__letras;
         font-family: Raleway;
@@ -294,7 +314,51 @@ body{
         font-size: 16px;
         line-height: 24px;    
     }
-    /* Sección Footer */
+    /* Sección Noticias */
+    .titulo__noticias{
+        padding: 87px 0px 40px 0px;
+        text-align: center;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%;        
+    }
+    .card__container__noticias{
+       max-width: 320px;
+       display: flex;
+       overflow-x: auto;
+    }
+    .card__container__noticias::-webkit-scrollbar{
+        width: 0;
+    }
+    .card__noticias{
+        min-width: 246px;
+        margin:0px 10px 64px 20px;
+        padding-bottom: unset;
+        box-shadow: 0px 16px 40px rgba(154, 170, 207, 0.2);
+    }
+    .card-img-top-noticias{
+        border: unset;
+        width: 100%;
+        height: 143px;       
+    }
+    .card-title-noticias{
+        text-align: center;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .card-text-noticias{
+        text-align: center;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+    }
 }
 @media only screen and (min-width: 600px) and (max-width: 768px){
 
