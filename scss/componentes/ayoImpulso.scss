@@ -3,5 +3,121 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 @media only screen and (max-width: 320px){
-    
+    /* Sección Imagen Inicio */
+    .imagen__inicio__ayoImpulso{
+        background-image: url("../imagenes/home/imagenInicioHome.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: relative;
+            h1{
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 34px;
+                line-height: 40px;
+                padding: 168px 0px 0px 20px;
+            }
+            span{
+                display: block;
+            }
+        
+        p{
+            padding: 16px 0px 0px 20px;
+            color: $blanco;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+        }
+        button{
+            margin: 4px 0px 104px 20px;
+            color: $blanco;
+            background: rgba(45, 41, 38, 0.25);
+            padding: 12px 24px;
+            margin-bottom: 104px;
+            border: 1px solid #FFFFFF;
+            box-sizing: border-box;
+            border-radius: 40px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    /* Sección Global Dignity */
+    .globalDignity__container{
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+        margin-bottom: 64px;
+        img{
+            padding: 64px 20px 40px 20px;
+            width: 100%;
+        }
+        p{
+            padding: 0px 0px 0px 20px;
+            color: $verde;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px;           
+        }
+        .text__container__globalDignity{
+            padding-left: 20px;
+            .text__container__globalDignity__border{
+                border-left: 1px solid rgba(189, 189, 189, 0.5);
+                h4{
+                    padding: 0px 20px 24px 8px;
+                    color: $gris__oscuro;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 120%;               
+                }
+                p{
+                    padding: 0px 20px 24px 8px;
+                    color: $negro__letras;
+                }
+                p::before{
+                    content: "|";
+                    color: $verde;
+                    background-color:$verde;
+                    position: relative;
+                    top: 0px;
+                    width: 1px;
+                    left: -10px;
+                }
+                p::before{
+                    content: "|";
+                    color: $verde;
+                    background-color:$verde;
+                    position: relative;
+                    top: 0px;
+                    width: 1px;
+                    left: -10px;
+                }
+                p::before{
+                    content: "|";
+                    color: $verde;
+                    background-color:$verde;
+                    position: relative;
+                    top: 0px;
+                    width: 1px;
+                    left: -10px;
+                }
+                p::before{
+                    content: "|";
+                    color: $verde;
+                    background-color:$verde;
+                    position: relative;
+                    top: 0px;
+                    width: 1px;
+                    left: -10px;
+                }
+            }
+        }
+    }
 }

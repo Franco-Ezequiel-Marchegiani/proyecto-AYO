@@ -4,21 +4,26 @@ body{
 }
 @media only screen and (max-width: 320px){
     .navbar__nav{
-        background-color: $blanco;
+        background-color: $negro__header;
         color:$gris__oscuro;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
             .container-fluid{
-                background-color: $blanco;
+                background-color: $negro__header;
                 color: $gris__oscuro;
-                    .btn__header{
-                     background-color: $blanco;
-                     color: $gris__oscuro;   
+                    .navbar-brand{
+                        img{
+                            width: 150px;
+                        }
+                    }
+                    .btn__header{ 
+                        background-color: $negro__header;
+                        color: $blanco; 
                     }
                     .navbar-collapse{
-                        background-color: $blanco;
+                        background-color: $negro__header;
                         padding: 30px 0px 20px 5px;
                         .nav-link{
-                            color:$gris__oscuro;
+                            color:$blanco;
                             line-height: 28.8px;
                             font-size: 24px;
                             font-weight: 700;
