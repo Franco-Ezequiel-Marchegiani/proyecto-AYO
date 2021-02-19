@@ -92,8 +92,10 @@ body{
         .partners__containers{
             display: flex;
             justify-content: center;
+            flex-wrap: wrap;
+            padding: 0px 20px;
             img{
-                padding: 10px 12px;
+                padding: 10px 8px;
             }
         }
     }
@@ -337,10 +339,679 @@ body{
         }
     }
 }
-@media only screen and (min-width:321px) and (max-width: 599px){
+@media only screen and (min-width:321px) and (max-width: 480px){
+    .imagen__inicio__home{
+        background-image: url("../imagenes/home/imagenInicioHome.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: relative;
+        .text__container{
+            padding: 0px 10px 0px 10px;
+            .title__home{
+                text-align: left;
+                padding: 80px 0px 0px 10px;
+                display: flex;
+                color: $blanco;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 34px;
+                line-height: 40px;
+                align-items: center;
+                
+                
+            }
+            .subtitulo_inicio{
+                padding: 10px 0px 0px 10px;
+                color: $blanco;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                
+            }
+            .btn__container__imagen{
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                
+                padding-top: 10px;
+                
+                .btn__unete__imagen{
+                    text-align: center;
+                    background-color: transparent;
+                    border: 1px solid $blanco;
+                    box-sizing: border-box;
+                    border-radius: 40px;
+                    color: $blanco;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 24px;
+                    padding: 10px 18px;
+                    
+                    .flecha__button__imagen{
+                        width: 30px;
+                        margin-left:5px;
+                    }
+                }
+                .btn__donar__imagen{
+                    margin-left: 15px;
+                    border-radius: 40px;
+                    padding: 12px 24px;
+                    background-color: $gris__oscuro;
+                    color:$blanco;
+                    border: none;
+                }
+            }
+            .arrow__down__container{
+                display: flex;
+                justify-content: center;
+                .arrow__down{
+                    padding-top: 130px;
+                    padding-bottom: 30px;
+                }
+            }
+        }
+    }
+    /* Sección Partners */
+    .section__partners{
+        background-color: $grisClaro__fondo;
+        .partners{
+            color: $negro__letras;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px;
+            padding:30px 0px 0px 20px;
+        }
+        .partners__containers{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 0px 20px;
+            img{
+                padding: 10px 18px;
+            }
+        }
+    }
+    /* Sección Objetivos de Desarrollo */
+    .section__objetivosDesarrollo{
+        background-color: $grisClaro__fondo;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+        .objetivosDesarrollo{
+            padding:30px 0px 0px 20px;
+            color: $azul__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px;
+        }
+        .title_objetivosDesarrollo{
+            padding: 0px 0px 30px 20px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        .container__objetivos{
+            padding-left: 20px;
+            .container__objetivos__border{
+                border-left: 1px solid #DFE5EB;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                img{
+                    padding-left: 8px;
+                }
+                p{
+                    padding-left: 8px;
+                    padding-right: 20px;
+                    
+                }
+                div{
+                    p::before{
+                        content: "|";
+                        background-color:$azul__oscuro;
+                        position: relative;
+                        top: 0px;
+                        width: 1px;
+                        left: -10px;
+                    }
+                }
+                .text__bottom__objetivoDesarrollo{
+                    padding-bottom: 40px;
+                }
+            }
+        }
+    }
+    /* Sección Iniciativas en Marcha */
+    .title__iniciativas{
+        color: $negro__letras;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+        padding: 40px 20px 10px 20px;
+    }
+    .card__container{
+        padding: 0px 20px;
+    }
+    .card{
+        margin: 20px 0px;
+        border: none;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    }
+    .card-body{
+        display: grid;
+        grid-template-areas:
+        "imagen"
+        "titulo"
+        "texto"
+        "boton";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+
+    }
+    .card-img-top{
+        height: 200px;
+        grid-area:imagen;
+        border-radius: unset;
+    }
+    .card-title{
+        grid-area:titulo;
+        text-align: center;
+        color: $negro__letras;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%;
+        .emprende{
+            color: $celeste;
+        }
+        .impulso{
+            color: $verde;
+        }
+        .incuba{
+            color: $amarillo;
+        }
+        .acelera{
+            color: $rojo;
+        }
+    }
+    .card-text{
+        grid-area:texto;
+        text-align: center;
+        color: $negro__letras;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+    }
+    .card-button{
+        justify-self: center;
+        grid-area:boton;
+        color: $gris__oscuro;
+        background: #FFFFFF;
+        border: 1px solid #2D2926;
+        box-sizing: border-box;
+        border-radius: 40px;
+        padding: 12px 24px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    /* Sección "Medicion De Impacto */
+    .medicionImpacto{
+        background-image: url("../imagenes/home/fondoMedicionimpacto.png");
+        display: grid;
+        grid-template-areas:
+        "logo"
+        "titulo"
+        "texto"
+        "boton";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .logo__medicionImpacto{
+        justify-self: center;
+        padding: 80px 0px;
+        grid-area: logo;
+    }
+    .titulo__medicionImpacto{
+        padding-bottom: 20px;
+        grid-area: titulo;
+        text-align: center;
+        color: $blanco;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%;
+    }
+    .texto__medicionImpacto{
+        padding: 0px 30px 20px 30px;
+        grid-area: texto;
+        text-align: center;
+        color: $blanco;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .boton__medicionImpacto{
+        margin-bottom: 50px;
+        justify-self: center;
+        grid-area: boton;
+        background: $blanco;
+        border-radius: 40px;
+        border-style: unset;
+        padding: 12px 40px;
+        color: $negro__letras;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;    
+    }
+    /* Sección Noticias */
+    .section__noticias{
+        background-color: $grisClaro__fondo;
     
+        .titulo__noticias{
+            padding: 87px 0px 40px 0px;
+            text-align: center;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;        
+        }
+        .card__container__noticias{
+        max-width: 600px;
+        display: flex;
+        overflow-x: auto;
+        }
+        .card__container__noticias::-webkit-scrollbar{
+            width: 0;
+        }
+        .card__noticias{
+            min-width: 246px;
+            margin:0px 10px 64px 20px;
+            padding-bottom: unset;
+            box-shadow: 0px 16px 40px rgba(154, 170, 207, 0.2);
+        }
+        .card-img-top-noticias{
+            border: unset;
+            width: 100%;
+            height: 143px;       
+        }
+        .card-title-noticias{
+            text-align: center;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        .card-text-noticias{
+            text-align: center;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+        }
+    } 
 }
-@media only screen and (min-width: 600px) and (max-width: 768px){
+@media only screen and (min-width: 481px) and (max-width: 600px){
+    .imagen__inicio__home{
+        background-image: url("../imagenes/home/imagenInicioHome.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: relative;
+        .text__container{
+            padding: 0px 10px 0px 10px;
+            .title__home{
+                text-align: left;
+                padding: 80px 0px 0px 10px;
+                display: flex;
+                color: $blanco;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 34px;
+                line-height: 40px;
+                align-items: center;
+                
+                
+            }
+            .subtitulo_inicio{
+                padding: 10px 0px 0px 10px;
+                color: $blanco;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                
+            }
+            .btn__container__imagen{
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                
+                padding-top: 10px;
+                
+                .btn__unete__imagen{
+                    text-align: center;
+                    background-color: transparent;
+                    border: 1px solid $blanco;
+                    box-sizing: border-box;
+                    border-radius: 40px;
+                    color: $blanco;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 24px;
+                    padding: 10px 18px;
+                    
+                    .flecha__button__imagen{
+                        width: 30px;
+                        margin-left:5px;
+                    }
+                }
+                .btn__donar__imagen{
+                    margin-left: 15px;
+                    border-radius: 40px;
+                    padding: 12px 24px;
+                    background-color: $gris__oscuro;
+                    color:$blanco;
+                    border: none;
+                }
+            }
+            .arrow__down__container{
+                display: flex;
+                justify-content: center;
+                .arrow__down{
+                    padding-top: 130px;
+                    padding-bottom: 30px;
+                }
+            }
+        }
+    }
+    /* Sección Partners */
+    .section__partners{
+        background-color: $grisClaro__fondo;
+        .partners{
+            color: $negro__letras;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px;
+            padding:30px 0px 0px 20px;
+        }
+        .partners__containers{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 0px 20px;
+            img{
+                padding: 10px 18px;
+            }
+        }
+    }
+    /* Sección Objetivos de Desarrollo */
+    .section__objetivosDesarrollo{
+        background-color: $grisClaro__fondo;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+        .objetivosDesarrollo{
+            padding:30px 0px 0px 20px;
+            color: $azul__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px;
+        }
+        .title_objetivosDesarrollo{
+            padding: 0px 0px 30px 20px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        .container__objetivos{
+            padding-left: 20px;
+            .container__objetivos__border{
+                border-left: 1px solid #DFE5EB;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                img{
+                    padding-left: 8px;
+                }
+                p{
+                    padding-left: 8px;
+                    padding-right: 20px;
+                    
+                }
+                div{
+                    p::before{
+                        content: "|";
+                        background-color:$azul__oscuro;
+                        position: relative;
+                        top: 0px;
+                        width: 1px;
+                        left: -10px;
+                    }
+                }
+                .text__bottom__objetivoDesarrollo{
+                    padding-bottom: 40px;
+                }
+            }
+        }
+    }
+    /* Sección Iniciativas en Marcha */
+    .title__iniciativas{
+        color: $negro__letras;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+        padding: 40px 20px 10px 20px;
+    }
+    .card__container{
+        padding: 0px 20px;
+    }
+    .card{
+        margin: 20px 0px;
+        border: none;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    }
+    .card-body{
+        display: grid;
+        grid-template-areas:
+        "imagen"
+        "titulo"
+        "texto"
+        "boton";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+
+    }
+    .card-img-top{
+        height: 200px;
+        grid-area:imagen;
+        border-radius: unset;
+    }
+    .card-title{
+        grid-area:titulo;
+        text-align: center;
+        color: $negro__letras;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%;
+        .emprende{
+            color: $celeste;
+        }
+        .impulso{
+            color: $verde;
+        }
+        .incuba{
+            color: $amarillo;
+        }
+        .acelera{
+            color: $rojo;
+        }
+    }
+    .card-text{
+        grid-area:texto;
+        text-align: center;
+        color: $negro__letras;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+    }
+    .card-button{
+        justify-self: center;
+        grid-area:boton;
+        color: $gris__oscuro;
+        background: #FFFFFF;
+        border: 1px solid #2D2926;
+        box-sizing: border-box;
+        border-radius: 40px;
+        padding: 12px 24px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    /* Sección "Medicion De Impacto */
+    .medicionImpacto{
+        background-image: url("../imagenes/home/fondoMedicionimpacto.png");
+        display: grid;
+        grid-template-areas:
+        "logo"
+        "titulo"
+        "texto"
+        "boton";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .logo__medicionImpacto{
+        justify-self: center;
+        padding: 80px 0px;
+        grid-area: logo;
+    }
+    .titulo__medicionImpacto{
+        padding-bottom: 20px;
+        grid-area: titulo;
+        text-align: center;
+        color: $blanco;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%;
+    }
+    .texto__medicionImpacto{
+        padding: 0px 30px 20px 30px;
+        grid-area: texto;
+        text-align: center;
+        color: $blanco;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .boton__medicionImpacto{
+        margin-bottom: 50px;
+        justify-self: center;
+        grid-area: boton;
+        background: $blanco;
+        border-radius: 40px;
+        border-style: unset;
+        padding: 12px 40px;
+        color: $negro__letras;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;    
+    }
+    /* Sección Noticias */
+    .section__noticias{
+        background-color: $grisClaro__fondo;
+    
+        .titulo__noticias{
+            padding: 87px 0px 40px 0px;
+            text-align: center;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;        
+        }
+        .card__container__noticias{
+        max-width: 600px;
+        display: flex;
+        overflow-x: auto;
+        }
+        .card__container__noticias::-webkit-scrollbar{
+            width: 0;
+        }
+        .card__noticias{
+            min-width: 246px;
+            margin:0px 10px 64px 20px;
+            padding-bottom: unset;
+            box-shadow: 0px 16px 40px rgba(154, 170, 207, 0.2);
+        }
+        .card-img-top-noticias{
+            border: unset;
+            width: 100%;
+            height: 143px;       
+        }
+        .card-title-noticias{
+            text-align: center;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        .card-text-noticias{
+            text-align: center;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+        }
+    } 
+}
+@media only screen and (min-width: 601px) and (max-width: 768px){
 
 }
 @media only screen and (min-width:769px) and (max-width:1200px){

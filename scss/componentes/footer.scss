@@ -84,3 +84,176 @@ body{
         }
     }
 }
+@media only screen and (min-width:321px) and (max-width: 599px){
+    footer{
+        background-image: url("../imagenes/footer/fondoFooter.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: relative;
+    }
+    .logo__footer{
+        margin-top: 56px;
+        padding-left: 20px;
+        width: 211px;
+        height: 33px;
+    }
+    .colum__footer{
+        padding: unset;
+        padding-top: 50px;
+        
+        a {
+            text-decoration:none;
+            li{
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+                padding: 16px 0px 0px 20px;
+                list-style: none;
+            }
+        }
+    }
+    .footer__container{
+        .footer__contactanos{
+            padding: 32px 0px 0px 20px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+        }
+        p{
+            color: $blanco;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            img{
+                padding-right: 11px;
+            }
+        }
+        .footer_datosPersonales{
+            padding-left: 20px;
+        }
+    }
+    .footer__redesSociales{
+        p{
+            padding: unset;
+            padding: 12px 0px 10px 20px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+        }
+        .container__redesSociales__icons{
+            padding-left: 20px;
+        }
+        img{
+            padding-right: 15px;
+        }
+        .footer__avisoLegal{
+            padding: unset;
+            margin: unset;
+            padding: 46px 30px 40px 30px;
+            color: $blanco;
+            text-align: center;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 11px;
+            line-height: 13px;           
+        }
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px){
+    footer{
+        background-image: url("../imagenes/footer/fondoFooter.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: relative;
+    }
+    .logo__footer{
+        margin-top: 56px;
+        padding-left: 20px;
+        width: 211px;
+        height: 33px;
+    }
+    .colum__footer{
+        padding: unset;
+        padding-top: 50px;
+        
+        a {
+            text-decoration:none;
+            li{
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+                padding: 16px 0px 0px 20px;
+                list-style: none;
+            }
+        }
+    }
+    .footer__container{
+        .footer__contactanos{
+            padding: 32px 0px 0px 20px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+        }
+        p{
+            color: $blanco;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            img{
+                padding-right: 11px;
+            }
+        }
+        .footer_datosPersonales{
+            padding-left: 20px;
+        }
+    }
+    .footer__redesSociales{
+        p{
+            padding: unset;
+            padding: 12px 0px 10px 20px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+        }
+        .container__redesSociales__icons{
+            padding-left: 20px;
+        }
+        img{
+            padding-right: 15px;
+        }
+        .footer__avisoLegal{
+            padding: unset;
+            margin: unset;
+            padding: 46px 30px 40px 30px;
+            color: $blanco;
+            text-align: center;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 11px;
+            line-height: 13px;           
+        }
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1200px){
+
+}
