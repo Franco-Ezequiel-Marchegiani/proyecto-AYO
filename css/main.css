@@ -193,7 +193,7 @@ body {
   .section__partners {
     background-color: #FCFCFC; }
     .section__partners .partners {
-      color: #000000;
+      color: #1CABE2;
       font-family: Raleway;
       font-style: normal;
       font-weight: 600;
@@ -203,9 +203,11 @@ body {
     .section__partners .partners__containers {
       display: flex;
       justify-content: center;
-      flex-wrap: wrap;
-      padding: 0px 20px; }
+      overflow-x: scroll;
+      white-space: nowrap;
+      padding-left: 310px; }
       .section__partners .partners__containers img {
+        width: 50px;
         padding: 10px 8px; }
   /* Sección Objetivos de Desarrollo */
   .section__objetivosDesarrollo {
@@ -213,7 +215,7 @@ body {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; }
     .section__objetivosDesarrollo .objetivosDesarrollo {
       padding: 30px 0px 0px 20px;
-      color: #2C5697;
+      color: #1CABE2;
       font-family: Raleway;
       font-style: normal;
       font-weight: 600;
@@ -242,7 +244,8 @@ body {
           padding-right: 20px; }
         .section__objetivosDesarrollo .container__objetivos .container__objetivos__border div p::before {
           content: "|";
-          background-color: #2C5697;
+          background-color: #1CABE2;
+          color: #1CABE2;
           position: relative;
           top: 0px;
           width: 1px;
@@ -284,7 +287,7 @@ body {
     font-size: 24px;
     line-height: 120%; }
     .card-title .emprende {
-      color: #1CABE2; }
+      color: #2C5697; }
     .card-title .impulso {
       color: #80BD41; }
     .card-title .incuba {
@@ -314,6 +317,9 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 19px; }
+    .card-button a {
+      text-decoration: none;
+      color: #2D2926; }
   /* Sección "Medicion De Impacto */
   .medicionImpacto {
     background-image: url("../imagenes/home/fondoMedicionimpacto.png");
@@ -482,7 +488,7 @@ body {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; }
     .section__objetivosDesarrollo .objetivosDesarrollo {
       padding: 30px 0px 0px 20px;
-      color: #2C5697;
+      color: #1CABE2;
       font-family: Raleway;
       font-style: normal;
       font-weight: 600;
@@ -511,7 +517,8 @@ body {
           padding-right: 20px; }
         .section__objetivosDesarrollo .container__objetivos .container__objetivos__border div p::before {
           content: "|";
-          background-color: #2C5697;
+          background-color: #1CABE2;
+          color: #1CABE2;
           position: relative;
           top: 0px;
           width: 1px;
@@ -751,7 +758,7 @@ body {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; }
     .section__objetivosDesarrollo .objetivosDesarrollo {
       padding: 30px 0px 0px 20px;
-      color: #2C5697;
+      color: #1CABE2;
       font-family: Raleway;
       font-style: normal;
       font-weight: 600;
@@ -780,7 +787,8 @@ body {
           padding-right: 20px; }
         .section__objetivosDesarrollo .container__objetivos .container__objetivos__border div p::before {
           content: "|";
-          background-color: #2C5697;
+          background-color: #1CABE2;
+          color: #1CABE2;
           position: relative;
           top: 0px;
           width: 1px;
@@ -982,7 +990,7 @@ body {
       padding: 10px 18px; }
   .containerStartup .subTitulo {
     padding: 32px 0px 0px 20px;
-    color: #1CABE2;
+    color: #2C5697;
     font-family: Raleway;
     font-style: normal;
     font-weight: 600;
@@ -1010,8 +1018,8 @@ body {
       border-left: 1px solid #DFE5EB; }
       .container__listStartup .container__listStartup-border div p::before {
         content: "|";
-        color: #1CABE2;
-        background-color: #1CABE2;
+        color: #2C5697;
+        background-color: #2C5697;
         position: relative;
         top: 0px;
         width: 1px;
@@ -1023,7 +1031,7 @@ body {
       padding: 0px 20px 0px 8px; }
   /* Sección Alcance */
   .seccion__alcance {
-    background-color: #1CABE2; }
+    background-color: #2C5697; }
     .seccion__alcance p {
       padding: 20px 0px 16px 20px;
       color: #FFFFFF;
@@ -1070,15 +1078,15 @@ body {
     justify-content: center; }
     .card__container__emrender .card__emprender {
       padding: unset;
-      margin-bottom: 20px;
+      margin: 20px 20px 10px 20px;
       box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
       .card__container__emrender .card__emprender .card-body-container-Emprender {
         padding: unset;
         padding-left: 20px; }
         .card__container__emrender .card__emprender .card-body-container-Emprender h5::before {
           content: "|";
-          background-color: #1CABE2;
-          color: #1CABE2;
+          background-color: #2C5697;
+          color: #2C5697;
           top: 0px;
           width: 1px;
           left: -20px;
@@ -1099,39 +1107,39 @@ body {
         font-size: 14px;
         line-height: 150%; }
     .card__container__emrender .detallePrograma {
-      width: 18rem;
+      width: 100%;
       height: 109px;
       padding: unset;
-      padding-bottom: 0px; }
-    .card__container__emrender .card__detallePrograma {
-      background: rgba(28, 171, 226, 0.8);
-      display: flex;
-      flex-direction: row; }
-      .card__container__emrender .card__detallePrograma img {
-        color: #FFFFFF;
-        padding: 5px 0px 0px 32px; }
-      .card__container__emrender .card__detallePrograma .card-text-detallePrograma {
-        padding: 25px 10px 0px 25px;
-        color: #FFFFFF;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px; }
-        .card__container__emrender .card__detallePrograma .card-text-detallePrograma span {
+      padding: 40px 20px 96px 20px; }
+      .card__container__emrender .detallePrograma .card__detallePrograma {
+        background: #2C5697;
+        display: flex;
+        flex-direction: row; }
+        .card__container__emrender .detallePrograma .card__detallePrograma img {
+          color: #FFFFFF;
+          padding: 5px 0px 0px 32px; }
+        .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma {
+          padding: 25px 10px 0px 25px;
+          color: #FFFFFF;
           font-family: Raleway;
           font-style: normal;
-          font-weight: 600;
+          font-weight: 500;
           font-size: 14px;
-          line-height: 16px; }
-        .card__container__emrender .card__detallePrograma .card-text-detallePrograma img {
-          padding: unset;
-          width: 20px; }
+          line-height: 20px; }
+          .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma span {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px; }
+          .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma img {
+            padding: unset;
+            width: 20px; }
   /* Sección Requisistos para participar si tienes un negocio */
   .container__participarNegocio p {
     padding: unset;
     margin: unset;
-    color: #1CABE2;
+    color: #2C5697;
     font-family: Raleway;
     font-style: normal;
     font-weight: 600;
@@ -1215,7 +1223,7 @@ body {
   .card__comiteInversion {
     display: flex;
     margin: 20px 20px 0px 20px;
-    background-color: #1CABE2; }
+    background-color: #2C5697; }
     .card__comiteInversion img {
       padding: 5px 20px 0px 25px; }
     .card__comiteInversion p {
@@ -1235,7 +1243,7 @@ body {
   /* Sección Socios */
   .container__socios p {
     padding: 40px 0px 20px 22px;
-    color: #1CABE2;
+    color: #2C5697;
     font-family: Raleway;
     font-style: normal;
     font-weight: 600;
@@ -1290,7 +1298,7 @@ body {
       padding: 10px 18px; }
   .containerStartup .subTitulo {
     padding: 32px 0px 0px 20px;
-    color: #1CABE2;
+    color: #2C5697;
     font-family: Raleway;
     font-style: normal;
     font-weight: 600;
@@ -1318,8 +1326,8 @@ body {
       border-left: 1px solid #DFE5EB; }
       .container__listStartup .container__listStartup-border div p::before {
         content: "|";
-        color: #1CABE2;
-        background-color: #1CABE2;
+        color: #2C5697;
+        background-color: #2C5697;
         position: relative;
         top: 0px;
         width: 1px;
@@ -1331,7 +1339,7 @@ body {
       padding: 0px 20px 0px 8px; }
   /* Sección Alcance */
   .seccion__alcance {
-    background-color: #1CABE2; }
+    background-color: #2C5697; }
     .seccion__alcance p {
       padding: 20px 0px 16px 20px;
       color: #FFFFFF;
@@ -1386,8 +1394,8 @@ body {
         padding-left: 20px; }
         .card__container__emrender .card__emprender .card-body-container-Emprender h5::before {
           content: "|";
-          background-color: #1CABE2;
-          color: #1CABE2;
+          background-color: #2C5697;
+          color: #2C5697;
           top: 0px;
           width: 1px;
           left: -20px;
@@ -1413,36 +1421,36 @@ body {
       width: 100%;
       height: 109px;
       padding: unset;
-      padding: 0 20px 0px 20px; }
-    .card__container__emrender .card__detallePrograma {
-      background: rgba(28, 171, 226, 0.8);
-      display: flex;
-      flex-direction: row; }
-      .card__container__emrender .card__detallePrograma img {
-        color: #FFFFFF;
-        padding: 5px 0px 0px 32px; }
-      .card__container__emrender .card__detallePrograma .card-text-detallePrograma {
-        padding: 25px 10px 0px 25px;
-        color: #FFFFFF;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px; }
-        .card__container__emrender .card__detallePrograma .card-text-detallePrograma span {
+      padding: 40px 20px 96px 20px; }
+      .card__container__emrender .detallePrograma .card__detallePrograma {
+        background: #2C5697;
+        display: flex;
+        flex-direction: row; }
+        .card__container__emrender .detallePrograma .card__detallePrograma img {
+          color: #FFFFFF;
+          padding: 5px 0px 0px 32px; }
+        .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma {
+          padding: 25px 10px 0px 25px;
+          color: #FFFFFF;
           font-family: Raleway;
           font-style: normal;
-          font-weight: 600;
+          font-weight: 500;
           font-size: 14px;
-          line-height: 16px; }
-        .card__container__emrender .card__detallePrograma .card-text-detallePrograma img {
-          padding: unset;
-          width: 20px; }
+          line-height: 20px; }
+          .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma span {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px; }
+          .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma img {
+            padding: unset;
+            width: 20px; }
   /* Sección Requisistos para participar si tienes un negocio */
   .container__participarNegocio p {
     padding: unset;
     margin: unset;
-    color: #1CABE2;
+    color: #2C5697;
     font-family: Raleway;
     font-style: normal;
     font-weight: 600;
@@ -1527,7 +1535,7 @@ body {
   .card__comiteInversion {
     display: flex;
     margin: 20px 20px 0px 20px;
-    background-color: #1CABE2; }
+    background-color: #2C5697; }
     .card__comiteInversion img {
       padding: 5px 20px 0px 25px; }
     .card__comiteInversion p {
@@ -1547,7 +1555,7 @@ body {
   /* Sección Socios */
   .container__socios p {
     padding: 40px 0px 20px 22px;
-    color: #1CABE2;
+    color: #2C5697;
     font-family: Raleway;
     font-style: normal;
     font-weight: 600;
@@ -1569,7 +1577,7 @@ body {
 @media only screen and (max-width: 320px) {
   /* Sección Imagen Inicio */
   .imagen__inicio__ayoImpulso {
-    background-image: url("../imagenes/home/imagenInicioHome.jpg");
+    background-image: url("../imagenes/ayoImpulso/1programaImpulso.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative; }
@@ -1580,7 +1588,7 @@ body {
       font-weight: bold;
       font-size: 34px;
       line-height: 40px;
-      padding: 168px 0px 0px 20px; }
+      padding: 80px 0px 0px 20px; }
     .imagen__inicio__ayoImpulso span {
       display: block; }
     .imagen__inicio__ayoImpulso p {
@@ -1592,11 +1600,10 @@ body {
       font-size: 14px;
       line-height: 20px; }
     .imagen__inicio__ayoImpulso button {
-      margin: 4px 0px 104px 20px;
+      margin: 4px 0px 56px 20px;
       color: #FFFFFF;
       background: rgba(45, 41, 38, 0.25);
       padding: 12px 24px;
-      margin-bottom: 104px;
       border: 1px solid #FFFFFF;
       box-sizing: border-box;
       border-radius: 40px;
@@ -1605,6 +1612,90 @@ body {
       font-weight: normal;
       font-size: 16px;
       line-height: 24px; }
+  /* Sección Proyecto de Apoyo */
+  .proyectoApoyo {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
+    .proyectoApoyo p {
+      padding: 20px 0px 0px 20px;
+      color: #80BD41;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 13px; }
+    .proyectoApoyo .divProyectoApoyo_Container {
+      padding-left: 20px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border {
+        border-left: 1px solid rgba(189, 189, 189, 0.5); }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border h2 {
+          color: #2D2926;
+          padding: 0px 20px 32px 8px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 120%; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div p {
+          color: #1A1A1A;
+          padding: 0px 20px 32px 8px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div .texto__propuestaMentoriaProyectImpulso {
+          color: #1A1A1A;
+          padding: 0px 20px 24px 8px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div p::before {
+          content: "|";
+          color: #80BD41;
+          background-color: #80BD41;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div .texto__propuestaMentoriaProyectImpulso::before {
+          content: "|";
+          color: #80BD41;
+          background-color: #80BD41;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border h3 {
+          padding: 0px 20px 24px 8px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 120%; }
+  /* Sección Boton */
+  .card__mentores {
+    display: flex;
+    margin: 48px 20px 0px 20px;
+    background-color: #80BD41; }
+    .card__mentores img {
+      padding: 5px 20px 0px 25px; }
+    .card__mentores p {
+      color: #FFFFFF;
+      padding: 20px 20px 0px 0px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+      .card__mentores p span {
+        font-weight: 600;
+        line-height: 16px; }
+      .card__mentores p img {
+        padding: unset;
+        width: 20px; }
   /* Sección Global Dignity */
   .globalDignity__container {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
@@ -1666,21 +1757,219 @@ body {
           position: relative;
           top: 0px;
           width: 1px;
-          left: -10px; } }
+          left: -10px; }
+  .conoce_mas__ayoImpulso p {
+    color: #80BD41;
+    padding: 0px 0px 16px 20px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px; }
+  .conoce_mas__ayoImpulso div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .conoce_mas__ayoImpulso div .logoGlobalDignity {
+      padding: 0px 12px 64px 0px; }
+    .conoce_mas__ayoImpulso div .logoGlobalDignitySpain {
+      padding: 0px 0px 56px 12px; } }
 
-/* @import "./componentes/ayoAcelera"; */
+/*** Variables Colores  ***/
+body {
+  font-family: 'Raleway', sans-serif; }
+
+@media only screen and (max-width: 320px) {
+  .container__imagen__ayoAcelera {
+    background-image: url("../../imagenes/ayoAcelera/1ayoAcelera.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative; }
+    .container__imagen__ayoAcelera h1 {
+      padding: 80px 0px 0px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+      .container__imagen__ayoAcelera h1 span {
+        display: block; }
+    .container__imagen__ayoAcelera p {
+      padding: 16px 0px 0px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+    .container__imagen__ayoAcelera button {
+      margin: 12px 0px 40px 20px;
+      padding: 12px 24px;
+      background: rgba(45, 41, 38, 0.25);
+      color: #FFFFFF;
+      border: 1px solid #FFFFFF;
+      box-sizing: border-box;
+      border-radius: 40px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px; }
+  /* Sección Apoyo e Impulso */
+  .seccionFortalecimientoCapacidades {
+    background-color: #FCFCFC; }
+    .seccionFortalecimientoCapacidades .subTitulo_FortalecimientoCapacidades {
+      color: #E2231A;
+      padding: 32px 0px 0px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 13px; }
+    .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades {
+      padding-left: 20px;
+      background-color: #FCFCFC; }
+      .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades h2 {
+        padding: 0px 20px 24px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+      .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades p {
+        padding: 0px 20px 0px 8px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%; }
+      .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .text__fortalecimientoCapacidades::before {
+        content: "|";
+        color: #E2231A;
+        background-color: #E2231A;
+        position: relative;
+        top: 0px;
+        width: 0px;
+        left: -10px; }
+      .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr {
+        border-left: 1px solid rgba(189, 189, 189, 0.5);
+        background-color: #FFFFFF; }
+        .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos {
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos h3 {
+            padding: 24px 20px 0px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos p {
+            padding: 24px 20px 16px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos p::before {
+            content: "|";
+            color: #E2231A;
+            background-color: #E2231A;
+            position: relative;
+            top: 0px;
+            width: 0px;
+            left: -10px; }
+        .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__triatlonSocial {
+          background-color: #FFFFFF; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__triatlonSocial h4 {
+            padding: 24px 20px 0px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__triatlonSocial p {
+            padding: 24px 20px 0px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__triatlonSocial p::before {
+            content: "|";
+            color: #E2231A;
+            background-color: #E2231A;
+            position: relative;
+            top: 0px;
+            width: 0px;
+            left: -10px; }
+      .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn {
+        background: rgba(226, 35, 26, 0.8);
+        margin: 48px 20px 48px 0px;
+        display: flex; }
+        .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn img {
+          padding: unset;
+          padding: 20px 0px 15px 30px;
+          width: 48px; }
+        .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn {
+          padding: unset;
+          padding: 32px 5px 10px 24px;
+          color: #FFFFFF;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn .imgText__detallePrograma {
+            padding: unset;
+            width: 24px; }
+  .fortalecimientoEstrategico {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
+    .fortalecimientoEstrategico h5 {
+      padding: 30px 20px 24px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+    .fortalecimientoEstrategico p {
+      padding: 12px 20px 24px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+  .iniciativaAyoAcelera_texto {
+    color: #E2231A;
+    padding: 24px 0px 0px 20px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px; }
+  .logosIniciativaColaboración_container {
+    display: flex;
+    justify-content: center; }
+    .logosIniciativaColaboración_container img {
+      padding: 0px 5px 40px 5px; } }
+
 /*** Variables Colores  ***/
 body {
   font-family: 'Raleway', sans-serif; }
 
 @media only screen and (max-width: 320px) {
   .container__imagen__ayoincuba {
-    background-image: url("../../imagenes/home/imagenInicioHome.jpg");
+    background-image: url("../../imagenes/ayoIncuba/1ayoIncuba.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative; }
     .container__imagen__ayoincuba h1 {
-      padding: 200px 0px 0px 20px;
+      padding: 100px 0px 0px 20px;
       color: #FFFFFF;
       font-family: Raleway;
       font-style: normal;
@@ -1725,6 +2014,32 @@ body {
       padding-left: 20px; }
       .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde {
         border-left: 1px solid rgba(189, 189, 189, 0.5); }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde {
+          background-color: #FFFFFF; }
+          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde h3 {
+            padding: 24px 20px 0px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%; }
+          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p {
+            padding: 24px 20px 0px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px; }
+          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p::before {
+            content: "|";
+            color: #FFC20E;
+            background-color: #FFC20E;
+            position: relative;
+            top: 0px;
+            width: 0px;
+            left: -10px; }
         .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde h2 {
           padding: 0px 20px 24px 8px;
           color: #2D2926;
@@ -1781,56 +2096,26 @@ body {
           width: 1px;
           left: -10px; }
   /* Sección Incubadora de Ideas */
-  .contenedor__incubadoraIdeas {
-    padding: 0px 0px 48px 20px;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
-    .contenedor__incubadoraIdeas .contenedor__incubadoraIdeas_borde {
-      padding-left: 8px;
-      border-left: 1px solid rgba(189, 189, 189, 0.5); }
-      .contenedor__incubadoraIdeas .contenedor__incubadoraIdeas_borde h3 {
-        padding: 24px 20px 0px 0px;
-        color: #2D2926;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 120%; }
-      .contenedor__incubadoraIdeas .contenedor__incubadoraIdeas_borde p {
-        padding: 24px 20px 0px 0px;
-        color: #2D2926;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px; }
-      .contenedor__incubadoraIdeas .contenedor__incubadoraIdeas_borde p::before {
-        content: "|";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 0px;
-        left: -10px; }
-    .contenedor__incubadoraIdeas .contenedor__presentarProyecto {
-      margin: 32px 20px 20px 0px;
-      display: flex;
-      background-color: #FFC20E; }
-      .contenedor__incubadoraIdeas .contenedor__presentarProyecto img {
-        padding: 32px 0px 32px 30px; }
-      .contenedor__incubadoraIdeas .contenedor__presentarProyecto p {
-        padding: 46px 8px 23px 26px;
-        color: #FFFFFF;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px; }
-        .contenedor__incubadoraIdeas .contenedor__presentarProyecto p .imgText__presentarProyecto {
-          width: 24px;
-          padding: unset; }
-        .contenedor__incubadoraIdeas .contenedor__presentarProyecto p span {
-          font-weight: 600;
-          line-height: 16px; }
+  .contenedor__presentarProyecto {
+    margin: 32px 20px 20px 20px;
+    display: flex;
+    background-color: #FFC20E; }
+    .contenedor__presentarProyecto img {
+      padding: 32px 0px 32px 30px; }
+    .contenedor__presentarProyecto p {
+      padding: 46px 8px 23px 26px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+      .contenedor__presentarProyecto p .imgText__presentarProyecto {
+        width: 24px;
+        padding: unset; }
+      .contenedor__presentarProyecto p span {
+        font-weight: 600;
+        line-height: 16px; }
   /* Sección Pathfinder */
   .container__pathfinder {
     padding-left: 20px; }
@@ -2093,3 +2378,125 @@ body {
     font-weight: normal;
     font-size: 11px;
     line-height: 13px; } }
+
+/*** Variables Colores  ***/
+body {
+  font-family: 'Raleway', sans-serif; }
+
+@media only screen and (max-width: 320px) {
+  .container__imagen__sobreAyo {
+    background-image: url("../../imagenes/sobreNosotros/1sobreNosotros.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative; }
+    .container__imagen__sobreAyo h1 {
+      padding: 80px 0px 0px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+      .container__imagen__sobreAyo h1 span {
+        display: block; }
+    .container__imagen__sobreAyo p {
+      padding: 16px 0px 0px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+    .container__imagen__sobreAyo button {
+      margin: 12px 0px 40px 20px;
+      padding: 12px 24px;
+      background: rgba(45, 41, 38, 0.25);
+      color: #FFFFFF;
+      border: 1px solid #FFFFFF;
+      box-sizing: border-box;
+      border-radius: 40px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px; }
+  .cardMision {
+    width: 18rem;
+    margin-left: 15px; }
+  .cardVision {
+    width: 18rem;
+    margin-left: 15px; }
+  .subTitulo__seccionMV {
+    color: #1CABE2;
+    padding: unset;
+    padding: 12px 0px 0px 10px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 120%; }
+  .textoCard {
+    padding-left: 10px;
+    text-align: start;
+    color: #000000;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px; }
+  .estrategiaContainer_SobreAyo {
+    background-color: #1CABE2;
+    color: #FFFFFF; }
+    .estrategiaContainer_SobreAyo h2 {
+      padding: 40px 0px 24px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+    .estrategiaContainer_SobreAyo p {
+      padding: 0px 20px 16px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+    .estrategiaContainer_SobreAyo .textoMarginEstrategia_sobreAyo {
+      padding-bottom: 164px; }
+  .areasEstrategicas_sobreAyo {
+    margin: 0px 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    position: relative;
+    top: -140px; }
+    .areasEstrategicas_sobreAyo h3 {
+      color: #000000;
+      padding: 24px 0px 8px 28px; }
+    .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo {
+      padding: 0px 0px 16px 16px; }
+      .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border {
+        opacity: 0.9;
+        border-left: 1px solid rgba(189, 189, 189, 0.5); }
+        .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .subTitulosAreasEstrategicas_sobreAyo {
+          color: #1CABE2;
+          padding: 8px 0px 0px 8px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 11px;
+          line-height: 13px; }
+        .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border p {
+          padding: 0px 20px 0px 8px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 20px; }
+        .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .subTitulosAreasEstrategicas_sobreAyo::before {
+          content: "|";
+          color: #1CABE2;
+          background-color: #1CABE2;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; } }

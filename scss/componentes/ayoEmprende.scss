@@ -48,7 +48,7 @@ body{
     .containerStartup{
         .subTitulo{
             padding: 32px 0px 0px 20px;
-            color: $celeste;
+            color: $azul__oscuro;
             font-family: Raleway;
             font-style: normal;
             font-weight: 600;
@@ -82,8 +82,8 @@ body{
             div{
                 p::before{
                     content: "|";
-                    color: $celeste;
-                    background-color:$celeste;
+                    color: $azul__oscuro;
+                    background-color:$azul__oscuro;
                     position: relative;
                     top: 0px;
                     width: 1px;
@@ -103,7 +103,7 @@ body{
     }
     /* Sección Alcance */
     .seccion__alcance{
-        background-color: $celeste;
+        background-color: $azul__oscuro;
         p{
             padding: 20px 0px 16px 20px;
             color: $blanco;
@@ -160,15 +160,15 @@ body{
         justify-content: center;
         .card__emprender{
             padding: unset;
-            margin-bottom: 20px;
+            margin: 20px 20px 10px 20px;
             box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
             .card-body-container-Emprender{
                 padding: unset;
                 padding-left: 20px;
                 h5::before{
                     content: "|";
-                    background-color:$celeste;
-                    color: $celeste;
+                    background-color:$azul__oscuro;
+                    color: $azul__oscuro;
                     top: 0px;
                     width: 1px;
                     left: -20px;
@@ -194,37 +194,37 @@ body{
             }
         }
         .detallePrograma{
-            width: 18rem;
+            width: 100%;
             height: 109px;
             padding: unset;
-            padding-bottom: 0px;
-        }
-        .card__detallePrograma{
-            background: rgba(28, 171, 226, 0.8);
-            display: flex;
-            flex-direction: row;
-            img{
-                color: $blanco;
-                padding: 5px 0px 0px 32px;
-            }
-            .card-text-detallePrograma{
-                padding: 25px 10px 0px 25px;
-                color: $blanco;
-                font-family: Raleway;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 14px;
-                line-height: 20px;
-                span{
+            padding: 40px 20px 96px 20px;
+                .card__detallePrograma{
+                background: $azul__oscuro;
+                display: flex;
+                flex-direction: row;
+                img{
+                    color: $blanco;
+                    padding: 5px 0px 0px 32px;
+                }
+                .card-text-detallePrograma{
+                    padding: 25px 10px 0px 25px;
+                    color: $blanco;
                     font-family: Raleway;
                     font-style: normal;
-                    font-weight: 600;
+                    font-weight: 500;
                     font-size: 14px;
-                    line-height: 16px;
-                }
-                img{
-                    padding: unset;
-                    width: 20px;
+                    line-height: 20px;
+                    span{
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 16px;
+                    }
+                    img{
+                        padding: unset;
+                        width: 20px;
+                    }
                 }
             }
         }
@@ -234,7 +234,7 @@ body{
         p{
             padding: unset;
             margin: unset;
-            color: $celeste;
+            color: $azul__oscuro;
             font-family: Raleway;
             font-style: normal;
             font-weight: 600;
@@ -337,7 +337,7 @@ body{
     .card__comiteInversion{
         display: flex;
         margin: 20px 20px 0px 20px;
-        background-color: $celeste;
+        background-color: $azul__oscuro;
         img{
             padding: 5px 20px 0px 25px;
         }
@@ -363,7 +363,7 @@ body{
     .container__socios{
         p{
             padding: 40px 0px 20px 22px;
-            color: $celeste;
+            color: $azul__oscuro;
             font-family: Raleway;
             font-style: normal;
             font-weight: 600;
@@ -429,7 +429,7 @@ body{
     .containerStartup{
         .subTitulo{
             padding: 32px 0px 0px 20px;
-            color: $celeste;
+            color: $azul__oscuro;
             font-family: Raleway;
             font-style: normal;
             font-weight: 600;
@@ -463,8 +463,8 @@ body{
             div{
                 p::before{
                     content: "|";
-                    color: $celeste;
-                    background-color:$celeste;
+                    color: $azul__oscuro;
+                    background-color:$azul__oscuro;
                     position: relative;
                     top: 0px;
                     width: 1px;
@@ -484,7 +484,7 @@ body{
     }
     /* Sección Alcance */
     .seccion__alcance{
-        background-color: $celeste;
+        background-color: $azul__oscuro;
         p{
             padding: 20px 0px 16px 20px;
             color: $blanco;
@@ -551,8 +551,8 @@ body{
                 padding-left: 20px;
                 h5::before{
                     content: "|";
-                    background-color:$celeste;
-                    color: $celeste;
+                    background-color:$azul__oscuro;
+                    color: $azul__oscuro;
                     top: 0px;
                     width: 1px;
                     left: -20px;
@@ -585,34 +585,34 @@ body{
             width: 100%;
             height: 109px;
             padding: unset;
-            padding: 0 20px 0px 20px;
-        }
-        .card__detallePrograma{
-            background: rgba(28, 171, 226, 0.8);
-            display: flex;
-            flex-direction: row;
-            img{
-                color: $blanco;
-                padding: 5px 0px 0px 32px;
-            }
-            .card-text-detallePrograma{
-                padding: 25px 10px 0px 25px;
-                color: $blanco;
-                font-family: Raleway;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 14px;
-                line-height: 20px;
-                span{
+            padding: 40px 20px 96px 20px;
+                .card__detallePrograma{
+                background: $azul__oscuro;
+                display: flex;
+                flex-direction: row;
+                img{
+                    color: $blanco;
+                    padding: 5px 0px 0px 32px;
+                }
+                .card-text-detallePrograma{
+                    padding: 25px 10px 0px 25px;
+                    color: $blanco;
                     font-family: Raleway;
                     font-style: normal;
-                    font-weight: 600;
+                    font-weight: 500;
                     font-size: 14px;
-                    line-height: 16px;
-                }
-                img{
-                    padding: unset;
-                    width: 20px;
+                    line-height: 20px;
+                    span{
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 16px;
+                    }
+                    img{
+                        padding: unset;
+                        width: 20px;
+                    }
                 }
             }
         }
@@ -622,7 +622,7 @@ body{
         p{
             padding: unset;
             margin: unset;
-            color: $celeste;
+            color: $azul__oscuro;
             font-family: Raleway;
             font-style: normal;
             font-weight: 600;
@@ -726,7 +726,7 @@ body{
     .card__comiteInversion{
         display: flex;
         margin: 20px 20px 0px 20px;
-        background-color: $celeste;
+        background-color: $azul__oscuro;
         img{
             padding: 5px 20px 0px 25px;
         }
@@ -752,7 +752,7 @@ body{
     .container__socios{
         p{
             padding: 40px 0px 20px 22px;
-            color: $celeste;
+            color: $azul__oscuro;
             font-family: Raleway;
             font-style: normal;
             font-weight: 600;

@@ -5,7 +5,7 @@ body{
 @media only screen and (max-width: 320px){
     /* Sección Imagen Inicio */
     .imagen__inicio__ayoImpulso{
-        background-image: url("../imagenes/home/imagenInicioHome.jpg");
+        background-image: url("../imagenes/ayoImpulso/1programaImpulso.jpg");
         background-repeat: no-repeat;
         background-size: 100%;
         position: relative;
@@ -16,7 +16,7 @@ body{
                 font-weight: bold;
                 font-size: 34px;
                 line-height: 40px;
-                padding: 168px 0px 0px 20px;
+                padding: 80px 0px 0px 20px;
             }
             span{
                 display: block;
@@ -32,11 +32,10 @@ body{
             line-height: 20px;
         }
         button{
-            margin: 4px 0px 104px 20px;
+            margin: 4px 0px 56px 20px;
             color: $blanco;
             background: rgba(45, 41, 38, 0.25);
             padding: 12px 24px;
-            margin-bottom: 104px;
             border: 1px solid #FFFFFF;
             box-sizing: border-box;
             border-radius: 40px;
@@ -45,6 +44,109 @@ body{
             font-weight: normal;
             font-size: 16px;
             line-height: 24px;
+        }
+    }
+    /* Sección Proyecto de Apoyo */
+    .proyectoApoyo{
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+        p{
+            padding: 20px 0px 0px 20px;
+            color: $verde;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px;
+        }
+        .divProyectoApoyo_Container{
+            padding-left: 20px;
+            .divProyectoApoyo_Container_border{
+                border-left: 1px solid rgba(189, 189, 189, 0.5);
+                h2{
+                    color: $gris__oscuro;
+                    padding: 0px 20px 32px 8px;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 120%;
+                }
+                div{
+                    p{
+                        color: $negro__header;
+                        padding: 0px 20px 32px 8px;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 150%;
+                    }
+                    .texto__propuestaMentoriaProyectImpulso{
+                        color: $negro__header;
+                        padding: 0px 20px 24px 8px;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 150%;
+                    }
+                }
+                div{
+                    p::before{
+                        content: "|";
+                        color: $verde;
+                        background-color:$verde;
+                        position: relative;
+                        top: 0px;
+                        width: 1px;
+                        left: -10px;
+                    }
+                    .texto__propuestaMentoriaProyectImpulso::before{
+                        content: "|";
+                        color: $verde;
+                        background-color:$verde;
+                        position: relative;
+                        top: 0px;
+                        width: 1px;
+                        left: -10px;
+                    }
+                }
+                h3{
+                    padding: 0px 20px 24px 8px;
+                    color: $gris__oscuro;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 120%;
+                }
+            }
+        }
+    }
+    /* Sección Boton */
+    .card__mentores{
+        display: flex;
+        margin: 48px 20px 0px 20px;
+        background-color: $verde;
+        img{
+            padding: 5px 20px 0px 25px;
+        }
+        p{
+            color: $blanco;
+            padding: 20px 20px 0px 0px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            span{
+                font-weight: 600;
+                line-height: 16px;
+            }            
+            img{
+                padding: unset;
+                width: 20px;
+            }
         }
     }
     /* Sección Global Dignity */
@@ -117,6 +219,28 @@ body{
                     width: 1px;
                     left: -10px;
                 }
+            }
+        }
+    }
+    .conoce_mas__ayoImpulso{
+        p{
+            color: $verde;
+            padding: 0px 0px 16px 20px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px;
+        }
+        div{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .logoGlobalDignity{
+                padding: 0px 12px 64px 0px;
+            }
+            .logoGlobalDignitySpain{
+                padding: 0px 0px 56px 12px
             }
         }
     }
