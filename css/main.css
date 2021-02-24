@@ -2420,16 +2420,21 @@ body {
       font-weight: normal;
       font-size: 16px;
       line-height: 24px; }
-  .cardMision {
-    width: 18rem;
-    margin-left: 15px; }
-  .cardVision {
-    width: 18rem;
-    margin-left: 15px; }
+  .seccionMV_sobreAyo {
+    padding: unset;
+    padding: 0px 8px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center; }
+    .seccionMV_sobreAyo .cardMision {
+      width: 18rem; }
+    .seccionMV_sobreAyo .cardVision {
+      width: 18rem; }
   .subTitulo__seccionMV {
     color: #1CABE2;
     padding: unset;
-    padding: 12px 0px 0px 10px;
+    padding: 8px 0px 0px 10px;
     font-family: Raleway;
     font-style: normal;
     font-weight: 600;
@@ -2462,41 +2467,915 @@ body {
       line-height: 20px; }
     .estrategiaContainer_SobreAyo .textoMarginEstrategia_sobreAyo {
       padding-bottom: 164px; }
-  .areasEstrategicas_sobreAyo {
-    margin: 0px 20px;
-    background-color: #FFFFFF;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+  .areasEstrategicasFondo_sobreAyo {
+    background: rgba(242, 242, 242, 0.4); }
+    .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo {
+      margin: 0px 20px;
+      background-color: #FFFFFF;
+      box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+      position: relative;
+      top: -140px; }
+      .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo h3 {
+        color: #000000;
+        padding: 24px 0px 8px 28px; }
+      .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo {
+        padding: 0px 0px 16px 16px; }
+        .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border {
+          opacity: 0.9;
+          border-left: 1px solid rgba(189, 189, 189, 0.5); }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .subTitulosAreasEstrategicas_sobreAyo {
+            color: #1CABE2;
+            padding: 8px 0px 0px 8px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border p {
+            padding: 0px 20px 0px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .subTitulosAreasEstrategicas_sobreAyo::before {
+            content: "|";
+            color: #1CABE2;
+            background-color: #1CABE2;
+            position: relative;
+            top: 0px;
+            width: 1px;
+            left: -10px; }
+  .seccionIdentidadInstitucional_sobreAyo {
+    background: rgba(242, 242, 242, 0.4);
     position: relative;
-    top: -140px; }
-    .areasEstrategicas_sobreAyo h3 {
+    top: -96px;
+    padding: 0px 20px 50px 20px; }
+    .seccionIdentidadInstitucional_sobreAyo h4 {
       color: #000000;
-      padding: 24px 0px 8px 28px; }
-    .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo {
-      padding: 0px 0px 16px 16px; }
-      .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border {
-        opacity: 0.9;
-        border-left: 1px solid rgba(189, 189, 189, 0.5); }
-        .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .subTitulosAreasEstrategicas_sobreAyo {
-          color: #1CABE2;
-          padding: 8px 0px 0px 8px;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: 600;
-          font-size: 11px;
-          line-height: 13px; }
-        .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border p {
-          padding: 0px 20px 0px 8px;
-          color: #2D2926;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: bold;
-          font-size: 14px;
-          line-height: 20px; }
-        .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .subTitulosAreasEstrategicas_sobreAyo::before {
-          content: "|";
-          color: #1CABE2;
-          background-color: #1CABE2;
+      padding: 0px 20px 16px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+    .seccionIdentidadInstitucional_sobreAyo .nuestrosValores_sobreAyo {
+      box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+      background-color: #FFFFFF;
+      padding-bottom: 20px; }
+      .seccionIdentidadInstitucional_sobreAyo .nuestrosValores_sobreAyo img {
+        padding: 24px 0px 10px 16px; }
+      .seccionIdentidadInstitucional_sobreAyo .nuestrosValores_sobreAyo .subtituloElementosConforman_SobreAyo {
+        padding: 0px 20px 0px 16px;
+        color: #1CABE2;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 150%; }
+      .seccionIdentidadInstitucional_sobreAyo .nuestrosValores_sobreAyo .bordeAzul_identidadInstitucional {
+        padding: 0px 20px 0px 16px;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px; }
+      .seccionIdentidadInstitucional_sobreAyo .nuestrosValores_sobreAyo .bordeAzul_identidadInstitucional::before {
+        content: "|";
+        background-color: #1CABE2;
+        color: #1CABE2;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -16px; }
+    .seccionIdentidadInstitucional_sobreAyo .voluntariado_sobreAyo {
+      box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+      background-color: #FFFFFF;
+      padding: 0px 16px 24px 16px;
+      margin: 24px 0px; }
+      .seccionIdentidadInstitucional_sobreAyo .voluntariado_sobreAyo img {
+        padding: 28px 0px 10px 0px; }
+      .seccionIdentidadInstitucional_sobreAyo .voluntariado_sobreAyo .subTituloVoluntariado_sobreAyo {
+        color: #1CABE2;
+        padding: 0px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 20px; }
+      .seccionIdentidadInstitucional_sobreAyo .voluntariado_sobreAyo .textVoluntariado_sobreAyo {
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+    .seccionIdentidadInstitucional_sobreAyo .Alianzas_sobreAyo {
+      box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+      background-color: #FFFFFF;
+      padding: 0px 16px 24px 16px;
+      margin: 24px 0px; }
+      .seccionIdentidadInstitucional_sobreAyo .Alianzas_sobreAyo img {
+        padding: 28px 0px 10px 0px; }
+      .seccionIdentidadInstitucional_sobreAyo .Alianzas_sobreAyo .subTituloAlianzas_sobreAyo {
+        color: #1CABE2;
+        padding: 0px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 20px; }
+      .seccionIdentidadInstitucional_sobreAyo .Alianzas_sobreAyo .textAlianzas_sobreAyo {
+        margin-bottom: 16px;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+  .seccionElementosClavePosicionamiento_sobreAyo {
+    position: relative;
+    top: -96px;
+    background-color: rgba(242, 242, 242, 0.4);
+    padding: 0px 20px; }
+    .seccionElementosClavePosicionamiento_sobreAyo h5 {
+      padding-bottom: 24px;
+      color: #000000;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+    .seccionElementosClavePosicionamiento_sobreAyo div p {
+      color: #000000; }
+      .seccionElementosClavePosicionamiento_sobreAyo div p .tildeElementosClave_sobreAyo {
+        padding-right: 8px; }
+  .seccionEquipo_sobreAyo {
+    position: relative;
+    top: -56px; }
+    .seccionEquipo_sobreAyo h6 {
+      color: #2D2926;
+      padding: 0px 0px 32px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+    .seccionEquipo_sobreAyo .containerEquipo_sobreAyo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagenIntegrante_sobreAyo {
+        padding-bottom: 20px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .nombreIntegranteEquipo_sobreAyo {
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .nombreIntegranteEquipo_sobreAyo a .logoLinkedIn_sobreAyo {
           position: relative;
-          top: 0px;
-          width: 1px;
-          left: -10px; } }
+          top: -2px;
+          padding: 0px 8px 0px 0px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .cargoIntegranteEquipo_sobreAyo {
+        padding-bottom: 24px;
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px; }
+        .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .cargoIntegranteEquipo_sobreAyo span {
+          display: block; }
+  .seccionColaboradores_sobreAyo {
+    position: relative;
+    top: -56px; }
+    .seccionColaboradores_sobreAyo h6 {
+      color: #2D2926;
+      padding: 0px 0px 32px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+    .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagenIntegrante_sobreAyo {
+        padding-bottom: 20px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo {
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo a .logoLinkedIn_sobreAyo {
+          position: relative;
+          top: -2px;
+          padding: 0px 8px 0px 0px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .cargoIntegranteColaboradores_sobreAyo {
+        padding-bottom: 24px;
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .cargoIntegranteColaboradores_sobreAyo span {
+          display: block; } }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .container__imagen__sobreAyo {
+    background-image: url("../../imagenes/sobreNosotros/1sobreNosotros.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative; }
+    .container__imagen__sobreAyo h1 {
+      padding: 80px 0px 0px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+      .container__imagen__sobreAyo h1 span {
+        display: block; }
+    .container__imagen__sobreAyo p {
+      padding: 16px 0px 0px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+    .container__imagen__sobreAyo button {
+      margin: 12px 0px 40px 20px;
+      padding: 12px 24px;
+      background: rgba(45, 41, 38, 0.25);
+      color: #FFFFFF;
+      border: 1px solid #FFFFFF;
+      box-sizing: border-box;
+      border-radius: 40px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px; }
+  .seccionMV_sobreAyo {
+    padding: unset;
+    padding: 0px 8px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center; }
+    .seccionMV_sobreAyo .cardMision {
+      width: 90%;
+      height: 100%;
+      padding: 0px; }
+    .seccionMV_sobreAyo .cardVision {
+      width: 90%;
+      height: 100%;
+      padding: 0px; }
+  .subTitulo__seccionMV {
+    color: #1CABE2;
+    padding: unset;
+    padding: 8px 0px 0px 10px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 120%; }
+  .textoCard {
+    padding-left: 10px;
+    text-align: start;
+    color: #000000;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px; }
+  .estrategiaContainer_SobreAyo {
+    background-color: #1CABE2;
+    color: #FFFFFF; }
+    .estrategiaContainer_SobreAyo h2 {
+      padding: 40px 0px 24px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+    .estrategiaContainer_SobreAyo p {
+      padding: 0px 20px 16px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+    .estrategiaContainer_SobreAyo .textoMarginEstrategia_sobreAyo {
+      padding-bottom: 164px; }
+  .areasEstrategicasFondo_sobreAyo {
+    background: rgba(242, 242, 242, 0.4); }
+    .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo {
+      margin: 0px 20px;
+      background-color: #FFFFFF;
+      box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+      position: relative;
+      top: -140px; }
+      .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo h3 {
+        color: #000000;
+        padding: 24px 0px 8px 28px; }
+      .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo {
+        padding: 0px 0px 16px 16px; }
+        .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border {
+          opacity: 0.9;
+          border-left: 1px solid rgba(189, 189, 189, 0.5); }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .subTitulosAreasEstrategicas_sobreAyo {
+            color: #1CABE2;
+            padding: 8px 0px 0px 8px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border p {
+            padding: 0px 20px 0px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .subTitulosAreasEstrategicas_sobreAyo::before {
+            content: "|";
+            color: #1CABE2;
+            background-color: #1CABE2;
+            position: relative;
+            top: 0px;
+            width: 1px;
+            left: -10px; }
+  .seccionIdentidadInstitucional_sobreAyo {
+    background: rgba(242, 242, 242, 0.4);
+    position: relative;
+    top: -96px;
+    padding: 0px 20px 50px 20px; }
+    .seccionIdentidadInstitucional_sobreAyo h4 {
+      color: #000000;
+      padding: 0px 20px 16px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+    .seccionIdentidadInstitucional_sobreAyo .nuestrosValores_sobreAyo {
+      box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+      background-color: #FFFFFF;
+      padding-bottom: 20px; }
+      .seccionIdentidadInstitucional_sobreAyo .nuestrosValores_sobreAyo img {
+        padding: 24px 0px 10px 16px; }
+      .seccionIdentidadInstitucional_sobreAyo .nuestrosValores_sobreAyo .subtituloElementosConforman_SobreAyo {
+        padding: 0px 20px 0px 16px;
+        color: #1CABE2;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 150%; }
+      .seccionIdentidadInstitucional_sobreAyo .nuestrosValores_sobreAyo .bordeAzul_identidadInstitucional {
+        padding: 0px 20px 0px 16px;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px; }
+      .seccionIdentidadInstitucional_sobreAyo .nuestrosValores_sobreAyo .bordeAzul_identidadInstitucional::before {
+        content: "|";
+        background-color: #1CABE2;
+        color: #1CABE2;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -16px; }
+    .seccionIdentidadInstitucional_sobreAyo .voluntariado_sobreAyo {
+      box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+      background-color: #FFFFFF;
+      padding: 0px 16px 24px 16px;
+      margin: 24px 0px; }
+      .seccionIdentidadInstitucional_sobreAyo .voluntariado_sobreAyo img {
+        padding: 28px 0px 10px 0px; }
+      .seccionIdentidadInstitucional_sobreAyo .voluntariado_sobreAyo .subTituloVoluntariado_sobreAyo {
+        color: #1CABE2;
+        padding: 0px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 20px; }
+      .seccionIdentidadInstitucional_sobreAyo .voluntariado_sobreAyo .textVoluntariado_sobreAyo {
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+    .seccionIdentidadInstitucional_sobreAyo .Alianzas_sobreAyo {
+      box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+      background-color: #FFFFFF;
+      padding: 0px 16px 24px 16px;
+      margin: 24px 0px; }
+      .seccionIdentidadInstitucional_sobreAyo .Alianzas_sobreAyo img {
+        padding: 28px 0px 10px 0px; }
+      .seccionIdentidadInstitucional_sobreAyo .Alianzas_sobreAyo .subTituloAlianzas_sobreAyo {
+        color: #1CABE2;
+        padding: 0px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 20px; }
+      .seccionIdentidadInstitucional_sobreAyo .Alianzas_sobreAyo .textAlianzas_sobreAyo {
+        margin-bottom: 16px;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+  .seccionElementosClavePosicionamiento_sobreAyo {
+    position: relative;
+    top: -96px;
+    background-color: rgba(242, 242, 242, 0.4);
+    padding: 0px 20px; }
+    .seccionElementosClavePosicionamiento_sobreAyo h5 {
+      padding-bottom: 24px;
+      color: #000000;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+    .seccionElementosClavePosicionamiento_sobreAyo div p {
+      color: #000000; }
+      .seccionElementosClavePosicionamiento_sobreAyo div p .tildeElementosClave_sobreAyo {
+        padding-right: 8px; }
+  .seccionEquipo_sobreAyo {
+    position: relative;
+    top: -56px; }
+    .seccionEquipo_sobreAyo h6 {
+      color: #2D2926;
+      padding: 0px 0px 32px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+    .seccionEquipo_sobreAyo .containerEquipo_sobreAyo {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 0px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagenIntegrante_sobreAyo {
+        padding-bottom: 20px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagen1_sobreAyo {
+        padding-right: 20px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagen3_sobreAyo {
+        padding-right: 20px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagen5_sobreAyo {
+        padding-right: 20px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .nombreIntegranteEquipo_sobreAyo {
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .nombreIntegranteEquipo_sobreAyo a .logoLinkedIn_sobreAyo {
+          position: relative;
+          top: -2px;
+          padding: 0px 8px 0px 0px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .cargoIntegranteEquipo_sobreAyo {
+        padding-bottom: 24px;
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px; }
+        .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .cargoIntegranteEquipo_sobreAyo span {
+          display: block; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo .ultimaFoto_sobreAyo {
+        position: relative;
+        top: -3.5px; }
+  .seccionColaboradores_sobreAyo {
+    position: relative;
+    top: -56px; }
+    .seccionColaboradores_sobreAyo h6 {
+      color: #2D2926;
+      padding: 0px 0px 32px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+    .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 0px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagenIntegrante_sobreAyo {
+        padding-bottom: 20px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen1_sobreAyo {
+        padding-right: 20px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen3_sobreAyo {
+        padding-right: 20px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen5_sobreAyo {
+        padding-right: 20px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo {
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo a .logoLinkedIn_sobreAyo {
+          position: relative;
+          top: -2px;
+          padding: 0px 8px 0px 0px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .cargoIntegranteColaboradores_sobreAyo {
+        padding-bottom: 24px;
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .cargoIntegranteColaboradores_sobreAyo span {
+          display: block; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo .ultimaFoto_sobreAyo {
+        position: relative;
+        top: -7px; } }
+
+@media only screen and (min-width: 481px) and (max-width: 599px) {
+  .container__imagen__sobreAyo {
+    background-image: url("../../imagenes/sobreNosotros/1sobreNosotros.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative; }
+    .container__imagen__sobreAyo h1 {
+      padding: 80px 0px 0px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+      .container__imagen__sobreAyo h1 span {
+        display: block; }
+    .container__imagen__sobreAyo p {
+      padding: 16px 0px 0px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+    .container__imagen__sobreAyo button {
+      margin: 12px 0px 40px 20px;
+      padding: 12px 24px;
+      background: rgba(45, 41, 38, 0.25);
+      color: #FFFFFF;
+      border: 1px solid #FFFFFF;
+      box-sizing: border-box;
+      border-radius: 40px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px; }
+  .seccionMV_sobreAyo {
+    padding: unset;
+    padding: 0px 8px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center; }
+    .seccionMV_sobreAyo .cardMision {
+      width: 100%;
+      height: 100%;
+      padding: 0px; }
+    .seccionMV_sobreAyo .cardVision {
+      width: 90%;
+      height: 100%;
+      padding: 0px; }
+  .subTitulo__seccionMV {
+    color: #1CABE2;
+    padding: unset;
+    padding: 8px 0px 0px 10px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 120%; }
+  .textoCard {
+    padding-left: 10px;
+    text-align: start;
+    color: #000000;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px; }
+  .estrategiaContainer_SobreAyo {
+    background-color: #1CABE2;
+    color: #FFFFFF; }
+    .estrategiaContainer_SobreAyo h2 {
+      padding: 40px 0px 24px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+    .estrategiaContainer_SobreAyo p {
+      padding: 0px 20px 16px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+    .estrategiaContainer_SobreAyo .textoMarginEstrategia_sobreAyo {
+      padding-bottom: 164px; }
+  .areasEstrategicasFondo_sobreAyo {
+    background: rgba(242, 242, 242, 0.4); }
+    .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo {
+      margin: 0px 20px;
+      background-color: #FFFFFF;
+      box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+      position: relative;
+      top: -140px; }
+      .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo h3 {
+        color: #000000;
+        padding: 24px 0px 8px 28px; }
+      .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo {
+        padding: 0px 0px 16px 16px; }
+        .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border {
+          opacity: 0.9;
+          border-left: 1px solid rgba(189, 189, 189, 0.5); }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .subTitulosAreasEstrategicas_sobreAyo {
+            color: #1CABE2;
+            padding: 8px 0px 0px 8px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border p {
+            padding: 0px 20px 0px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .subTitulosAreasEstrategicas_sobreAyo::before {
+            content: "|";
+            color: #1CABE2;
+            background-color: #1CABE2;
+            position: relative;
+            top: 0px;
+            width: 1px;
+            left: -10px; }
+  .seccionIdentidadInstitucional_sobreAyo {
+    background: rgba(242, 242, 242, 0.4);
+    position: relative;
+    top: -96px;
+    padding: 0px 20px 50px 20px; }
+    .seccionIdentidadInstitucional_sobreAyo h4 {
+      color: #000000;
+      padding: 0px 20px 16px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+    .seccionIdentidadInstitucional_sobreAyo .nuestrosValores_sobreAyo {
+      box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+      background-color: #FFFFFF;
+      padding-bottom: 20px; }
+      .seccionIdentidadInstitucional_sobreAyo .nuestrosValores_sobreAyo img {
+        padding: 24px 0px 10px 16px; }
+      .seccionIdentidadInstitucional_sobreAyo .nuestrosValores_sobreAyo .subtituloElementosConforman_SobreAyo {
+        padding: 0px 20px 0px 16px;
+        color: #1CABE2;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 150%; }
+      .seccionIdentidadInstitucional_sobreAyo .nuestrosValores_sobreAyo .bordeAzul_identidadInstitucional {
+        padding: 0px 20px 0px 16px;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px; }
+      .seccionIdentidadInstitucional_sobreAyo .nuestrosValores_sobreAyo .bordeAzul_identidadInstitucional::before {
+        content: "|";
+        background-color: #1CABE2;
+        color: #1CABE2;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -16px; }
+    .seccionIdentidadInstitucional_sobreAyo .voluntariado_sobreAyo {
+      box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+      background-color: #FFFFFF;
+      padding: 0px 16px 24px 16px;
+      margin: 24px 0px; }
+      .seccionIdentidadInstitucional_sobreAyo .voluntariado_sobreAyo img {
+        padding: 28px 0px 10px 0px; }
+      .seccionIdentidadInstitucional_sobreAyo .voluntariado_sobreAyo .subTituloVoluntariado_sobreAyo {
+        color: #1CABE2;
+        padding: 0px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 20px; }
+      .seccionIdentidadInstitucional_sobreAyo .voluntariado_sobreAyo .textVoluntariado_sobreAyo {
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+    .seccionIdentidadInstitucional_sobreAyo .Alianzas_sobreAyo {
+      box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+      background-color: #FFFFFF;
+      padding: 0px 16px 24px 16px;
+      margin: 24px 0px; }
+      .seccionIdentidadInstitucional_sobreAyo .Alianzas_sobreAyo img {
+        padding: 28px 0px 10px 0px; }
+      .seccionIdentidadInstitucional_sobreAyo .Alianzas_sobreAyo .subTituloAlianzas_sobreAyo {
+        color: #1CABE2;
+        padding: 0px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 20px; }
+      .seccionIdentidadInstitucional_sobreAyo .Alianzas_sobreAyo .textAlianzas_sobreAyo {
+        margin-bottom: 16px;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+  .seccionElementosClavePosicionamiento_sobreAyo {
+    position: relative;
+    top: -96px;
+    background-color: rgba(242, 242, 242, 0.4);
+    padding: 0px 20px; }
+    .seccionElementosClavePosicionamiento_sobreAyo h5 {
+      padding-bottom: 24px;
+      color: #000000;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+    .seccionElementosClavePosicionamiento_sobreAyo div p {
+      color: #000000; }
+      .seccionElementosClavePosicionamiento_sobreAyo div p .tildeElementosClave_sobreAyo {
+        padding-right: 8px; }
+  .seccionEquipo_sobreAyo {
+    position: relative;
+    top: -56px; }
+    .seccionEquipo_sobreAyo h6 {
+      color: #2D2926;
+      padding: 0px 0px 32px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+    .seccionEquipo_sobreAyo .containerEquipo_sobreAyo {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 0px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagen1_sobreAyo {
+        padding: 0px 10px 20px 10px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagen2_sobreAyo {
+        padding: 0px 10px 20px 10px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagen3_sobreAyo {
+        padding: 0px 10px 20px 10px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagen4_sobreAyo {
+        padding: 0px 10px 20px 10px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagen5_sobreAyo {
+        padding: 0px 10px 20px 10px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .nombreIntegranteEquipo_sobreAyo {
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .nombreIntegranteEquipo_sobreAyo a .logoLinkedIn_sobreAyo {
+          position: relative;
+          top: -2px;
+          padding: 0px 8px 0px 0px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .cargoIntegranteEquipo_sobreAyo {
+        padding-bottom: 24px;
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px; }
+        .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .cargoIntegranteEquipo_sobreAyo span {
+          display: block; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo .ultimaFoto_sobreAyo {
+        position: relative;
+        bottom: 4px; }
+        .seccionEquipo_sobreAyo .containerEquipo_sobreAyo .ultimaFoto_sobreAyo img {
+          padding: 0px 10px 20px 10px; }
+        .seccionEquipo_sobreAyo .containerEquipo_sobreAyo .ultimaFoto_sobreAyo .nombreIntegranteColaboradores_sobreAyo {
+          padding: 0; }
+  .seccionColaboradores_sobreAyo {
+    position: relative;
+    top: -56px; }
+    .seccionColaboradores_sobreAyo h6 {
+      color: #2D2926;
+      padding: 0px 0px 32px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+    .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 0px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen1_sobreAyo {
+        padding: 0px 10px 20px 10px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen2_sobreAyo {
+        padding: 0px 10px 20px 10px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen3_sobreAyo {
+        padding: 0px 10px 20px 10px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen4_sobreAyo {
+        padding: 0px 10px 20px 10px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen5_sobreAyo {
+        padding: 0px 10px 20px 10px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo {
+        padding: unset;
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo a .logoLinkedIn_sobreAyo {
+          position: relative;
+          top: -2px;
+          padding: 0px 8px 0px 0px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .cargoIntegranteColaboradores_sobreAyo {
+        padding: unset;
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .cargoIntegranteColaboradores_sobreAyo span {
+          display: block; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo .ultimaFoto_sobreAyo {
+        position: relative;
+        bottom: 8px; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo .ultimaFoto_sobreAyo img {
+          padding: 0px 10px 20px 10px; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo .ultimaFoto_sobreAyo .nombreIntegranteColaboradores_sobreAyo {
+          padding: 0; } }
