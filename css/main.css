@@ -5,6 +5,7 @@ body {
 
 @media only screen and (max-width: 320px) {
   .navbar__nav {
+    position: relative;
     background-color: #1A1A1A;
     color: #2D2926;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
@@ -12,6 +13,8 @@ body {
       background-color: #1A1A1A;
       color: #2D2926; }
       .navbar__nav .container-fluid .navbar-brand img {
+        padding: unset;
+        padding-left: 8px;
         width: 150px; }
       .navbar__nav .container-fluid .btn__header {
         background-color: #1A1A1A;
@@ -20,6 +23,7 @@ body {
         background-color: #1A1A1A;
         padding: 30px 0px 20px 5px; }
         .navbar__nav .container-fluid .navbar-collapse .nav-link {
+          padding: 20px;
           color: #FFFFFF;
           line-height: 28.8px;
           font-size: 24px;
@@ -133,6 +137,7 @@ body {
 @media only screen and (max-width: 320px) {
   /* Sección Imagen de Home */
   .imagen__inicio__home {
+    position: absolute;
     background-image: url("../imagenes/home/imagenInicioHome.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -207,7 +212,7 @@ body {
       white-space: nowrap;
       padding-left: 310px; }
       .section__partners .partners__containers img {
-        width: 50px;
+        width: 360px;
         padding: 10px 8px; }
   /* Sección Objetivos de Desarrollo */
   .section__objetivosDesarrollo {
@@ -303,6 +308,8 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 150%; }
+    .card-text span {
+      display: block; }
   .card-button {
     justify-self: center;
     grid-area: boton;
@@ -468,7 +475,7 @@ body {
   .section__partners {
     background-color: #FCFCFC; }
     .section__partners .partners {
-      color: #000000;
+      color: #1CABE2;
       font-family: Raleway;
       font-style: normal;
       font-weight: 600;
@@ -478,10 +485,12 @@ body {
     .section__partners .partners__containers {
       display: flex;
       justify-content: center;
-      flex-wrap: wrap;
-      padding: 0px 20px; }
+      overflow-x: scroll;
+      white-space: nowrap;
+      padding-left: 136px; }
       .section__partners .partners__containers img {
-        padding: 10px 18px; }
+        width: 50px;
+        padding: 10px 8px; }
   /* Sección Objetivos de Desarrollo */
   .section__objetivosDesarrollo {
     background-color: #FCFCFC;
@@ -547,7 +556,7 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; }
   .card-img-top {
-    height: 200px;
+    height: 144px;
     grid-area: imagen;
     border-radius: unset; }
   .card-title {
@@ -560,7 +569,7 @@ body {
     font-size: 24px;
     line-height: 120%; }
     .card-title .emprende {
-      color: #1CABE2; }
+      color: #2C5697; }
     .card-title .impulso {
       color: #80BD41; }
     .card-title .incuba {
@@ -590,6 +599,9 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 19px; }
+    .card-button a {
+      text-decoration: none;
+      color: #2D2926; }
   /* Sección "Medicion De Impacto */
   .medicionImpacto {
     background-image: url("../imagenes/home/fondoMedicionimpacto.png");
@@ -647,7 +659,7 @@ body {
       font-size: 24px;
       line-height: 120%; }
     .section__noticias .card__container__noticias {
-      max-width: 600px;
+      max-width: 480px;
       display: flex;
       overflow-x: auto; }
     .section__noticias .card__container__noticias::-webkit-scrollbar {
@@ -1725,31 +1737,18 @@ body {
           line-height: 120%; }
         .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border p {
           padding: 0px 20px 24px 8px;
-          color: #000000; }
-        .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border p::before {
-          content: "|";
-          color: #80BD41;
-          background-color: #80BD41;
-          position: relative;
-          top: 0px;
-          width: 1px;
-          left: -10px; }
-        .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border p::before {
-          content: "|";
-          color: #80BD41;
-          background-color: #80BD41;
-          position: relative;
-          top: 0px;
-          width: 1px;
-          left: -10px; }
-        .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border p::before {
-          content: "|";
-          color: #80BD41;
-          background-color: #80BD41;
-          position: relative;
-          top: 0px;
-          width: 1px;
-          left: -10px; }
+          color: #000000;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
+          .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border p span {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px; }
         .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border p::before {
           content: "|";
           color: #80BD41;
@@ -1845,6 +1844,8 @@ body {
         font-weight: normal;
         font-size: 14px;
         line-height: 150%; }
+      .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .text__fortalecimientoCapacidades span {
+        font-weight: bold; }
       .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .text__fortalecimientoCapacidades::before {
         content: "|";
         color: #E2231A;
@@ -1909,7 +1910,7 @@ body {
             width: 0px;
             left: -10px; }
       .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn {
-        background: rgba(226, 35, 26, 0.8);
+        background: rgba(226, 35, 26, 0.85);
         margin: 48px 20px 48px 0px;
         display: flex; }
         .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn img {
@@ -2118,6 +2119,7 @@ body {
         line-height: 16px; }
   /* Sección Pathfinder */
   .container__pathfinder {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
     padding-left: 20px; }
     .container__pathfinder img {
       width: 100%;
@@ -2157,6 +2159,8 @@ body {
         width: 1px;
         left: -10px; }
   .contenedor__detalleProgramaIncuba {
+    position: relative;
+    top: -24px;
     margin: 48px 20px 48px 0px;
     background-color: #FFC20E;
     display: flex; }
@@ -2187,7 +2191,7 @@ body {
   .logo__footer {
     margin-top: 56px;
     padding-left: 20px;
-    width: 211px;
+    width: 200px;
     height: 33px; }
   .colum__footer {
     padding: unset;
@@ -2496,6 +2500,12 @@ body {
             color: #2D2926;
             font-family: Raleway;
             font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border span {
+            font-family: Raleway;
+            font-style: normal;
             font-weight: bold;
             font-size: 14px;
             line-height: 20px; }
@@ -2539,9 +2549,11 @@ body {
         color: #000000;
         font-family: Raleway;
         font-style: normal;
-        font-weight: bold;
+        font-weight: 500;
         font-size: 14px;
         line-height: 20px; }
+      .seccionIdentidadInstitucional_sobreAyo .nuestrosValores_sobreAyo span {
+        font-weight: bold; }
       .seccionIdentidadInstitucional_sobreAyo .nuestrosValores_sobreAyo .bordeAzul_identidadInstitucional::before {
         content: "|";
         background-color: #1CABE2;
@@ -2812,9 +2824,11 @@ body {
             color: #2D2926;
             font-family: Raleway;
             font-style: normal;
-            font-weight: bold;
+            font-weight: 500;
             font-size: 14px;
             line-height: 20px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border span {
+            font-weight: bold; }
           .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .subTitulosAreasEstrategicas_sobreAyo::before {
             content: "|";
             color: #1CABE2;
@@ -2855,9 +2869,11 @@ body {
         color: #000000;
         font-family: Raleway;
         font-style: normal;
-        font-weight: bold;
+        font-weight: 500;
         font-size: 14px;
         line-height: 20px; }
+      .seccionIdentidadInstitucional_sobreAyo .nuestrosValores_sobreAyo span {
+        font-weight: bold; }
       .seccionIdentidadInstitucional_sobreAyo .nuestrosValores_sobreAyo .bordeAzul_identidadInstitucional::before {
         content: "|";
         background-color: #1CABE2;
@@ -3148,9 +3164,11 @@ body {
             color: #2D2926;
             font-family: Raleway;
             font-style: normal;
-            font-weight: bold;
+            font-weight: 500;
             font-size: 14px;
             line-height: 20px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border span {
+            font-weight: bold; }
           .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .subTitulosAreasEstrategicas_sobreAyo::before {
             content: "|";
             color: #1CABE2;
@@ -3191,9 +3209,11 @@ body {
         color: #000000;
         font-family: Raleway;
         font-style: normal;
-        font-weight: bold;
+        font-weight: 500;
         font-size: 14px;
         line-height: 20px; }
+      .seccionIdentidadInstitucional_sobreAyo .nuestrosValores_sobreAyo span {
+        font-weight: bold; }
       .seccionIdentidadInstitucional_sobreAyo .nuestrosValores_sobreAyo .bordeAzul_identidadInstitucional::before {
         content: "|";
         background-color: #1CABE2;

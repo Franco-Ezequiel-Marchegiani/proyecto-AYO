@@ -182,33 +182,18 @@ body{
                 p{
                     padding: 0px 20px 24px 8px;
                     color: $negro__letras;
-                }
-                p::before{
-                    content: "|";
-                    color: $verde;
-                    background-color:$verde;
-                    position: relative;
-                    top: 0px;
-                    width: 1px;
-                    left: -10px;
-                }
-                p::before{
-                    content: "|";
-                    color: $verde;
-                    background-color:$verde;
-                    position: relative;
-                    top: 0px;
-                    width: 1px;
-                    left: -10px;
-                }
-                p::before{
-                    content: "|";
-                    color: $verde;
-                    background-color:$verde;
-                    position: relative;
-                    top: 0px;
-                    width: 1px;
-                    left: -10px;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 150%;
+                    span{
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
                 }
                 p::before{
                     content: "|";

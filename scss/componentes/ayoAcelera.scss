@@ -76,6 +76,11 @@ body{
                     font-size: 14px;
                     line-height: 150%;
                 }
+                .text__fortalecimientoCapacidades{
+                    span{
+                        font-weight: bold;
+                    }
+                }
                 .text__fortalecimientoCapacidades::before{
                     content: "|";
                         color: $rojo;
@@ -151,7 +156,7 @@ body{
                 }
             }
             .contenedor__triatlonSocial-btn{
-                background: rgba(226, 35, 26, 0.8);
+                background: rgba(226, 35, 26, 0.85);
                 margin:48px 20px 48px 0px;
                 display: flex;
                 img{

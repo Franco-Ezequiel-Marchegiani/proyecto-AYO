@@ -5,6 +5,7 @@ body{
 @media only screen and (max-width: 320px){
     /* Sección Imagen de Home */
     .imagen__inicio__home{
+        position: absolute;
         background-image: url("../imagenes/home/imagenInicioHome.jpg");
         background-repeat: no-repeat;
         background-size: 100%;
@@ -96,7 +97,7 @@ body{
             white-space: nowrap;
             padding-left: 310px;
             img{
-                width: 50px;
+                width: 360px;
                 padding: 10px 8px;
             }
         }
@@ -222,6 +223,9 @@ body{
         font-weight: normal;
         font-size: 14px;
         line-height: 150%;
+        span{
+            display: block;
+        }
     }
     .card-button{
         justify-self: center;
@@ -424,7 +428,7 @@ body{
     .section__partners{
         background-color: $grisClaro__fondo;
         .partners{
-            color: $negro__letras;
+            color: $celeste;
             font-family: Raleway;
             font-style: normal;
             font-weight: 600;
@@ -435,10 +439,12 @@ body{
         .partners__containers{
             display: flex;
             justify-content: center;
-            flex-wrap: wrap;
-            padding: 0px 20px;
+            overflow-x: scroll;
+            white-space: nowrap;
+            padding-left: 136px;
             img{
-                padding: 10px 18px;
+                width: 50px;
+                padding: 10px 8px;
             }
         }
     }
@@ -528,7 +534,7 @@ body{
 
     }
     .card-img-top{
-        height: 200px;
+        height: 144px;
         grid-area:imagen;
         border-radius: unset;
     }
@@ -542,7 +548,7 @@ body{
         font-size: 24px;
         line-height: 120%;
         .emprende{
-            color: $celeste;
+            color: $azul__oscuro;
         }
         .impulso{
             color: $verde;
@@ -578,6 +584,10 @@ body{
         font-weight: normal;
         font-size: 16px;
         line-height: 19px;
+        a{
+            text-decoration: none;
+            color: $gris__oscuro;
+        }
     }
     /* Sección "Medicion De Impacto */
     .medicionImpacto{
@@ -647,7 +657,7 @@ body{
             line-height: 120%;        
         }
         .card__container__noticias{
-        max-width: 600px;
+        max-width: 480px;
         display: flex;
         overflow-x: auto;
         }
@@ -681,7 +691,7 @@ body{
             font-size: 14px;
             line-height: 150%;
         }
-    } 
+    }
 }
 @media only screen and (min-width: 481px) and (max-width: 600px){
     .imagen__inicio__home{

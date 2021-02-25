@@ -132,6 +132,13 @@ body{
                         color: $gris__oscuro;
                         font-family: Raleway;
                         font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+                    span{
+                        font-family: Raleway;
+                        font-style: normal;
                         font-weight: bold;
                         font-size: 14px;
                         line-height: 20px;
@@ -184,9 +191,12 @@ body{
                 color:$negro__letras;
                 font-family: Raleway;
                 font-style: normal;
-                font-weight: bold;
+                font-weight: 500;
                 font-size: 14px;
                 line-height: 20px;
+            }
+            span{
+                font-weight: bold;
             }
             .bordeAzul_identidadInstitucional::before{
                 content: "|";
@@ -517,9 +527,12 @@ body{
                         color: $gris__oscuro;
                         font-family: Raleway;
                         font-style: normal;
-                        font-weight: bold;
+                        font-weight: 500;
                         font-size: 14px;
                         line-height: 20px;
+                    }
+                    span{
+                        font-weight: bold;
                     }
                     .subTitulosAreasEstrategicas_sobreAyo::before{
                         content: "|";
@@ -569,9 +582,12 @@ body{
                 color:$negro__letras;
                 font-family: Raleway;
                 font-style: normal;
-                font-weight: bold;
+                font-weight: 500;
                 font-size: 14px;
                 line-height: 20px;
+            }
+            span{
+                font-weight: bold;
             }
             .bordeAzul_identidadInstitucional::before{
                 content: "|";
@@ -930,9 +946,12 @@ body{
                         color: $gris__oscuro;
                         font-family: Raleway;
                         font-style: normal;
-                        font-weight: bold;
+                        font-weight: 500;
                         font-size: 14px;
                         line-height: 20px;
+                    }
+                    span{
+                        font-weight: bold;
                     }
                     .subTitulosAreasEstrategicas_sobreAyo::before{
                         content: "|";
@@ -982,9 +1001,12 @@ body{
                 color:$negro__letras;
                 font-family: Raleway;
                 font-style: normal;
-                font-weight: bold;
+                font-weight: 500;
                 font-size: 14px;
                 line-height: 20px;
+            }
+            span{
+                font-weight: bold;
             }
             .bordeAzul_identidadInstitucional::before{
                 content: "|";
