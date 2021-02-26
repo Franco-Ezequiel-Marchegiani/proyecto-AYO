@@ -87,11 +87,11 @@ body{
 }
 @media only screen and (min-width:321px) and (max-width: 480px){
     footer{
-        background-image: url("../imagenes/footer/fondoFooter.png");
+        background: url("../../imagenes/footer/fondoFooter480.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
         position: relative;
-    
+        width: 100%;
         a{
             .logo__footer{
                 margin-top: 56px;
@@ -175,7 +175,7 @@ body{
 }
 @media only screen and (min-width: 481px) and (max-width: 599px){
     footer{
-        background-image: url("../imagenes/footer/fondoFooter.png");
+        background-image: url("../../imagenes/footer/fondoFooter600.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
         position: relative;
@@ -263,7 +263,7 @@ body{
 }
 @media only screen and (min-width: 600px) and (max-width: 768px){
     footer{
-        background-image: url("../imagenes/footer/fondoFooter.png");
+        background-image: url("../imagenes/footer/footer600.svg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
         position: relative;
