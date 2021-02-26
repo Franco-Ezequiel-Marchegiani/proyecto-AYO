@@ -1443,31 +1443,31 @@ body {
       display: flex; }
       .container__participarNegocio .list__container div .iconoParticipantes1 {
         position: relative;
-        top: -15px;
+        top: -5px;
         left: -9px; }
       .container__participarNegocio .list__container div .iconoParticipantes2 {
         position: relative;
-        top: 5px;
+        top: 8px;
         left: -9px; }
       .container__participarNegocio .list__container div .iconoParticipantes3 {
         position: relative;
-        top: -15px;
+        top: -5px;
         left: -9px; }
       .container__participarNegocio .list__container div .iconoParticipantes4 {
         position: relative;
-        top: 5px;
+        top: 8px;
         left: -9px; }
       .container__participarNegocio .list__container div .iconoParticipantes5 {
         position: relative;
-        top: 5px;
+        top: 8px;
         left: -9px; }
       .container__participarNegocio .list__container div .iconoParticipantes6 {
         position: relative;
-        top: 5px;
+        top: 8px;
         left: -9px; }
       .container__participarNegocio .list__container div .iconoParticipantes7 {
         position: relative;
-        top: -5px;
+        top: 8px;
         left: -9px; }
       .container__participarNegocio .list__container div li {
         padding: 15px 20px 0px 0px;
@@ -1740,31 +1740,31 @@ body {
       display: flex; }
       .container__participarNegocio .list__container div .iconoParticipantes1 {
         position: relative;
-        top: -15px;
+        top: -5px;
         left: -9px; }
       .container__participarNegocio .list__container div .iconoParticipantes2 {
         position: relative;
-        top: 5px;
+        top: 8px;
         left: -9px; }
       .container__participarNegocio .list__container div .iconoParticipantes3 {
         position: relative;
-        top: -15px;
+        top: -5px;
         left: -9px; }
       .container__participarNegocio .list__container div .iconoParticipantes4 {
         position: relative;
-        top: 5px;
+        top: 8px;
         left: -9px; }
       .container__participarNegocio .list__container div .iconoParticipantes5 {
         position: relative;
-        top: 5px;
+        top: 8px;
         left: -9px; }
       .container__participarNegocio .list__container div .iconoParticipantes6 {
         position: relative;
-        top: 5px;
+        top: 8px;
         left: -9px; }
       .container__participarNegocio .list__container div .iconoParticipantes7 {
         position: relative;
-        top: -5px;
+        top: 8px;
         left: -9px; }
       .container__participarNegocio .list__container div li {
         padding: 15px 20px 0px 0px;
@@ -2150,6 +2150,7 @@ body {
       font-size: 14px;
       line-height: 20px; }
       .card__mentores p span {
+        display: block;
         font-weight: 600;
         line-height: 16px; }
       .card__mentores p img {
@@ -2771,6 +2772,8 @@ body {
           font-weight: 500;
           font-size: 14px;
           line-height: 20px; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn span {
+            display: block; }
           .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn .imgText__detallePrograma {
             padding: unset;
             width: 24px; }
@@ -4268,9 +4271,9 @@ body {
     align-items: center; }
     .seccionMV_sobreAyo .cardMision {
       margin-top: 40px;
-      width: 18rem; }
+      width: 90%; }
     .seccionMV_sobreAyo .cardVision {
-      width: 18rem; }
+      width: 90%; }
   .subTitulo__seccionMV {
     color: #1CABE2;
     padding: unset;
@@ -4593,9 +4596,9 @@ body {
     align-items: center; }
     .seccionMV_sobreAyo .cardMision {
       margin-top: 40px;
-      width: 18rem; }
+      width: 90%; }
     .seccionMV_sobreAyo .cardVision {
-      width: 18rem; }
+      width: 90%; }
   .subTitulo__seccionMV {
     color: #1CABE2;
     padding: unset;
