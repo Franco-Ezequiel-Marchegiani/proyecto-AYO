@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="favicon" href="">
+    <link rel="icon" href="imagenes/favIcon.svg">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <title>AYO | Home</title>
 </head>
 <body>
-    <header>
+    <header id="site-header">
         <nav class="navbar navbar-expand-lg navbar-light navbar__nav">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html"><img src="imagenes/logo_Blanco.svg" alt="logo"></a>
@@ -36,7 +36,7 @@
                         </li>
                       </ul>
                       <form class="d-flex btn__container">
-                        <button class="button__navbar btn__unete" type="submit">Únete -></button>
+                        <button class="button__navbar btn__unete" type="submit">Únete <img src="imagenes/home/iconos/arrow right.svg" alt=""></button>
                         <button class="button__navbar btn__donar" type="submit">Donar</button>
                       </form>
                 </div>
@@ -51,7 +51,7 @@
           situación o riesgo de exclusión social 
         </p>
         <div class="btn__container__imagen">
-          <button type="submit" class="btn__imagen__home btn__unete__imagen">Únete<img src="imagenes/home/iconos/arrow right.svg" alt="" class="flecha__button__imagen"></button>
+          <a href="#"><img src="imagenes/home/1btnHome.svg" alt="Boton Unete Home"></a>
           <button type="submit" class="btn__imagen__home btn__donar__imagen">Donar</button>
         </div>
           <div class="arrow__down__container">
@@ -62,17 +62,17 @@
     <section class="section__partners"><!-- Queda ver si añado una barra horizontal o si lo coloco uno abajo del otro -->
       <p class="partners">ALIANZAS</p>
       <div class="partners__containers" id="scrollHorizontal">
-        <img src="imagenes/home/alianzas/alianza1.png" alt="NK5">
-        <img src="imagenes/home/alianzas/alianza2.png" alt="NK5">
-        <img src="imagenes/home/alianzas/alianza3.png" alt="NK5">
-        <img src="imagenes/home/alianzas/alianza4.png" alt="NK5">
-        <img src="imagenes/home/alianzas/alianza5.png" alt="NK5">
-        <img src="imagenes/home/alianzas/alianza6.png" alt="NK5">
-        <img src="imagenes/home/alianzas/alianza7.png" alt="NK5">
-        <img src="imagenes/home/alianzas/alianza8.png" alt="NK5">
-        <img src="imagenes/home/alianzas/alianza9.png" alt="NK5">
-        <img src="imagenes/home/alianzas/alianza10.png" alt="NK5">
-        <img src="imagenes/home/alianzas/alianza11.png" alt="NK5">
+        <img src="imagenes/home/alianzas/alianza1.svg" alt="NK5">
+        <img src="imagenes/home/alianzas/alianza2.svg" alt="NK5">
+        <img src="imagenes/home/alianzas/alianza3.svg" alt="NK5">
+        <img src="imagenes/home/alianzas/alianza4.svg" alt="NK5">
+        <img src="imagenes/home/alianzas/alianza5.svg" alt="NK5">
+        <img src="imagenes/home/alianzas/alianza6.svg" alt="NK5">
+        <img src="imagenes/home/alianzas/alianza7.svg" alt="NK5">
+        <img src="imagenes/home/alianzas/alianza8.svg" alt="NK5">
+        <img src="imagenes/home/alianzas/alianza9.svg" alt="NK5">
+        <img src="imagenes/home/alianzas/alianza10.svg" alt="NK5">
+        <img src="imagenes/home/alianzas/alianza11.svg" alt="NK5">
       </div>
     </section>
     <section class="section__objetivosDesarrollo">
@@ -153,21 +153,21 @@
       <h5 class="titulo__noticias">Noticias</h5>
       <div class="card__container__noticias">
         <div class="card card__noticias">
-          <img src="imagenes/home/imagenInicioHome.jpg" class="card-img-top-noticias" alt="Patfhinder">
+          <img src="imagenes/home/ayoAcelera.jpg" class="card-img-top-noticias" alt="Patfhinder">
           <div class="card-body">
             <p class="card-title-noticias">Agenda 2021</p>
             <p class="card-text-noticias">Conocé los emprendimientos del año en curso</p>
           </div>
         </div>
         <div class="card card__noticias">
-          <img src="imagenes/home/imagenInicioHome.jpg" class="card-img-top-noticias" alt="Patfhinder">
+          <img src="imagenes/home/ayoAcelera.jpg" class="card-img-top-noticias" alt="Patfhinder">
           <div class="card-body">
             <p class="card-title-noticias">Agenda 2021</p>
             <p class="card-text-noticias">Conocé los emprendimientos del año en curso</p>
           </div>
         </div>
         <div class="card card__noticias">
-          <img src="imagenes/home/imagenInicioHome.jpg" class="card-img-top-noticias" alt="Patfhinder">
+          <img src="imagenes/home/ayoAcelera.jpg" class="card-img-top-noticias" alt="Patfhinder">
           <div class="card-body">
             <p class="card-title-noticias">Agenda 2021</p>
             <p class="card-text-noticias">Conocé los emprendimientos del año en curso</p>
@@ -203,6 +203,7 @@
           </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="scrollNavBar.js"></script>
     <script src="main.js"></script>
   </body>
 </html>

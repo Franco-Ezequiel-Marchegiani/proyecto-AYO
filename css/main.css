@@ -3,9 +3,64 @@
 body {
   font-family: 'Raleway', sans-serif; }
 
+#site-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: all .3s ease;
+  z-index: 100; }
+
+#site-header.hide {
+  top: -56px; }
+
 @media only screen and (max-width: 320px) {
   .navbar__nav {
-    position: relative;
+    background-color: #1A1A1A;
+    color: #2D2926;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
+    .navbar__nav .container-fluid {
+      background-color: #1A1A1A;
+      color: #2D2926; }
+      .navbar__nav .container-fluid .navbar-brand img {
+        padding: unset;
+        padding-left: 8px;
+        width: 150px; }
+      .navbar__nav .container-fluid .btn__header {
+        background-color: #1A1A1A;
+        color: #FFFFFF; }
+      .navbar__nav .container-fluid .navbar-collapse {
+        background-image: #1A1A1A;
+        padding: 30px 0px 20px 5px; }
+        .navbar__nav .container-fluid .navbar-collapse .nav-link {
+          padding: 0px 0px 24px 8px;
+          color: #FFFFFF;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 22px; }
+    .navbar__nav .btn__container .button__navbar {
+      font-size: 16px;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 24px;
+      background-color: #1A1A1A;
+      color: #FFFFFF;
+      width: 115px;
+      height: 48px;
+      left: 20px;
+      top: 554px;
+      border: 1px solid #FFFFFF;
+      box-sizing: border-box;
+      border-radius: 40px; }
+    .navbar__nav .btn__container .btn__unete {
+      padding-right: 10px;
+      margin-right: 24px; }
+    .navbar__nav .btn__container .btn__donar {
+      margin-left: 0px; } }
+
+@media only screen and (min-width: 321px) and (max-width: 599px) {
+  .navbar__nav {
     background-color: #1A1A1A;
     color: #2D2926;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
@@ -23,12 +78,13 @@ body {
         background-color: #1A1A1A;
         padding: 30px 0px 20px 5px; }
         .navbar__nav .container-fluid .navbar-collapse .nav-link {
-          padding: 20px;
+          padding: 0px 0px 24px 8px;
           color: #FFFFFF;
-          line-height: 28.8px;
-          font-size: 24px;
-          font-weight: 700;
-          font-style: normal; }
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 22px; }
     .navbar__nav .btn__container .button__navbar {
       font-size: 16px;
       font-weight: 400;
@@ -44,50 +100,10 @@ body {
       box-sizing: border-box;
       border-radius: 40px; }
     .navbar__nav .btn__container .btn__unete {
-      padding-right: 10px; }
+      padding-right: 10px;
+      margin-right: 24px; }
     .navbar__nav .btn__container .btn__donar {
-      margin-left: 24px; } }
-
-@media only screen and (min-width: 321px) and (max-width: 599px) {
-  .navbar__nav {
-    background-color: #1A1A1A;
-    color: #2D2926;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
-    .navbar__nav .container-fluid {
-      background-color: #1A1A1A;
-      color: #2D2926; }
-      .navbar__nav .container-fluid .navbar-brand img {
-        width: 150px; }
-      .navbar__nav .container-fluid .btn__header {
-        background-color: #1A1A1A;
-        color: #FFFFFF; }
-      .navbar__nav .container-fluid .navbar-collapse {
-        background-color: #1A1A1A;
-        padding: 30px 0px 20px 5px; }
-        .navbar__nav .container-fluid .navbar-collapse .nav-link {
-          color: #FFFFFF;
-          line-height: 28.8px;
-          font-size: 24px;
-          font-weight: 700;
-          font-style: normal; }
-    .navbar__nav .btn__container .button__navbar {
-      font-size: 16px;
-      font-weight: 400;
-      font-style: normal;
-      line-height: 24px;
-      background-color: #1A1A1A;
-      color: #FFFFFF;
-      width: 115px;
-      height: 48px;
-      left: 20px;
-      top: 554px;
-      border: 1px solid #FFFFFF;
-      box-sizing: border-box;
-      border-radius: 40px; }
-    .navbar__nav .btn__container .btn__unete {
-      padding-right: 10px; }
-    .navbar__nav .btn__container .btn__donar {
-      margin-left: 24px; } }
+      margin-left: 0px; } }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   .navbar__nav {
@@ -98,6 +114,8 @@ body {
       background-color: #1A1A1A;
       color: #2D2926; }
       .navbar__nav .container-fluid .navbar-brand img {
+        padding: unset;
+        padding-left: 8px;
         width: 150px; }
       .navbar__nav .container-fluid .btn__header {
         background-color: #1A1A1A;
@@ -106,11 +124,13 @@ body {
         background-color: #1A1A1A;
         padding: 30px 0px 20px 5px; }
         .navbar__nav .container-fluid .navbar-collapse .nav-link {
+          padding: 0px 0px 24px 8px;
           color: #FFFFFF;
-          line-height: 28.8px;
-          font-size: 24px;
-          font-weight: 700;
-          font-style: normal; }
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 22px; }
     .navbar__nav .btn__container .button__navbar {
       font-size: 16px;
       font-weight: 400;
@@ -126,9 +146,10 @@ body {
       box-sizing: border-box;
       border-radius: 40px; }
     .navbar__nav .btn__container .btn__unete {
-      padding-right: 10px; }
+      padding-right: 10px;
+      margin-right: 24px; }
     .navbar__nav .btn__container .btn__donar {
-      margin-left: 24px; } }
+      margin-left: 0px; } }
 
 /*** Variables Colores  ***/
 body {
@@ -137,16 +158,16 @@ body {
 @media only screen and (max-width: 320px) {
   /* Sección Imagen de Home */
   .imagen__inicio__home {
-    position: absolute;
-    background-image: url("../imagenes/home/imagenInicioHome.jpg");
+    background-image: url("../../imagenes/home/imagenInicioHome320.jpg");
     background-repeat: no-repeat;
+    height: 100%;
     background-size: 100%;
     position: relative; }
     .imagen__inicio__home .text__container {
       padding: 0px 10px 0px 10px; }
       .imagen__inicio__home .text__container .title__home {
         text-align: left;
-        padding: 80px 0px 0px 10px;
+        padding: 80px 20px 0px 10px;
         display: flex;
         color: #FFFFFF;
         font-style: normal;
@@ -155,7 +176,7 @@ body {
         line-height: 40px;
         align-items: center; }
       .imagen__inicio__home .text__container .subtitulo_inicio {
-        padding: 10px 0px 0px 10px;
+        padding: 10px 20px 0px 10px;
         color: #FFFFFF;
         font-style: normal;
         font-weight: 500;
@@ -166,21 +187,10 @@ body {
         flex-direction: row;
         align-items: flex-start;
         padding-top: 10px; }
-        .imagen__inicio__home .text__container .btn__container__imagen .btn__unete__imagen {
-          text-align: center;
-          background-color: transparent;
-          border: 1px solid #FFFFFF;
-          box-sizing: border-box;
-          border-radius: 40px;
-          color: #FFFFFF;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 16px;
-          line-height: 24px;
-          padding: 10px 18px; }
-          .imagen__inicio__home .text__container .btn__container__imagen .btn__unete__imagen .flecha__button__imagen {
-            width: 30px;
-            margin-left: 5px; }
+        .imagen__inicio__home .text__container .btn__container__imagen a {
+          width: 115px;
+          height: 48px;
+          padding: 0px 120px 0px 10px; }
         .imagen__inicio__home .text__container .btn__container__imagen .btn__donar__imagen {
           margin-left: 15px;
           border-radius: 40px;
@@ -210,9 +220,9 @@ body {
       justify-content: center;
       overflow-x: scroll;
       white-space: nowrap;
-      padding-left: 310px; }
+      padding-left: 320px; }
       .section__partners .partners__containers img {
-        width: 360px;
+        width: 160px;
         padding: 10px 8px; }
   /* Sección Objetivos de Desarrollo */
   .section__objetivosDesarrollo {
@@ -329,7 +339,7 @@ body {
       color: #2D2926; }
   /* Sección "Medicion De Impacto */
   .medicionImpacto {
-    background-image: url("../imagenes/home/fondoMedicionimpacto.png");
+    background-color: #1CABE2;
     display: grid;
     grid-template-areas: "logo" "titulo" "texto" "boton";
     grid-template-columns: 1fr;
@@ -415,15 +425,15 @@ body {
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
   .imagen__inicio__home {
-    background-image: url("../imagenes/home/imagenInicioHome.jpg");
+    background-image: url("../imagenes/home/imagenInicioHome480.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     position: relative; }
     .imagen__inicio__home .text__container {
       padding: 0px 10px 0px 10px; }
       .imagen__inicio__home .text__container .title__home {
         text-align: left;
-        padding: 80px 0px 0px 10px;
+        padding: 160px 20px 0px 10px;
         display: flex;
         color: #FFFFFF;
         font-style: normal;
@@ -432,7 +442,7 @@ body {
         line-height: 40px;
         align-items: center; }
       .imagen__inicio__home .text__container .subtitulo_inicio {
-        padding: 10px 0px 0px 10px;
+        padding: 10px 20px 0px 10px;
         color: #FFFFFF;
         font-style: normal;
         font-weight: 500;
@@ -443,21 +453,6 @@ body {
         flex-direction: row;
         align-items: flex-start;
         padding-top: 10px; }
-        .imagen__inicio__home .text__container .btn__container__imagen .btn__unete__imagen {
-          text-align: center;
-          background-color: transparent;
-          border: 1px solid #FFFFFF;
-          box-sizing: border-box;
-          border-radius: 40px;
-          color: #FFFFFF;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 16px;
-          line-height: 24px;
-          padding: 10px 18px; }
-          .imagen__inicio__home .text__container .btn__container__imagen .btn__unete__imagen .flecha__button__imagen {
-            width: 30px;
-            margin-left: 5px; }
         .imagen__inicio__home .text__container .btn__container__imagen .btn__donar__imagen {
           margin-left: 15px;
           border-radius: 40px;
@@ -487,7 +482,7 @@ body {
       justify-content: center;
       overflow-x: scroll;
       white-space: nowrap;
-      padding-left: 136px; }
+      padding-left: 184px; }
       .section__partners .partners__containers img {
         width: 50px;
         padding: 10px 8px; }
@@ -604,7 +599,7 @@ body {
       color: #2D2926; }
   /* Sección "Medicion De Impacto */
   .medicionImpacto {
-    background-image: url("../imagenes/home/fondoMedicionimpacto.png");
+    background-color: #1CABE2;
     display: grid;
     grid-template-areas: "logo" "titulo" "texto" "boton";
     grid-template-columns: 1fr;
@@ -690,15 +685,15 @@ body {
 
 @media only screen and (min-width: 481px) and (max-width: 600px) {
   .imagen__inicio__home {
-    background-image: url("../imagenes/home/imagenInicioHome.jpg");
+    background-image: url("../imagenes/home/imagenInicioHome600.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     position: relative; }
     .imagen__inicio__home .text__container {
       padding: 0px 10px 0px 10px; }
       .imagen__inicio__home .text__container .title__home {
         text-align: left;
-        padding: 80px 0px 0px 10px;
+        padding: 160px 20px 0px 10px;
         display: flex;
         color: #FFFFFF;
         font-style: normal;
@@ -707,7 +702,7 @@ body {
         line-height: 40px;
         align-items: center; }
       .imagen__inicio__home .text__container .subtitulo_inicio {
-        padding: 10px 0px 0px 10px;
+        padding: 10px 20px 0px 10px;
         color: #FFFFFF;
         font-style: normal;
         font-weight: 500;
@@ -718,21 +713,6 @@ body {
         flex-direction: row;
         align-items: flex-start;
         padding-top: 10px; }
-        .imagen__inicio__home .text__container .btn__container__imagen .btn__unete__imagen {
-          text-align: center;
-          background-color: transparent;
-          border: 1px solid #FFFFFF;
-          box-sizing: border-box;
-          border-radius: 40px;
-          color: #FFFFFF;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 16px;
-          line-height: 24px;
-          padding: 10px 18px; }
-          .imagen__inicio__home .text__container .btn__container__imagen .btn__unete__imagen .flecha__button__imagen {
-            width: 30px;
-            margin-left: 5px; }
         .imagen__inicio__home .text__container .btn__container__imagen .btn__donar__imagen {
           margin-left: 15px;
           border-radius: 40px;
@@ -760,8 +740,9 @@ body {
     .section__partners .partners__containers {
       display: flex;
       justify-content: center;
-      flex-wrap: wrap;
-      padding: 0px 20px; }
+      overflow-x: scroll;
+      white-space: nowrap;
+      padding-left: 320px; }
       .section__partners .partners__containers img {
         padding: 10px 18px; }
   /* Sección Objetivos de Desarrollo */
@@ -874,7 +855,7 @@ body {
     line-height: 19px; }
   /* Sección "Medicion De Impacto */
   .medicionImpacto {
-    background-image: url("../imagenes/home/fondoMedicionimpacto.png");
+    background-color: #1CABE2;
     display: grid;
     grid-template-areas: "logo" "titulo" "texto" "boton";
     grid-template-columns: 1fr;
@@ -965,12 +946,12 @@ body {
 @media only screen and (max-width: 320px) {
   /* Sección Imagen Inicio */
   .container__impactoSocial {
-    background-image: url("../imagenes/ayoEmprende/1ayoEmprende.jpg");
+    background-image: url("../imagenes/ayoEmprende/1ayoEmprende320.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative; }
     .container__impactoSocial h1 {
-      padding: 158px 0px 0px 20px;
+      padding: 138px 20px 0px 20px;
       color: #FFFFFF;
       font-family: Raleway;
       font-style: normal;
@@ -979,27 +960,15 @@ body {
       line-height: 40px;
       text-align: start; }
     .container__impactoSocial p {
-      padding: 0px 16px 4px 20px;
+      padding: 0px 20px 4px 20px;
       color: #FFFFFF;
       font-family: Raleway;
       font-style: normal;
       font-weight: 500;
       font-size: 14px;
       line-height: 20px; }
-    .container__impactoSocial button {
-      margin: 0px 0px 48px 20px;
-      text-align: center;
-      background-color: transparent;
-      border: 1px solid #FFFFFF;
-      box-sizing: border-box;
-      border-radius: 40px;
-      color: #FFFFFF;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 24px;
-      padding: 10px 18px; }
+    .container__impactoSocial a img {
+      padding: 0px 0px 60px 20px; }
   .containerStartup .subTitulo {
     padding: 32px 0px 0px 20px;
     color: #2C5697;
@@ -1043,6 +1012,7 @@ body {
       padding: 0px 20px 0px 8px; }
   /* Sección Alcance */
   .seccion__alcance {
+    margin: 32px 0px 24px 0px;
     background-color: #2C5697; }
     .seccion__alcance p {
       padding: 20px 0px 16px 20px;
@@ -1090,11 +1060,11 @@ body {
     justify-content: center; }
     .card__container__emrender .card__emprender {
       padding: unset;
-      margin: 20px 20px 10px 20px;
+      margin: 0px 20px 20px 20px;
       box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
       .card__container__emrender .card__emprender .card-body-container-Emprender {
         padding: unset;
-        padding-left: 20px; }
+        padding: 0px 20px; }
         .card__container__emrender .card__emprender .card-body-container-Emprender h5::before {
           content: "|";
           background-color: #2C5697;
@@ -1122,7 +1092,7 @@ body {
       width: 100%;
       height: 109px;
       padding: unset;
-      padding: 40px 20px 96px 20px; }
+      padding: 44px 20px 104px 20px; }
       .card__container__emrender .detallePrograma .card__detallePrograma {
         background: #2C5697;
         display: flex;
@@ -1170,7 +1140,7 @@ body {
     padding: 16px 0px 0px 20px; }
   .container__participarNegocio .list__container {
     padding: unset;
-    padding: 24px 0px 0px 22px;
+    padding: 16px 0px 0px 28px;
     list-style: none; }
     .container__participarNegocio .list__container div {
       display: flex; }
@@ -1215,7 +1185,7 @@ body {
     display: flex;
     padding: 64 20px 0px 20px;
     margin: 40px 20px 0px 20px;
-    background: rgba(28, 171, 226, 0.8); }
+    background-color: #2C5697; }
     .card__candidatura img {
       padding: 5px 20px 0px 25px; }
     .card__candidatura p {
@@ -1254,7 +1224,7 @@ body {
         width: 20px; }
   /* Sección Socios */
   .container__socios p {
-    padding: 40px 0px 20px 22px;
+    padding: 64px 0px 0px 22px;
     color: #2C5697;
     font-family: Raleway;
     font-style: normal;
@@ -1273,12 +1243,12 @@ body {
 @media only screen and (min-width: 321px) and (max-width: 480px) {
   /* Sección Imagen Inicio */
   .container__impactoSocial {
-    background-image: url("../imagenes/ayoEmprende/1ayoEmprende.jpg");
+    background-image: url("../imagenes/ayoEmprende/1ayoEmprende480.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     position: relative; }
     .container__impactoSocial h1 {
-      padding: 158px 0px 0px 20px;
+      padding: 138px 20px 0px 20px;
       color: #FFFFFF;
       font-family: Raleway;
       font-style: normal;
@@ -1287,27 +1257,15 @@ body {
       line-height: 40px;
       text-align: start; }
     .container__impactoSocial p {
-      padding: 0px 16px 4px 20px;
+      padding: 0px 20px 4px 20px;
       color: #FFFFFF;
       font-family: Raleway;
       font-style: normal;
       font-weight: 500;
       font-size: 14px;
       line-height: 20px; }
-    .container__impactoSocial button {
-      margin: 0px 0px 48px 20px;
-      text-align: center;
-      background-color: transparent;
-      border: 1px solid #FFFFFF;
-      box-sizing: border-box;
-      border-radius: 40px;
-      color: #FFFFFF;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 24px;
-      padding: 10px 18px; }
+    .container__impactoSocial a img {
+      padding: 0px 0px 60px 20px; }
   .containerStartup .subTitulo {
     padding: 32px 0px 0px 20px;
     color: #2C5697;
@@ -1351,6 +1309,7 @@ body {
       padding: 0px 20px 0px 8px; }
   /* Sección Alcance */
   .seccion__alcance {
+    margin: 32px 0px 24px 0px;
     background-color: #2C5697; }
     .seccion__alcance p {
       padding: 20px 0px 16px 20px;
@@ -1398,12 +1357,11 @@ body {
     justify-content: center; }
     .card__container__emrender .card__emprender {
       padding: unset;
-      margin: 25px 20px 20px 20px;
+      margin: 0px 20px 20px 20px;
       box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
       .card__container__emrender .card__emprender .card-body-container-Emprender {
-        width: 100%;
         padding: unset;
-        padding-left: 20px; }
+        padding: 0px 20px; }
         .card__container__emrender .card__emprender .card-body-container-Emprender h5::before {
           content: "|";
           background-color: #2C5697;
@@ -1427,13 +1385,11 @@ body {
         font-weight: normal;
         font-size: 14px;
         line-height: 150%; }
-    .card__container__emrender .mentoring {
-      margin-top: 24px; }
     .card__container__emrender .detallePrograma {
       width: 100%;
       height: 109px;
       padding: unset;
-      padding: 40px 20px 96px 20px; }
+      padding: 44px 20px 104px 20px; }
       .card__container__emrender .detallePrograma .card__detallePrograma {
         background: #2C5697;
         display: flex;
@@ -1481,14 +1437,13 @@ body {
     padding: 16px 0px 0px 20px; }
   .container__participarNegocio .list__container {
     padding: unset;
-    padding: 24px 0px 0px 22px;
+    padding: 16px 0px 0px 28px;
     list-style: none; }
     .container__participarNegocio .list__container div {
-      display: flex;
-      flex-direction: row; }
+      display: flex; }
       .container__participarNegocio .list__container div .iconoParticipantes1 {
         position: relative;
-        top: 0px;
+        top: -15px;
         left: -9px; }
       .container__participarNegocio .list__container div .iconoParticipantes2 {
         position: relative;
@@ -1496,7 +1451,7 @@ body {
         left: -9px; }
       .container__participarNegocio .list__container div .iconoParticipantes3 {
         position: relative;
-        top: 0px;
+        top: -15px;
         left: -9px; }
       .container__participarNegocio .list__container div .iconoParticipantes4 {
         position: relative;
@@ -1512,7 +1467,7 @@ body {
         left: -9px; }
       .container__participarNegocio .list__container div .iconoParticipantes7 {
         position: relative;
-        top: 5px;
+        top: -5px;
         left: -9px; }
       .container__participarNegocio .list__container div li {
         padding: 15px 20px 0px 0px;
@@ -1527,7 +1482,7 @@ body {
     display: flex;
     padding: 64 20px 0px 20px;
     margin: 40px 20px 0px 20px;
-    background: rgba(28, 171, 226, 0.8); }
+    background-color: #2C5697; }
     .card__candidatura img {
       padding: 5px 20px 0px 25px; }
     .card__candidatura p {
@@ -1566,7 +1521,304 @@ body {
         width: 20px; }
   /* Sección Socios */
   .container__socios p {
-    padding: 40px 0px 20px 22px;
+    padding: 64px 0px 0px 22px;
+    color: #2C5697;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px; }
+  .container__socios div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .container__socios div img {
+      padding: 0px 20px 20px 20px; }
+  .footer__emprender {
+    margin-top: 40px; } }
+
+@media only screen and (min-width: 481px) and (max-width: 599px) {
+  /* Sección Imagen Inicio */
+  .container__impactoSocial {
+    background-image: url("../imagenes/ayoEmprende/1ayoEmprende600.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .container__impactoSocial h1 {
+      padding: 138px 20px 0px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px;
+      text-align: start; }
+    .container__impactoSocial p {
+      padding: 0px 20px 4px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+    .container__impactoSocial a img {
+      padding: 0px 0px 60px 20px; }
+  .containerStartup .subTitulo {
+    padding: 32px 0px 0px 20px;
+    color: #2C5697;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px; }
+  .containerStartup h2 {
+    padding: 0px 0px 16px 20px;
+    color: #2D2926;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%; }
+  .containerStartup p {
+    padding: 0px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%; }
+  .container__listStartup {
+    padding-left: 20px; }
+    .container__listStartup .container__listStartup-border {
+      border-left: 1px solid #DFE5EB; }
+      .container__listStartup .container__listStartup-border div p::before {
+        content: "|";
+        color: #2C5697;
+        background-color: #2C5697;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+    .container__listStartup img {
+      padding: 10px 20px 16px 8px; }
+    .container__listStartup p {
+      padding: unset;
+      padding: 0px 20px 0px 8px; }
+  /* Sección Alcance */
+  .seccion__alcance {
+    margin: 32px 0px 24px 0px;
+    background-color: #2C5697; }
+    .seccion__alcance p {
+      padding: 20px 0px 16px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 13px; }
+    .seccion__alcance h3 {
+      padding: unset;
+      padding: 0px 0px 16px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+    .seccion__alcance .container__alcance {
+      padding-left: 20px; }
+      .seccion__alcance .container__alcance p {
+        padding: unset;
+        padding: 0px 20px 16px 8px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+      .seccion__alcance .container__alcance .container__alcance-border {
+        padding: unset;
+        border-left: 1px solid #DFE5EB;
+        padding-bottom: 30px; }
+        .seccion__alcance .container__alcance .container__alcance-border div p::before {
+          content: "|";
+          background-color: #FFFFFF;
+          color: #FFFFFF;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
+  /* Sección Emprender */
+  .card__container__emrender {
+    display: grid;
+    justify-content: center; }
+    .card__container__emrender .card__emprender {
+      padding: unset;
+      margin: 0px 20px 20px 20px;
+      box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
+      .card__container__emrender .card__emprender .card-body-container-Emprender {
+        padding: unset;
+        padding: 0px 20px; }
+        .card__container__emrender .card__emprender .card-body-container-Emprender h5::before {
+          content: "|";
+          background-color: #2C5697;
+          color: #2C5697;
+          top: 0px;
+          width: 1px;
+          left: -20px;
+          position: relative; }
+      .card__container__emrender .card__emprender .card-title-emprender {
+        padding-top: 24px;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px; }
+      .card__container__emrender .card__emprender .card-text-emprender {
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%; }
+    .card__container__emrender .detallePrograma {
+      width: 100%;
+      height: 109px;
+      padding: unset;
+      padding: 44px 20px 104px 20px; }
+      .card__container__emrender .detallePrograma .card__detallePrograma {
+        background: #2C5697;
+        display: flex;
+        flex-direction: row; }
+        .card__container__emrender .detallePrograma .card__detallePrograma img {
+          color: #FFFFFF;
+          padding: 5px 0px 0px 32px; }
+        .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma {
+          padding: 25px 10px 0px 25px;
+          color: #FFFFFF;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px; }
+          .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma span {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px; }
+          .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma img {
+            padding: unset;
+            width: 20px; }
+  /* Sección Requisistos para participar si tienes un negocio */
+  .container__participarNegocio p {
+    padding: unset;
+    margin: unset;
+    color: #2C5697;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    padding: 32px 0px 0px 20px; }
+  .container__participarNegocio h4 {
+    padding: unset;
+    margin: unset;
+    color: #2D2926;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    padding: 16px 0px 0px 20px; }
+  .container__participarNegocio .list__container {
+    padding: unset;
+    padding: 16px 0px 0px 28px;
+    list-style: none; }
+    .container__participarNegocio .list__container div {
+      display: flex; }
+      .container__participarNegocio .list__container div .iconoParticipantes1 {
+        position: relative;
+        top: -15px;
+        left: -9px; }
+      .container__participarNegocio .list__container div .iconoParticipantes2 {
+        position: relative;
+        top: 5px;
+        left: -9px; }
+      .container__participarNegocio .list__container div .iconoParticipantes3 {
+        position: relative;
+        top: -15px;
+        left: -9px; }
+      .container__participarNegocio .list__container div .iconoParticipantes4 {
+        position: relative;
+        top: 5px;
+        left: -9px; }
+      .container__participarNegocio .list__container div .iconoParticipantes5 {
+        position: relative;
+        top: 5px;
+        left: -9px; }
+      .container__participarNegocio .list__container div .iconoParticipantes6 {
+        position: relative;
+        top: 5px;
+        left: -9px; }
+      .container__participarNegocio .list__container div .iconoParticipantes7 {
+        position: relative;
+        top: -5px;
+        left: -9px; }
+      .container__participarNegocio .list__container div li {
+        padding: 15px 20px 0px 0px;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%; }
+  /* Sección Candidatura */
+  .card__candidatura {
+    display: flex;
+    padding: 64 20px 0px 20px;
+    margin: 40px 20px 0px 20px;
+    background-color: #2C5697; }
+    .card__candidatura img {
+      padding: 5px 20px 0px 25px; }
+    .card__candidatura p {
+      color: #FFFFFF;
+      padding: 20px 20px 0px 0px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+      .card__candidatura p span {
+        font-weight: 600;
+        line-height: 16px; }
+      .card__candidatura p img {
+        padding: unset;
+        width: 20px; }
+  .card__comiteInversion {
+    display: flex;
+    margin: 20px 20px 0px 20px;
+    background-color: #2C5697; }
+    .card__comiteInversion img {
+      padding: 5px 20px 0px 25px; }
+    .card__comiteInversion p {
+      color: #FFFFFF;
+      padding: 20px 20px 0px 0px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+      .card__comiteInversion p span {
+        font-weight: 600;
+        line-height: 16px; }
+      .card__comiteInversion p img {
+        padding: unset;
+        width: 20px; }
+  /* Sección Socios */
+  .container__socios p {
+    padding: 64px 0px 0px 22px;
     color: #2C5697;
     font-family: Raleway;
     font-style: normal;
@@ -1589,7 +1841,7 @@ body {
 @media only screen and (max-width: 320px) {
   /* Sección Imagen Inicio */
   .imagen__inicio__ayoImpulso {
-    background-image: url("../imagenes/ayoImpulso/1programaImpulso.jpg");
+    background-image: url("../imagenes/ayoImpulso/1programaImpulso320.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative; }
@@ -1600,32 +1852,22 @@ body {
       font-weight: bold;
       font-size: 34px;
       line-height: 40px;
-      padding: 80px 0px 0px 20px; }
+      padding: 80px 20px 0px 20px; }
     .imagen__inicio__ayoImpulso span {
       display: block; }
     .imagen__inicio__ayoImpulso p {
-      padding: 16px 0px 0px 20px;
+      padding: 16px 20px 0px 20px;
       color: #FFFFFF;
       font-family: Raleway;
       font-style: normal;
       font-weight: 500;
       font-size: 14px;
       line-height: 20px; }
-    .imagen__inicio__ayoImpulso button {
-      margin: 4px 0px 56px 20px;
-      color: #FFFFFF;
-      background: rgba(45, 41, 38, 0.25);
-      padding: 12px 24px;
-      border: 1px solid #FFFFFF;
-      box-sizing: border-box;
-      border-radius: 40px;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 24px; }
+    .imagen__inicio__ayoImpulso a img {
+      margin: 4px 0px 56px 20px; }
   /* Sección Proyecto de Apoyo */
   .proyectoApoyo {
+    background-color: #FCFCFC;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
     .proyectoApoyo p {
       padding: 20px 0px 0px 20px;
@@ -1641,7 +1883,7 @@ body {
         border-left: 1px solid rgba(189, 189, 189, 0.5); }
         .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border h2 {
           color: #2D2926;
-          padding: 0px 20px 32px 8px;
+          padding: 0px 20px 24px 8px;
           font-family: Raleway;
           font-style: normal;
           font-weight: bold;
@@ -1649,20 +1891,14 @@ body {
           line-height: 120%; }
         .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div p {
           color: #1A1A1A;
-          padding: 0px 20px 32px 8px;
+          padding: 0px 20px 16px 8px;
           font-family: Raleway;
           font-style: normal;
           font-weight: normal;
           font-size: 14px;
           line-height: 150%; }
-        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div .texto__propuestaMentoriaProyectImpulso {
-          color: #1A1A1A;
-          padding: 0px 20px 24px 8px;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 14px;
-          line-height: 150%; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div .utimoTexto_ProyectoApoyo_AyoImpulsa {
+          padding-bottom: 32px; }
         .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div p::before {
           content: "|";
           color: #80BD41;
@@ -1679,8 +1915,23 @@ body {
           top: 0px;
           width: 1px;
           left: -10px; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .container__textoPropuestaMentoriaProyectImpulso {
+          background-color: #FFFFFF; }
+          .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .container__textoPropuestaMentoriaProyectImpulso .texto__propuestaMentoriaProyectImpulso {
+            color: #1A1A1A;
+            padding: 0px 20px 16px 8px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%; }
+          .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .container__textoPropuestaMentoriaProyectImpulso .ultimoTexto__propuestaMentoriaProyectImpulso {
+            padding-bottom: 32px; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border section {
+          background-color: #FFFFFF; }
         .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border h3 {
-          padding: 0px 20px 24px 8px;
+          background-color: #FFFFFF;
+          padding: 32px 20px 24px 8px;
           color: #2D2926;
           font-family: Raleway;
           font-style: normal;
@@ -1690,7 +1941,7 @@ body {
   /* Sección Boton */
   .card__mentores {
     display: flex;
-    margin: 48px 20px 0px 20px;
+    margin: 36px 20px 0px 20px;
     background-color: #80BD41; }
     .card__mentores img {
       padding: 5px 20px 0px 25px; }
@@ -1711,7 +1962,7 @@ body {
   /* Sección Global Dignity */
   .globalDignity__container {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
-    margin-bottom: 64px; }
+    margin-bottom: 14px; }
     .globalDignity__container img {
       padding: 64px 20px 40px 20px;
       width: 100%; }
@@ -1728,7 +1979,7 @@ body {
       .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border {
         border-left: 1px solid rgba(189, 189, 189, 0.5); }
         .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border h4 {
-          padding: 0px 20px 24px 8px;
+          padding: 0px 20px 20px 8px;
           color: #2D2926;
           font-family: Raleway;
           font-style: normal;
@@ -1736,7 +1987,7 @@ body {
           font-size: 24px;
           line-height: 120%; }
         .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border p {
-          padding: 0px 20px 24px 8px;
+          padding: 0px 20px 8px 8px;
           color: #000000;
           font-family: Raleway;
           font-style: normal;
@@ -1749,6 +2000,15 @@ body {
             font-weight: bold;
             font-size: 14px;
             line-height: 20px; }
+        .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border .texto__globalDignity__border1 {
+          padding: 0px 20px 8px 8px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 150%; }
+        .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border .texto__globalDignity__border4 {
+          padding-bottom: 24px; }
         .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border p::before {
           content: "|";
           color: #80BD41;
@@ -1759,7 +2019,399 @@ body {
           left: -10px; }
   .conoce_mas__ayoImpulso p {
     color: #80BD41;
-    padding: 0px 0px 16px 20px;
+    padding: 24px 0px 16px 20px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px; }
+  .conoce_mas__ayoImpulso div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .conoce_mas__ayoImpulso div .logoGlobalDignity {
+      padding: 0px 12px 64px 0px; }
+    .conoce_mas__ayoImpulso div .logoGlobalDignitySpain {
+      padding: 0px 0px 56px 12px; } }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  /* Sección Imagen Inicio */
+  .imagen__inicio__ayoImpulso {
+    background-image: url("../imagenes/ayoImpulso/1programaImpulso480.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .imagen__inicio__ayoImpulso h1 {
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px;
+      padding: 160px 20px 0px 20px; }
+    .imagen__inicio__ayoImpulso span {
+      display: block; }
+    .imagen__inicio__ayoImpulso p {
+      padding: 16px 20px 0px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+    .imagen__inicio__ayoImpulso a img {
+      margin: 4px 0px 120px 20px; }
+  /* Sección Proyecto de Apoyo */
+  .proyectoApoyo {
+    background-color: #FCFCFC;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
+    .proyectoApoyo p {
+      padding: 20px 0px 0px 20px;
+      color: #80BD41;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 13px; }
+    .proyectoApoyo .divProyectoApoyo_Container {
+      padding-left: 20px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border {
+        border-left: 1px solid rgba(189, 189, 189, 0.5); }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border h2 {
+          color: #2D2926;
+          padding: 0px 20px 24px 8px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 120%; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div p {
+          color: #1A1A1A;
+          padding: 0px 20px 16px 8px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div .utimoTexto_ProyectoApoyo_AyoImpulsa {
+          padding-bottom: 32px; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div p::before {
+          content: "|";
+          color: #80BD41;
+          background-color: #80BD41;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div .texto__propuestaMentoriaProyectImpulso::before {
+          content: "|";
+          color: #80BD41;
+          background-color: #80BD41;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .container__textoPropuestaMentoriaProyectImpulso {
+          background-color: #FFFFFF; }
+          .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .container__textoPropuestaMentoriaProyectImpulso .texto__propuestaMentoriaProyectImpulso {
+            color: #1A1A1A;
+            padding: 0px 20px 16px 8px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%; }
+          .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .container__textoPropuestaMentoriaProyectImpulso .ultimoTexto__propuestaMentoriaProyectImpulso {
+            padding-bottom: 32px; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border section {
+          background-color: #FFFFFF; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border h3 {
+          background-color: #FFFFFF;
+          padding: 32px 20px 24px 8px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 120%; }
+  /* Sección Boton */
+  .card__mentores {
+    display: flex;
+    margin: 36px 20px 0px 20px;
+    background-color: #80BD41; }
+    .card__mentores img {
+      padding: 5px 20px 0px 25px; }
+    .card__mentores p {
+      color: #FFFFFF;
+      padding: 20px 20px 0px 0px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+      .card__mentores p span {
+        font-weight: 600;
+        line-height: 16px; }
+      .card__mentores p img {
+        padding: unset;
+        width: 20px; }
+  /* Sección Global Dignity */
+  .globalDignity__container {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    margin-bottom: 14px; }
+    .globalDignity__container img {
+      padding: 64px 20px 40px 20px;
+      width: 100%; }
+    .globalDignity__container p {
+      padding: 0px 0px 0px 20px;
+      color: #80BD41;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 13px; }
+    .globalDignity__container .text__container__globalDignity {
+      padding-left: 20px; }
+      .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border {
+        border-left: 1px solid rgba(189, 189, 189, 0.5); }
+        .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border h4 {
+          padding: 0px 20px 20px 8px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 120%; }
+        .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border p {
+          padding: 0px 20px 8px 8px;
+          color: #000000;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
+          .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border p span {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px; }
+        .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border .texto__globalDignity__border1 {
+          padding: 0px 20px 8px 8px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 150%; }
+        .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border .texto__globalDignity__border4 {
+          padding-bottom: 24px; }
+        .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border p::before {
+          content: "|";
+          color: #80BD41;
+          background-color: #80BD41;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
+  .conoce_mas__ayoImpulso p {
+    color: #80BD41;
+    padding: 24px 0px 16px 20px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px; }
+  .conoce_mas__ayoImpulso div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .conoce_mas__ayoImpulso div .logoGlobalDignity {
+      padding: 0px 12px 64px 0px; }
+    .conoce_mas__ayoImpulso div .logoGlobalDignitySpain {
+      padding: 0px 0px 56px 12px; } }
+
+@media only screen and (min-width: 481px) and (max-width: 599px) {
+  /* Sección Imagen Inicio */
+  .imagen__inicio__ayoImpulso {
+    background-image: url("../imagenes/ayoImpulso/1programaImpulso600.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .imagen__inicio__ayoImpulso h1 {
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px;
+      padding: 160px 20px 0px 20px; }
+    .imagen__inicio__ayoImpulso span {
+      display: block; }
+    .imagen__inicio__ayoImpulso p {
+      padding: 16px 20px 0px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+    .imagen__inicio__ayoImpulso a img {
+      margin: 4px 0px 56px 20px; }
+  /* Sección Proyecto de Apoyo */
+  .proyectoApoyo {
+    background-color: #FCFCFC;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
+    .proyectoApoyo p {
+      padding: 20px 0px 0px 20px;
+      color: #80BD41;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 13px; }
+    .proyectoApoyo .divProyectoApoyo_Container {
+      padding-left: 20px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border {
+        border-left: 1px solid rgba(189, 189, 189, 0.5); }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border h2 {
+          color: #2D2926;
+          padding: 0px 20px 24px 8px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 120%; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div p {
+          color: #1A1A1A;
+          padding: 0px 20px 16px 8px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div .utimoTexto_ProyectoApoyo_AyoImpulsa {
+          padding-bottom: 32px; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div p::before {
+          content: "|";
+          color: #80BD41;
+          background-color: #80BD41;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div .texto__propuestaMentoriaProyectImpulso::before {
+          content: "|";
+          color: #80BD41;
+          background-color: #80BD41;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .container__textoPropuestaMentoriaProyectImpulso {
+          background-color: #FFFFFF; }
+          .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .container__textoPropuestaMentoriaProyectImpulso .texto__propuestaMentoriaProyectImpulso {
+            color: #1A1A1A;
+            padding: 0px 20px 16px 8px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%; }
+          .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .container__textoPropuestaMentoriaProyectImpulso .ultimoTexto__propuestaMentoriaProyectImpulso {
+            padding-bottom: 32px; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border section {
+          background-color: #FFFFFF; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border h3 {
+          background-color: #FFFFFF;
+          padding: 32px 20px 24px 8px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 120%; }
+  /* Sección Boton */
+  .card__mentores {
+    display: flex;
+    margin: 36px 20px 0px 20px;
+    background-color: #80BD41; }
+    .card__mentores img {
+      padding: 5px 20px 0px 25px; }
+    .card__mentores p {
+      color: #FFFFFF;
+      padding: 20px 20px 0px 0px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+      .card__mentores p span {
+        font-weight: 600;
+        line-height: 16px; }
+      .card__mentores p img {
+        padding: unset;
+        width: 20px; }
+  /* Sección Global Dignity */
+  .globalDignity__container {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    margin-bottom: 14px; }
+    .globalDignity__container img {
+      padding: 64px 20px 40px 20px;
+      width: 100%; }
+    .globalDignity__container p {
+      padding: 0px 0px 0px 20px;
+      color: #80BD41;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 13px; }
+    .globalDignity__container .text__container__globalDignity {
+      padding-left: 20px; }
+      .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border {
+        border-left: 1px solid rgba(189, 189, 189, 0.5); }
+        .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border h4 {
+          padding: 0px 20px 20px 8px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 120%; }
+        .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border p {
+          padding: 0px 20px 8px 8px;
+          color: #000000;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
+          .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border p span {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px; }
+        .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border .texto__globalDignity__border1 {
+          padding: 0px 20px 8px 8px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 150%; }
+        .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border .texto__globalDignity__border4 {
+          padding-bottom: 24px; }
+        .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border p::before {
+          content: "|";
+          color: #80BD41;
+          background-color: #80BD41;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
+  .conoce_mas__ayoImpulso p {
+    color: #80BD41;
+    padding: 24px 0px 16px 20px;
     font-family: Raleway;
     font-style: normal;
     font-weight: 600;
@@ -1780,12 +2432,12 @@ body {
 
 @media only screen and (max-width: 320px) {
   .container__imagen__ayoAcelera {
-    background-image: url("../../imagenes/ayoAcelera/1ayoAcelera.jpg");
+    background-image: url("../../imagenes/ayoAcelera/1ayoAcelera320.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative; }
     .container__imagen__ayoAcelera h1 {
-      padding: 80px 0px 0px 20px;
+      padding: 80px 20px 0px 20px;
       color: #FFFFFF;
       font-family: Raleway;
       font-style: normal;
@@ -1795,26 +2447,15 @@ body {
       .container__imagen__ayoAcelera h1 span {
         display: block; }
     .container__imagen__ayoAcelera p {
-      padding: 16px 0px 0px 20px;
+      padding: 16px 20px 0px 20px;
       color: #FFFFFF;
       font-family: Raleway;
       font-style: normal;
       font-weight: 500;
       font-size: 14px;
       line-height: 20px; }
-    .container__imagen__ayoAcelera button {
-      margin: 12px 0px 40px 20px;
-      padding: 12px 24px;
-      background: rgba(45, 41, 38, 0.25);
-      color: #FFFFFF;
-      border: 1px solid #FFFFFF;
-      box-sizing: border-box;
-      border-radius: 40px;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 24px; }
+    .container__imagen__ayoAcelera a img {
+      margin: 4px 0px 56px 20px; }
   /* Sección Apoyo e Impulso */
   .seccionFortalecimientoCapacidades {
     background-color: #FCFCFC; }
@@ -1830,7 +2471,7 @@ body {
       padding-left: 20px;
       background-color: #FCFCFC; }
       .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades h2 {
-        padding: 0px 20px 24px 8px;
+        padding: 0px 20px 12px 8px;
         color: #2D2926;
         font-family: Raleway;
         font-style: normal;
@@ -1844,38 +2485,55 @@ body {
         font-weight: normal;
         font-size: 14px;
         line-height: 150%; }
-      .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .text__fortalecimientoCapacidades span {
-        font-weight: bold; }
-      .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .text__fortalecimientoCapacidades::before {
-        content: "|";
-        color: #E2231A;
-        background-color: #E2231A;
-        position: relative;
-        top: 0px;
-        width: 0px;
-        left: -10px; }
       .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr {
         border-left: 1px solid rgba(189, 189, 189, 0.5);
         background-color: #FFFFFF; }
+        .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .text__fortalecimientoCapacidades {
+          padding-bottom: 12px;
+          color: #1A1A1A;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .text__fortalecimientoCapacidades span {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 150%; }
+        .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .ultimoTextoFortalecimientoCapacidades {
+          padding-bottom: 24px; }
+        .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .text__fortalecimientoCapacidades::before {
+          content: "|";
+          color: #E2231A;
+          background-color: #E2231A;
+          position: relative;
+          top: 0px;
+          width: 0px;
+          left: -10px; }
         .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos {
           box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
           .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos h3 {
-            padding: 24px 20px 0px 8px;
+            padding: 36px 20px 0px 8px;
             color: #2D2926;
             font-family: Raleway;
             font-style: normal;
             font-weight: bold;
             font-size: 24px;
             line-height: 120%; }
-          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos p {
-            padding: 24px 20px 16px 8px;
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos .text__fortalecimientoEquipos {
+            padding: 16px 20px 12px 8px;
             color: #2D2926;
             font-family: Raleway;
             font-style: normal;
             font-weight: 500;
             font-size: 14px;
             line-height: 20px; }
-          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos p::before {
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos .ultimoTextoFortalecimientoEquipos {
+            padding: unset;
+            padding: 0px 20px 36px 8px; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos .text__fortalecimientoEquipos::before {
             content: "|";
             color: #E2231A;
             background-color: #E2231A;
@@ -1894,7 +2552,7 @@ body {
             font-size: 24px;
             line-height: 120%; }
           .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__triatlonSocial p {
-            padding: 24px 20px 0px 8px;
+            padding: 12px 20px 0px 8px;
             color: #2D2926;
             font-family: Raleway;
             font-style: normal;
@@ -1932,22 +2590,24 @@ body {
   .fortalecimientoEstrategico {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
     .fortalecimientoEstrategico h5 {
-      padding: 30px 20px 24px 20px;
+      padding: 32px 20px 12px 20px;
       font-family: Raleway;
       font-style: normal;
       font-weight: bold;
       font-size: 24px;
       line-height: 120%; }
     .fortalecimientoEstrategico p {
-      padding: 12px 20px 24px 20px;
+      padding: 0px 20px 12px 20px;
       font-family: Raleway;
       font-style: normal;
       font-weight: 500;
       font-size: 14px;
       line-height: 20px; }
-  .iniciativaAyoAcelera_texto {
+    .fortalecimientoEstrategico .ultimoTextoFortalecimientoEstrategico_ayoAcelera {
+      padding-bottom: 48px; }
+  .iniciativaAyoAcelera_texto p {
     color: #E2231A;
-    padding: 24px 0px 0px 20px;
+    padding: 24px 0px 8px 20px;
     font-family: Raleway;
     font-style: normal;
     font-weight: 600;
@@ -1957,7 +2617,381 @@ body {
     display: flex;
     justify-content: center; }
     .logosIniciativaColaboración_container img {
-      padding: 0px 5px 40px 5px; } }
+      padding: 0px 8px 24px 8px; } }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .container__imagen__ayoAcelera {
+    background-image: url("../../imagenes/ayoAcelera/1ayoAcelera480.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .container__imagen__ayoAcelera h1 {
+      padding: 80px 20px 0px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .container__imagen__ayoAcelera p {
+      padding: 16px 20px 0px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+    .container__imagen__ayoAcelera a img {
+      margin: 4px 0px 56px 20px; }
+  /* Sección Apoyo e Impulso */
+  .seccionFortalecimientoCapacidades {
+    background-color: #FCFCFC; }
+    .seccionFortalecimientoCapacidades .subTitulo_FortalecimientoCapacidades {
+      color: #E2231A;
+      padding: 32px 0px 0px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 13px; }
+    .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades {
+      padding-left: 20px;
+      background-color: #FCFCFC; }
+      .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades h2 {
+        padding: 0px 20px 12px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+      .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades p {
+        padding: 0px 20px 0px 8px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%; }
+      .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr {
+        border-left: 1px solid rgba(189, 189, 189, 0.5);
+        background-color: #FFFFFF; }
+        .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .text__fortalecimientoCapacidades {
+          padding-bottom: 12px;
+          color: #1A1A1A;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .text__fortalecimientoCapacidades span {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 150%; }
+        .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .ultimoTextoFortalecimientoCapacidades {
+          padding-bottom: 24px; }
+        .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .text__fortalecimientoCapacidades::before {
+          content: "|";
+          color: #E2231A;
+          background-color: #E2231A;
+          position: relative;
+          top: 0px;
+          width: 0px;
+          left: -10px; }
+        .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos {
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos h3 {
+            padding: 36px 20px 0px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos .text__fortalecimientoEquipos {
+            padding: 16px 20px 12px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos .ultimoTextoFortalecimientoEquipos {
+            padding: unset;
+            padding: 0px 20px 36px 8px; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos .text__fortalecimientoEquipos::before {
+            content: "|";
+            color: #E2231A;
+            background-color: #E2231A;
+            position: relative;
+            top: 0px;
+            width: 0px;
+            left: -10px; }
+        .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__triatlonSocial {
+          background-color: #FFFFFF; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__triatlonSocial h4 {
+            padding: 24px 20px 0px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__triatlonSocial p {
+            padding: 12px 20px 0px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__triatlonSocial p::before {
+            content: "|";
+            color: #E2231A;
+            background-color: #E2231A;
+            position: relative;
+            top: 0px;
+            width: 0px;
+            left: -10px; }
+      .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn {
+        background: rgba(226, 35, 26, 0.85);
+        margin: 48px 20px 48px 0px;
+        display: flex; }
+        .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn img {
+          padding: unset;
+          padding: 20px 0px 15px 30px;
+          width: 48px; }
+        .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn {
+          padding: unset;
+          padding: 32px 5px 10px 24px;
+          color: #FFFFFF;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn .imgText__detallePrograma {
+            padding: unset;
+            width: 24px; }
+  .fortalecimientoEstrategico {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
+    .fortalecimientoEstrategico h5 {
+      padding: 32px 20px 12px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+    .fortalecimientoEstrategico p {
+      padding: 0px 20px 12px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+    .fortalecimientoEstrategico .ultimoTextoFortalecimientoEstrategico_ayoAcelera {
+      padding-bottom: 48px; }
+  .iniciativaAyoAcelera_texto p {
+    color: #E2231A;
+    padding: 24px 0px 8px 20px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px; }
+  .logosIniciativaColaboración_container {
+    display: flex;
+    justify-content: center; }
+    .logosIniciativaColaboración_container img {
+      padding: 0px 8px 24px 8px; } }
+
+@media only screen and (min-width: 481px) and (max-width: 599px) {
+  .container__imagen__ayoAcelera {
+    background-image: url("../../imagenes/ayoAcelera/1ayoAcelera600.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .container__imagen__ayoAcelera h1 {
+      padding: 80px 20px 0px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .container__imagen__ayoAcelera p {
+      padding: 16px 20px 0px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+    .container__imagen__ayoAcelera a img {
+      margin: 4px 0px 56px 20px; }
+  /* Sección Apoyo e Impulso */
+  .seccionFortalecimientoCapacidades {
+    background-color: #FCFCFC; }
+    .seccionFortalecimientoCapacidades .subTitulo_FortalecimientoCapacidades {
+      color: #E2231A;
+      padding: 32px 0px 0px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 13px; }
+    .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades {
+      padding-left: 20px;
+      background-color: #FCFCFC; }
+      .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades h2 {
+        padding: 0px 20px 12px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+      .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades p {
+        padding: 0px 20px 0px 8px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%; }
+      .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr {
+        border-left: 1px solid rgba(189, 189, 189, 0.5);
+        background-color: #FFFFFF; }
+        .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .text__fortalecimientoCapacidades {
+          padding-bottom: 12px;
+          color: #1A1A1A;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .text__fortalecimientoCapacidades span {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 150%; }
+        .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .ultimoTextoFortalecimientoCapacidades {
+          padding-bottom: 24px; }
+        .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .text__fortalecimientoCapacidades::before {
+          content: "|";
+          color: #E2231A;
+          background-color: #E2231A;
+          position: relative;
+          top: 0px;
+          width: 0px;
+          left: -10px; }
+        .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos {
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos h3 {
+            padding: 36px 20px 0px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos .text__fortalecimientoEquipos {
+            padding: 16px 20px 12px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos .ultimoTextoFortalecimientoEquipos {
+            padding: unset;
+            padding: 0px 20px 36px 8px; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos .text__fortalecimientoEquipos::before {
+            content: "|";
+            color: #E2231A;
+            background-color: #E2231A;
+            position: relative;
+            top: 0px;
+            width: 0px;
+            left: -10px; }
+        .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__triatlonSocial {
+          background-color: #FFFFFF; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__triatlonSocial h4 {
+            padding: 24px 20px 0px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__triatlonSocial p {
+            padding: 12px 20px 0px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__triatlonSocial p::before {
+            content: "|";
+            color: #E2231A;
+            background-color: #E2231A;
+            position: relative;
+            top: 0px;
+            width: 0px;
+            left: -10px; }
+      .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn {
+        background: rgba(226, 35, 26, 0.85);
+        margin: 48px 20px 48px 0px;
+        display: flex; }
+        .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn img {
+          padding: unset;
+          padding: 20px 0px 15px 30px;
+          width: 48px; }
+        .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn {
+          padding: unset;
+          padding: 32px 5px 10px 24px;
+          color: #FFFFFF;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn .imgText__detallePrograma {
+            padding: unset;
+            width: 24px; }
+  .fortalecimientoEstrategico {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
+    .fortalecimientoEstrategico h5 {
+      padding: 32px 20px 12px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+    .fortalecimientoEstrategico p {
+      padding: 0px 20px 12px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+    .fortalecimientoEstrategico .ultimoTextoFortalecimientoEstrategico_ayoAcelera {
+      padding-bottom: 48px; }
+  .iniciativaAyoAcelera_texto p {
+    color: #E2231A;
+    padding: 24px 0px 8px 20px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px; }
+  .logosIniciativaColaboración_container {
+    display: flex;
+    justify-content: center; }
+    .logosIniciativaColaboración_container img {
+      padding: 0px 8px 24px 8px; } }
 
 /*** Variables Colores  ***/
 body {
@@ -1965,12 +2999,12 @@ body {
 
 @media only screen and (max-width: 320px) {
   .container__imagen__ayoincuba {
-    background-image: url("../../imagenes/ayoIncuba/1ayoIncuba.jpg");
+    background-image: url("../../imagenes/ayoIncuba/1ayoIncuba320.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     position: relative; }
     .container__imagen__ayoincuba h1 {
-      padding: 100px 0px 0px 20px;
+      padding: 100px 20px 0px 20px;
       color: #FFFFFF;
       font-family: Raleway;
       font-style: normal;
@@ -1980,29 +3014,19 @@ body {
       .container__imagen__ayoincuba h1 span {
         display: block; }
     .container__imagen__ayoincuba p {
-      padding: 16px 0px 0px 20px;
+      padding: 16px 20px 0px 20px;
       color: #FFFFFF;
       font-family: Raleway;
       font-style: normal;
       font-weight: 500;
       font-size: 14px;
       line-height: 20px; }
-    .container__imagen__ayoincuba button {
-      margin: 24px 0px 72px 20px;
-      padding: 12px 24px;
-      background: rgba(45, 41, 38, 0.25);
-      color: #FFFFFF;
-      border: 1px solid #FFFFFF;
-      box-sizing: border-box;
-      border-radius: 40px;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 24px; }
+    .container__imagen__ayoincuba a img {
+      margin: 4px 0px 56px 20px; }
   /* Sección Apoyo e Impulso */
   .seccionApoyoImpulso {
-    background-color: #FCFCFC; }
+    background-color: #FCFCFC;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
     .seccionApoyoImpulso .subTitulo_apoyoImpulso {
       color: #FFC20E;
       padding: 32px 0px 0px 20px;
@@ -2015,32 +3039,6 @@ body {
       padding-left: 20px; }
       .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde {
         border-left: 1px solid rgba(189, 189, 189, 0.5); }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde {
-          background-color: #FFFFFF; }
-          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde h3 {
-            padding: 24px 20px 0px 8px;
-            color: #2D2926;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 24px;
-            line-height: 120%; }
-          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p {
-            padding: 24px 20px 0px 8px;
-            color: #2D2926;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 20px; }
-          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p::before {
-            content: "|";
-            color: #FFC20E;
-            background-color: #FFC20E;
-            position: relative;
-            top: 0px;
-            width: 0px;
-            left: -10px; }
         .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde h2 {
           padding: 0px 20px 24px 8px;
           color: #2D2926;
@@ -2096,15 +3094,40 @@ body {
           top: 0px;
           width: 1px;
           left: -10px; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde h3 {
+          padding: 24px 20px 0px 8px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 120%; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p {
+          padding: 24px 20px 0px 8px;
+          margin-bottom: 48px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p::before {
+          content: "|";
+          color: #FFC20E;
+          background-color: #FFC20E;
+          position: relative;
+          top: 0px;
+          width: 0px;
+          left: -10px; }
   /* Sección Incubadora de Ideas */
   .contenedor__presentarProyecto {
-    margin: 32px 20px 20px 20px;
+    margin: 32px 20px 48px 20px;
     display: flex;
     background-color: #FFC20E; }
     .contenedor__presentarProyecto img {
-      padding: 32px 0px 32px 30px; }
+      padding: 8px 0px 16px 30px; }
     .contenedor__presentarProyecto p {
-      padding: 46px 8px 23px 26px;
+      padding: 32px 8px 16px 26px;
       color: #FFFFFF;
       font-family: Raleway;
       font-style: normal;
@@ -2135,7 +3158,7 @@ body {
     .container__pathfinder .container__pathfinder_border {
       border-left: 1px solid rgba(189, 189, 189, 0.5); }
       .container__pathfinder .container__pathfinder_border h4 {
-        padding: 16px 20px 0px 8px;
+        padding: 8px 20px 0px 8px;
         color: #2D2926;
         font-family: Raleway;
         font-style: normal;
@@ -2143,13 +3166,429 @@ body {
         font-size: 24px;
         line-height: 120%; }
       .container__pathfinder .container__pathfinder_border p {
-        padding: 24px 20px 0px 8px;
+        padding: 12px 20px 0px 8px;
         color: #2D2926;
         font-family: Raleway;
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 20px; }
+      .container__pathfinder .container__pathfinder_border .ultimoTexto_pathfinder_borde {
+        margin-bottom: 60px; }
+      .container__pathfinder .container__pathfinder_border p::before {
+        content: ".";
+        color: #FFC20E;
+        background-color: #FFC20E;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+  .contenedor__detalleProgramaIncuba {
+    position: relative;
+    top: -24px;
+    margin: 48px 20px 48px 0px;
+    background-color: #FFC20E;
+    display: flex; }
+    .contenedor__detalleProgramaIncuba img {
+      padding: unset;
+      padding: 20px 0px 15px 30px;
+      width: 48px; }
+    .contenedor__detalleProgramaIncuba p {
+      padding: unset;
+      padding: 32px 5px 10px 24px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+      .contenedor__detalleProgramaIncuba p .imgText__detallePrograma {
+        padding: unset;
+        width: 24px; } }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .container__imagen__ayoincuba {
+    background-image: url("../../imagenes/ayoIncuba/1ayoIncuba480.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .container__imagen__ayoincuba h1 {
+      padding: 100px 20px 0px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .container__imagen__ayoincuba p {
+      padding: 16px 20px 0px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+    .container__imagen__ayoincuba a img {
+      margin: 4px 0px 56px 20px; }
+  /* Sección Apoyo e Impulso */
+  .seccionApoyoImpulso {
+    background-color: #FCFCFC;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
+    .seccionApoyoImpulso .subTitulo_apoyoImpulso {
+      color: #FFC20E;
+      padding: 32px 0px 0px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 13px; }
+    .seccionApoyoImpulso .container__apoyoImpulso {
+      padding-left: 20px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde {
+        border-left: 1px solid rgba(189, 189, 189, 0.5); }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde h2 {
+          padding: 0px 20px 24px 8px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 120%; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde p {
+          padding: 0px 20px 14px 8px;
+          color: #1A1A1A;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1 {
+          color: #000000;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1::before {
+          content: "|";
+          color: #FFC20E;
+          background-color: #FFC20E;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde2::before {
+          content: "|";
+          color: #FFC20E;
+          background-color: #FFC20E;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde3::before {
+          content: "|";
+          color: #FFC20E;
+          background-color: #FFC20E;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde4::before {
+          content: "|";
+          color: #FFC20E;
+          background-color: #FFC20E;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde h3 {
+          padding: 24px 20px 0px 8px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 120%; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p {
+          padding: 24px 20px 0px 8px;
+          margin-bottom: 48px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p::before {
+          content: "|";
+          color: #FFC20E;
+          background-color: #FFC20E;
+          position: relative;
+          top: 0px;
+          width: 0px;
+          left: -10px; }
+  /* Sección Incubadora de Ideas */
+  .contenedor__presentarProyecto {
+    margin: 32px 20px 48px 20px;
+    display: flex;
+    background-color: #FFC20E; }
+    .contenedor__presentarProyecto img {
+      padding: 8px 0px 16px 30px; }
+    .contenedor__presentarProyecto p {
+      padding: 32px 8px 16px 26px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+      .contenedor__presentarProyecto p .imgText__presentarProyecto {
+        width: 24px;
+        padding: unset; }
+      .contenedor__presentarProyecto p span {
+        font-weight: 600;
+        line-height: 16px; }
+  /* Sección Pathfinder */
+  .container__pathfinder {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    padding-left: 20px; }
+    .container__pathfinder img {
+      width: 100%;
+      padding: 48px 20px 0px 0px; }
+    .container__pathfinder p {
+      padding: 40px 0px 0px 4px;
+      color: #FFC20E;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 13px; }
+    .container__pathfinder .container__pathfinder_border {
+      border-left: 1px solid rgba(189, 189, 189, 0.5); }
+      .container__pathfinder .container__pathfinder_border h4 {
+        padding: 8px 20px 0px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+      .container__pathfinder .container__pathfinder_border p {
+        padding: 12px 20px 0px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+      .container__pathfinder .container__pathfinder_border .ultimoTexto_pathfinder_borde {
+        margin-bottom: 60px; }
+      .container__pathfinder .container__pathfinder_border p::before {
+        content: ".";
+        color: #FFC20E;
+        background-color: #FFC20E;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+  .contenedor__detalleProgramaIncuba {
+    position: relative;
+    top: -24px;
+    margin: 48px 20px 48px 0px;
+    background-color: #FFC20E;
+    display: flex; }
+    .contenedor__detalleProgramaIncuba img {
+      padding: unset;
+      padding: 20px 0px 15px 30px;
+      width: 48px; }
+    .contenedor__detalleProgramaIncuba p {
+      padding: unset;
+      padding: 32px 5px 10px 24px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+      .contenedor__detalleProgramaIncuba p .imgText__detallePrograma {
+        padding: unset;
+        width: 24px; } }
+
+@media only screen and (min-width: 481px) and (max-width: 599px) {
+  .container__imagen__ayoincuba {
+    background-image: url("../../imagenes/ayoIncuba/1ayoIncuba600.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .container__imagen__ayoincuba h1 {
+      padding: 100px 20px 0px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .container__imagen__ayoincuba p {
+      padding: 16px 20px 0px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+    .container__imagen__ayoincuba a img {
+      margin: 4px 0px 56px 20px; }
+  /* Sección Apoyo e Impulso */
+  .seccionApoyoImpulso {
+    background-color: #FCFCFC;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
+    .seccionApoyoImpulso .subTitulo_apoyoImpulso {
+      color: #FFC20E;
+      padding: 32px 0px 0px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 13px; }
+    .seccionApoyoImpulso .container__apoyoImpulso {
+      padding-left: 20px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde {
+        border-left: 1px solid rgba(189, 189, 189, 0.5); }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde h2 {
+          padding: 0px 20px 24px 8px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 120%; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde p {
+          padding: 0px 20px 14px 8px;
+          color: #1A1A1A;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1 {
+          color: #000000;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1::before {
+          content: "|";
+          color: #FFC20E;
+          background-color: #FFC20E;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde2::before {
+          content: "|";
+          color: #FFC20E;
+          background-color: #FFC20E;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde3::before {
+          content: "|";
+          color: #FFC20E;
+          background-color: #FFC20E;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde4::before {
+          content: "|";
+          color: #FFC20E;
+          background-color: #FFC20E;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde h3 {
+          padding: 24px 20px 0px 8px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 120%; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p {
+          padding: 24px 20px 0px 8px;
+          margin-bottom: 48px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p::before {
+          content: "|";
+          color: #FFC20E;
+          background-color: #FFC20E;
+          position: relative;
+          top: 0px;
+          width: 0px;
+          left: -10px; }
+  /* Sección Incubadora de Ideas */
+  .contenedor__presentarProyecto {
+    margin: 32px 20px 48px 20px;
+    display: flex;
+    background-color: #FFC20E; }
+    .contenedor__presentarProyecto img {
+      padding: 8px 0px 16px 30px; }
+    .contenedor__presentarProyecto p {
+      padding: 32px 8px 16px 26px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px; }
+      .contenedor__presentarProyecto p .imgText__presentarProyecto {
+        width: 24px;
+        padding: unset; }
+      .contenedor__presentarProyecto p span {
+        font-weight: 600;
+        line-height: 16px; }
+  /* Sección Pathfinder */
+  .container__pathfinder {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    padding-left: 20px; }
+    .container__pathfinder img {
+      width: 100%;
+      padding: 48px 20px 0px 0px; }
+    .container__pathfinder p {
+      padding: 40px 0px 0px 4px;
+      color: #FFC20E;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 13px; }
+    .container__pathfinder .container__pathfinder_border {
+      border-left: 1px solid rgba(189, 189, 189, 0.5); }
+      .container__pathfinder .container__pathfinder_border h4 {
+        padding: 8px 20px 0px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+      .container__pathfinder .container__pathfinder_border p {
+        padding: 12px 20px 0px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+      .container__pathfinder .container__pathfinder_border .ultimoTexto_pathfinder_borde {
+        margin-bottom: 60px; }
       .container__pathfinder .container__pathfinder_border p::before {
         content: ".";
         color: #FFC20E;
@@ -2188,139 +3627,205 @@ body {
 @media only screen and (max-width: 320px) {
   footer {
     background-image: url("../imagenes/footer/fondoFooter.png"); }
-  .logo__footer {
-    margin-top: 56px;
-    padding-left: 20px;
-    width: 200px;
-    height: 33px; }
-  .colum__footer {
-    padding: unset;
-    padding-top: 50px; }
-    .colum__footer a {
-      text-decoration: none; }
-      .colum__footer a li {
-        color: #FFFFFF;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 19px;
-        padding: 16px 0px 0px 20px;
-        list-style: none; }
-  .footer__container .footer__contactanos {
-    padding: 32px 0px 0px 20px;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19px; }
-  .footer__container p {
-    color: #FFFFFF;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px; }
-    .footer__container p img {
-      padding-right: 11px; }
-  .footer__container .footer_datosPersonales {
-    padding-left: 20px; }
-  .footer__redesSociales p {
-    padding: unset;
-    padding: 12px 0px 10px 20px;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19px; }
-  .footer__redesSociales .container__redesSociales__icons {
-    padding-left: 20px; }
-  .footer__redesSociales img {
-    padding-right: 15px; }
-  .footer__redesSociales .footer__avisoLegal {
-    padding: unset;
-    margin: unset;
-    padding: 46px 30px 40px 30px;
-    color: #FFFFFF;
-    text-align: center;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 13px; } }
+    footer a .logo__footer {
+      margin-top: 56px;
+      padding-left: 20px;
+      width: 200px; }
+    footer .colum__footer {
+      padding: unset;
+      padding-top: 24px; }
+      footer .colum__footer a {
+        text-decoration: none; }
+        footer .colum__footer a li {
+          color: #FFFFFF;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 19px;
+          padding: 16px 0px 0px 20px;
+          list-style: none; }
+    footer .footer__container .footer__contactanos {
+      padding: 32px 0px 0px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px; }
+    footer .footer__container p {
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px; }
+      footer .footer__container p img {
+        padding-right: 11px; }
+    footer .footer__container .footer_datosPersonales {
+      padding-left: 20px; }
+    footer .footer__redesSociales p {
+      padding: unset;
+      padding: 12px 0px 10px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px; }
+    footer .footer__redesSociales .container__redesSociales__icons {
+      padding-left: 20px; }
+    footer .footer__redesSociales img {
+      padding-right: 15px; }
+    footer .footer__redesSociales .footer__avisoLegal {
+      padding: unset;
+      margin: unset;
+      padding: 46px 30px 40px 30px;
+      color: #FFFFFF;
+      text-align: center;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 11px;
+      line-height: 13px; } }
 
-@media only screen and (min-width: 321px) and (max-width: 599px) {
+@media only screen and (min-width: 321px) and (max-width: 480px) {
   footer {
-    background-image: url("../imagenes/footer/fondoFooter.png");
+    background-image: url("../../imagenes/footer/footer480.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     position: relative; }
-  .logo__footer {
-    margin-top: 56px;
-    padding-left: 20px;
-    width: 211px;
-    height: 33px; }
-  .colum__footer {
-    padding: unset;
-    padding-top: 50px; }
-    .colum__footer a {
-      text-decoration: none; }
-      .colum__footer a li {
-        color: #FFFFFF;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 19px;
-        padding: 16px 0px 0px 20px;
-        list-style: none; }
-  .footer__container .footer__contactanos {
-    padding: 32px 0px 0px 20px;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19px; }
-  .footer__container p {
-    color: #FFFFFF;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px; }
-    .footer__container p img {
-      padding-right: 11px; }
-  .footer__container .footer_datosPersonales {
-    padding-left: 20px; }
-  .footer__redesSociales p {
-    padding: unset;
-    padding: 12px 0px 10px 20px;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19px; }
-  .footer__redesSociales .container__redesSociales__icons {
-    padding-left: 20px; }
-  .footer__redesSociales img {
-    padding-right: 15px; }
-  .footer__redesSociales .footer__avisoLegal {
-    padding: unset;
-    margin: unset;
-    padding: 46px 30px 40px 30px;
-    color: #FFFFFF;
-    text-align: center;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 13px; } }
+    footer a .logo__footer {
+      margin-top: 56px;
+      padding-left: 20px;
+      width: 200px;
+      height: 33px; }
+    footer .colum__footer {
+      padding: unset;
+      padding-top: 24px; }
+      footer .colum__footer a {
+        text-decoration: none; }
+        footer .colum__footer a li {
+          color: #FFFFFF;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 19px;
+          padding: 16px 0px 0px 20px;
+          list-style: none; }
+    footer .footer__container .footer__contactanos {
+      padding: 32px 0px 0px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px; }
+    footer .footer__container p {
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px; }
+      footer .footer__container p img {
+        padding-right: 11px; }
+    footer .footer__container .footer_datosPersonales {
+      padding-left: 20px; }
+    footer .footer__redesSociales p {
+      padding: unset;
+      padding: 12px 0px 10px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px; }
+    footer .footer__redesSociales .container__redesSociales__icons {
+      padding-left: 20px; }
+    footer .footer__redesSociales img {
+      padding-right: 15px; }
+    footer .footer__redesSociales .footer__avisoLegal {
+      padding: unset;
+      margin: unset;
+      padding: 46px 30px 40px 30px;
+      color: #FFFFFF;
+      text-align: center;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 11px;
+      line-height: 13px; } }
+
+@media only screen and (min-width: 481px) and (max-width: 599px) {
+  footer {
+    background-image: url("../../imagenes/footer/footer600.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    footer a .logo__footer {
+      margin-top: 56px;
+      padding-left: 20px;
+      width: 200px;
+      height: 33px; }
+    footer .colum__footer {
+      padding: unset;
+      padding-top: 24px; }
+      footer .colum__footer a {
+        text-decoration: none; }
+        footer .colum__footer a li {
+          color: #FFFFFF;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 19px;
+          padding: 16px 0px 0px 20px;
+          list-style: none; }
+    footer .footer__container .footer__contactanos {
+      padding: 32px 0px 0px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px; }
+    footer .footer__container p {
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px; }
+      footer .footer__container p img {
+        padding-right: 11px; }
+    footer .footer__container .footer_datosPersonales {
+      padding-left: 20px; }
+    footer .footer__redesSociales p {
+      padding: unset;
+      padding: 12px 0px 10px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px; }
+    footer .footer__redesSociales .container__redesSociales__icons {
+      padding-left: 20px; }
+    footer .footer__redesSociales img {
+      padding-right: 15px; }
+    footer .footer__redesSociales .footer__avisoLegal {
+      padding: unset;
+      margin: unset;
+      padding: 46px 30px 40px 30px;
+      color: #FFFFFF;
+      text-align: center;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 11px;
+      line-height: 13px; } }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   footer {
-    background-image: url("../imagenes/footer/fondoFooter.png");
+    background-image: url("../../imagenes/footer/footer600.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     position: relative; }
   .logo__footer {
     margin-top: 56px;
@@ -2394,7 +3899,7 @@ body {
     background-size: 100%;
     position: relative; }
     .container__imagen__sobreAyo h1 {
-      padding: 80px 0px 0px 20px;
+      padding: 80px 20px 0px 20px;
       color: #FFFFFF;
       font-family: Raleway;
       font-style: normal;
@@ -2404,26 +3909,30 @@ body {
       .container__imagen__sobreAyo h1 span {
         display: block; }
     .container__imagen__sobreAyo p {
-      padding: 16px 0px 0px 20px;
+      padding: 16px 20px 0px 20px;
       color: #FFFFFF;
       font-family: Raleway;
       font-style: normal;
       font-weight: 500;
       font-size: 14px;
       line-height: 20px; }
-    .container__imagen__sobreAyo button {
-      margin: 12px 0px 40px 20px;
-      padding: 12px 24px;
-      background: rgba(45, 41, 38, 0.25);
-      color: #FFFFFF;
-      border: 1px solid #FFFFFF;
-      box-sizing: border-box;
-      border-radius: 40px;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 24px; }
+    .container__imagen__sobreAyo .btn__container__imagen {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding-top: 10px; }
+      .container__imagen__sobreAyo .btn__container__imagen a {
+        width: 115px;
+        height: 48px;
+        padding: 0px 120px 0px 20px;
+        margin-bottom: 72px; }
+      .container__imagen__sobreAyo .btn__container__imagen .btn__donar__imagen {
+        margin-left: 15px;
+        border-radius: 40px;
+        padding: 12px 24px;
+        background-color: #FFFFFF;
+        color: #2D2926;
+        border: none; }
   .seccionMV_sobreAyo {
     padding: unset;
     padding: 0px 8px;
@@ -2432,6 +3941,7 @@ body {
     align-self: center;
     align-items: center; }
     .seccionMV_sobreAyo .cardMision {
+      margin-top: 40px;
       width: 18rem; }
     .seccionMV_sobreAyo .cardVision {
       width: 18rem; }
@@ -2709,12 +4219,12 @@ body {
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
   .container__imagen__sobreAyo {
-    background-image: url("../../imagenes/sobreNosotros/1sobreNosotros.jpg");
+    background-image: url("../../imagenes/sobreNosotros/1sobreNosotros480.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     position: relative; }
     .container__imagen__sobreAyo h1 {
-      padding: 80px 0px 0px 20px;
+      padding: 80px 20px 0px 20px;
       color: #FFFFFF;
       font-family: Raleway;
       font-style: normal;
@@ -2724,26 +4234,30 @@ body {
       .container__imagen__sobreAyo h1 span {
         display: block; }
     .container__imagen__sobreAyo p {
-      padding: 16px 0px 0px 20px;
+      padding: 16px 20px 0px 20px;
       color: #FFFFFF;
       font-family: Raleway;
       font-style: normal;
       font-weight: 500;
       font-size: 14px;
       line-height: 20px; }
-    .container__imagen__sobreAyo button {
-      margin: 12px 0px 40px 20px;
-      padding: 12px 24px;
-      background: rgba(45, 41, 38, 0.25);
-      color: #FFFFFF;
-      border: 1px solid #FFFFFF;
-      box-sizing: border-box;
-      border-radius: 40px;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 24px; }
+    .container__imagen__sobreAyo .btn__container__imagen {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding-top: 10px; }
+      .container__imagen__sobreAyo .btn__container__imagen a {
+        width: 115px;
+        height: 48px;
+        padding: 0px 120px 0px 20px;
+        margin-bottom: 72px; }
+      .container__imagen__sobreAyo .btn__container__imagen .btn__donar__imagen {
+        margin-left: 15px;
+        border-radius: 40px;
+        padding: 12px 24px;
+        background-color: #FFFFFF;
+        color: #2D2926;
+        border: none; }
   .seccionMV_sobreAyo {
     padding: unset;
     padding: 0px 8px;
@@ -2752,13 +4266,10 @@ body {
     align-self: center;
     align-items: center; }
     .seccionMV_sobreAyo .cardMision {
-      width: 90%;
-      height: 100%;
-      padding: 0px; }
+      margin-top: 40px;
+      width: 18rem; }
     .seccionMV_sobreAyo .cardVision {
-      width: 90%;
-      height: 100%;
-      padding: 0px; }
+      width: 18rem; }
   .subTitulo__seccionMV {
     color: #1CABE2;
     padding: unset;
@@ -2828,7 +4339,11 @@ body {
             font-size: 14px;
             line-height: 20px; }
           .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border span {
-            font-weight: bold; }
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px; }
           .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .subTitulosAreasEstrategicas_sobreAyo::before {
             content: "|";
             color: #1CABE2;
@@ -2957,18 +4472,11 @@ body {
       line-height: 120%; }
     .seccionEquipo_sobreAyo .containerEquipo_sobreAyo {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
       padding: 0px; }
       .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagenIntegrante_sobreAyo {
         padding-bottom: 20px; }
-      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagen1_sobreAyo {
-        padding-right: 20px; }
-      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagen3_sobreAyo {
-        padding-right: 20px; }
-      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagen5_sobreAyo {
-        padding-right: 20px; }
       .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .nombreIntegranteEquipo_sobreAyo {
         text-align: center;
         color: #000000;
@@ -2992,9 +4500,6 @@ body {
         line-height: 13px; }
         .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .cargoIntegranteEquipo_sobreAyo span {
           display: block; }
-      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo .ultimaFoto_sobreAyo {
-        position: relative;
-        top: -3.5px; }
   .seccionColaboradores_sobreAyo {
     position: relative;
     top: -56px; }
@@ -3008,18 +4513,11 @@ body {
       line-height: 120%; }
     .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
       padding: 0px; }
       .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagenIntegrante_sobreAyo {
         padding-bottom: 20px; }
-      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen1_sobreAyo {
-        padding-right: 20px; }
-      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen3_sobreAyo {
-        padding-right: 20px; }
-      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen5_sobreAyo {
-        padding-right: 20px; }
       .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo {
         text-align: center;
         color: #000000;
@@ -3042,19 +4540,16 @@ body {
         font-size: 11px;
         line-height: 13px; }
         .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .cargoIntegranteColaboradores_sobreAyo span {
-          display: block; }
-      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo .ultimaFoto_sobreAyo {
-        position: relative;
-        top: -7px; } }
+          display: block; } }
 
 @media only screen and (min-width: 481px) and (max-width: 599px) {
   .container__imagen__sobreAyo {
-    background-image: url("../../imagenes/sobreNosotros/1sobreNosotros.jpg");
+    background-image: url("../../imagenes/sobreNosotros/1sobreNosotros600.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     position: relative; }
     .container__imagen__sobreAyo h1 {
-      padding: 80px 0px 0px 20px;
+      padding: 80px 20px 0px 20px;
       color: #FFFFFF;
       font-family: Raleway;
       font-style: normal;
@@ -3064,26 +4559,30 @@ body {
       .container__imagen__sobreAyo h1 span {
         display: block; }
     .container__imagen__sobreAyo p {
-      padding: 16px 0px 0px 20px;
+      padding: 16px 20px 0px 20px;
       color: #FFFFFF;
       font-family: Raleway;
       font-style: normal;
       font-weight: 500;
       font-size: 14px;
       line-height: 20px; }
-    .container__imagen__sobreAyo button {
-      margin: 12px 0px 40px 20px;
-      padding: 12px 24px;
-      background: rgba(45, 41, 38, 0.25);
-      color: #FFFFFF;
-      border: 1px solid #FFFFFF;
-      box-sizing: border-box;
-      border-radius: 40px;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 24px; }
+    .container__imagen__sobreAyo .btn__container__imagen {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding-top: 10px; }
+      .container__imagen__sobreAyo .btn__container__imagen a {
+        width: 115px;
+        height: 48px;
+        padding: 0px 120px 0px 20px;
+        margin-bottom: 72px; }
+      .container__imagen__sobreAyo .btn__container__imagen .btn__donar__imagen {
+        margin-left: 15px;
+        border-radius: 40px;
+        padding: 12px 24px;
+        background-color: #FFFFFF;
+        color: #2D2926;
+        border: none; }
   .seccionMV_sobreAyo {
     padding: unset;
     padding: 0px 8px;
@@ -3092,13 +4591,10 @@ body {
     align-self: center;
     align-items: center; }
     .seccionMV_sobreAyo .cardMision {
-      width: 100%;
-      height: 100%;
-      padding: 0px; }
+      margin-top: 40px;
+      width: 18rem; }
     .seccionMV_sobreAyo .cardVision {
-      width: 90%;
-      height: 100%;
-      padding: 0px; }
+      width: 18rem; }
   .subTitulo__seccionMV {
     color: #1CABE2;
     padding: unset;
@@ -3168,7 +4664,11 @@ body {
             font-size: 14px;
             line-height: 20px; }
           .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border span {
-            font-weight: bold; }
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px; }
           .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .subTitulosAreasEstrategicas_sobreAyo::before {
             content: "|";
             color: #1CABE2;
@@ -3297,20 +4797,11 @@ body {
       line-height: 120%; }
     .seccionEquipo_sobreAyo .containerEquipo_sobreAyo {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
       padding: 0px; }
-      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagen1_sobreAyo {
-        padding: 0px 10px 20px 10px; }
-      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagen2_sobreAyo {
-        padding: 0px 10px 20px 10px; }
-      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagen3_sobreAyo {
-        padding: 0px 10px 20px 10px; }
-      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagen4_sobreAyo {
-        padding: 0px 10px 20px 10px; }
-      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagen5_sobreAyo {
-        padding: 0px 10px 20px 10px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagenIntegrante_sobreAyo {
+        padding-bottom: 20px; }
       .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .nombreIntegranteEquipo_sobreAyo {
         text-align: center;
         color: #000000;
@@ -3334,13 +4825,6 @@ body {
         line-height: 13px; }
         .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .cargoIntegranteEquipo_sobreAyo span {
           display: block; }
-      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo .ultimaFoto_sobreAyo {
-        position: relative;
-        bottom: 4px; }
-        .seccionEquipo_sobreAyo .containerEquipo_sobreAyo .ultimaFoto_sobreAyo img {
-          padding: 0px 10px 20px 10px; }
-        .seccionEquipo_sobreAyo .containerEquipo_sobreAyo .ultimaFoto_sobreAyo .nombreIntegranteColaboradores_sobreAyo {
-          padding: 0; }
   .seccionColaboradores_sobreAyo {
     position: relative;
     top: -56px; }
@@ -3354,22 +4838,12 @@ body {
       line-height: 120%; }
     .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
       padding: 0px; }
-      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen1_sobreAyo {
-        padding: 0px 10px 20px 10px; }
-      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen2_sobreAyo {
-        padding: 0px 10px 20px 10px; }
-      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen3_sobreAyo {
-        padding: 0px 10px 20px 10px; }
-      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen4_sobreAyo {
-        padding: 0px 10px 20px 10px; }
-      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen5_sobreAyo {
-        padding: 0px 10px 20px 10px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagenIntegrante_sobreAyo {
+        padding-bottom: 20px; }
       .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo {
-        padding: unset;
         text-align: center;
         color: #000000;
         font-family: Raleway;
@@ -3382,7 +4856,7 @@ body {
           top: -2px;
           padding: 0px 8px 0px 0px; }
       .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .cargoIntegranteColaboradores_sobreAyo {
-        padding: unset;
+        padding-bottom: 24px;
         text-align: center;
         color: #000000;
         font-family: Raleway;
@@ -3391,11 +4865,4 @@ body {
         font-size: 11px;
         line-height: 13px; }
         .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .cargoIntegranteColaboradores_sobreAyo span {
-          display: block; }
-      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo .ultimaFoto_sobreAyo {
-        position: relative;
-        bottom: 8px; }
-        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo .ultimaFoto_sobreAyo img {
-          padding: 0px 10px 20px 10px; }
-        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo .ultimaFoto_sobreAyo .nombreIntegranteColaboradores_sobreAyo {
-          padding: 0; } }
+          display: block; } }

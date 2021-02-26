@@ -5,175 +5,267 @@ body{
 @media only screen and (max-width: 320px){
     footer{
         background-image: url("../imagenes/footer/fondoFooter.png");
-    }
-    .logo__footer{
-        margin-top: 56px;
-        padding-left: 20px;
-        width: 200px;
-        height: 33px;
-    }
-    .colum__footer{
-        padding: unset;
-        padding-top: 50px;
-        
-        a {
-            text-decoration:none;
-            li{
+        a{
+            .logo__footer{
+                margin-top: 56px;
+                padding-left: 20px;
+                width: 200px;
+            }
+        }
+        .colum__footer{
+            padding: unset;
+            padding-top: 24px;
+            
+            a {
+                text-decoration:none;
+                li{
+                    color: $blanco;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 19px;
+                    padding: 16px 0px 0px 20px;
+                    list-style: none;
+                }
+            }
+        }
+        .footer__container{
+            .footer__contactanos{
+                padding: 32px 0px 0px 20px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+            }
+            p{
                 color: $blanco;
                 font-family: Raleway;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 16px;
                 line-height: 19px;
-                padding: 16px 0px 0px 20px;
-                list-style: none;
+                img{
+                    padding-right: 11px;
+                }
+            }
+            .footer_datosPersonales{
+                padding-left: 20px;
             }
         }
-    }
-    .footer__container{
-        .footer__contactanos{
-            padding: 32px 0px 0px 20px;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 19px;
-        }
-        p{
-            color: $blanco;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 19px;
+        .footer__redesSociales{
+            p{
+                padding: unset;
+                padding: 12px 0px 10px 20px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+            }
+            .container__redesSociales__icons{
+                padding-left: 20px;
+            }
             img{
-                padding-right: 11px;
+                padding-right: 15px;
             }
-        }
-        .footer_datosPersonales{
-            padding-left: 20px;
-        }
-    }
-    .footer__redesSociales{
-        p{
-            padding: unset;
-            padding: 12px 0px 10px 20px;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 19px;
-        }
-        .container__redesSociales__icons{
-            padding-left: 20px;
-        }
-        img{
-            padding-right: 15px;
-        }
-        .footer__avisoLegal{
-            padding: unset;
-            margin: unset;
-            padding: 46px 30px 40px 30px;
-            color: $blanco;
-            text-align: center;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 11px;
-            line-height: 13px;           
+            .footer__avisoLegal{
+                padding: unset;
+                margin: unset;
+                padding: 46px 30px 40px 30px;
+                color: $blanco;
+                text-align: center;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 11px;
+                line-height: 13px;           
+            }
         }
     }
 }
-@media only screen and (min-width:321px) and (max-width: 599px){
+@media only screen and (min-width:321px) and (max-width: 480px){
     footer{
-        background-image: url("../imagenes/footer/fondoFooter.png");
+        background-image: url("../../imagenes/footer/footer480.jpg");
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 100% 100%;
         position: relative;
-    }
-    .logo__footer{
-        margin-top: 56px;
-        padding-left: 20px;
-        width: 211px;
-        height: 33px;
-    }
-    .colum__footer{
-        padding: unset;
-        padding-top: 50px;
-        
-        a {
-            text-decoration:none;
-            li{
+    
+        a{
+            .logo__footer{
+                margin-top: 56px;
+                padding-left: 20px;
+                width: 200px;
+                height: 33px;
+            }
+        }
+        .colum__footer{
+            padding: unset;
+            padding-top: 24px;
+            
+            a {
+                text-decoration:none;
+                li{
+                    color: $blanco;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 19px;
+                    padding: 16px 0px 0px 20px;
+                    list-style: none;
+                }
+            }
+        }
+        .footer__container{
+            .footer__contactanos{
+                padding: 32px 0px 0px 20px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+            }
+            p{
                 color: $blanco;
                 font-family: Raleway;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 16px;
                 line-height: 19px;
-                padding: 16px 0px 0px 20px;
-                list-style: none;
+                img{
+                    padding-right: 11px;
+                }
+            }
+            .footer_datosPersonales{
+                padding-left: 20px;
             }
         }
-    }
-    .footer__container{
-        .footer__contactanos{
-            padding: 32px 0px 0px 20px;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 19px;
-        }
-        p{
-            color: $blanco;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 19px;
+        .footer__redesSociales{
+            p{
+                padding: unset;
+                padding: 12px 0px 10px 20px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+            }
+            .container__redesSociales__icons{
+                padding-left: 20px;
+            }
             img{
-                padding-right: 11px;
+                padding-right: 15px;
+            }
+            .footer__avisoLegal{
+                padding: unset;
+                margin: unset;
+                padding: 46px 30px 40px 30px;
+                color: $blanco;
+                text-align: center;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 11px;
+                line-height: 13px;           
             }
         }
-        .footer_datosPersonales{
-            padding-left: 20px;
-        }
     }
-    .footer__redesSociales{
-        p{
+}
+@media only screen and (min-width: 481px) and (max-width: 599px){
+    footer{
+        background-image: url("../../imagenes/footer/footer600.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+    
+        a{
+            .logo__footer{
+                margin-top: 56px;
+                padding-left: 20px;
+                width: 200px;
+                height: 33px;
+            }
+        }
+        .colum__footer{
             padding: unset;
-            padding: 12px 0px 10px 20px;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 19px;
+            padding-top: 24px;
+            
+            a {
+                text-decoration:none;
+                li{
+                    color: $blanco;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 19px;
+                    padding: 16px 0px 0px 20px;
+                    list-style: none;
+                }
+            }
         }
-        .container__redesSociales__icons{
-            padding-left: 20px;
+        .footer__container{
+            .footer__contactanos{
+                padding: 32px 0px 0px 20px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+            }
+            p{
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+                img{
+                    padding-right: 11px;
+                }
+            }
+            .footer_datosPersonales{
+                padding-left: 20px;
+            }
         }
-        img{
-            padding-right: 15px;
-        }
-        .footer__avisoLegal{
-            padding: unset;
-            margin: unset;
-            padding: 46px 30px 40px 30px;
-            color: $blanco;
-            text-align: center;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 11px;
-            line-height: 13px;           
+        .footer__redesSociales{
+            p{
+                padding: unset;
+                padding: 12px 0px 10px 20px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+            }
+            .container__redesSociales__icons{
+                padding-left: 20px;
+            }
+            img{
+                padding-right: 15px;
+            }
+            .footer__avisoLegal{
+                padding: unset;
+                margin: unset;
+                padding: 46px 30px 40px 30px;
+                color: $blanco;
+                text-align: center;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 11px;
+                line-height: 13px;           
+            }
         }
     }
 }
 @media only screen and (min-width: 600px) and (max-width: 768px){
     footer{
-        background-image: url("../imagenes/footer/fondoFooter.png");
+        background-image: url("../../imagenes/footer/footer600.jpg");
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 100% 100%;
         position: relative;
     }
     .logo__footer{

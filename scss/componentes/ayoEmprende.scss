@@ -5,12 +5,12 @@ body{
 @media only screen and (max-width: 320px){
     /* Sección Imagen Inicio */
     .container__impactoSocial{
-        background-image: url("../imagenes/ayoEmprende/1ayoEmprende.jpg");
+        background-image: url("../imagenes/ayoEmprende/1ayoEmprende320.jpg");
         background-repeat: no-repeat;
         background-size: 100%;
         position: relative;
         h1{
-            padding: 158px 0px 0px 20px;
+            padding: 138px 20px 0px 20px;
             color: $blanco;
             font-family: Raleway;
             font-style: normal;
@@ -20,7 +20,7 @@ body{
             text-align: start;
         }
         p{
-            padding: 0px 16px 4px 20px;
+            padding: 0px 20px 4px 20px;
             color: $blanco;
             font-family: Raleway;
             font-style: normal;
@@ -28,21 +28,10 @@ body{
             font-size: 14px;
             line-height: 20px;
         }
-        button{
-            margin: 0px 0px 48px 20px;
-            text-align: center;
-            background-color: transparent;
-            border: 1px solid $blanco;
-            box-sizing: border-box;
-            border-radius: 40px;
-            color: $blanco;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 24px;
-            padding: 10px 18px;
-                    
+        a{
+            img{
+                padding: 0px 0px 60px 20px;
+            }
         }
     }
     .containerStartup{
@@ -103,6 +92,7 @@ body{
     }
     /* Sección Alcance */
     .seccion__alcance{
+        margin: 32px 0px 24px 0px;
         background-color: $azul__oscuro;
         p{
             padding: 20px 0px 16px 20px;
@@ -160,11 +150,11 @@ body{
         justify-content: center;
         .card__emprender{
             padding: unset;
-            margin: 20px 20px 10px 20px;
+            margin: 0px 20px 20px 20px;
             box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
             .card-body-container-Emprender{
                 padding: unset;
-                padding-left: 20px;
+                padding: 0px 20px;
                 h5::before{
                     content: "|";
                     background-color:$azul__oscuro;
@@ -197,7 +187,7 @@ body{
             width: 100%;
             height: 109px;
             padding: unset;
-            padding: 40px 20px 96px 20px;
+            padding: 44px 20px 104px 20px;
                 .card__detallePrograma{
                 background: $azul__oscuro;
                 display: flex;
@@ -255,7 +245,7 @@ body{
         }
         .list__container{
             padding: unset;
-            padding: 24px 0px 0px 22px;
+            padding: 16px 0px 0px 28px;
             list-style: none;
             div{
                 display: flex;
@@ -312,7 +302,7 @@ body{
         display: flex;
         padding: 64 20px 0px 20px;
         margin: 40px 20px 0px 20px;
-        background: rgba(28, 171, 226, 0.8);
+        background-color: $azul__oscuro;
         img{
             padding: 5px 20px 0px 25px;
         }
@@ -362,7 +352,7 @@ body{
     /* Sección Socios */
     .container__socios{
         p{
-            padding: 40px 0px 20px 22px;
+            padding: 64px 0px 0px 22px;
             color: $azul__oscuro;
             font-family: Raleway;
             font-style: normal;
@@ -386,12 +376,12 @@ body{
 @media only screen and (min-width:321px) and (max-width: 480px){
     /* Sección Imagen Inicio */
     .container__impactoSocial{
-        background-image: url("../imagenes/ayoEmprende/1ayoEmprende.jpg");
+        background-image: url("../imagenes/ayoEmprende/1ayoEmprende480.jpg");
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 100% 100%;
         position: relative;
         h1{
-            padding: 158px 0px 0px 20px;
+            padding: 138px 20px 0px 20px;
             color: $blanco;
             font-family: Raleway;
             font-style: normal;
@@ -401,7 +391,7 @@ body{
             text-align: start;
         }
         p{
-            padding: 0px 16px 4px 20px;
+            padding: 0px 20px 4px 20px;
             color: $blanco;
             font-family: Raleway;
             font-style: normal;
@@ -409,21 +399,10 @@ body{
             font-size: 14px;
             line-height: 20px;
         }
-        button{
-            margin: 0px 0px 48px 20px;
-            text-align: center;
-            background-color: transparent;
-            border: 1px solid $blanco;
-            box-sizing: border-box;
-            border-radius: 40px;
-            color: $blanco;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 24px;
-            padding: 10px 18px;
-                    
+        a{
+            img{
+                padding: 0px 0px 60px 20px;
+            }
         }
     }
     .containerStartup{
@@ -484,6 +463,7 @@ body{
     }
     /* Sección Alcance */
     .seccion__alcance{
+        margin: 32px 0px 24px 0px;
         background-color: $azul__oscuro;
         p{
             padding: 20px 0px 16px 20px;
@@ -539,16 +519,13 @@ body{
     .card__container__emrender{
         display: grid;
         justify-content: center;
-        
         .card__emprender{
             padding: unset;
-            margin: 25px 20px 20px 20px;
+            margin: 0px 20px 20px 20px;
             box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
-            
             .card-body-container-Emprender{
-                width: 100%;
                 padding: unset;
-                padding-left: 20px;
+                padding: 0px 20px;
                 h5::before{
                     content: "|";
                     background-color:$azul__oscuro;
@@ -577,15 +554,11 @@ body{
                 line-height: 150%;
             }
         }
-        .mentoring{
-            margin-top: 24px;
-        }
         .detallePrograma{
-            
             width: 100%;
             height: 109px;
             padding: unset;
-            padding: 40px 20px 96px 20px;
+            padding: 44px 20px 104px 20px;
                 .card__detallePrograma{
                 background: $azul__oscuro;
                 display: flex;
@@ -643,15 +616,14 @@ body{
         }
         .list__container{
             padding: unset;
-            padding: 24px 0px 0px 22px;
+            padding: 16px 0px 0px 28px;
             list-style: none;
             div{
                 display: flex;
-                flex-direction: row;
 
                 .iconoParticipantes1{
                     position: relative;
-                    top: 0px;
+                    top: -15px;
                     left: -9px;
                 }
                 .iconoParticipantes2{
@@ -661,7 +633,7 @@ body{
                 }
                 .iconoParticipantes3{
                     position: relative;
-                    top: 0px;
+                    top: -15px;
                     left: -9px;
                 }
                 .iconoParticipantes4{
@@ -681,7 +653,7 @@ body{
                 }
                 .iconoParticipantes7{
                     position: relative;
-                    top: 5px;
+                    top: -5px;
                     left: -9px;
                 }
                 li{
@@ -701,7 +673,7 @@ body{
         display: flex;
         padding: 64 20px 0px 20px;
         margin: 40px 20px 0px 20px;
-        background: rgba(28, 171, 226, 0.8);
+        background-color: $azul__oscuro;
         img{
             padding: 5px 20px 0px 25px;
         }
@@ -751,7 +723,7 @@ body{
     /* Sección Socios */
     .container__socios{
         p{
-            padding: 40px 0px 20px 22px;
+            padding: 64px 0px 0px 22px;
             color: $azul__oscuro;
             font-family: Raleway;
             font-style: normal;
@@ -773,7 +745,375 @@ body{
     }
 }
 @media only screen and (min-width:481px) and (max-width: 599px){
-    
+    /* Sección Imagen Inicio */
+    .container__impactoSocial{
+        background-image: url("../imagenes/ayoEmprende/1ayoEmprende600.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        h1{
+            padding: 138px 20px 0px 20px;
+            color: $blanco;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px;
+            text-align: start;
+        }
+        p{
+            padding: 0px 20px 4px 20px;
+            color: $blanco;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+        }
+        a{
+            img{
+                padding: 0px 0px 60px 20px;
+            }
+        }
+    }
+    .containerStartup{
+        .subTitulo{
+            padding: 32px 0px 0px 20px;
+            color: $azul__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px;
+        }
+        h2{
+            padding: 0px 0px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        p{
+            padding: 0px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+        }
+    }
+    .container__listStartup{
+        padding-left: 20px;
+        
+        .container__listStartup-border{
+            border-left: 1px solid #DFE5EB;
+            div{
+                p::before{
+                    content: "|";
+                    color: $azul__oscuro;
+                    background-color:$azul__oscuro;
+                    position: relative;
+                    top: 0px;
+                    width: 1px;
+                    left: -10px
+                }
+            }
+        }
+        img{
+            padding: 10px 20px 16px 8px;
+        }
+        p{
+            padding: unset;
+            padding: 0px 20px 0px 8px;
+        }
+        
+        
+    }
+    /* Sección Alcance */
+    .seccion__alcance{
+        margin: 32px 0px 24px 0px;
+        background-color: $azul__oscuro;
+        p{
+            padding: 20px 0px 16px 20px;
+            color: $blanco;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px;
+        }
+        h3{
+            padding: unset;
+            padding: 0px 0px 16px 20px;
+            color: $blanco;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        .container__alcance{
+            padding-left: 20px;
+            p{
+                padding: unset;
+                padding: 0px 20px 16px 8px;
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+            }
+            .container__alcance-border{
+                padding: unset;
+                border-left: 1px solid #DFE5EB;
+                padding-bottom: 30px;
+                div{
+                    p::before{
+                        content: "|";
+                        background-color:$blanco;
+                        color: $blanco;
+                        position: relative;
+                        top: 0px;
+                        width: 1px;
+                        left: -10px;
+                    }
+                }
+            }
+             
+        }
+    }
+    /* Sección Emprender */
+    .card__container__emrender{
+        display: grid;
+        justify-content: center;
+        .card__emprender{
+            padding: unset;
+            margin: 0px 20px 20px 20px;
+            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+            .card-body-container-Emprender{
+                padding: unset;
+                padding: 0px 20px;
+                h5::before{
+                    content: "|";
+                    background-color:$azul__oscuro;
+                    color: $azul__oscuro;
+                    top: 0px;
+                    width: 1px;
+                    left: -20px;
+                    position: relative;
+                }
+            }
+            .card-title-emprender{
+                padding-top: 24px;
+                color: $negro__letras;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 22px;
+            }
+            .card-text-emprender{
+                color: $negro__letras;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 150%;
+            }
+        }
+        .detallePrograma{
+            width: 100%;
+            height: 109px;
+            padding: unset;
+            padding: 44px 20px 104px 20px;
+                .card__detallePrograma{
+                background: $azul__oscuro;
+                display: flex;
+                flex-direction: row;
+                img{
+                    color: $blanco;
+                    padding: 5px 0px 0px 32px;
+                }
+                .card-text-detallePrograma{
+                    padding: 25px 10px 0px 25px;
+                    color: $blanco;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 20px;
+                    span{
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 16px;
+                    }
+                    img{
+                        padding: unset;
+                        width: 20px;
+                    }
+                }
+            }
+        }
+    }
+    /* Sección Requisistos para participar si tienes un negocio */
+    .container__participarNegocio{
+        p{
+            padding: unset;
+            margin: unset;
+            color: $azul__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px;
+            padding: 32px 0px 0px 20px;
+        }
+        h4{
+            padding: unset;
+            margin: unset;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+            padding: 16px 0px 0px 20px;
+        }
+        .list__container{
+            padding: unset;
+            padding: 16px 0px 0px 28px;
+            list-style: none;
+            div{
+                display: flex;
+
+                .iconoParticipantes1{
+                    position: relative;
+                    top: -15px;
+                    left: -9px;
+                }
+                .iconoParticipantes2{
+                    position: relative;
+                    top: 5px;
+                    left: -9px;
+                }
+                .iconoParticipantes3{
+                    position: relative;
+                    top: -15px;
+                    left: -9px;
+                }
+                .iconoParticipantes4{
+                    position: relative;
+                    top: 5px;
+                    left: -9px;
+                }
+                .iconoParticipantes5{
+                    position: relative;
+                    top: 5px;
+                    left: -9px;
+                }
+                .iconoParticipantes6{
+                    position: relative;
+                    top: 5px;
+                    left: -9px;
+                }
+                .iconoParticipantes7{
+                    position: relative;
+                    top: -5px;
+                    left: -9px;
+                }
+                li{
+                    padding: 15px 20px 0px 0px;
+                    color: $negro__letras;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 150%;
+                }
+            }
+        }
+    }
+    /* Sección Candidatura */
+    .card__candidatura{
+        display: flex;
+        padding: 64 20px 0px 20px;
+        margin: 40px 20px 0px 20px;
+        background-color: $azul__oscuro;
+        img{
+            padding: 5px 20px 0px 25px;
+        }
+        p{
+            color: $blanco;
+            padding: 20px 20px 0px 0px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            span{
+                font-weight: 600;
+                line-height: 16px;
+            }
+            img{
+                padding: unset;
+                width: 20px;
+            }
+        }
+    }
+    .card__comiteInversion{
+        display: flex;
+        margin: 20px 20px 0px 20px;
+        background-color: $azul__oscuro;
+        img{
+            padding: 5px 20px 0px 25px;
+        }
+        p{
+            color: $blanco;
+            padding: 20px 20px 0px 0px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            span{
+                font-weight: 600;
+                line-height: 16px;
+            }            
+            img{
+                padding: unset;
+                width: 20px;
+            }
+        }
+    }
+    /* Sección Socios */
+    .container__socios{
+        p{
+            padding: 64px 0px 0px 22px;
+            color: $azul__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px;
+        }
+        div{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            img{
+                padding: 0px 20px 20px 20px;
+            }
+        }
+    }
+    .footer__emprender{
+        margin-top: 40px;
+    }
 }
 @media only screen and (min-width: 600px) and (max-width: 768px){
 

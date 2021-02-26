@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="favicon" href="">
+    <link rel="icon" href="../imagenes/favIcon.svg">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/main.css">
     <title>Sobre AYO</title>
 </head>
 <body>
-    <header>
+    <header id="site-header">
         <nav class="navbar navbar-expand-lg navbar-light navbar__nav">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html"><img src="../imagenes/logo_Blanco.svg" alt="logo"></a>
@@ -37,7 +37,7 @@
                         </li>
                       </ul>
                       <form class="d-flex btn__container">
-                        <button class="button__navbar btn__unete" type="submit">Únete -></button>
+                        <button class="button__navbar btn__unete" type="submit">Únete <img src="../imagenes/home/iconos/arrow right.svg" alt="Flecha Derecha"></button>
                         <button class="button__navbar" type="submit">Donar</button>
                       </form>
                 </div>
@@ -45,14 +45,17 @@
           </nav>
     </header>
     <section class="container__imagen__sobreAyo">
-        <h1>Sostenibilildad y fortalecimiento de entidades sociales</h1>
-        <p>Proyectos sociales que generan impacto social sostenible y escalable</p>
-        <button>Contáctanos <img src="../imagenes/home/iconos/arrow right.svg" alt="Arrow Right"></button>
+        <h1>Creemos en el valor y potencial de las personas </h1>
+        <p>Desarrollamos e impulsamos proyectos que generan oportunidades para jóvenes en situación o riesgo de exclusión social </p>
+        <div class="btn__container__imagen">
+          <a href="#"><img src="../imagenes/home/1btnHome.svg" alt="Boton Unete Home"></a>
+          <button type="submit" class="btn__imagen__home btn__donar__imagen">Donar</button>
+        </div>
     </section>
     <!-- Seccion MV Mision Vision -->
     <section class="seccionMV_sobreAyo">
         <div class="card cardMision">
-            <img src="../imagenes/sobreNosotros/2mision.svg" class="card-img-top" alt="Mision">
+            <img src="../imagenes/sobreNosotros/2mision.jpg" class="card-img-top" alt="Mision">
             <div class="card-body">
                 <p class="subTitulo__seccionMV"> MISIÓN</p>
               <p class="card-text textoCard">Generar oportunidades de crecimiento personal y profesional para jóvenes en riesgo de exclusión social y fortalecer el ecosistema de apoyo a este colectivo.</p>
@@ -229,5 +232,6 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
- </body>
+    <script src="../scrollNavBar.js"></script>
+  </body>
 </html>

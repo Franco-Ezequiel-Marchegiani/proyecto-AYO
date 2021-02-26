@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="favicon" href="">
+    <link rel="icon" href="../imagenes/favIcon.svg">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/main.css">
     <title>AYO Incuba</title>
 </head>
 <body>
-    <header>
+    <header id="site-header">
         <nav class="navbar navbar-expand-lg navbar-light navbar__nav">
             <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html"><img src="../imagenes/imagenes/logo_Blanco.svg" alt="logo"></a>
+              <a class="navbar-brand" href="../index.html"><img src="../imagenes/logo_Blanco.svg" alt="logo"></a>
               <button class="navbar-toggler btn__header" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class=""><img src="../imagenes/iconBurguer.png" alt="Icon Burger"></span>
               </button>
@@ -37,7 +37,7 @@
                         </li>
                       </ul>
                       <form class="d-flex btn__container">
-                        <button class="button__navbar btn__unete" type="submit">Únete -></button>
+                        <button class="button__navbar btn__unete" type="submit">Únete <img src="../imagenes/home/iconos/arrow right.svg" alt="Flecha Derecha"></button>
                         <button class="button__navbar" type="submit">Donar</button>
                       </form>
                 </div>
@@ -47,7 +47,7 @@
     <section class="container__imagen__ayoincuba">
         <h1><span>Proyectos con</span><span> impacto social</span></h1>
         <p>Programa de incubación a proyectos con impacto social, sostenible y escalable</p>
-        <button>Contáctanos <img src="../imagenes/home/iconos/arrow right.svg" alt="Arrow Right"></button>
+        <a href="#"><img src="../imagenes/btnContactanos.svg" alt="Boton Contactanos"></a>
     </section>
     <section class="seccionApoyoImpulso">
         <p class="subTitulo_apoyoImpulso">PROYECTOS CON IMPACTO SOCIAL</p>
@@ -58,10 +58,10 @@
                 <p class="texto__apoyoImpulso_borde2">AYO Incuba es un programa de incubación social para impulsar iniciativas que aborden la empleabilidad, educación y generación de oportunidades para jóvenes vulnerables</p>
                 <p class="texto__apoyoImpulso_borde3">AYO Incuba está abierto tanto a personas físicas y equipos que quieran lanzar o impulsar un proyecto social, como a entidades que quieren impulsar una iniciativa dentro de la estructura de su organización.</p>
                 <p class="texto__apoyoImpulso_borde4">A través de apoyo y acompañamiento personalizado AYO Incuba ayuda a afinar, implementar y escalar proyectos sociales con alto potencial.</p>
-                <div class="contenedor__incubadoraIdeas_borde">
-                  <h3>Incubadora de ideas</h3>
-                  <p>Si tienes un proyecto en mente o recién lanzado y necesitas ayuda para mejorarlo, validarlo o implementarlo, únete a nuestra incubadora de ideas sociales para que te ayudemos a hacerlo realidad y llevarlo al siguiente nivel.</p>
-              </div>
+                  <div class="contenedor__incubadoraIdeas_borde">
+                    <h3>Incubadora de ideas</h3>
+                    <p>Si tienes un proyecto en mente o recién lanzado y necesitas ayuda para mejorarlo, validarlo o implementarlo, únete a nuestra incubadora de ideas sociales para que te ayudemos a hacerlo realidad y llevarlo al siguiente nivel.</p>
+                  </div>
             </div>
         </div>
     </section>
@@ -72,13 +72,13 @@
         </div>
     </section>
     <section class="container__pathfinder">
-        <img src="../imagenes/home/imagenInicioHome.jpg" alt="Imagen Pathfinder">
+        <img src="../imagenes/ayoIncuba/2ayoIncuba.jpg" alt="Imagen Pathfinder">
         <p>ACTUALMENTE ESTAMOS APOYANDO A</p>
         <div class="container__pathfinder_border">
             <h4>Pathfinder</h4>
             <p class="texto_pathfinder_borde">Programa dirigido a reducir la brecha digital en familias en riesgo de exclusión social a través de una intervención multidimensional.</p>
             <p class="texto_pathfinder_borde">Desde Ayo Incuba ofrecemos acompañamiento y apoyo estratégico para diseñar e implementar la escalada del programa, incluyendo su medición a través de la metodología SROI.</p>
-            <p class="texto_pathfinder_borde">Pathfinder es un programa de Sogeviso, service inmobiliario especializado en la gestión socialmente responsable y económicamente sostenible de carteras de inmuebles.</p>
+            <p class="texto_pathfinder_borde ultimoTexto_pathfinder_borde">Pathfinder es un programa de Sogeviso, service inmobiliario especializado en la gestión socialmente responsable y económicamente sostenible de carteras de inmuebles.</p>
         </div>
         <div class="contenedor__detalleProgramaIncuba">
             <img src="../imagenes/ayoIncuba/detallesProgramaIcon.svg" alt="Icono lapiz">
@@ -113,4 +113,6 @@
           </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-</body>
+    <script src="../scrollNavBar.js"></script>
+  </body>
+</html>

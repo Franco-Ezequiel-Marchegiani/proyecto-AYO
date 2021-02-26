@@ -5,16 +5,16 @@ body{
 @media only screen and (max-width: 320px){
     /* Sección Imagen de Home */
     .imagen__inicio__home{
-        position: absolute;
-        background-image: url("../imagenes/home/imagenInicioHome.jpg");
+        background-image: url("../../imagenes/home/imagenInicioHome320.jpg");
         background-repeat: no-repeat;
+        height: 100%;
         background-size: 100%;
         position: relative;
         .text__container{
             padding: 0px 10px 0px 10px;
             .title__home{
                 text-align: left;
-                padding: 80px 0px 0px 10px;
+                padding: 80px 20px 0px 10px;
                 display: flex;
                 color: $blanco;
                 font-style: normal;
@@ -26,7 +26,7 @@ body{
                 
             }
             .subtitulo_inicio{
-                padding: 10px 0px 0px 10px;
+                padding: 10px 20px 0px 10px;
                 color: $blanco;
                 font-style: normal;
                 font-weight: 500;
@@ -40,24 +40,10 @@ body{
                 align-items: flex-start;
                 
                 padding-top: 10px;
-                
-                .btn__unete__imagen{
-                    text-align: center;
-                    background-color: transparent;
-                    border: 1px solid $blanco;
-                    box-sizing: border-box;
-                    border-radius: 40px;
-                    color: $blanco;
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 16px;
-                    line-height: 24px;
-                    padding: 10px 18px;
-                    
-                    .flecha__button__imagen{
-                        width: 30px;
-                        margin-left:5px;
-                    }
+                a{
+                    width: 115px;
+                    height: 48px;
+                    padding: 0px 120px 0px 10px;
                 }
                 .btn__donar__imagen{
                     margin-left: 15px;
@@ -95,9 +81,9 @@ body{
             justify-content: center;
             overflow-x: scroll;
             white-space: nowrap;
-            padding-left: 310px;
+            padding-left: 320px;
             img{
-                width: 360px;
+                width: 160px;
                 padding: 10px 8px;
             }
         }
@@ -248,7 +234,7 @@ body{
     }
     /* Sección "Medicion De Impacto */
     .medicionImpacto{
-        background-image: url("../imagenes/home/fondoMedicionimpacto.png");
+        background-color: $celeste;
         display: grid;
         grid-template-areas:
         "logo"
@@ -352,15 +338,15 @@ body{
 }
 @media only screen and (min-width:321px) and (max-width: 480px){
     .imagen__inicio__home{
-        background-image: url("../imagenes/home/imagenInicioHome.jpg");
+        background-image: url("../imagenes/home/imagenInicioHome480.jpg");
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 100% 100%;
         position: relative;
         .text__container{
             padding: 0px 10px 0px 10px;
             .title__home{
                 text-align: left;
-                padding: 80px 0px 0px 10px;
+                padding: 160px 20px 0px 10px;
                 display: flex;
                 color: $blanco;
                 font-style: normal;
@@ -372,7 +358,7 @@ body{
                 
             }
             .subtitulo_inicio{
-                padding: 10px 0px 0px 10px;
+                padding: 10px 20px 0px 10px;
                 color: $blanco;
                 font-style: normal;
                 font-weight: 500;
@@ -386,25 +372,6 @@ body{
                 align-items: flex-start;
                 
                 padding-top: 10px;
-                
-                .btn__unete__imagen{
-                    text-align: center;
-                    background-color: transparent;
-                    border: 1px solid $blanco;
-                    box-sizing: border-box;
-                    border-radius: 40px;
-                    color: $blanco;
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 16px;
-                    line-height: 24px;
-                    padding: 10px 18px;
-                    
-                    .flecha__button__imagen{
-                        width: 30px;
-                        margin-left:5px;
-                    }
-                }
                 .btn__donar__imagen{
                     margin-left: 15px;
                     border-radius: 40px;
@@ -441,7 +408,7 @@ body{
             justify-content: center;
             overflow-x: scroll;
             white-space: nowrap;
-            padding-left: 136px;
+            padding-left: 184px;
             img{
                 width: 50px;
                 padding: 10px 8px;
@@ -591,7 +558,7 @@ body{
     }
     /* Sección "Medicion De Impacto */
     .medicionImpacto{
-        background-image: url("../imagenes/home/fondoMedicionimpacto.png");
+        background-color: $celeste;
         display: grid;
         grid-template-areas:
         "logo"
@@ -695,15 +662,15 @@ body{
 }
 @media only screen and (min-width: 481px) and (max-width: 600px){
     .imagen__inicio__home{
-        background-image: url("../imagenes/home/imagenInicioHome.jpg");
+        background-image: url("../imagenes/home/imagenInicioHome600.jpg");
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 100% 100%;
         position: relative;
         .text__container{
             padding: 0px 10px 0px 10px;
             .title__home{
                 text-align: left;
-                padding: 80px 0px 0px 10px;
+                padding: 160px 20px 0px 10px;
                 display: flex;
                 color: $blanco;
                 font-style: normal;
@@ -715,7 +682,7 @@ body{
                 
             }
             .subtitulo_inicio{
-                padding: 10px 0px 0px 10px;
+                padding: 10px 20px 0px 10px;
                 color: $blanco;
                 font-style: normal;
                 font-weight: 500;
@@ -729,25 +696,6 @@ body{
                 align-items: flex-start;
                 
                 padding-top: 10px;
-                
-                .btn__unete__imagen{
-                    text-align: center;
-                    background-color: transparent;
-                    border: 1px solid $blanco;
-                    box-sizing: border-box;
-                    border-radius: 40px;
-                    color: $blanco;
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 16px;
-                    line-height: 24px;
-                    padding: 10px 18px;
-                    
-                    .flecha__button__imagen{
-                        width: 30px;
-                        margin-left:5px;
-                    }
-                }
                 .btn__donar__imagen{
                     margin-left: 15px;
                     border-radius: 40px;
@@ -782,8 +730,10 @@ body{
         .partners__containers{
             display: flex;
             justify-content: center;
-            flex-wrap: wrap;
-            padding: 0px 20px;
+            overflow-x: scroll;
+            white-space: nowrap;
+            padding-left: 320px;
+            
             img{
                 padding: 10px 18px;
             }
@@ -928,7 +878,7 @@ body{
     }
     /* Sección "Medicion De Impacto */
     .medicionImpacto{
-        background-image: url("../imagenes/home/fondoMedicionimpacto.png");
+        background-color: $celeste;
         display: grid;
         grid-template-areas:
         "logo"

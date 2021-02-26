@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="favicon" href="">
+    <link rel="icon" href="../imagenes/favIcon.svg">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/main.css">
     <title>AYO Acelera</title>
 </head>
 <body>
-    <header>
+    <header id="site-header">
         <nav class="navbar navbar-expand-lg navbar-light navbar__nav">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html"><img src="../imagenes/logo_Blanco.svg" alt="logo"></a>
@@ -37,7 +37,7 @@
                         </li>
                       </ul>
                       <form class="d-flex btn__container">
-                        <button class="button__navbar btn__unete" type="submit">Únete -></button>
+                        <button class="button__navbar btn__unete" type="submit">Únete <img src="../imagenes/home/iconos/arrow right.svg" alt="Flecha Derecha"></button>
                         <button class="button__navbar" type="submit">Donar</button>
                       </form>
                 </div>
@@ -47,7 +47,7 @@
     <section class="container__imagen__ayoAcelera">
         <h1>Sostenibilildad y fortalecimiento de entidades sociales</h1>
         <p>Fortalecimiento de capacidades para entidades y equipos de trabajo social</p>
-        <button>Contáctanos <img src="../imagenes/home/iconos/arrow right.svg" alt="Arrow Right"></button>
+        <a href="#"><img src="../imagenes/btnContactanos.svg" alt="Boton Contactanos"></a>
     </section>
     <!-- Sección Fortalecimiento Capacidades -->
     <section class="seccionFortalecimientoCapacidades">
@@ -57,12 +57,12 @@
                 <div class="contenedor__fortalecimientoCapacidades">
                     <h2>Fortalecimiento de capacidades para entidades y equipos de trabajo social</h2>
                     <p class="text__fortalecimientoCapacidades">Apoyamos y aceleramos la <span>sostenibilidad</span> y <span>escalabilidad</span> de proyectos y entidades sociales subrayando el valor de la <span>implicación</span> social desde las habilidades <span>profesionales</span></p>
-                    <p class="text__fortalecimientoCapacidades">Para ello, se trabaja en el fortalecimiento institucional y de equipos a través de horas pro bono de profesionales expertos en gestión, estrategia y finanzas.</p>
+                    <p class="text__fortalecimientoCapacidades ultimoTextoFortalecimientoCapacidades">Para ello, se trabaja en el fortalecimiento institucional y de equipos a través de horas pro bono de profesionales expertos en gestión, estrategia y finanzas.</p>
                 </div>
                 <div class="contenedor__fortalecimientoEquipos">
                   <h3>Fortalecimiento de equipos de consultoría social universitaria</h3>
-                  <p>Apoyamos a jóvenes estudiantes de grado y posgrado en su desarrollo académico y profesional ligado al compromiso social</p>
-                  <p>En colaboración con la Consultoría Social Empresarial de la Universidad Pontificia Comillas, asesoramos a estudiantes que participan en proyectos de consultoría sociales. Con nuestro acompañamiento contribuimos a reforzar su implicación y fortalecer el trabajo que realizan para sus clientes, las entidades sociales y sus distintos proyectos</p>
+                  <p class="text__fortalecimientoEquipos ">Apoyamos a jóvenes estudiantes de grado y posgrado en su desarrollo académico y profesional ligado al compromiso social</p>
+                  <p class="text__fortalecimientoEquipos ultimoTextoFortalecimientoEquipos">En colaboración con la Consultoría Social Empresarial de la Universidad Pontificia Comillas, asesoramos a estudiantes que participan en proyectos de consultoría sociales. Con nuestro acompañamiento contribuimos a reforzar su implicación y fortalecer el trabajo que realizan para sus clientes, las entidades sociales y sus distintos proyectos</p>
                 </div>
               <div class="contenedor__triatlonSocial">
                 <h4>Triatlón social</h4>
@@ -80,7 +80,7 @@
         <div class="fortalecimientoEstrategico">
             <h5>Fortalecimiento estratégico de entidades sociales</h5>
             <p>A través de voluntariado profesional prestamos servicios de asesoría a entidades sin ánimo de lucro, con el objetivo de fortalecerlas institucional y estructuralmente y que puedan impulsar sus proyectos sociales a un siguiente nivel.</p>
-            <p>Participamos en el Fondo de Impacto Social de Inuit Fundación, apostando por contribuir al cambio social a través de la innovación en la forma de pensar y actuar. Como parte de esta implicación, colaboramos con Fundación Raíces y su proyecto Cocina Conciencia.</p>     
+            <p class="ultimoTextoFortalecimientoEstrategico_ayoAcelera">Participamos en el Fondo de Impacto Social de Inuit Fundación, apostando por contribuir al cambio social a través de la innovación en la forma de pensar y actuar. Como parte de esta implicación, colaboramos con Fundación Raíces y su proyecto Cocina Conciencia.</p>     
         </div>
         <div class="iniciativaAyoAcelera_texto">
             <p>UNA INICIATIVA DE COLABORACIÓN ENTRE</p>
@@ -119,5 +119,6 @@
          </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
- </body>
+    <script src="../scrollNavBar.js"></script>
+  </body>
 </html>

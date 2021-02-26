@@ -9,7 +9,7 @@ body{
         background-size: 100%;
         position: relative;
         h1{
-            padding: 80px 0px 0px 20px;
+            padding: 80px 20px 0px 20px;
             color: $blanco;
             font-family: Raleway;
             font-style: normal;
@@ -21,7 +21,7 @@ body{
             }
         }
         p{
-            padding: 16px 0px 0px 20px;
+            padding: 16px 20px 0px 20px;
             color: $blanco;
             font-family: Raleway;
             font-style: normal;
@@ -29,19 +29,27 @@ body{
             font-size: 14px;
             line-height: 20px;
         }
-        button{
-            margin: 12px 0px 40px 20px;
-            padding: 12px 24px;
-            background: rgba(45, 41, 38, 0.25);
-            color: $blanco;
-            border: 1px solid #FFFFFF;
-            box-sizing: border-box;
-            border-radius: 40px;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 24px;
+        
+        .btn__container__imagen{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            
+            padding-top: 10px;
+            a{
+                width: 115px;
+                height: 48px;
+                padding: 0px 120px 0px 20px;
+                margin-bottom: 72px;
+            }
+            .btn__donar__imagen{
+                margin-left: 15px;
+                border-radius: 40px;
+                padding: 12px 24px;
+                background-color: $blanco;
+                color:$gris__oscuro;
+                border: none;
+            }
         }
     }
     .seccionMV_sobreAyo{
@@ -52,6 +60,7 @@ body{
         align-self: center;
         align-items: center;
         .cardMision{
+            margin-top: 40px;
             width: 18rem;
         }
         .cardVision{
@@ -396,12 +405,12 @@ body{
 }
 @media only screen and (min-width:321px) and (max-width: 480px){
     .container__imagen__sobreAyo{
-        background-image: url("../../imagenes/sobreNosotros/1sobreNosotros.jpg");
+        background-image: url("../../imagenes/sobreNosotros/1sobreNosotros480.jpg");
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 100% 100%;
         position: relative;
         h1{
-            padding: 80px 0px 0px 20px;
+            padding: 80px 20px 0px 20px;
             color: $blanco;
             font-family: Raleway;
             font-style: normal;
@@ -413,7 +422,7 @@ body{
             }
         }
         p{
-            padding: 16px 0px 0px 20px;
+            padding: 16px 20px 0px 20px;
             color: $blanco;
             font-family: Raleway;
             font-style: normal;
@@ -421,19 +430,27 @@ body{
             font-size: 14px;
             line-height: 20px;
         }
-        button{
-            margin: 12px 0px 40px 20px;
-            padding: 12px 24px;
-            background: rgba(45, 41, 38, 0.25);
-            color: $blanco;
-            border: 1px solid #FFFFFF;
-            box-sizing: border-box;
-            border-radius: 40px;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 24px;
+        
+        .btn__container__imagen{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            
+            padding-top: 10px;
+            a{
+                width: 115px;
+                height: 48px;
+                padding: 0px 120px 0px 20px;
+                margin-bottom: 72px;
+            }
+            .btn__donar__imagen{
+                margin-left: 15px;
+                border-radius: 40px;
+                padding: 12px 24px;
+                background-color: $blanco;
+                color:$gris__oscuro;
+                border: none;
+            }
         }
     }
     .seccionMV_sobreAyo{
@@ -444,16 +461,14 @@ body{
         align-self: center;
         align-items: center;
         .cardMision{
-            width: 90%;
-            height: 100%;
-            padding: 0px;
+            margin-top: 40px;
+            width: 18rem;
         }
         .cardVision{
-            width: 90%;
-            height: 100%;
-            padding: 0px;
+            width: 18rem;
         }
     }
+    
     .subTitulo__seccionMV{
         color: $celeste;
         padding: unset;
@@ -532,7 +547,11 @@ body{
                         line-height: 20px;
                     }
                     span{
+                        font-family: Raleway;
+                        font-style: normal;
                         font-weight: bold;
+                        font-size: 14px;
+                        line-height: 20px;
                     }
                     .subTitulosAreasEstrategicas_sobreAyo::before{
                         content: "|";
@@ -667,15 +686,16 @@ body{
             font-size: 24px;
             line-height: 120%;
         }
-        div{
-            p{
-                color: $negro__letras;
-                
-                .tildeElementosClave_sobreAyo{
-                 padding-right: 8px;
-                }
+            div{
+               p{
+                   color: $negro__letras;
+                   
+                   .tildeElementosClave_sobreAyo{
+                    padding-right: 8px;
+                   }
+               }
             }
-         }
+        
     }
     .seccionEquipo_sobreAyo{
         position: relative;
@@ -691,23 +711,13 @@ body{
         }
         .containerEquipo_sobreAyo{
             display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
             padding: 0px;
             div{
                 .imagenIntegrante_sobreAyo{
                     padding-bottom: 20px;
                 }
-                .imagen1_sobreAyo{
-                    padding-right: 20px;
-                }
-                .imagen3_sobreAyo{
-                    padding-right: 20px;
-                }
-                .imagen5_sobreAyo{
-                    padding-right: 20px;
-                }
                 .nombreIntegranteEquipo_sobreAyo{
                     text-align: center;
                     color: $negro__letras;
@@ -738,10 +748,6 @@ body{
                     }
                 }
             }
-            .ultimaFoto_sobreAyo{
-                position: relative;
-                top: -3.5px;
-            }
         }
     }
     .seccionColaboradores_sobreAyo{
@@ -758,24 +764,13 @@ body{
         }
         .containerColaboradores_sobreAyo{
             display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
             padding: 0px;
             div{
                 .imagenIntegrante_sobreAyo{
-                    padding-bottom:20px;
+                    padding-bottom: 20px;
                 }
-                .imagen1_sobreAyo{
-                    padding-right: 20px;
-                }
-                .imagen3_sobreAyo{
-                    padding-right: 20px;
-                }
-                .imagen5_sobreAyo{
-                    padding-right: 20px;
-                }
-                
                 .nombreIntegranteColaboradores_sobreAyo{
                     text-align: center;
                     color: $negro__letras;
@@ -806,21 +801,17 @@ body{
                     }
                 }
             }
-            .ultimaFoto_sobreAyo{
-                position: relative;
-                top: -7px;
-            }
         }
     }
 }
 @media only screen and (min-width:481px) and (max-width: 599px){
     .container__imagen__sobreAyo{
-        background-image: url("../../imagenes/sobreNosotros/1sobreNosotros.jpg");
+        background-image: url("../../imagenes/sobreNosotros/1sobreNosotros600.jpg");
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 100% 100%;
         position: relative;
         h1{
-            padding: 80px 0px 0px 20px;
+            padding: 80px 20px 0px 20px;
             color: $blanco;
             font-family: Raleway;
             font-style: normal;
@@ -832,7 +823,7 @@ body{
             }
         }
         p{
-            padding: 16px 0px 0px 20px;
+            padding: 16px 20px 0px 20px;
             color: $blanco;
             font-family: Raleway;
             font-style: normal;
@@ -840,19 +831,27 @@ body{
             font-size: 14px;
             line-height: 20px;
         }
-        button{
-            margin: 12px 0px 40px 20px;
-            padding: 12px 24px;
-            background: rgba(45, 41, 38, 0.25);
-            color: $blanco;
-            border: 1px solid #FFFFFF;
-            box-sizing: border-box;
-            border-radius: 40px;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 24px;
+        
+        .btn__container__imagen{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            
+            padding-top: 10px;
+            a{
+                width: 115px;
+                height: 48px;
+                padding: 0px 120px 0px 20px;
+                margin-bottom: 72px;
+            }
+            .btn__donar__imagen{
+                margin-left: 15px;
+                border-radius: 40px;
+                padding: 12px 24px;
+                background-color: $blanco;
+                color:$gris__oscuro;
+                border: none;
+            }
         }
     }
     .seccionMV_sobreAyo{
@@ -863,16 +862,14 @@ body{
         align-self: center;
         align-items: center;
         .cardMision{
-            width: 100%;
-            height: 100%;
-            padding: 0px;
+            margin-top: 40px;
+            width: 18rem;
         }
         .cardVision{
-            width: 90%;
-            height: 100%;
-            padding: 0px;
+            width: 18rem;
         }
     }
+    
     .subTitulo__seccionMV{
         color: $celeste;
         padding: unset;
@@ -951,7 +948,11 @@ body{
                         line-height: 20px;
                     }
                     span{
+                        font-family: Raleway;
+                        font-style: normal;
                         font-weight: bold;
+                        font-size: 14px;
+                        line-height: 20px;
                     }
                     .subTitulosAreasEstrategicas_sobreAyo::before{
                         content: "|";
@@ -1086,15 +1087,16 @@ body{
             font-size: 24px;
             line-height: 120%;
         }
-        div{
-            p{
-                color: $negro__letras;
-                
-                .tildeElementosClave_sobreAyo{
-                 padding-right: 8px;
-                }
+            div{
+               p{
+                   color: $negro__letras;
+                   
+                   .tildeElementosClave_sobreAyo{
+                    padding-right: 8px;
+                   }
+               }
             }
-         }
+        
     }
     .seccionEquipo_sobreAyo{
         position: relative;
@@ -1110,18 +1112,13 @@ body{
         }
         .containerEquipo_sobreAyo{
             display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
             padding: 0px;
             div{
-                .imagen1_sobreAyo{padding: 0px 10px 20px 10px;}
-                .imagen2_sobreAyo{padding: 0px 10px 20px 10px;}
-                .imagen3_sobreAyo{
-                    padding: 0px 10px 20px 10px;
+                .imagenIntegrante_sobreAyo{
+                    padding-bottom: 20px;
                 }
-                .imagen4_sobreAyo{padding: 0px 10px 20px 10px;}
-                .imagen5_sobreAyo{padding: 0px 10px 20px 10px;}
                 .nombreIntegranteEquipo_sobreAyo{
                     text-align: center;
                     color: $negro__letras;
@@ -1152,14 +1149,6 @@ body{
                     }
                 }
             }
-            .ultimaFoto_sobreAyo{
-                position: relative;
-                bottom: 4px;
-                img{padding: 0px 10px 20px 10px;} 
-                .nombreIntegranteColaboradores_sobreAyo{
-                    padding:0;
-                }
-             }
         }
     }
     .seccionColaboradores_sobreAyo{
@@ -1176,22 +1165,14 @@ body{
         }
         .containerColaboradores_sobreAyo{
             display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
             padding: 0px;
             div{
-                
-                .imagen1_sobreAyo{padding: 0px 10px 20px 10px;}
-                .imagen2_sobreAyo{padding: 0px 10px 20px 10px;}
-                .imagen3_sobreAyo{
-                    padding: 0px 10px 20px 10px;
+                .imagenIntegrante_sobreAyo{
+                    padding-bottom: 20px;
                 }
-                .imagen4_sobreAyo{padding: 0px 10px 20px 10px;}
-                .imagen5_sobreAyo{padding: 0px 10px 20px 10px;}
-                
                 .nombreIntegranteColaboradores_sobreAyo{
-                    padding: unset;
                     text-align: center;
                     color: $negro__letras;
                     font-family: Raleway;
@@ -1208,7 +1189,7 @@ body{
                     }
                 }
                 .cargoIntegranteColaboradores_sobreAyo{
-                    padding: unset;
+                    padding-bottom: 24px;
                     text-align: center;
                     color:$negro__letras;
                     font-family: Raleway;
@@ -1221,14 +1202,6 @@ body{
                     }
                 }
             }
-            .ultimaFoto_sobreAyo{
-                position: relative;
-                bottom: 8px;
-                img{padding: 0px 10px 20px 10px;} 
-                .nombreIntegranteColaboradores_sobreAyo{
-                    padding:0;
-                }
-             }
         }
     }
 }
