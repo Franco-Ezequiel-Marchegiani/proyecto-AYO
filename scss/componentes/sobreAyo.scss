@@ -378,6 +378,9 @@ body{
                     font-weight: 500;
                     font-size: 14px;
                     line-height: 20px;
+                    span{
+                        display: block;
+                    }
                     a{
                         .logoLinkedIn_sobreAyo{
                             position: relative;
@@ -712,12 +715,13 @@ body{
         }
         .containerEquipo_sobreAyo{
             display: flex;
-            flex-direction: column;
+            justify-content: center;
             align-items: center;
+            flex-wrap: wrap;
             padding: 0px;
             div{
                 .imagenIntegrante_sobreAyo{
-                    padding-bottom: 20px;
+                    padding: 0px 10px 20px 10px;
                 }
                 .nombreIntegranteEquipo_sobreAyo{
                     text-align: center;
@@ -748,6 +752,10 @@ body{
                         display: block;
                     }
                 }
+                .imagen6_sobreAyo{
+                    position: relative;
+                    top: -8px;
+                }
             }
         }
     }
@@ -765,12 +773,13 @@ body{
         }
         .containerColaboradores_sobreAyo{
             display: flex;
-            flex-direction: column;
+            justify-content: center;
             align-items: center;
+            flex-wrap: wrap;
             padding: 0px;
             div{
                 .imagenIntegrante_sobreAyo{
-                    padding-bottom: 20px;
+                    padding:0px 10px 20px 10px;
                 }
                 .nombreIntegranteColaboradores_sobreAyo{
                     text-align: center;
@@ -780,6 +789,9 @@ body{
                     font-weight: 500;
                     font-size: 14px;
                     line-height: 20px;
+                    span{
+                        display: block;
+                    }
                     a{
                         .logoLinkedIn_sobreAyo{
                             position: relative;
@@ -800,6 +812,18 @@ body{
                     span{
                         display: block;
                     }
+                }
+                .imagen2_sobreAyo{
+                    position: relative;
+                    top: 8px;
+                }
+                .imagen4_sobreAyo{
+                    position: relative;
+                    top: -8px;
+                }
+                .imagen6_sobreAyo{
+                    position: relative;
+                    top: 10px;
                 }
             }
         }
@@ -1113,12 +1137,13 @@ body{
         }
         .containerEquipo_sobreAyo{
             display: flex;
-            flex-direction: column;
+            justify-content: center;
             align-items: center;
+            flex-wrap: wrap;
             padding: 0px;
             div{
                 .imagenIntegrante_sobreAyo{
-                    padding-bottom: 20px;
+                    padding: 0px 10px 20px 10px;
                 }
                 .nombreIntegranteEquipo_sobreAyo{
                     text-align: center;
@@ -1149,6 +1174,18 @@ body{
                         display: block;
                     }
                 }
+                .imagen1_sobreAyo{
+                    position: relative;
+                    top: -8px;
+                }
+                .imagen2_sobreAyo{
+                    position: relative;
+                    top: -8px;
+                }
+                .imagen6_sobreAyo{
+                    position: relative;
+                    top: -8px;
+                }
             }
         }
     }
@@ -1166,12 +1203,14 @@ body{
         }
         .containerColaboradores_sobreAyo{
             display: flex;
-            flex-direction: column;
+            justify-content: center;
             align-items: center;
+            flex-wrap: wrap;
             padding: 0px;
+            
             div{
                 .imagenIntegrante_sobreAyo{
-                    padding-bottom: 20px;
+                    padding: 0px 10px 20px 10px;
                 }
                 .nombreIntegranteColaboradores_sobreAyo{
                     text-align: center;
@@ -1181,11 +1220,15 @@ body{
                     font-weight: 500;
                     font-size: 14px;
                     line-height: 20px;
+                    span{
+                        display: block;
+                    }
                     a{
                         .logoLinkedIn_sobreAyo{
                             position: relative;
                             top: -2px;
                             padding: 0px 8px 0px 0px;
+                            
                         }
                     }
                 }
@@ -1201,6 +1244,26 @@ body{
                     span{
                         display: block;
                     }
+                }
+                .imagen1_sobreAyo{
+                    position: relative;
+                    top: -8px;
+                }
+                .imagen3_sobreAyo{
+                    position: relative;
+                    top: 0px;
+                }
+                .imagen4_sobreAyo{
+                    position: relative;
+                    top: -8px;
+                }
+                .imagen5_sobreAyo{
+                    position: relative;
+                    top: -2px;
+                }
+                .imagen6_sobreAyo{
+                    position: relative;
+                    top: 8px;
                 }
             }
         }

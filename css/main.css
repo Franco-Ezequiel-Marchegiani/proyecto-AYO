@@ -75,7 +75,7 @@ body {
         background-color: #1A1A1A;
         color: #FFFFFF; }
       .navbar__nav .container-fluid .navbar-collapse {
-        background-color: #1A1A1A;
+        background-image: #1A1A1A;
         padding: 30px 0px 20px 5px; }
         .navbar__nav .container-fluid .navbar-collapse .nav-link {
           padding: 0px 0px 24px 8px;
@@ -121,7 +121,7 @@ body {
         background-color: #1A1A1A;
         color: #FFFFFF; }
       .navbar__nav .container-fluid .navbar-collapse {
-        background-color: #1A1A1A;
+        background-image: #1A1A1A;
         padding: 30px 0px 20px 5px; }
         .navbar__nav .container-fluid .navbar-collapse .nav-link {
           padding: 0px 0px 24px 8px;
@@ -222,7 +222,7 @@ body {
       white-space: nowrap;
       padding-left: 320px; }
       .section__partners .partners__containers img {
-        width: 160px;
+        width: 56px;
         padding: 10px 8px; }
   /* Sección Objetivos de Desarrollo */
   .section__objetivosDesarrollo {
@@ -404,24 +404,28 @@ body {
       margin: 0px 10px 64px 20px;
       padding-bottom: unset;
       box-shadow: 0px 16px 40px rgba(154, 170, 207, 0.2); }
+      .section__noticias .card__noticias a {
+        text-decoration: none; }
+        .section__noticias .card__noticias a .card-title-noticias {
+          color: #000000;
+          text-align: center;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 22px; }
+        .section__noticias .card__noticias a .card-text-noticias {
+          color: #000000;
+          text-align: center;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
     .section__noticias .card-img-top-noticias {
       border: unset;
       width: 100%;
-      height: 143px; }
-    .section__noticias .card-title-noticias {
-      text-align: center;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 18px;
-      line-height: 22px; }
-    .section__noticias .card-text-noticias {
-      text-align: center;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 14px;
-      line-height: 150%; } }
+      height: 143px; } }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
   .imagen__inicio__home {
@@ -482,9 +486,9 @@ body {
       justify-content: center;
       overflow-x: scroll;
       white-space: nowrap;
-      padding-left: 184px; }
+      padding-left: 320px; }
       .section__partners .partners__containers img {
-        width: 50px;
+        width: 64px;
         padding: 10px 8px; }
   /* Sección Objetivos de Desarrollo */
   .section__objetivosDesarrollo {
@@ -668,20 +672,23 @@ body {
       border: unset;
       width: 100%;
       height: 143px; }
-    .section__noticias .card-title-noticias {
-      text-align: center;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 18px;
-      line-height: 22px; }
-    .section__noticias .card-text-noticias {
-      text-align: center;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 14px;
-      line-height: 150%; } }
+    .section__noticias a {
+      text-decoration: none;
+      color: #1A1A1A; }
+      .section__noticias a .card-title-noticias {
+        text-align: center;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px; }
+      .section__noticias a .card-text-noticias {
+        text-align: center;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%; } }
 
 @media only screen and (min-width: 481px) and (max-width: 600px) {
   .imagen__inicio__home {
@@ -742,8 +749,9 @@ body {
       justify-content: center;
       overflow-x: scroll;
       white-space: nowrap;
-      padding-left: 320px; }
+      padding-left: 480px; }
       .section__partners .partners__containers img {
+        width: 120px;
         padding: 10px 18px; }
   /* Sección Objetivos de Desarrollo */
   .section__objetivosDesarrollo {
@@ -924,20 +932,23 @@ body {
       border: unset;
       width: 100%;
       height: 143px; }
-    .section__noticias .card-title-noticias {
-      text-align: center;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 18px;
-      line-height: 22px; }
-    .section__noticias .card-text-noticias {
-      text-align: center;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 14px;
-      line-height: 150%; } }
+    .section__noticias a {
+      text-decoration: none;
+      color: #1A1A1A; }
+      .section__noticias a .card-title-noticias {
+        text-align: center;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px; }
+      .section__noticias a .card-text-noticias {
+        text-align: center;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%; } }
 
 /*** Variables Colores  ***/
 body {
@@ -1114,6 +1125,9 @@ body {
             font-weight: 600;
             font-size: 14px;
             line-height: 16px; }
+            .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma span a {
+              text-decoration: none;
+              color: #FFFFFF; }
           .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma img {
             padding: unset;
             width: 20px; }
@@ -1199,6 +1213,9 @@ body {
       .card__candidatura p span {
         font-weight: 600;
         line-height: 16px; }
+        .card__candidatura p span a {
+          text-decoration: none;
+          color: #FFFFFF; }
       .card__candidatura p img {
         padding: unset;
         width: 20px; }
@@ -1219,6 +1236,9 @@ body {
       .card__comiteInversion p span {
         font-weight: 600;
         line-height: 16px; }
+        .card__comiteInversion p span a {
+          text-decoration: none;
+          color: #FFFFFF; }
       .card__comiteInversion p img {
         padding: unset;
         width: 20px; }
@@ -1406,11 +1426,15 @@ body {
           font-size: 14px;
           line-height: 20px; }
           .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma span {
+            display: block;
             font-family: Raleway;
             font-style: normal;
             font-weight: 600;
             font-size: 14px;
             line-height: 16px; }
+            .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma span a {
+              text-decoration: none;
+              color: #FFFFFF; }
           .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma img {
             padding: unset;
             width: 20px; }
@@ -1494,8 +1518,12 @@ body {
       font-size: 14px;
       line-height: 20px; }
       .card__candidatura p span {
+        display: block;
         font-weight: 600;
         line-height: 16px; }
+        .card__candidatura p span a {
+          text-decoration: none;
+          color: #FFFFFF; }
       .card__candidatura p img {
         padding: unset;
         width: 20px; }
@@ -1514,8 +1542,12 @@ body {
       font-size: 14px;
       line-height: 20px; }
       .card__comiteInversion p span {
+        display: block;
         font-weight: 600;
         line-height: 16px; }
+        .card__comiteInversion p span a {
+          text-decoration: none;
+          color: #FFFFFF; }
       .card__comiteInversion p img {
         padding: unset;
         width: 20px; }
@@ -1708,6 +1740,9 @@ body {
             font-weight: 600;
             font-size: 14px;
             line-height: 16px; }
+            .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma span a {
+              text-decoration: none;
+              color: #FFFFFF; }
           .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma img {
             padding: unset;
             width: 20px; }
@@ -1793,6 +1828,9 @@ body {
       .card__candidatura p span {
         font-weight: 600;
         line-height: 16px; }
+        .card__candidatura p span a {
+          text-decoration: none;
+          color: #FFFFFF; }
       .card__candidatura p img {
         padding: unset;
         width: 20px; }
@@ -1813,6 +1851,9 @@ body {
       .card__comiteInversion p span {
         font-weight: 600;
         line-height: 16px; }
+        .card__comiteInversion p span a {
+          text-decoration: none;
+          color: #FFFFFF; }
       .card__comiteInversion p img {
         padding: unset;
         width: 20px; }
@@ -1943,22 +1984,25 @@ body {
     display: flex;
     margin: 36px 20px 0px 20px;
     background-color: #80BD41; }
+    .card__mentores p {
+      padding-top: 20px; }
+      .card__mentores p a {
+        text-decoration: none;
+        color: #FFFFFF;
+        padding: 20px 20px 0px 0px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .card__mentores p a span {
+          font-weight: 600;
+          line-height: 16px; }
+        .card__mentores p a img {
+          padding: unset;
+          width: 20px; }
     .card__mentores img {
       padding: 5px 20px 0px 25px; }
-    .card__mentores p {
-      color: #FFFFFF;
-      padding: 20px 20px 0px 0px;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 20px; }
-      .card__mentores p span {
-        font-weight: 600;
-        line-height: 16px; }
-      .card__mentores p img {
-        padding: unset;
-        width: 20px; }
   /* Sección Global Dignity */
   .globalDignity__container {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
@@ -2139,23 +2183,26 @@ body {
     display: flex;
     margin: 36px 20px 0px 20px;
     background-color: #80BD41; }
+    .card__mentores p {
+      padding: 32px 20px 0px 0px; }
+      .card__mentores p a {
+        text-decoration: none;
+        color: #FFFFFF;
+        padding: 20px 20px 0px 0px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .card__mentores p a span {
+          display: block;
+          font-weight: 600;
+          line-height: 16px; }
+        .card__mentores p a img {
+          padding: unset;
+          width: 20px; }
     .card__mentores img {
       padding: 5px 20px 0px 25px; }
-    .card__mentores p {
-      color: #FFFFFF;
-      padding: 20px 20px 0px 0px;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 20px; }
-      .card__mentores p span {
-        display: block;
-        font-weight: 600;
-        line-height: 16px; }
-      .card__mentores p img {
-        padding: unset;
-        width: 20px; }
   /* Sección Global Dignity */
   .globalDignity__container {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
@@ -2336,22 +2383,25 @@ body {
     display: flex;
     margin: 36px 20px 0px 20px;
     background-color: #80BD41; }
-    .card__mentores img {
-      padding: 5px 20px 0px 25px; }
     .card__mentores p {
-      color: #FFFFFF;
-      padding: 20px 20px 0px 0px;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 20px; }
-      .card__mentores p span {
-        font-weight: 600;
-        line-height: 16px; }
-      .card__mentores p img {
-        padding: unset;
-        width: 20px; }
+      padding: 32px 20px 16px 8px; }
+      .card__mentores p a {
+        text-decoration: none;
+        color: #FFFFFF;
+        padding: 20px 20px 0px 0px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .card__mentores p a span {
+          font-weight: 600;
+          line-height: 16px; }
+        .card__mentores p a img {
+          padding: unset;
+          width: 20px; }
+    .card__mentores img {
+      padding: 5px 20px 0px 40px; }
   /* Sección Global Dignity */
   .globalDignity__container {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
@@ -2588,6 +2638,9 @@ body {
           .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn .imgText__detallePrograma {
             padding: unset;
             width: 24px; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn span a {
+            text-decoration: none;
+            color: #FFFFFF; }
   .fortalecimientoEstrategico {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
     .fortalecimientoEstrategico h5 {
@@ -2774,6 +2827,9 @@ body {
           line-height: 20px; }
           .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn span {
             display: block; }
+            .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn span a {
+              text-decoration: none;
+              color: #FFFFFF; }
           .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn .imgText__detallePrograma {
             padding: unset;
             width: 24px; }
@@ -2964,6 +3020,9 @@ body {
           .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn .imgText__detallePrograma {
             padding: unset;
             width: 24px; }
+          .seccionFortalecimientoCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn span a {
+            text-decoration: none;
+            color: #FFFFFF; }
   .fortalecimientoEstrategico {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
     .fortalecimientoEstrategico h5 {
@@ -3123,13 +3182,12 @@ body {
           width: 0px;
           left: -10px; }
   /* Sección Incubadora de Ideas */
-  .contenedor__presentarProyecto {
+  .contenedor__incubadoraIdeas .contenedor__presentarProyecto {
     margin: 32px 20px 48px 20px;
     display: flex;
     background-color: #FFC20E; }
-    .contenedor__presentarProyecto img {
-      padding: 8px 0px 16px 30px; }
-    .contenedor__presentarProyecto p {
+    .contenedor__incubadoraIdeas .contenedor__presentarProyecto p {
+      text-decoration: none;
       padding: 32px 8px 16px 26px;
       color: #FFFFFF;
       font-family: Raleway;
@@ -3137,12 +3195,17 @@ body {
       font-weight: 500;
       font-size: 14px;
       line-height: 20px; }
-      .contenedor__presentarProyecto p .imgText__presentarProyecto {
+      .contenedor__incubadoraIdeas .contenedor__presentarProyecto p .imgText__presentarProyecto {
         width: 24px;
         padding: unset; }
-      .contenedor__presentarProyecto p span {
+      .contenedor__incubadoraIdeas .contenedor__presentarProyecto p span {
         font-weight: 600;
         line-height: 16px; }
+        .contenedor__incubadoraIdeas .contenedor__presentarProyecto p span a {
+          text-decoration: none;
+          color: #FFFFFF; }
+    .contenedor__incubadoraIdeas .contenedor__presentarProyecto img {
+      padding: 8px 0px 16px 30px; }
   /* Sección Pathfinder */
   .container__pathfinder {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
@@ -3197,6 +3260,7 @@ body {
       padding: 20px 0px 15px 30px;
       width: 48px; }
     .contenedor__detalleProgramaIncuba p {
+      text-decoration: none;
       padding: unset;
       padding: 32px 5px 10px 24px;
       color: #FFFFFF;
@@ -3207,7 +3271,12 @@ body {
       line-height: 20px; }
       .contenedor__detalleProgramaIncuba p .imgText__detallePrograma {
         padding: unset;
-        width: 24px; } }
+        width: 24px; }
+      .contenedor__detalleProgramaIncuba p span a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight: 600;
+        line-height: 16px; } }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
   .container__imagen__ayoincuba {
@@ -3330,13 +3399,12 @@ body {
           width: 0px;
           left: -10px; }
   /* Sección Incubadora de Ideas */
-  .contenedor__presentarProyecto {
+  .contenedor__incubadoraIdeas .contenedor__presentarProyecto {
     margin: 32px 20px 48px 20px;
     display: flex;
     background-color: #FFC20E; }
-    .contenedor__presentarProyecto img {
-      padding: 8px 0px 16px 30px; }
-    .contenedor__presentarProyecto p {
+    .contenedor__incubadoraIdeas .contenedor__presentarProyecto p {
+      text-decoration: none;
       padding: 32px 8px 16px 26px;
       color: #FFFFFF;
       font-family: Raleway;
@@ -3344,12 +3412,18 @@ body {
       font-weight: 500;
       font-size: 14px;
       line-height: 20px; }
-      .contenedor__presentarProyecto p .imgText__presentarProyecto {
+      .contenedor__incubadoraIdeas .contenedor__presentarProyecto p .imgText__presentarProyecto {
         width: 24px;
         padding: unset; }
-      .contenedor__presentarProyecto p span {
+      .contenedor__incubadoraIdeas .contenedor__presentarProyecto p span {
+        display: block;
         font-weight: 600;
         line-height: 16px; }
+        .contenedor__incubadoraIdeas .contenedor__presentarProyecto p span a {
+          text-decoration: none;
+          color: #FFFFFF; }
+    .contenedor__incubadoraIdeas .contenedor__presentarProyecto img {
+      padding: 8px 0px 16px 30px; }
   /* Sección Pathfinder */
   .container__pathfinder {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
@@ -3404,6 +3478,8 @@ body {
       padding: 20px 0px 15px 30px;
       width: 48px; }
     .contenedor__detalleProgramaIncuba p {
+      text-decoration: none;
+      color: #FFFFFF;
       padding: unset;
       padding: 32px 5px 10px 24px;
       color: #FFFFFF;
@@ -3414,7 +3490,13 @@ body {
       line-height: 20px; }
       .contenedor__detalleProgramaIncuba p .imgText__detallePrograma {
         padding: unset;
-        width: 24px; } }
+        width: 24px; }
+      .contenedor__detalleProgramaIncuba p span a {
+        text-decoration: none;
+        color: #FFFFFF;
+        display: block;
+        font-weight: 600;
+        line-height: 16px; } }
 
 @media only screen and (min-width: 481px) and (max-width: 599px) {
   .container__imagen__ayoincuba {
@@ -3541,9 +3623,8 @@ body {
     margin: 32px 20px 48px 20px;
     display: flex;
     background-color: #FFC20E; }
-    .contenedor__presentarProyecto img {
-      padding: 8px 0px 16px 30px; }
     .contenedor__presentarProyecto p {
+      text-decoration: none;
       padding: 32px 8px 16px 26px;
       color: #FFFFFF;
       font-family: Raleway;
@@ -3557,6 +3638,11 @@ body {
       .contenedor__presentarProyecto p span {
         font-weight: 600;
         line-height: 16px; }
+        .contenedor__presentarProyecto p span a {
+          text-decoration: none;
+          color: #FFFFFF; }
+    .contenedor__presentarProyecto img {
+      padding: 8px 0px 16px 48px; }
   /* Sección Pathfinder */
   .container__pathfinder {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
@@ -3611,6 +3697,8 @@ body {
       padding: 20px 0px 15px 30px;
       width: 48px; }
     .contenedor__detalleProgramaIncuba p {
+      text-decoration: none;
+      color: #FFFFFF;
       padding: unset;
       padding: 32px 5px 10px 24px;
       color: #FFFFFF;
@@ -3621,7 +3709,10 @@ body {
       line-height: 20px; }
       .contenedor__detalleProgramaIncuba p .imgText__detallePrograma {
         padding: unset;
-        width: 24px; } }
+        width: 24px; }
+      .contenedor__detalleProgramaIncuba p span a {
+        text-decoration: none;
+        color: #FFFFFF; } }
 
 /*** Variables Colores  ***/
 body {
@@ -4205,6 +4296,8 @@ body {
         font-weight: 500;
         font-size: 14px;
         line-height: 20px; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo span {
+          display: block; }
         .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo a .logoLinkedIn_sobreAyo {
           position: relative;
           top: -2px;
@@ -4476,11 +4569,12 @@ body {
       line-height: 120%; }
     .seccionEquipo_sobreAyo .containerEquipo_sobreAyo {
       display: flex;
-      flex-direction: column;
+      justify-content: center;
       align-items: center;
+      flex-wrap: wrap;
       padding: 0px; }
       .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagenIntegrante_sobreAyo {
-        padding-bottom: 20px; }
+        padding: 0px 10px 20px 10px; }
       .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .nombreIntegranteEquipo_sobreAyo {
         text-align: center;
         color: #000000;
@@ -4504,6 +4598,9 @@ body {
         line-height: 13px; }
         .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .cargoIntegranteEquipo_sobreAyo span {
           display: block; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagen6_sobreAyo {
+        position: relative;
+        top: -8px; }
   .seccionColaboradores_sobreAyo {
     position: relative;
     top: -56px; }
@@ -4517,11 +4614,12 @@ body {
       line-height: 120%; }
     .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo {
       display: flex;
-      flex-direction: column;
+      justify-content: center;
       align-items: center;
+      flex-wrap: wrap;
       padding: 0px; }
       .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagenIntegrante_sobreAyo {
-        padding-bottom: 20px; }
+        padding: 0px 10px 20px 10px; }
       .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo {
         text-align: center;
         color: #000000;
@@ -4530,6 +4628,8 @@ body {
         font-weight: 500;
         font-size: 14px;
         line-height: 20px; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo span {
+          display: block; }
         .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo a .logoLinkedIn_sobreAyo {
           position: relative;
           top: -2px;
@@ -4544,7 +4644,16 @@ body {
         font-size: 11px;
         line-height: 13px; }
         .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .cargoIntegranteColaboradores_sobreAyo span {
-          display: block; } }
+          display: block; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen2_sobreAyo {
+        position: relative;
+        top: 8px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen4_sobreAyo {
+        position: relative;
+        top: -8px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen6_sobreAyo {
+        position: relative;
+        top: 10px; } }
 
 @media only screen and (min-width: 481px) and (max-width: 599px) {
   .container__imagen__sobreAyo {
@@ -4801,11 +4910,12 @@ body {
       line-height: 120%; }
     .seccionEquipo_sobreAyo .containerEquipo_sobreAyo {
       display: flex;
-      flex-direction: column;
+      justify-content: center;
       align-items: center;
+      flex-wrap: wrap;
       padding: 0px; }
       .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagenIntegrante_sobreAyo {
-        padding-bottom: 20px; }
+        padding: 0px 10px 20px 10px; }
       .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .nombreIntegranteEquipo_sobreAyo {
         text-align: center;
         color: #000000;
@@ -4829,6 +4939,15 @@ body {
         line-height: 13px; }
         .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .cargoIntegranteEquipo_sobreAyo span {
           display: block; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagen1_sobreAyo {
+        position: relative;
+        top: -8px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagen2_sobreAyo {
+        position: relative;
+        top: -8px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagen6_sobreAyo {
+        position: relative;
+        top: -8px; }
   .seccionColaboradores_sobreAyo {
     position: relative;
     top: -56px; }
@@ -4842,11 +4961,12 @@ body {
       line-height: 120%; }
     .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo {
       display: flex;
-      flex-direction: column;
+      justify-content: center;
       align-items: center;
+      flex-wrap: wrap;
       padding: 0px; }
       .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagenIntegrante_sobreAyo {
-        padding-bottom: 20px; }
+        padding: 0px 10px 20px 10px; }
       .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo {
         text-align: center;
         color: #000000;
@@ -4855,6 +4975,8 @@ body {
         font-weight: 500;
         font-size: 14px;
         line-height: 20px; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo span {
+          display: block; }
         .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo a .logoLinkedIn_sobreAyo {
           position: relative;
           top: -2px;
@@ -4869,4 +4991,19 @@ body {
         font-size: 11px;
         line-height: 13px; }
         .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .cargoIntegranteColaboradores_sobreAyo span {
-          display: block; } }
+          display: block; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen1_sobreAyo {
+        position: relative;
+        top: -8px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen3_sobreAyo {
+        position: relative;
+        top: 0px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen4_sobreAyo {
+        position: relative;
+        top: -8px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen5_sobreAyo {
+        position: relative;
+        top: -2px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen6_sobreAyo {
+        position: relative;
+        top: 8px; } }

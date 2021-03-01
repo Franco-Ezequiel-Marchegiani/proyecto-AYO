@@ -153,29 +153,38 @@ body{
         }
     }
     /* Sección Incubadora de Ideas */
-        
-        .contenedor__presentarProyecto{
-            margin: 32px 20px 48px 20px;
-            display: flex;
-            background-color: $amarillo;
-            img{
-                padding: 8px 0px 16px 30px;
-            }
-            p{
-                padding: 32px 8px 16px 26px;
-                color: $blanco;
-                font-family: Raleway;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 14px;
-                line-height: 20px;
-                .imgText__presentarProyecto{
-                    width: 24px;
-                    padding: unset;
-                }
-                span{
-                    font-weight: 600;
-                    line-height: 16px;
+        .contenedor__incubadoraIdeas{
+            .contenedor__presentarProyecto{
+                margin: 32px 20px 48px 20px;
+                display: flex;
+                background-color: $amarillo;
+                
+                p{
+                        text-decoration: none;
+                        padding: 32px 8px 16px 26px;
+                        color: $blanco;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 20px;
+                        
+                        .imgText__presentarProyecto{
+                            width: 24px;
+                            padding: unset;
+                        }
+                        span{
+                            font-weight: 600;
+                            line-height: 16px;
+                            a{
+                                text-decoration: none;
+                                color: $blanco;
+                            }
+                        }
+                    }
+                
+                img{
+                    padding: 8px 0px 16px 30px;
                 }
             }
         }
@@ -244,19 +253,29 @@ body{
             width: 48px;
         }
         p{
-            padding: unset;
-            padding: 32px 5px 10px 24px;
-            color: $blanco;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 20px;
-            .imgText__detallePrograma{
+                text-decoration: none;
                 padding: unset;
-                width: 24px;
+                padding: 32px 5px 10px 24px;
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                .imgText__detallePrograma{
+                    padding: unset;
+                    width: 24px;
+                }
+                    span{
+                        a{
+                            text-decoration: none;
+                            color: $blanco;
+                            font-weight: 600;
+                            line-height: 16px;
+                        }
+                    }
             }
-        }
+        
     }
 }
 @media only screen and (min-width:321px) and (max-width: 480px){
@@ -407,30 +426,39 @@ body{
         }
     }
     /* Sección Incubadora de Ideas */
-        
-        .contenedor__presentarProyecto{
-            margin: 32px 20px 48px 20px;
-            display: flex;
-            background-color: $amarillo;
-            img{
-                padding: 8px 0px 16px 30px;
-            }
-            p{
-                padding: 32px 8px 16px 26px;
-                color: $blanco;
-                font-family: Raleway;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 14px;
-                line-height: 20px;
-                .imgText__presentarProyecto{
-                    width: 24px;
-                    padding: unset;
+        .contenedor__incubadoraIdeas{
+            .contenedor__presentarProyecto{
+                margin: 32px 20px 48px 20px;
+                display: flex;
+                background-color: $amarillo;
+                p{
+                        text-decoration: none;
+                        padding: 32px 8px 16px 26px;
+                        color: $blanco;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 20px;
+                        .imgText__presentarProyecto{
+                            width: 24px;
+                            padding: unset;
+                        }
+                        span{
+                            display: block;
+                            font-weight: 600;
+                            line-height: 16px;
+                            a{
+                                text-decoration: none;
+                                color: $blanco;
+                            }
+                        }
+                    }
+                
+                img{
+                    padding: 8px 0px 16px 30px;
                 }
-                span{
-                    font-weight: 600;
-                    line-height: 16px;
-                }
+                
             }
         }
     
@@ -498,19 +526,31 @@ body{
             width: 48px;
         }
         p{
-            padding: unset;
-            padding: 32px 5px 10px 24px;
-            color: $blanco;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 20px;
-            .imgText__detallePrograma{
+                text-decoration: none;
+                color: $blanco;
                 padding: unset;
-                width: 24px;
+                padding: 32px 5px 10px 24px;
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                .imgText__detallePrograma{
+                    padding: unset;
+                    width: 24px;
+                }
+                span{
+                    a{
+                        text-decoration: none;
+                        color: $blanco;
+                        display: block;
+                        font-weight: 600;
+                        line-height: 16px;
+                    }
+                }
             }
-        }
+        
     }
 }
 @media only screen and (min-width:481px) and (max-width: 599px){
@@ -666,26 +706,33 @@ body{
             margin: 32px 20px 48px 20px;
             display: flex;
             background-color: $amarillo;
-            img{
-                padding: 8px 0px 16px 30px;
-            }
             p{
-                padding: 32px 8px 16px 26px;
-                color: $blanco;
-                font-family: Raleway;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 14px;
-                line-height: 20px;
-                .imgText__presentarProyecto{
-                    width: 24px;
-                    padding: unset;
+                    text-decoration: none;
+                    padding: 32px 8px 16px 26px;
+                    color: $blanco;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 20px;
+                    .imgText__presentarProyecto{
+                        width: 24px;
+                        padding: unset;
+                    }
+                    span{
+                        font-weight: 600;
+                        line-height: 16px;
+                        a{
+                            text-decoration: none;
+                            color: $blanco;
+                        }
+                    }
                 }
-                span{
-                    font-weight: 600;
-                    line-height: 16px;
-                }
+            
+            img{
+                padding: 8px 0px 16px 48px;
             }
+            
         }
     
     /* Sección Pathfinder */
@@ -752,19 +799,27 @@ body{
             width: 48px;
         }
         p{
-            padding: unset;
-            padding: 32px 5px 10px 24px;
-            color: $blanco;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 20px;
-            .imgText__detallePrograma{
+                text-decoration: none;
+                color: $blanco;
                 padding: unset;
-                width: 24px;
+                padding: 32px 5px 10px 24px;
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                .imgText__detallePrograma{
+                    padding: unset;
+                    width: 24px;
+                }
+                span{
+                    a{
+                        text-decoration: none;
+                        color: $blanco;
+                    }
+                }
             }
-        }
     }
 }
 @media only screen and (min-width: 600px) and (max-width: 768px){

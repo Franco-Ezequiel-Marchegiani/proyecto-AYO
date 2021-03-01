@@ -210,6 +210,10 @@ body{
                         font-weight: 600;
                         font-size: 14px;
                         line-height: 16px;
+                        a{
+                            text-decoration: none;
+                            color: $blanco;
+                        }
                     }
                     img{
                         padding: unset;
@@ -317,6 +321,10 @@ body{
             span{
                 font-weight: 600;
                 line-height: 16px;
+                a{
+                    text-decoration: none;
+                    color: $blanco;
+                }
             }
             img{
                 padding: unset;
@@ -342,6 +350,10 @@ body{
             span{
                 font-weight: 600;
                 line-height: 16px;
+                a{
+                    text-decoration: none;
+                    color: $blanco;
+                }
             }            
             img{
                 padding: unset;
@@ -576,11 +588,16 @@ body{
                     font-size: 14px;
                     line-height: 20px;
                     span{
+                        display: block;
                         font-family: Raleway;
                         font-style: normal;
                         font-weight: 600;
                         font-size: 14px;
                         line-height: 16px;
+                        a{
+                            text-decoration: none;
+                            color: $blanco;
+                        }
                     }
                     img{
                         padding: unset;
@@ -686,8 +703,13 @@ body{
             font-size: 14px;
             line-height: 20px;
             span{
+                display: block;
                 font-weight: 600;
                 line-height: 16px;
+                a{
+                    text-decoration: none;
+                    color: $blanco;
+                }
             }
             img{
                 padding: unset;
@@ -711,8 +733,13 @@ body{
             font-size: 14px;
             line-height: 20px;
             span{
+                display: block;
                 font-weight: 600;
                 line-height: 16px;
+                a{
+                    text-decoration: none;
+                    color: $blanco;
+                }
             }            
             img{
                 padding: unset;
@@ -947,11 +974,16 @@ body{
                     font-size: 14px;
                     line-height: 20px;
                     span{
+                        
                         font-family: Raleway;
                         font-style: normal;
                         font-weight: 600;
                         font-size: 14px;
                         line-height: 16px;
+                        a{
+                            text-decoration: none;
+                            color: $blanco;
+                        }
                     }
                     img{
                         padding: unset;
@@ -1059,6 +1091,10 @@ body{
             span{
                 font-weight: 600;
                 line-height: 16px;
+                a{
+                    text-decoration: none;
+                    color: $blanco;
+                }
             }
             img{
                 padding: unset;
@@ -1084,6 +1120,10 @@ body{
             span{
                 font-weight: 600;
                 line-height: 16px;
+                a{
+                    text-decoration: none;
+                    color: $blanco;
+                }
             }            
             img{
                 padding: unset;

@@ -188,6 +188,12 @@ body{
                         padding: unset;
                         width: 24px;
                     }
+                    span{
+                        a{
+                            text-decoration: none;
+                            color: $blanco;
+                        }
+                    }
                 }
             }
         }
@@ -414,6 +420,10 @@ body{
                     line-height: 20px;
                     span{
                         display: block;
+                        a{
+                            text-decoration: none;
+                            color: $blanco;
+                        }
                     }
                     .imgText__detallePrograma{
                         padding: unset;
@@ -646,6 +656,12 @@ body{
                     .imgText__detallePrograma{
                         padding: unset;
                         width: 24px;
+                    }
+                    span{
+                        a{
+                            text-decoration: none;
+                            color: $blanco;
+                        }
                     }
                 }
             }

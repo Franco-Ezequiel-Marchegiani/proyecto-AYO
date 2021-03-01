@@ -132,26 +132,31 @@ body{
         display: flex;
         margin: 36px 20px 0px 20px;
         background-color: $verde;
+        p{
+            padding-top: 20px;
+            a{
+                    text-decoration: none;
+                    color: $blanco;
+                    padding: 20px 20px 0px 0px;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 20px;
+                    span{
+                        font-weight: 600;
+                        line-height: 16px;
+                    }            
+                    img{
+                        padding: unset;
+                        width: 20px;
+                    }
+            }
+        }
         img{
             padding: 5px 20px 0px 25px;
         }
-        p{
-            color: $blanco;
-            padding: 20px 20px 0px 0px;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 20px;
-            span{
-                font-weight: 600;
-                line-height: 16px;
-            }            
-            img{
-                padding: unset;
-                width: 20px;
-            }
-        }
+        
     }
     /* Sección Global Dignity */
     .globalDignity__container{
@@ -375,26 +380,31 @@ body{
         display: flex;
         margin: 36px 20px 0px 20px;
         background-color: $verde;
+        p{
+            padding: 32px 20px 0px 0px;
+            a{
+                text-decoration: none;
+                color: $blanco;
+                padding: 20px 20px 0px 0px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                span{
+                    display: block;
+                    font-weight: 600;
+                    line-height: 16px;
+                }            
+                img{
+                    padding: unset;
+                    width: 20px;
+                }
+            }
+
+        }
         img{
             padding: 5px 20px 0px 25px;
-        }
-        p{
-            color: $blanco;
-            padding: 20px 20px 0px 0px;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 20px;
-            span{
-                display: block;
-                font-weight: 600;
-                line-height: 16px;
-            }            
-            img{
-                padding: unset;
-                width: 20px;
-            }
         }
     }
     /* Sección Global Dignity */
@@ -619,25 +629,29 @@ body{
         display: flex;
         margin: 36px 20px 0px 20px;
         background-color: $verde;
-        img{
-            padding: 5px 20px 0px 25px;
-        }
         p{
-            color: $blanco;
-            padding: 20px 20px 0px 0px;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 20px;
-            span{
-                font-weight: 600;
-                line-height: 16px;
-            }            
-            img{
-                padding: unset;
-                width: 20px;
+            padding: 32px 20px 16px 8px;
+            a{
+                text-decoration: none;
+                color: $blanco;
+                padding: 20px 20px 0px 0px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                span{
+                    font-weight: 600;
+                    line-height: 16px;
+                }            
+                img{
+                    padding: unset;
+                    width: 20px;
+                }
             }
+        }
+        img{
+            padding: 5px 20px 0px 40px;
         }
     }
     /* Sección Global Dignity */

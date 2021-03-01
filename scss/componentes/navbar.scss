@@ -93,7 +93,7 @@ body{
                         color: $blanco; 
                     }
                     .navbar-collapse{
-                        background-color: $negro__header;
+                        background-image: $negro__header;
                         padding: 30px 0px 20px 5px;
                         .nav-link{
                             padding: 0px 0px 24px 8px;
@@ -131,7 +131,7 @@ body{
                         margin-left: 0px;
                     }
             }
-    }           
+    }         
 }
 @media only screen and (min-width: 600px) and (max-width: 768px){
     .navbar__nav{
@@ -153,7 +153,7 @@ body{
                         color: $blanco; 
                     }
                     .navbar-collapse{
-                        background-color: $negro__header;
+                        background-image: $negro__header;
                         padding: 30px 0px 20px 5px;
                         .nav-link{
                             padding: 0px 0px 24px 8px;
@@ -191,7 +191,7 @@ body{
                         margin-left: 0px;
                     }
             }
-    }      
+    }     
 }
 @media only screen and (min-width:769px) and (max-width:1200px){
 
