@@ -4286,6 +4286,15 @@ body {
       flex-direction: column;
       align-items: center;
       padding: 0px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen1_sobreAyo {
+        width: 158px;
+        height: 158px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen3_sobreAyo {
+        width: 158px;
+        height: 158px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen5_sobreAyo {
+        width: 158px;
+        height: 158px; }
       .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagenIntegrante_sobreAyo {
         padding-bottom: 20px; }
       .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo {
