@@ -119,6 +119,7 @@ body{
                 }
                     
                     .contenedor__incubadoraIdeas_borde{
+                        padding-bottom: 8px;
                         h3{
                             padding: 24px 20px 0px 8px;
                             color: $gris__oscuro;
@@ -129,8 +130,7 @@ body{
                             line-height: 120%;
                         }
                         p{
-                            padding: 24px 20px 0px 8px;
-                            margin-bottom: 48px;
+                            padding: 24px 20px 24px 8px;
                             color: $gris__oscuro;
                             font-family: Raleway;
                             font-style: normal;
@@ -152,43 +152,6 @@ body{
             }
         }
     }
-    /* Sección Incubadora de Ideas */
-        .contenedor__incubadoraIdeas{
-            .contenedor__presentarProyecto{
-                margin: 32px 20px 48px 20px;
-                display: flex;
-                background-color: $amarillo;
-                
-                p{
-                        text-decoration: none;
-                        padding: 32px 8px 16px 26px;
-                        color: $blanco;
-                        font-family: Raleway;
-                        font-style: normal;
-                        font-weight: 500;
-                        font-size: 14px;
-                        line-height: 20px;
-                        
-                        .imgText__presentarProyecto{
-                            width: 24px;
-                            padding: unset;
-                        }
-                        span{
-                            font-weight: 600;
-                            line-height: 16px;
-                            a{
-                                text-decoration: none;
-                                color: $blanco;
-                            }
-                        }
-                    }
-                
-                img{
-                    padding: 8px 0px 16px 30px;
-                }
-            }
-        }
-    
     /* Sección Pathfinder */
     .container__pathfinder{
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
@@ -392,6 +355,7 @@ body{
                 }
                     
                     .contenedor__incubadoraIdeas_borde{
+                        padding-bottom: 8px;
                         h3{
                             padding: 24px 20px 0px 8px;
                             color: $gris__oscuro;
@@ -425,43 +389,6 @@ body{
             }
         }
     }
-    /* Sección Incubadora de Ideas */
-        .contenedor__incubadoraIdeas{
-            .contenedor__presentarProyecto{
-                margin: 32px 20px 48px 20px;
-                display: flex;
-                background-color: $amarillo;
-                p{
-                        text-decoration: none;
-                        padding: 32px 8px 16px 26px;
-                        color: $blanco;
-                        font-family: Raleway;
-                        font-style: normal;
-                        font-weight: 500;
-                        font-size: 14px;
-                        line-height: 20px;
-                        .imgText__presentarProyecto{
-                            width: 24px;
-                            padding: unset;
-                        }
-                        span{
-                            display: block;
-                            font-weight: 600;
-                            line-height: 16px;
-                            a{
-                                text-decoration: none;
-                                color: $blanco;
-                            }
-                        }
-                    }
-                
-                img{
-                    padding: 8px 0px 16px 30px;
-                }
-                
-            }
-        }
-    
     /* Sección Pathfinder */
     .container__pathfinder{
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
@@ -667,6 +594,7 @@ body{
                 }
                     
                     .contenedor__incubadoraIdeas_borde{
+                        padding-bottom: 8px;
                         h3{
                             padding: 24px 20px 0px 8px;
                             color: $gris__oscuro;
@@ -700,41 +628,6 @@ body{
             }
         }
     }
-    /* Sección Incubadora de Ideas */
-        
-        .contenedor__presentarProyecto{
-            margin: 32px 20px 48px 20px;
-            display: flex;
-            background-color: $amarillo;
-            p{
-                    text-decoration: none;
-                    padding: 32px 8px 16px 26px;
-                    color: $blanco;
-                    font-family: Raleway;
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 14px;
-                    line-height: 20px;
-                    .imgText__presentarProyecto{
-                        width: 24px;
-                        padding: unset;
-                    }
-                    span{
-                        font-weight: 600;
-                        line-height: 16px;
-                        a{
-                            text-decoration: none;
-                            color: $blanco;
-                        }
-                    }
-                }
-            
-            img{
-                padding: 8px 0px 16px 48px;
-            }
-            
-        }
-    
     /* Sección Pathfinder */
     .container__pathfinder{
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);

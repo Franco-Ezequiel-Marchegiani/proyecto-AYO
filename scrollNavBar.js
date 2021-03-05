@@ -1,5 +1,5 @@
 // Scroll Hide
-(function(){
+/* (function(){
 
     var documento = document.documentElement;
     var ventana = window;
@@ -13,11 +13,7 @@
   
     var checkScroll = function() {
   
-      /*
-      ** Find the direction of scroll
-      ** 0 - initial, 1 - up, 2 - down
-      */
-  
+
       curScroll = ventana.scrollY || documento.scrollTop;
       if (curScroll > prevScroll) { 
         //scrolled up
@@ -51,4 +47,4 @@
     
     window.addEventListener('scroll', checkScroll);
   
-  })();
+  })(); */
