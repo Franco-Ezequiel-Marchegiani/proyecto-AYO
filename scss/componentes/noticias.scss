@@ -1,0 +1,153 @@
+@import "./variables.scss";
+body{
+    font-family: 'Raleway', sans-serif;
+}
+@media only screen and (max-width: 320px){
+    .seccionHistoria{
+        img{
+            width: 100%;
+        }
+        h1{
+            padding: 40px 20px 8px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        h2{
+            padding: 0px 20px 40px 20px;
+            color: $negro__letras;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 150%;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            span{
+                font-weight: bold;
+            }
+        }
+    }
+    .seccionImagenesTriatlon{
+        img{
+            padding: 20px 20px;
+            width: 100%;
+        }
+        .ultimaImagenTritlon{
+            padding-bottom: 64px;
+        }
+    }
+    .seccionImagenesGlobalDignity{
+        display: flex;
+        justify-content: center;
+        img{
+            padding-top: 48px;
+            padding-bottom: 80px;
+            width: 124px;
+        }
+    }
+}
+@media only screen and (min-width:321px) and (max-width: 599px){
+    .seccionHistoria{
+        img{
+            width: 100%;
+        }
+        h1{
+            padding: 40px 20px 8px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        h2{
+            padding: 0px 20px 40px 20px;
+            color: $negro__letras;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 150%;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            span{
+                font-weight: bold;
+            }
+        }
+    }
+    .seccionImagenesTriatlon{
+        img{
+            padding: 20px 20px;
+            width: 100%;
+        }
+        .ultimaImagenTritlon{
+            padding-bottom: 64px;
+        }
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px){
+    .seccionHistoria{
+        img{
+            width: 100%;
+        }
+        h1{
+            padding: 40px 20px 8px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        h2{
+            padding: 0px 20px 40px 20px;
+            color: $negro__letras;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 150%;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            span{
+                font-weight: bold;
+            }
+        }
+    }
+    .seccionImagenesTriatlon{
+        img{
+            padding: 20px 20px;
+            width: 100%;
+        }
+        .ultimaImagenTritlon{
+            padding-bottom: 64px;
+        }
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1200px){
+}

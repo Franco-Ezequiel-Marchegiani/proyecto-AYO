@@ -228,11 +228,13 @@ body {
     .section__partners .partners__containers {
       display: flex;
       justify-content: center;
+      align-items: center;
       overflow-x: scroll;
       white-space: nowrap;
       padding-left: 320px; }
       .section__partners .partners__containers img {
         width: 56px;
+        height: 56px;
         padding: 10px 8px; }
   /* Sección Objetivos de Desarrollo */
   .section__objetivosDesarrollo {
@@ -396,8 +398,17 @@ body {
   .section__noticias {
     padding-right: 20px;
     background-color: #FCFCFC; }
+    .section__noticias .anioNoticia {
+      padding-bottom: 16px;
+      color: #000000;
+      text-align: center;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px; }
     .section__noticias .titulo__noticias {
-      padding: 87px 0px 40px 0px;
+      padding: 87px 0px 32px 0px;
       text-align: center;
       font-family: Raleway;
       font-style: normal;
@@ -495,11 +506,13 @@ body {
     .section__partners .partners__containers {
       display: flex;
       justify-content: center;
+      align-items: center;
       overflow-x: scroll;
       white-space: nowrap;
       padding-left: 320px; }
       .section__partners .partners__containers img {
         width: 64px;
+        height: 64px;
         padding: 10px 8px; }
   /* Sección Objetivos de Desarrollo */
   .section__objetivosDesarrollo {
@@ -661,6 +674,15 @@ body {
   .section__noticias {
     padding-right: 20px;
     background-color: #FCFCFC; }
+    .section__noticias .anioNoticia {
+      padding-bottom: 16px;
+      color: #000000;
+      text-align: center;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px; }
     .section__noticias .titulo__noticias {
       padding: 87px 0px 40px 0px;
       text-align: center;
@@ -759,11 +781,13 @@ body {
     .section__partners .partners__containers {
       display: flex;
       justify-content: center;
+      align-items: center;
       overflow-x: scroll;
       white-space: nowrap;
       padding-left: 480px; }
       .section__partners .partners__containers img {
         width: 80px;
+        height: 80px;
         padding: 10px 18px; }
   /* Sección Objetivos de Desarrollo */
   .section__objetivosDesarrollo {
@@ -922,6 +946,15 @@ body {
   .section__noticias {
     padding-right: 20px;
     background-color: #FCFCFC; }
+    .section__noticias .anioNoticia {
+      padding-bottom: 16px;
+      color: #000000;
+      text-align: center;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px; }
     .section__noticias .titulo__noticias {
       padding: 87px 0px 40px 0px;
       text-align: center;
@@ -977,11 +1010,13 @@ body {
     .section__partners .partners__containers {
       display: flex;
       justify-content: center;
+      align-items: center;
       overflow-x: scroll;
       white-space: nowrap;
       padding-left: 320px; }
       .section__partners .partners__containers img {
         width: 100px;
+        height: 100px;
         padding: 10px 8px; } }
 
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
@@ -998,11 +1033,13 @@ body {
     .section__partners .partners__containers {
       display: flex;
       justify-content: center;
+      align-items: center;
       overflow-x: scroll;
       white-space: nowrap;
       padding-left: 320px; }
       .section__partners .partners__containers img {
         width: 120;
+        height: 120px;
         padding: 10px 8px; } }
 
 .section__partners {
@@ -1018,6 +1055,7 @@ body {
   .section__partners .partners__containers {
     display: flex;
     justify-content: center;
+    align-items: center;
     overflow-x: scroll;
     white-space: nowrap;
     padding-left: 320px; }
@@ -5056,3 +5094,119 @@ body {
       .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen6_sobreAyo {
         position: relative;
         top: 8px; } }
+
+/*** Variables Colores  ***/
+body {
+  font-family: 'Raleway', sans-serif; }
+
+@media only screen and (max-width: 320px) {
+  .seccionHistoria img {
+    width: 100%; }
+  .seccionHistoria h1 {
+    padding: 40px 20px 8px 20px;
+    color: #2D2926;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%; }
+  .seccionHistoria h2 {
+    padding: 0px 20px 40px 20px;
+    color: #000000;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%; }
+  .seccionHistoria p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%; }
+    .seccionHistoria p span {
+      font-weight: bold; }
+  .seccionImagenesTriatlon img {
+    padding: 20px 20px;
+    width: 100%; }
+  .seccionImagenesTriatlon .ultimaImagenTritlon {
+    padding-bottom: 64px; }
+  .seccionImagenesGlobalDignity {
+    display: flex;
+    justify-content: center; }
+    .seccionImagenesGlobalDignity img {
+      padding-top: 48px;
+      padding-bottom: 80px;
+      width: 124px; } }
+
+@media only screen and (min-width: 321px) and (max-width: 599px) {
+  .seccionHistoria img {
+    width: 100%; }
+  .seccionHistoria h1 {
+    padding: 40px 20px 8px 20px;
+    color: #2D2926;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%; }
+  .seccionHistoria h2 {
+    padding: 0px 20px 40px 20px;
+    color: #000000;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%; }
+  .seccionHistoria p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%; }
+    .seccionHistoria p span {
+      font-weight: bold; }
+  .seccionImagenesTriatlon img {
+    padding: 20px 20px;
+    width: 100%; }
+  .seccionImagenesTriatlon .ultimaImagenTritlon {
+    padding-bottom: 64px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .seccionHistoria img {
+    width: 100%; }
+  .seccionHistoria h1 {
+    padding: 40px 20px 8px 20px;
+    color: #2D2926;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%; }
+  .seccionHistoria h2 {
+    padding: 0px 20px 40px 20px;
+    color: #000000;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%; }
+  .seccionHistoria p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%; }
+    .seccionHistoria p span {
+      font-weight: bold; }
+  .seccionImagenesTriatlon img {
+    padding: 20px 20px;
+    width: 100%; }
+  .seccionImagenesTriatlon .ultimaImagenTritlon {
+    padding-bottom: 64px; } }
