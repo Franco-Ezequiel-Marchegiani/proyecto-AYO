@@ -3821,13 +3821,15 @@ body {
       padding: unset;
       margin: unset;
       padding: 46px 30px 40px 30px;
-      color: #FFFFFF;
       text-align: center;
       font-family: Raleway;
       font-style: normal;
       font-weight: normal;
       font-size: 11px;
-      line-height: 13px; } }
+      line-height: 13px; }
+      footer .footer__redesSociales .footer__avisoLegal a {
+        text-decoration: none;
+        color: #FFFFFF; } }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
   footer {
@@ -3898,7 +3900,10 @@ body {
       font-style: normal;
       font-weight: normal;
       font-size: 11px;
-      line-height: 13px; } }
+      line-height: 13px; }
+      footer .footer__redesSociales .footer__avisoLegal a {
+        text-decoration: none;
+        color: #FFFFFF; } }
 
 @media only screen and (min-width: 481px) and (max-width: 599px) {
   footer {
@@ -3968,7 +3973,10 @@ body {
       font-style: normal;
       font-weight: normal;
       font-size: 11px;
-      line-height: 13px; } }
+      line-height: 13px; }
+      footer .footer__redesSociales .footer__avisoLegal a {
+        text-decoration: none;
+        color: #FFFFFF; } }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   footer {
@@ -4038,7 +4046,10 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 11px;
-    line-height: 13px; } }
+    line-height: 13px; }
+    .footer__redesSociales .footer__avisoLegal a {
+      text-decoration: none;
+      color: #FFFFFF; } }
 
 /*** Variables Colores  ***/
 body {
@@ -5128,6 +5139,11 @@ body {
     line-height: 150%; }
     .seccionHistoria p span {
       font-weight: bold; }
+  .seccionHistoria div {
+    display: flex; }
+    .seccionHistoria div .imagenBotonImpulso {
+      padding: 8px;
+      width: 80px; }
   .seccionImagenesTriatlon img {
     padding: 20px 20px;
     width: 100%; }
@@ -5139,9 +5155,28 @@ body {
     .seccionImagenesGlobalDignity img {
       padding-top: 48px;
       padding-bottom: 80px;
-      width: 124px; } }
+      width: 124px; }
+  .seccionImagenesGlobalDignityDay2019 img {
+    width: 100%;
+    padding: 8px 20px 40px 20px; }
+  .seccionColaboradores p {
+    padding: 20px 0px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%; }
+  .seccionColaboradores .seccionColaboradoresContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; }
+    .seccionColaboradores .seccionColaboradoresContainer img {
+      width: 120px;
+      padding: 20px; } }
 
-@media only screen and (min-width: 321px) and (max-width: 599px) {
+@media only screen and (min-width: 321px) and (max-width: 480px) {
   .seccionHistoria img {
     width: 100%; }
   .seccionHistoria h1 {
@@ -5170,11 +5205,112 @@ body {
     line-height: 150%; }
     .seccionHistoria p span {
       font-weight: bold; }
-  .seccionImagenesTriatlon img {
-    padding: 20px 20px;
+  .seccionHistoria div {
+    display: flex; }
+    .seccionHistoria div .imagenBotonImpulso {
+      width: 72px; }
+  .seccionImagenesTriatlon {
+    display: flex;
+    justify-content: center; }
+    .seccionImagenesTriatlon img {
+      padding: 20px 20px;
+      width: 75%; }
+    .seccionImagenesTriatlon .ultimaImagenTritlon {
+      padding-bottom: 64px; }
+  .seccionImagenesGlobalDignity {
+    display: flex;
+    justify-content: center; }
+    .seccionImagenesGlobalDignity img {
+      padding-top: 48px;
+      padding-bottom: 80px;
+      width: 124px; }
+  .seccionImagenesGlobalDignityDay2019 img {
+    width: 100%;
+    padding: 8px 20px 40px 20px; }
+  .seccionColaboradores p {
+    padding: 20px 0px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%; }
+  .seccionColaboradores .seccionColaboradoresContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; }
+    .seccionColaboradores .seccionColaboradoresContainer img {
+      width: 160px;
+      padding: 20px; } }
+
+@media only screen and (min-width: 481px) and (max-width: 599px) {
+  .seccionHistoria img {
     width: 100%; }
-  .seccionImagenesTriatlon .ultimaImagenTritlon {
-    padding-bottom: 64px; } }
+  .seccionHistoria h1 {
+    padding: 40px 20px 8px 20px;
+    color: #2D2926;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%; }
+  .seccionHistoria h2 {
+    padding: 0px 20px 40px 20px;
+    color: #000000;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%; }
+  .seccionHistoria p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%; }
+    .seccionHistoria p span {
+      font-weight: bold; }
+  .seccionHistoria div {
+    display: flex; }
+    .seccionHistoria div .imagenBotonImpulso {
+      width: 72px; }
+  .seccionImagenesTriatlon {
+    display: flex;
+    justify-content: center; }
+    .seccionImagenesTriatlon img {
+      padding: 20px 20px;
+      width: 50%; }
+    .seccionImagenesTriatlon .ultimaImagenTritlon {
+      padding-bottom: 64px; }
+  .seccionImagenesGlobalDignity {
+    display: flex;
+    justify-content: center; }
+    .seccionImagenesGlobalDignity img {
+      padding-top: 48px;
+      padding-bottom: 80px;
+      width: 124px; }
+  .seccionImagenesGlobalDignityDay2019 img {
+    width: 100%;
+    padding: 8px 20px 40px 20px; }
+  .seccionColaboradores p {
+    padding: 20px 0px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%; }
+  .seccionColaboradores .seccionColaboradoresContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; }
+    .seccionColaboradores .seccionColaboradoresContainer img {
+      width: 160px;
+      padding: 20px; } }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   .seccionHistoria img {
@@ -5205,8 +5341,150 @@ body {
     line-height: 150%; }
     .seccionHistoria p span {
       font-weight: bold; }
-  .seccionImagenesTriatlon img {
-    padding: 20px 20px;
-    width: 100%; }
-  .seccionImagenesTriatlon .ultimaImagenTritlon {
-    padding-bottom: 64px; } }
+  .seccionHistoria div {
+    display: flex; }
+    .seccionHistoria div .imagenBotonImpulso {
+      width: 72px; }
+  .seccionImagenesTriatlon {
+    display: flex;
+    justify-content: center; }
+    .seccionImagenesTriatlon img {
+      padding: 20px 20px;
+      width: 50%; }
+    .seccionImagenesTriatlon .ultimaImagenTritlon {
+      padding-bottom: 64px; }
+  .seccionImagenesGlobalDignity {
+    display: flex;
+    justify-content: center; }
+    .seccionImagenesGlobalDignity img {
+      padding-top: 48px;
+      padding-bottom: 80px;
+      width: 124px; }
+  .seccionImagenesGlobalDignityDay2019 img {
+    width: 100%;
+    padding: 8px 20px 40px 20px; }
+  .seccionColaboradores p {
+    padding: 20px 0px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%; }
+  .seccionColaboradores .seccionColaboradoresContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; }
+    .seccionColaboradores .seccionColaboradoresContainer img {
+      width: 200px;
+      padding: 20px; } }
+
+/*** Variables Colores  ***/
+body {
+  font-family: 'Raleway', sans-serif; }
+
+@media only screen and (max-width: 320px) {
+  .secctionAvisoLegal h1 {
+    padding: 48px 20px 16px 20px;
+    color: #2D2926;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%; }
+  .secctionAvisoLegal p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.15px; }
+    .secctionAvisoLegal p span {
+      display: block; } }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .secctionAvisoLegal h1 {
+    padding: 48px 20px 16px 20px;
+    color: #2D2926;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%; }
+  .secctionAvisoLegal p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.15px; }
+    .secctionAvisoLegal p span {
+      display: block; } }
+
+@media only screen and (min-width: 481px) and (max-width: 599px) {
+  .secctionAvisoLegal h1 {
+    padding: 48px 20px 16px 20px;
+    color: #2D2926;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%; }
+  .secctionAvisoLegal p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.15px; }
+    .secctionAvisoLegal p span {
+      display: block; } }
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .secctionAvisoLegal h1 {
+    padding: 48px 20px 16px 20px;
+    color: #2D2926;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%; }
+  .secctionAvisoLegal p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.15px; }
+    .secctionAvisoLegal p span {
+      display: block; } }
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  .secctionAvisoLegal h1 {
+    padding: 48px 20px 16px 20px;
+    color: #2D2926;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%; }
+  .secctionAvisoLegal p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.15px; }
+    .secctionAvisoLegal p span {
+      display: block; } }

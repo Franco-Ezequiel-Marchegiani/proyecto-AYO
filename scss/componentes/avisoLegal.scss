@@ -1,0 +1,134 @@
+@import "./variables.scss";
+body{
+    font-family: 'Raleway', sans-serif;
+}
+@media only screen and (max-width: 320px){
+    .secctionAvisoLegal{
+        h1{
+            padding: 48px 20px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+            span{
+                display: block;
+            }
+        }
+    }
+}
+@media only screen and (min-width:321px) and (max-width: 480px){
+    .secctionAvisoLegal{
+        h1{
+            padding: 48px 20px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+            span{
+                display: block;
+            }
+        }
+    }
+}
+@media only screen and (min-width:481px) and (max-width: 599px){
+    .secctionAvisoLegal{
+        h1{
+            padding: 48px 20px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+            span{
+                display: block;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px){
+    .secctionAvisoLegal{
+        h1{
+            padding: 48px 20px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+            span{
+                display: block;
+            }
+        }
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1200px){
+    .secctionAvisoLegal{
+        h1{
+            padding: 48px 20px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+            span{
+                display: block;
+            }
+        }
+    }
+}

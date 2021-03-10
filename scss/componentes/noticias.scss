@@ -37,6 +37,13 @@ body{
                 font-weight: bold;
             }
         }
+        div{
+            display: flex;
+            .imagenBotonImpulso{
+                padding: 8px;
+                width: 80px;
+            }
+        }
     }
     .seccionImagenesTriatlon{
         img{
@@ -56,8 +63,35 @@ body{
             width: 124px;
         }
     }
+    .seccionImagenesGlobalDignityDay2019{
+        img{
+            width: 100%;
+            padding: 8px 20px 40px 20px;
+        }
+    }
+    .seccionColaboradores{
+        p{
+            padding: 20px 0px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+        }
+        .seccionColaboradoresContainer{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: 120px;
+                padding: 20px;
+            }
+        }
+    }
 }
-@media only screen and (min-width:321px) and (max-width: 599px){
+@media only screen and (min-width:321px) and (max-width: 480px){
     .seccionHistoria{
         img{
             width: 100%;
@@ -92,14 +126,148 @@ body{
                 font-weight: bold;
             }
         }
+        div{
+            display: flex;
+            .imagenBotonImpulso{
+                width: 72px;
+            }
+        }
     }
     .seccionImagenesTriatlon{
+        display: flex;
+        justify-content: center;
         img{
             padding: 20px 20px;
-            width: 100%;
+            width: 75%;
         }
         .ultimaImagenTritlon{
             padding-bottom: 64px;
+        }
+    }
+    .seccionImagenesGlobalDignity{
+        display: flex;
+        justify-content: center;
+        img{
+            padding-top: 48px;
+            padding-bottom: 80px;
+            width: 124px;
+        }
+    }
+    .seccionImagenesGlobalDignityDay2019{
+        img{
+            width: 100%;
+            padding: 8px 20px 40px 20px;
+        }
+    }
+    .seccionColaboradores{
+        p{
+            padding: 20px 0px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+        }
+        .seccionColaboradoresContainer{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: 160px;
+                padding: 20px;
+            }
+        }
+    }
+}
+@media only screen and (min-width:481px) and (max-width: 599px){
+    .seccionHistoria{
+        img{
+            width: 100%;
+        }
+        h1{
+            padding: 40px 20px 8px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        h2{
+            padding: 0px 20px 40px 20px;
+            color: $negro__letras;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 150%;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            span{
+                font-weight: bold;
+            }
+        }
+        div{
+            display: flex;
+            .imagenBotonImpulso{
+                width: 72px;
+            }
+        }
+    }
+    .seccionImagenesTriatlon{
+        display: flex;
+        justify-content: center;
+        img{
+            padding: 20px 20px;
+            width: 50%;
+        }
+        .ultimaImagenTritlon{
+            padding-bottom: 64px;
+        }
+    }
+    .seccionImagenesGlobalDignity{
+        display: flex;
+        justify-content: center;
+        img{
+            padding-top: 48px;
+            padding-bottom: 80px;
+            width: 124px;
+        }
+    }
+    .seccionImagenesGlobalDignityDay2019{
+        img{
+            width: 100%;
+            padding: 8px 20px 40px 20px;
+        }
+    }
+    .seccionColaboradores{
+        p{
+            padding: 20px 0px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+        }
+        .seccionColaboradoresContainer{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: 160px;
+                padding: 20px;
+            }
         }
     }
 }
@@ -138,14 +306,58 @@ body{
                 font-weight: bold;
             }
         }
+        div{
+            display: flex;
+            .imagenBotonImpulso{
+                width: 72px;
+            }
+        }
     }
     .seccionImagenesTriatlon{
+        display: flex;
+        justify-content: center;
         img{
             padding: 20px 20px;
-            width: 100%;
+            width: 50%;
         }
         .ultimaImagenTritlon{
             padding-bottom: 64px;
+        }
+    }
+    .seccionImagenesGlobalDignity{
+        display: flex;
+        justify-content: center;
+        img{
+            padding-top: 48px;
+            padding-bottom: 80px;
+            width: 124px;
+        }
+    }
+    .seccionImagenesGlobalDignityDay2019{
+        img{
+            width: 100%;
+            padding: 8px 20px 40px 20px;
+        }
+    }
+    .seccionColaboradores{
+        p{
+            padding: 20px 0px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+        }
+        .seccionColaboradoresContainer{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: 200px;
+                padding: 20px;
+            }
         }
     }
 }

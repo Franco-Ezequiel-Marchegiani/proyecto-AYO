@@ -78,13 +78,16 @@ body{
                 padding: unset;
                 margin: unset;
                 padding: 46px 30px 40px 30px;
-                color: $blanco;
                 text-align: center;
                 font-family: Raleway;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 11px;
-                line-height: 13px;           
+                line-height: 13px;      
+                a{
+                    text-decoration: none;
+                    color: $blanco;
+                }     
             }
         }
     }
@@ -176,7 +179,11 @@ body{
                 font-style: normal;
                 font-weight: normal;
                 font-size: 11px;
-                line-height: 13px;           
+                line-height: 13px;       
+                a{
+                    text-decoration: none;
+                    color: $blanco;
+                }         
             }
         }
     }
@@ -268,7 +275,11 @@ body{
                 font-style: normal;
                 font-weight: normal;
                 font-size: 11px;
-                line-height: 13px;           
+                line-height: 13px;    
+                a{
+                    text-decoration: none;
+                    color: $blanco;
+                }            
             }
         }
     }
@@ -358,7 +369,11 @@ body{
             font-style: normal;
             font-weight: normal;
             font-size: 11px;
-            line-height: 13px;           
+            line-height: 13px;  
+            a{
+                text-decoration: none;
+                color: $blanco;
+            }              
         }
     }
 }
