@@ -49,6 +49,10 @@ body{
                 background-color: $blanco;
                 color:$gris__oscuro;
                 border: none;
+                a{
+                    text-decoration: none;
+                    color: $gris__oscuro;
+                }
             }
         }
     }
@@ -106,6 +110,11 @@ body{
             font-weight: 500;
             font-size: 14px;
             line-height: 20px;
+            a{
+                text-decoration: none;
+                color: $blanco;
+                font-weight: bold;
+            }
         }
         .textoMarginEstrategia_sobreAyo{
             padding-bottom: 164px;
@@ -466,6 +475,10 @@ body{
                 background-color: $blanco;
                 color:$gris__oscuro;
                 border: none;
+                a{
+                    text-decoration: none;
+                    color: $gris__oscuro;
+                }
             }
         }
     }
@@ -524,6 +537,11 @@ body{
             font-weight: 500;
             font-size: 14px;
             line-height: 20px;
+            a{
+                text-decoration: none;
+                color: $blanco;
+                font-weight: bold;
+            }
         }
         .textoMarginEstrategia_sobreAyo{
             padding-bottom: 164px;
@@ -902,6 +920,10 @@ body{
                 background-color: $blanco;
                 color:$gris__oscuro;
                 border: none;
+                a{
+                    text-decoration: none;
+                    color: $gris__oscuro;
+                }
             }
         }
     }
@@ -959,6 +981,11 @@ body{
             font-weight: 500;
             font-size: 14px;
             line-height: 20px;
+            a{
+                text-decoration: none;
+                color: $blanco;
+                font-weight: bold;
+            }
         }
         .textoMarginEstrategia_sobreAyo{
             padding-bottom: 164px;

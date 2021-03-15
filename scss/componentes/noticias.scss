@@ -48,11 +48,21 @@ body{
     .seccionImagenesTriatlon{
         img{
             padding: 20px 20px;
+            height: 100%;
             width: 100%;
         }
         .ultimaImagenTritlon{
             padding-bottom: 64px;
         }
+    }
+    .seccionImagenesTriatlonLineal{
+        img{
+            padding: 20px 20px;
+            width: 100%;
+        }
+        .ultimaImagenTritlon{
+            padding-bottom: 64px;
+        } 
     }
     .seccionImagenesGlobalDignity{
         display: flex;
@@ -138,10 +148,20 @@ body{
         justify-content: center;
         img{
             padding: 20px 20px;
+            height: 75%;
             width: 75%;
         }
         .ultimaImagenTritlon{
             padding-bottom: 64px;
+        }
+    }
+    .seccionImagenesTriatlonLineal{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        img{
+            padding: 20px 20px;
+            width: 75%;
         }
     }
     .seccionImagenesGlobalDignity{
@@ -228,10 +248,20 @@ body{
         justify-content: center;
         img{
             padding: 20px 20px;
-            width: 50%;
+            height: 75%;
+            width: 75%;
         }
         .ultimaImagenTritlon{
             padding-bottom: 64px;
+        }
+    }
+    .seccionImagenesTriatlonLineal{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        img{
+            padding: 20px 20px;
+            width: 65%;
         }
     }
     .seccionImagenesGlobalDignity{
@@ -318,10 +348,20 @@ body{
         justify-content: center;
         img{
             padding: 20px 20px;
-            width: 50%;
+            height: 75%;
+            width: 75%;
         }
         .ultimaImagenTritlon{
             padding-bottom: 64px;
+        }
+    }
+    .seccionImagenesTriatlonLineal{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        img{
+            padding: 20px 20px;
+            width: 60%;
         }
     }
     .seccionImagenesGlobalDignity{

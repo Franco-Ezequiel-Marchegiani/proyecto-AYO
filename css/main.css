@@ -208,6 +208,9 @@ body {
           background-color: #2D2926;
           color: #FFFFFF;
           border: none; }
+          .imagen__inicio__home .text__container .btn__container__imagen .btn__donar__imagen a {
+            text-decoration: none;
+            color: #FFFFFF; }
       .imagen__inicio__home .text__container .arrow__down__container {
         display: flex;
         justify-content: center; }
@@ -233,8 +236,8 @@ body {
       white-space: nowrap;
       padding-left: 320px; }
       .section__partners .partners__containers img {
-        width: 56px;
-        height: 56px;
+        max-width: 80px;
+        height: 80px;
         padding: 10px 8px; }
   /* Sección Objetivos de Desarrollo */
   .section__objetivosDesarrollo {
@@ -394,6 +397,9 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 24px; }
+    .boton__medicionImpacto a {
+      text-decoration: none;
+      color: #000000; }
   /* Sección Noticias */
   .section__noticias {
     padding-right: 20px;
@@ -479,13 +485,8 @@ body {
         flex-direction: row;
         align-items: flex-start;
         padding-top: 10px; }
-        .imagen__inicio__home .text__container .btn__container__imagen .btn__donar__imagen {
-          margin-left: 15px;
-          border-radius: 40px;
-          padding: 12px 24px;
-          background-color: #2D2926;
-          color: #FFFFFF;
-          border: none; }
+        .imagen__inicio__home .text__container .btn__container__imagen .btnUneteHome {
+          padding: 0px 20px 0px 8px; }
       .imagen__inicio__home .text__container .arrow__down__container {
         display: flex;
         justify-content: center; }
@@ -505,14 +506,13 @@ body {
       padding: 1.5rem 0px 0px 1.5rem; }
     .section__partners .partners__containers {
       display: flex;
-      justify-content: center;
+      justify-content: start;
       align-items: center;
-      overflow-x: scroll;
-      white-space: nowrap;
-      padding-left: 320px; }
+      overflow-x: auto;
+      white-space: nowrap; }
       .section__partners .partners__containers img {
-        width: 64px;
-        height: 64px;
+        max-width: 160px;
+        height: 80px;
         padding: 10px 8px; }
   /* Sección Objetivos de Desarrollo */
   .section__objetivosDesarrollo {
@@ -670,6 +670,9 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 24px; }
+    .boton__medicionImpacto a {
+      text-decoration: none;
+      color: #000000; }
   /* Sección Noticias */
   .section__noticias {
     padding-right: 20px;
@@ -754,13 +757,8 @@ body {
         flex-direction: row;
         align-items: flex-start;
         padding-top: 10px; }
-        .imagen__inicio__home .text__container .btn__container__imagen .btn__donar__imagen {
-          margin-left: 15px;
-          border-radius: 40px;
-          padding: 12px 24px;
-          background-color: #2D2926;
-          color: #FFFFFF;
-          border: none; }
+        .imagen__inicio__home .text__container .btn__container__imagen .btnUneteHome {
+          padding: 0px 20px 0px 8px; }
       .imagen__inicio__home .text__container .arrow__down__container {
         display: flex;
         justify-content: center; }
@@ -783,12 +781,11 @@ body {
       justify-content: center;
       align-items: center;
       overflow-x: scroll;
-      white-space: nowrap;
-      padding-left: 480px; }
+      white-space: nowrap; }
       .section__partners .partners__containers img {
-        width: 80px;
+        max-width: 160px;
         height: 80px;
-        padding: 10px 18px; }
+        padding: 8px 16px; }
   /* Sección Objetivos de Desarrollo */
   .section__objetivosDesarrollo {
     background-color: #FCFCFC;
@@ -942,6 +939,9 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 24px; }
+    .boton__medicionImpacto a {
+      text-decoration: none;
+      color: #000000; }
   /* Sección Noticias */
   .section__noticias {
     padding-right: 20px;
@@ -4096,6 +4096,9 @@ body {
         background-color: #FFFFFF;
         color: #2D2926;
         border: none; }
+        .container__imagen__sobreAyo .btn__container__imagen .btn__donar__imagen a {
+          text-decoration: none;
+          color: #2D2926; }
   .seccionMV_sobreAyo {
     padding: unset;
     padding: 0px 8px;
@@ -4143,6 +4146,10 @@ body {
       font-weight: 500;
       font-size: 14px;
       line-height: 20px; }
+      .estrategiaContainer_SobreAyo p a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight: bold; }
     .estrategiaContainer_SobreAyo .textoMarginEstrategia_sobreAyo {
       padding-bottom: 164px; }
   .areasEstrategicasFondo_sobreAyo {
@@ -4433,6 +4440,9 @@ body {
         background-color: #FFFFFF;
         color: #2D2926;
         border: none; }
+        .container__imagen__sobreAyo .btn__container__imagen .btn__donar__imagen a {
+          text-decoration: none;
+          color: #2D2926; }
   .seccionMV_sobreAyo {
     padding: unset;
     padding: 0px 8px;
@@ -4480,6 +4490,10 @@ body {
       font-weight: 500;
       font-size: 14px;
       line-height: 20px; }
+      .estrategiaContainer_SobreAyo p a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight: bold; }
     .estrategiaContainer_SobreAyo .textoMarginEstrategia_sobreAyo {
       padding-bottom: 164px; }
   .areasEstrategicasFondo_sobreAyo {
@@ -4784,6 +4798,9 @@ body {
         background-color: #FFFFFF;
         color: #2D2926;
         border: none; }
+        .container__imagen__sobreAyo .btn__container__imagen .btn__donar__imagen a {
+          text-decoration: none;
+          color: #2D2926; }
   .seccionMV_sobreAyo {
     padding: unset;
     padding: 0px 8px;
@@ -4831,6 +4848,10 @@ body {
       font-weight: 500;
       font-size: 14px;
       line-height: 20px; }
+      .estrategiaContainer_SobreAyo p a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight: bold; }
     .estrategiaContainer_SobreAyo .textoMarginEstrategia_sobreAyo {
       padding-bottom: 164px; }
   .areasEstrategicasFondo_sobreAyo {
@@ -5146,8 +5167,14 @@ body {
       width: 80px; }
   .seccionImagenesTriatlon img {
     padding: 20px 20px;
+    height: 100%;
     width: 100%; }
   .seccionImagenesTriatlon .ultimaImagenTritlon {
+    padding-bottom: 64px; }
+  .seccionImagenesTriatlonLineal img {
+    padding: 20px 20px;
+    width: 100%; }
+  .seccionImagenesTriatlonLineal .ultimaImagenTritlon {
     padding-bottom: 64px; }
   .seccionImagenesGlobalDignity {
     display: flex;
@@ -5214,9 +5241,17 @@ body {
     justify-content: center; }
     .seccionImagenesTriatlon img {
       padding: 20px 20px;
+      height: 75%;
       width: 75%; }
     .seccionImagenesTriatlon .ultimaImagenTritlon {
       padding-bottom: 64px; }
+  .seccionImagenesTriatlonLineal {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .seccionImagenesTriatlonLineal img {
+      padding: 20px 20px;
+      width: 75%; }
   .seccionImagenesGlobalDignity {
     display: flex;
     justify-content: center; }
@@ -5282,9 +5317,17 @@ body {
     justify-content: center; }
     .seccionImagenesTriatlon img {
       padding: 20px 20px;
-      width: 50%; }
+      height: 75%;
+      width: 75%; }
     .seccionImagenesTriatlon .ultimaImagenTritlon {
       padding-bottom: 64px; }
+  .seccionImagenesTriatlonLineal {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .seccionImagenesTriatlonLineal img {
+      padding: 20px 20px;
+      width: 65%; }
   .seccionImagenesGlobalDignity {
     display: flex;
     justify-content: center; }
@@ -5350,9 +5393,17 @@ body {
     justify-content: center; }
     .seccionImagenesTriatlon img {
       padding: 20px 20px;
-      width: 50%; }
+      height: 75%;
+      width: 75%; }
     .seccionImagenesTriatlon .ultimaImagenTritlon {
       padding-bottom: 64px; }
+  .seccionImagenesTriatlonLineal {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .seccionImagenesTriatlonLineal img {
+      padding: 20px 20px;
+      width: 60%; }
   .seccionImagenesGlobalDignity {
     display: flex;
     justify-content: center; }
@@ -5488,3 +5539,250 @@ body {
     letter-spacing: -0.15px; }
     .secctionAvisoLegal p span {
       display: block; } }
+
+/*** Variables Colores  ***/
+body {
+  font-family: 'Raleway', sans-serif; }
+
+@media only screen and (max-width: 320px) {
+  .seccionImagen_medicionImpacto {
+    background-image: url("../../imagenes/medicionImpacto/1.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 100% 100%;
+    position: relative;
+    margin-bottom: 40px; }
+    .seccionImagen_medicionImpacto h1 {
+      padding: 320px 20px 104px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+      .seccionImagen_medicionImpacto h1 span {
+        display: block; }
+  .seccionContenedora {
+    padding-left: 20px; }
+    .seccionContenedora .contenedorBorde_medicionImpacto {
+      border-left: 1px solid rgba(189, 189, 189, 0.5); }
+      .seccionContenedora .contenedorBorde_medicionImpacto h2 {
+        padding: 0px 20px 16px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+      .seccionContenedora .contenedorBorde_medicionImpacto p {
+        padding: 0px 20px 8px 8px;
+        color: #1A1A1A;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%; }
+        .seccionContenedora .contenedorBorde_medicionImpacto p span {
+          font-weight: bold; }
+      .seccionContenedora .contenedorBorde_medicionImpacto p::before {
+        content: "|";
+        color: #1CABE2;
+        background-color: #1CABE2;
+        position: relative;
+        top: 0px;
+        width: 0px;
+        left: -10px; }
+  .detallePrograma_medicionImpacto {
+    width: 100%;
+    height: 109px;
+    padding: unset;
+    padding: 40px 20px 146px 0px; }
+    .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto {
+      background: #1CABE2;
+      display: flex;
+      flex-direction: row; }
+      .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto img {
+        color: #FFFFFF;
+        padding: 5px 0px 0px 32px; }
+      .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto {
+        padding: 25px 10px 0px 25px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto span {
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 16px; }
+          .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto span a {
+            text-decoration: none;
+            color: #FFFFFF; }
+        .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto img {
+          padding: unset;
+          width: 20px; } }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .seccionImagen_medicionImpacto {
+    background-image: url("../../imagenes/medicionImpacto/1.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 100% 100%;
+    position: relative;
+    margin-bottom: 40px; }
+    .seccionImagen_medicionImpacto h1 {
+      padding: 360px 20px 104px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+      .seccionImagen_medicionImpacto h1 span {
+        display: block; }
+  .seccionContenedora {
+    padding-left: 20px; }
+    .seccionContenedora .contenedorBorde_medicionImpacto {
+      border-left: 1px solid rgba(189, 189, 189, 0.5); }
+      .seccionContenedora .contenedorBorde_medicionImpacto h2 {
+        padding: 0px 20px 16px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+      .seccionContenedora .contenedorBorde_medicionImpacto p {
+        padding: 0px 20px 8px 8px;
+        color: #1A1A1A;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%; }
+        .seccionContenedora .contenedorBorde_medicionImpacto p span {
+          font-weight: bold; }
+      .seccionContenedora .contenedorBorde_medicionImpacto p::before {
+        content: "|";
+        color: #1CABE2;
+        background-color: #1CABE2;
+        position: relative;
+        top: 0px;
+        width: 0px;
+        left: -10px; }
+  .detallePrograma_medicionImpacto {
+    width: 100%;
+    height: 109px;
+    padding: unset;
+    padding: 40px 20px 146px 0px; }
+    .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto {
+      background: #1CABE2;
+      display: flex;
+      flex-direction: row; }
+      .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto img {
+        color: #FFFFFF;
+        padding: 5px 0px 0px 32px; }
+      .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto {
+        padding: 25px 10px 0px 25px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto span {
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 16px; }
+          .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto span a {
+            text-decoration: none;
+            color: #FFFFFF; }
+        .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto img {
+          padding: unset;
+          width: 20px; } }
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+  .seccionImagen_medicionImpacto {
+    background-image: url("../../imagenes/medicionImpacto/1.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 100% 100%;
+    position: relative;
+    margin-bottom: 40px; }
+    .seccionImagen_medicionImpacto h1 {
+      padding: 360px 20px 104px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+      .seccionImagen_medicionImpacto h1 span {
+        display: block; }
+  .seccionContenedora {
+    padding-left: 20px; }
+    .seccionContenedora .contenedorBorde_medicionImpacto {
+      border-left: 1px solid rgba(189, 189, 189, 0.5); }
+      .seccionContenedora .contenedorBorde_medicionImpacto h2 {
+        padding: 0px 20px 16px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+      .seccionContenedora .contenedorBorde_medicionImpacto p {
+        padding: 0px 20px 8px 8px;
+        color: #1A1A1A;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%; }
+        .seccionContenedora .contenedorBorde_medicionImpacto p span {
+          font-weight: bold; }
+      .seccionContenedora .contenedorBorde_medicionImpacto p::before {
+        content: "|";
+        color: #1CABE2;
+        background-color: #1CABE2;
+        position: relative;
+        top: 0px;
+        width: 0px;
+        left: -10px; }
+  .detallePrograma_medicionImpacto {
+    width: 100%;
+    height: 109px;
+    padding: unset;
+    padding: 40px 20px 146px 0px; }
+    .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto {
+      background: #1CABE2;
+      display: flex;
+      flex-direction: row; }
+      .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto img {
+        color: #FFFFFF;
+        padding: 5px 0px 0px 32px; }
+      .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto {
+        padding: 25px 10px 0px 25px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto span {
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 16px; }
+          .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto span a {
+            text-decoration: none;
+            color: #FFFFFF; }
+        .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto img {
+          padding: unset;
+          width: 20px; } }
