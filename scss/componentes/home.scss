@@ -108,7 +108,7 @@ body{
             line-height: 13px;
         }
         .title_objetivosDesarrollo{
-            padding: 0px 0px 30px 20px;
+            padding: 0px 20px 30px 20px;
             font-family: Raleway;
             font-style: normal;
             font-weight: bold;
@@ -277,25 +277,28 @@ body{
         font-size: 14px;
         line-height: 20px;
     }
-    .boton__medicionImpacto{
-        margin-bottom: 50px;
-        justify-self: center;
-        grid-area: boton;
-        background: $blanco;
-        border-radius: 40px;
-        border-style: unset;
-        padding: 12px 40px;
-        color: $negro__letras;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 24px;   
+    .boton__medicionImpactoContainer{
+        display: flex;
+        justify-content: center;
         a{
-            text-decoration: none;
-            color: $negro__letras;
-        } 
-    }
+            .boton__medicionImpacto{
+                margin-bottom: 50px;
+                justify-self: center;
+                justify-content: center;
+                grid-area: boton;
+                background: $blanco;
+                border-radius: 40px;
+                border-style: unset;
+                padding: 12px 40px;
+                color: $negro__letras;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;   
+                } 
+        }
+    }           
     /* Sección Noticias */
     .section__noticias{
         padding-right: 20px;
@@ -452,7 +455,7 @@ body{
             line-height: 13px;
         }
         .title_objetivosDesarrollo{
-            padding: 0px 0px 30px 20px;
+            padding: 0px 20px 30px 20px;
             font-family: Raleway;
             font-style: normal;
             font-weight: bold;
@@ -618,24 +621,29 @@ body{
         font-size: 14px;
         line-height: 20px;
     }
-    .boton__medicionImpacto{
-        margin-bottom: 50px;
-        justify-self: center;
-        grid-area: boton;
-        background: $blanco;
-        border-radius: 40px;
-        border-style: unset;
-        padding: 12px 40px;
-        color: $negro__letras;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 24px; 
+    .boton__medicionImpactoContainer{
+        display: flex;
+        justify-content: center;
         a{
             text-decoration: none;
             color: $negro__letras;
-        }    
+        } 
+            .boton__medicionImpacto{
+                
+                margin-bottom: 50px;
+                justify-self: center;
+                background: $blanco;
+                border-radius: 40px;
+                border-style: unset;
+                padding: 12px 40px;
+                color: $negro__letras;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px; 
+                   
+            }
     }
     /* Sección Noticias */
     .section__noticias{
@@ -791,7 +799,7 @@ body{
             line-height: 13px;
         }
         .title_objetivosDesarrollo{
-            padding: 0px 0px 30px 20px;
+            padding: 0px 20px 30px 20px;
             font-family: Raleway;
             font-style: normal;
             font-weight: bold;
@@ -953,24 +961,28 @@ body{
         font-size: 14px;
         line-height: 20px;
     }
-    .boton__medicionImpacto{
-        margin-bottom: 50px;
-        justify-self: center;
-        grid-area: boton;
-        background: $blanco;
-        border-radius: 40px;
-        border-style: unset;
-        padding: 12px 40px;
-        color: $negro__letras;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 24px;   
+    .boton__medicionImpactoContainer{
+        display: flex;
+        justify-content: center;
         a{
             text-decoration: none;
             color: $negro__letras;
-        }  
+        }
+        .boton__medicionImpacto{
+            margin-bottom: 50px;
+            justify-self: center;
+            grid-area: boton;
+            background: $blanco;
+            border-radius: 40px;
+            border-style: unset;
+            padding: 12px 40px;
+            color: $negro__letras;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;   
+        }
     }
     /* Sección Noticias */
     .section__noticias{
