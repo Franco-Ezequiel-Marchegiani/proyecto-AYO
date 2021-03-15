@@ -514,7 +514,9 @@ body {
       .section__partners .partners__containers img {
         max-width: 160px;
         height: 80px;
-        padding: 10px 8px; }
+        padding: 10px 16px; }
+      .section__partners .partners__containers .nk5INvisible {
+        padding-right: 400px; }
   /* Sección Objetivos de Desarrollo */
   .section__objetivosDesarrollo {
     background-color: #FCFCFC;
@@ -789,6 +791,8 @@ body {
         max-width: 160px;
         height: 80px;
         padding: 8px 16px; }
+      .section__partners .partners__containers .nk5INvisible {
+        padding-right: 400px; }
   /* Sección Objetivos de Desarrollo */
   .section__objetivosDesarrollo {
     background-color: #FCFCFC;
@@ -1023,7 +1027,9 @@ body {
       .section__partners .partners__containers img {
         width: 100px;
         height: 100px;
-        padding: 10px 8px; } }
+        padding: 10px 8px; }
+      .section__partners .partners__containers .nk5INvisible {
+        padding-right: 400px; } }
 
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
   .section__partners {
@@ -1046,7 +1052,9 @@ body {
       .section__partners .partners__containers img {
         width: 120;
         height: 120px;
-        padding: 10px 8px; } }
+        padding: 10px 8px; }
+      .section__partners .partners__containers .nk5INvisible {
+        padding-right: 320px; } }
 
 .section__partners {
   background-color: #FCFCFC; }

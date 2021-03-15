@@ -433,11 +433,14 @@ body{
             align-items: center;
             overflow-x: auto;
             white-space: nowrap;
-            ;
+            
             img{
                 max-width: 160px;
                 height: 80px;
-                padding: 10px 8px;
+                padding: 10px 16px;
+            }
+            .nk5INvisible{
+                padding-right: 400px;
             }
         }
     }
@@ -783,6 +786,9 @@ body{
                 height: 80px;
                 padding: 8px 16px;
             }
+            .nk5INvisible{
+                padding-right: 400px;
+            }
         }
     }
     /* Sección Objetivos de Desarrollo */
@@ -1072,6 +1078,9 @@ body{
                 height: 100px;
                 padding: 10px 8px;
             }
+            .nk5INvisible{
+                padding-right: 400px;
+            }
         }
     }
 }
@@ -1098,6 +1107,9 @@ body{
                 width: 120;
                 height: 120px;
                 padding: 10px 8px;
+            }
+            .nk5INvisible{
+                padding-right: 320px;
             }
         }
     }
