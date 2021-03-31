@@ -18,7 +18,7 @@ body{
             
             a {
                 text-decoration:none;
-                li{
+                p{
                     color: $blanco;
                     font-family: Raleway;
                     font-style: normal;
@@ -30,7 +30,25 @@ body{
                 }
             }
         }
-        .footer__container{
+        .colum__footer2{
+            padding: unset;
+            padding-top: 24px;
+            position: relative;
+            top: -16px;
+            a {
+                text-decoration:none;
+                p{
+                    color: $blanco;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 19px;
+                    padding: 16px 0px 0px 20px;
+                    list-style: none;
+                }
+            }
+        }
             .footer__contactanos{
                 padding: 32px 0px 0px 20px;
                 font-family: Raleway;
@@ -56,8 +74,11 @@ body{
             }
             .footer_datosPersonales{
                 padding-left: 20px;
+                p{
+                    padding-left: 0px;
+                }
             }
-        }
+        
         .footer__redesSociales{
             p{
                 padding: unset;
@@ -74,21 +95,21 @@ body{
             img{
                 padding-right: 15px;
             }
-            .footer__avisoLegal{
-                padding: unset;
-                margin: unset;
-                padding: 46px 30px 40px 30px;
-                text-align: center;
-                font-family: Raleway;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 11px;
-                line-height: 13px;      
-                a{
-                    text-decoration: none;
-                    color: $blanco;
-                }     
-            }
+        }
+        .footer__avisoLegal{
+            padding: unset;
+            margin: unset;
+            padding: 46px 30px 40px 30px;
+            text-align: center;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 11px;
+            line-height: 13px;      
+            a{
+                text-decoration: none;
+                color: $blanco;
+            }     
         }
     }
 }
@@ -113,7 +134,7 @@ body{
             
             a {
                 text-decoration:none;
-                li{
+                p{
                     color: $blanco;
                     font-family: Raleway;
                     font-style: normal;
@@ -125,7 +146,25 @@ body{
                 }
             }
         }
-        .footer__container{
+        .colum__footer2{
+            padding: unset;
+            padding-top: 24px;
+            position: relative;
+            top: -16px;
+            a {
+                text-decoration:none;
+                p{
+                    color: $blanco;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 19px;
+                    padding: 16px 0px 0px 20px;
+                    list-style: none;
+                }
+            }
+        }
             .footer__contactanos{
                 padding: 32px 0px 0px 20px;
                 font-family: Raleway;
@@ -151,8 +190,11 @@ body{
             }
             .footer_datosPersonales{
                 padding-left: 20px;
+                p{
+                    padding-left: 0px;
+                }
             }
-        }
+        
         .footer__redesSociales{
             p{
                 padding: unset;
@@ -169,22 +211,22 @@ body{
             img{
                 padding-right: 15px;
             }
-            .footer__avisoLegal{
-                padding: unset;
-                margin: unset;
-                padding: 46px 30px 40px 30px;
+        }
+        .footer__avisoLegal{
+            padding: unset;
+            margin: unset;
+            padding: 46px 30px 40px 30px;
+            color: $blanco;
+            text-align: center;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 11px;
+            line-height: 13px;       
+            a{
+                text-decoration: none;
                 color: $blanco;
-                text-align: center;
-                font-family: Raleway;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 11px;
-                line-height: 13px;       
-                a{
-                    text-decoration: none;
-                    color: $blanco;
-                }         
-            }
+            }         
         }
     }
 }
@@ -209,7 +251,7 @@ body{
             
             a {
                 text-decoration:none;
-                li{
+                p{
                     color: $blanco;
                     font-family: Raleway;
                     font-style: normal;
@@ -221,7 +263,25 @@ body{
                 }
             }
         }
-        .footer__container{
+        .colum__footer2{
+            padding: unset;
+            padding-top: 24px;
+            position: relative;
+            top: -16px;
+            a {
+                text-decoration:none;
+                p{
+                    color: $blanco;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 19px;
+                    padding: 16px 0px 0px 20px;
+                    list-style: none;
+                }
+            }
+        }
             .footer__contactanos{
                 padding: 32px 0px 0px 20px;
                 font-family: Raleway;
@@ -247,8 +307,11 @@ body{
             }
             .footer_datosPersonales{
                 padding-left: 20px;
+                p{
+                    padding-left: 0px;
+                }
             }
-        }
+        
         .footer__redesSociales{
             p{
                 padding: unset;
@@ -265,22 +328,22 @@ body{
             img{
                 padding-right: 15px;
             }
-            .footer__avisoLegal{
-                padding: unset;
-                margin: unset;
-                padding: 46px 30px 40px 30px;
+        }
+        .footer__avisoLegal{
+            padding: unset;
+            margin: unset;
+            padding: 46px 30px 40px 30px;
+            color: $blanco;
+            text-align: center;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 11px;
+            line-height: 13px;    
+            a{
+                text-decoration: none;
                 color: $blanco;
-                text-align: center;
-                font-family: Raleway;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 11px;
-                line-height: 13px;    
-                a{
-                    text-decoration: none;
-                    color: $blanco;
-                }            
-            }
+            }            
         }
     }
 }
@@ -303,7 +366,7 @@ body{
         
         a {
             text-decoration:none;
-            li{
+            p{
                 color: $blanco;
                 font-family: Raleway;
                 font-style: normal;
@@ -315,7 +378,25 @@ body{
             }
         }
     }
-    .footer__container{
+    .colum__footer2{
+        padding: unset;
+        padding-top: 24px;
+        position: relative;
+        top: -16px;
+        a {
+            text-decoration:none;
+            p{
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+                padding: 16px 0px 0px 20px;
+                list-style: none;
+            }
+        }
+    }
         .footer__contactanos{
             padding: 32px 0px 0px 20px;
             font-family: Raleway;
@@ -341,8 +422,11 @@ body{
         }
         .footer_datosPersonales{
             padding-left: 20px;
+            p{
+                padding-left: 0px;
+            }
         }
-    }
+    
     .footer__redesSociales{
         p{
             padding: unset;
@@ -377,6 +461,269 @@ body{
         }
     }
 }
-@media only screen and (min-width:769px) and (max-width:1200px){
+@media only screen and (min-width:769px) and (max-width:1000px){
+
+}
+/* Desktop */
+@media only screen and (min-width:1001px) and (max-width:1200px){
+    footer{
+        
+        background-image: url("../../imagenes/footer/fondoFooterDesktop.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        .footerContainerContent{
+            display: flex;
+            align-items: center;
+            max-width: 85%;
+            margin: auto;
+        }
+    }
+    .logo__footer{
+        margin-top: 56px;
+        padding-left: 20px;
+        width: 165px;
+        height: 33px;
+    }
+    .colum__footer{
+        padding: unset;
+        padding-top: 50px;
+        
+        a {
+            text-decoration:none;
+            p{
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+                padding: 16px 0px 0px 20px;
+                list-style: none;
+            }
+        }
+    }
+    .colum__footer2{
+        padding: unset;
+        padding-top: 24px;
+        position: relative;
+        top: 12px;
+        a {
+            text-decoration:none;
+            p{
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+                padding: 16px 0px 0px 20px;
+                list-style: none;
+            }
+        }
+    }
+        
+        p{
+            color: $blanco;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            img{
+                padding-right: 11px;
+            }
+        }
+        .footer_datosPersonales{
+            padding-left: 20px;
+            .footer__contactanos{
+                padding: 48px 0px 20px 20px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 22px;
+                a{
+                    text-decoration: none;
+                    color: $blanco;
+                }
+            }
+            .informacionDireccionFooter{
+                padding-left: 18px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+            }
+        }
+    
+    .footer__redesSociales{
+        p{
+            padding: unset;
+            padding: 12px 0px 10px 20px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        .container__redesSociales__icons{
+            display: flex;
+            justify-content: space-evenly;
+            padding-left: 20px;
+        }
+        img{
+            padding-right: 15px;
+        }
+    }
+    .footer__avisoLegal{
+        padding: unset;
+        margin: unset;
+        padding: 46px 30px 40px 30px;
+        color: $blanco;
+        text-align: center;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px;  
+        a{
+            text-decoration: none;
+            color: $blanco;
+        }              
+    }
+}
+@media only screen and (min-width:1201px) and (max-width:1400px){
+    footer{
+        
+        background-image: url("../../imagenes/footer/fondoFooterDesktop.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        .footerContainerContent{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            max-width: 85%;
+            margin: auto;
+        }
+    }
+    .logo__footer{
+        margin-top: 56px;
+        padding-left: 20px;
+        width: 165px;
+        height: 33px;
+    }
+    .colum__footer{
+        padding: unset;
+        padding-top: 50px;
+        
+        a {
+            text-decoration:none;
+            p{
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+                padding: 16px 0px 0px 20px;
+                list-style: none;
+            }
+        }
+    }
+    .colum__footer2{
+        padding: unset;
+        padding-top: 24px;
+        position: relative;
+        top: 12px;
+        a {
+            text-decoration:none;
+            p{
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+                padding: 16px 0px 0px 20px;
+                list-style: none;
+            }
+        }
+    }
+        
+        p{
+            color: $blanco;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            img{
+                padding-right: 11px;
+            }
+        }
+        .footer_datosPersonales{
+            padding-left: 20px;
+            .footer__contactanos{
+                padding: 48px 0px 20px 20px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 22px;
+                a{
+                    text-decoration: none;
+                    color: $blanco;
+                }
+            }
+            .informacionDireccionFooter{
+                padding-left: 18px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+            }
+        }
+    
+    .footer__redesSociales{
+        p{
+            padding: unset;
+            padding: 12px 0px 10px 20px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        .container__redesSociales__icons{
+            display: flex;
+            justify-content: space-evenly;
+            padding-left: 20px;
+        }
+        img{
+            padding-right: 15px;
+        }
+    }
+    .footer__avisoLegal{
+        padding: unset;
+        margin: unset;
+        padding: 46px 30px 40px 30px;
+        color: $blanco;
+        text-align: center;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px;  
+        a{
+            text-decoration: none;
+            color: $blanco;
+        }              
+    }
+}
+@media only screen and (min-width:1401px) and (max-width:1600px){
 
 }

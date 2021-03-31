@@ -205,6 +205,166 @@ body{
             }
     }     
 }
-@media only screen and (min-width:769px) and (max-width:1200px){
+@media only screen and (min-width:769px) and (max-width:1000px){
+
+}
+/* Desktop */
+@media only screen and (min-width:1001px) and (max-width:1200px){
+    .navbar__nav{
+        background-color: $blanco;
+        color:$gris__oscuro;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+            .container-fluid{
+                max-width: 85%;
+                background-color: $blanco;
+                color: $gris__oscuro;
+                    .navbar-brand{
+                        img{
+                            box-sizing:border-box;
+                            display:block;
+                            background: url(../../imagenes/logo.jpg);
+                            padding: unset;
+                            margin-left: 8px;
+                            padding-left: 150px;
+                            width: 150px;
+                            height: 23px;
+                        }
+                    }
+                    .btn__header{ 
+                        background-color: $blanco;
+                        color: $negro__letras; 
+                    }
+                    .navbar-collapse{
+                        background-image: $blanco;
+                        padding: 30px 0px 20px 5px;
+                        .nav-link{
+                            padding: 8px 16px 24px 8px;
+                            color:$negro__letras;
+                            font-family: Raleway;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 16px;
+                        }
+                    }
+            }
+            .btn__container{
+                
+                    .button__navbar{
+                        font-size: 16px;
+                        font-weight: 400;
+                        font-style: normal;
+                        line-height: 24px;
+                        background-color: $negro__header;
+                        color:$blanco;
+                        width: 115px;
+                        height: 48px;
+                        left: 20px;
+                        top: 554px;
+                        border: 1px solid #FFFFFF;
+                        box-sizing: border-box;
+                        border-radius: 40px;
+                        a{
+                            text-decoration: none;
+                            color: $blanco;
+                        }
+                    }
+                    .btn__unete{
+                        margin-bottom: 10px;
+                        padding-right: 10px;
+                        margin-right: 24px;
+                    }
+                    .btn__donar{
+                        position: relative;
+                        height: 0px;
+                        width: 0px;
+                        margin-left: 0px;
+                        top:1820px;
+                        background-color: transparent;
+                        color: transparent;
+                        font-size: 0px;
+                    }
+            }
+    }
+}
+@media only screen and (min-width:1201px) and (max-width:1400px){
+    .navbar__nav{
+        background-color: $blanco;
+        color:$gris__oscuro;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+            .container-fluid{
+                max-width: 85%;
+                background-color: $blanco;
+                color: $gris__oscuro;
+                    .navbar-brand{
+                        img{
+                            box-sizing:border-box;
+                            display:block;
+                            background: url(../../imagenes/logo.jpg);
+                            padding: unset;
+                            margin-left: 8px;
+                            padding-left: 150px;
+                            width: 150px;
+                            height: 23px;
+                        }
+                    }
+                    .btn__header{ 
+                        background-color: $blanco;
+                        color: $negro__letras; 
+                    }
+                    .navbar-collapse{
+                        background-image: $blanco;
+                        padding: 30px 0px 20px 5px;
+                        .nav-link{
+                            padding: 8px 16px 24px 8px;
+                            color:$negro__letras;
+                            font-family: Raleway;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 16px;
+                        }
+                    }
+            }
+            .btn__container{
+                
+                    .button__navbar{
+                        font-size: 16px;
+                        font-weight: 400;
+                        font-style: normal;
+                        line-height: 24px;
+                        background-color: $negro__header;
+                        color:$blanco;
+                        width: 115px;
+                        height: 48px;
+                        left: 20px;
+                        top: 554px;
+                        border: 1px solid #FFFFFF;
+                        box-sizing: border-box;
+                        border-radius: 40px;
+                        a{
+                            text-decoration: none;
+                            color: $blanco;
+                        }
+                    }
+                    .btn__unete{
+                        margin-bottom: 10px;
+                        padding-right: 10px;
+                        margin-right: 24px;
+                    }
+                    .btn__donar{
+                        position: relative;
+                        height: 0px;
+                        width: 0px;
+                        margin-left: 0px;
+                        top:1820px;
+                        background-color: transparent;
+                        color: transparent;
+                        font-size: 0px;
+                    }
+            }
+    }
+}
+@media only screen and (min-width:1401px) and (max-width:1600px){
 
 }

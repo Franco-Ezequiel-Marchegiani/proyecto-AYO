@@ -1161,6 +1161,938 @@ body{
 @media only screen and (min-width: 600px) and (max-width: 768px){
 
 }
-@media only screen and (min-width:769px) and (max-width:1200px){
+@media only screen and (min-width:769px) and (max-width:1000px){
+
+}
+@media only screen and (min-width:1001px) and (max-width:1200px){
+    /* Sección Imagen Inicio */
+    .container__impactoSocial{
+        background-image: url("../../imagenes/ayoEmprende/1ayoEmprendeDesktop.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        .divContainer__impactoSocial{
+            max-width: 85%;
+            margin: auto;
+            h1{
+                max-width: 350px;
+                padding: 96px 20px 0px 20px;
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 34px;
+                line-height: 40px;
+                text-align: start;
+            }
+            p{
+                padding: 0px 20px 4px 20px;
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                span{
+                    display: block;
+                }
+            }
+            a{
+                img{
+                    padding: 0px 0px 160px 20px;
+                }
+            }
+        }
+    }
+    .containerStartup{
+        max-width: 85%;
+        margin: auto;
+        .subTitulo{
+            padding: 32px 0px 0px 20px;
+            color: $azul__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px;
+        }
+        h2{
+            padding: 0px 0px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        p{
+            padding: 0px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+    .container__listStartup{
+        padding-left: 20px;
+        
+        .container__listStartup-border{
+            display: flex;
+            justify-content: flex-start;
+            div{
+                margin: 8px 56px 40px 0px;
+                p{
+                    color: $negro__letras;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 20px;
+                    span{
+                        display: block;
+                    }
+                }
+                p::before{
+                    content: "|";
+                    color: $azul__oscuro;
+                    background-color:$azul__oscuro;
+                    position: relative;
+                    top: 0px;
+                    width: 1px;
+                    left: -10px
+                }
+            }
+        }
+        img{
+            padding: 10px 20px 16px 8px;
+        }
+        p{
+            padding: unset;
+            padding: 0px 20px 0px 8px;
+        }
+        
+        
+    }
+    /* Sección Alcance */
+    .seccion__alcance{
+        margin: 32px 0px 24px 0px;
+        background-color: $azul__oscuro;
+        p{
+            text-align: center;
+            padding: 20px 0px 16px 20px;
+            color: $blanco;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px;
+        }
+        h3{
+            text-align: center;
+            padding: unset;
+            padding: 0px 0px 16px 20px;
+            color: $blanco;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px;
+        }
+        .container__alcance{
+            .container__alcance-border{
+                padding: unset;
+                padding-bottom: 30px;
+                div{
+                    display: flex;
+                    justify-content: center;
+                    p{
+                        text-align: start;
+                        color: #DFE5EB;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 19px;
+                        span{
+                            display: block;
+                        }
+                    }
+                    .textAyoEmprende__alcance-borde{
+                        position: relative;
+                        right: 9px;
+                        padding-bottom: 20px;
+                    }
+                    p::before{
+                        content: "|";
+                        background-color:$blanco;
+                        color: $blanco;
+                        position: relative;
+                        top: 0px;
+                        width: 1px;
+                        left: -10px;
+                    }
+                }
+            }
+             
+        }
+    }
+    /* Sección Emprender */
+    .card__container__emrender{
+        max-width: 85%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .card__emprender{
+            width: 335px;
+            height: 120px;
+            padding: unset;
+            margin: 0px 20px 20px 20px;
+            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+            .card-body-container-Emprender{
+                padding: unset;
+                padding: 0px 20px;
+                h5::before{
+                    content: "|";
+                    background-color:$azul__oscuro;
+                    color: $azul__oscuro;
+                    top: 0px;
+                    width: 1px;
+                    left: -20px;
+                    position: relative;
+                }
+            }
+            .card-title-emprender{
+                padding-top: 24px;
+                color: $negro__letras;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 22px;
+            }
+            .card-text-emprender{
+                color: $negro__letras;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 150%;
+                
+            }
+        }
+        .netWorking{
+            .card-text-emprender{
+                span{
+                    display: block;    
+                }
+            }
+        }
+        .espTrabajo{
+           .card-text-emprender{
+               span{
+                    display: block;
+               }
+           }     
+        }
+        .detallePrograma{
+            width: 375px;
+            height: 109px;
+            padding: unset;
+            padding: 44px 20px 104px 20px;
+                .card__detallePrograma{
+                background: $azul__oscuro;
+                display: flex;
+                flex-direction: row;
+                img{
+                    color: $blanco;
+                    padding: 5px 0px 0px 32px;
+                }
+                .card-text-detallePrograma{
+                    padding: 25px 10px 0px 25px;
+                    color: $blanco;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 20px;
+                    span{
+                        display: block;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 16px;
+                        a{
+                            text-decoration: none;
+                            color: $blanco;
+                        }
+                    }
+                    img{
+                        padding: unset;
+                        width: 20px;
+                    }
+                }
+            }
+        }
+    }
+    /* Sección Requisistos para participar si tienes un negocio */
+    .container__participarNegocio{
+        max-width: 85%;
+        margin: auto;
+        p{
+            padding: unset;
+            margin: unset;
+            color: $azul__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px;
+            padding: 32px 0px 0px 20px;
+        }
+        h4{
+            padding: unset;
+            margin: unset;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px;
+            padding: 16px 0px 0px 20px;
+        }
+        .list__container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding: unset;
+            padding: 16px 0px 0px 28px;
+            list-style: none;
+            div{
+                display: flex;
+                justify-content: flex-start;
+                width: 328px;
+                padding: 24px 0px;
+                .iconoParticipantes1{
+                    width: 24px;
+                    position: relative;
+                    top: -12px;
+                    left: -9px;
+                }
+                .iconoParticipantes2{
+                    width: 24px;
+                    position: relative;
+                    top: -12px;
+                    left: -9px;
+                }
+                .iconoParticipantes3{
+                    width: 24px;
+                    position: relative;
+                    top: -14px;
+                    left: -9px;
+                }
+                .iconoParticipantes4{
+                    width: 24px;
+                    position: relative;
+                    top: -14px;
+                    left: -9px;
+                }
+                .iconoParticipantes5{
+                    width: 24px;
+                    position: relative;
+                    top: 8px;
+                    left: -9px;
+                }
+                .iconoParticipantes6{
+                    width: 24px;
+                    position: relative;
+                    top: 8px;
+                    left: -9px;
+                }
+                .iconoParticipantes7{
+                    width: 24px;
+                    position: relative;
+                    top: 8px;
+                    left: -9px;
+                }
+                li{
+                    padding: 15px 20px 0px 0px;
+                    color: $negro__letras;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 150%;
+                    span{
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+    /* Sección Candidatura */
+    .seccionCandidatura{
+        max-width: 85%;
+        margin: auto;
+        display: flex;
+        .card__candidatura{
+            display: flex;
+            padding: 64 20px 0px 20px;
+            margin: 32px 20px 0px 20px;
+            width: 335px;
+            background-color: $azul__oscuro;
+            img{
+                padding: 0px 20px 0px 25px;
+            }
+            p{
+                color: $blanco;
+                padding: 20px 20px 0px 0px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                span{
+                    display: block;
+                    line-height: 16px;
+                    a{
+                        text-decoration: none;
+                        color: $blanco;
+                    }
+                }
+                img{
+                    padding: unset;
+                    width: 20px;
+                }
+            }
+        }
+        .card__comiteInversion{
+            display: flex;
+            margin: 32px 20px 0px 20px;
+            background-color: $azul__oscuro;
+            width: 335px;
+            img{
+                width: 72px;
+                padding: 8px 20px 20px 25px;
+            }
+            p{
+                color: $blanco;
+                padding: 20px 20px 0px 0px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                span{
+                    display: block;
+                    font-weight: 600;
+                    line-height: 16px;
+                    a{
+                        text-decoration: none;
+                        color: $blanco;
+                    }
+                }            
+                img{
+                    padding: unset;
+                    width: 20px;
+                }
+            }
+        }
+    }
+    /* Sección Socios */
+    .container__socios{
+        max-width: 85%;
+        margin: auto;
+        p{
+            padding: 64px 0px 0px 22px;
+            color: $azul__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px;
+        }
+        div{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            img{
+                width: 146px;
+                padding: 0px 20px 120px 20px;
+            }
+        }
+    }
+    .footer__emprender{
+        margin-top: 40px;
+    }
+}
+@media only screen and (min-width:1201px) and (max-width:1400px){
+    /* Sección Imagen Inicio */
+    .container__impactoSocial{
+        background-image: url("../../imagenes/ayoEmprende/1ayoEmprendeDesktop.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        .divContainer__impactoSocial{
+            max-width: 85%;
+            margin: auto;
+            h1{
+                max-width: 350px;
+                padding: 96px 20px 0px 20px;
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 34px;
+                line-height: 40px;
+                text-align: start;
+            }
+            p{
+                padding: 0px 20px 4px 20px;
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                span{
+                    display: block;
+                }
+            }
+            a{
+                img{
+                    padding: 0px 0px 160px 20px;
+                }
+            }
+        }
+    }
+    .containerStartup{
+        max-width: 85%;
+        margin: auto;
+        .subTitulo{
+            padding: 32px 0px 0px 20px;
+            color: $azul__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px;
+        }
+        h2{
+            padding: 0px 0px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        p{
+            padding: 0px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+    .container__listStartup{
+        padding-left: 20px;
+        
+        .container__listStartup-border{
+            display: flex;
+            justify-content: flex-start;
+            div{
+                margin: 8px 56px 40px 0px;
+                p{
+                    color: $negro__letras;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 20px;
+                    span{
+                        display: block;
+                    }
+                }
+                p::before{
+                    content: "|";
+                    color: $azul__oscuro;
+                    background-color:$azul__oscuro;
+                    position: relative;
+                    top: 0px;
+                    width: 1px;
+                    left: -10px
+                }
+            }
+        }
+        img{
+            padding: 10px 20px 16px 8px;
+        }
+        p{
+            padding: unset;
+            padding: 0px 20px 0px 8px;
+        }
+        
+        
+    }
+    /* Sección Alcance */
+    .seccion__alcance{
+        margin: 32px 0px 24px 0px;
+        background-color: $azul__oscuro;
+        p{
+            text-align: center;
+            padding: 20px 0px 16px 20px;
+            color: $blanco;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px;
+        }
+        h3{
+            text-align: center;
+            padding: unset;
+            padding: 0px 0px 16px 20px;
+            color: $blanco;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px;
+        }
+        .container__alcance{
+            .container__alcance-border{
+                padding: unset;
+                padding-bottom: 30px;
+                div{
+                    display: flex;
+                    justify-content: center;
+                    p{
+                        text-align: start;
+                        color: #DFE5EB;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 19px;
+                        span{
+                            display: block;
+                        }
+                    }
+                    .textAyoEmprende__alcance-borde{
+                        position: relative;
+                        right: 9px;
+                        padding-bottom: 20px;
+                    }
+                    p::before{
+                        content: "|";
+                        background-color:$blanco;
+                        color: $blanco;
+                        position: relative;
+                        top: 0px;
+                        width: 1px;
+                        left: -10px;
+                    }
+                }
+            }
+             
+        }
+    }
+    /* Sección Emprender */
+    .card__container__emrender{
+        max-width: 85%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .card__emprender{
+            width: 335px;
+            height: 120px;
+            padding: unset;
+            margin: 0px 20px 20px 20px;
+            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+            .card-body-container-Emprender{
+                padding: unset;
+                padding: 0px 20px;
+                h5::before{
+                    content: "|";
+                    background-color:$azul__oscuro;
+                    color: $azul__oscuro;
+                    top: 0px;
+                    width: 1px;
+                    left: -20px;
+                    position: relative;
+                }
+            }
+            .card-title-emprender{
+                padding-top: 24px;
+                color: $negro__letras;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 22px;
+            }
+            .card-text-emprender{
+                color: $negro__letras;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 150%;
+                
+            }
+        }
+        .netWorking{
+            .card-text-emprender{
+                span{
+                    display: block;    
+                }
+            }
+        }
+        .espTrabajo{
+           .card-text-emprender{
+               span{
+                    display: block;
+               }
+           }     
+        }
+        .detallePrograma{
+            width: 375px;
+            height: 109px;
+            padding: unset;
+            padding: 44px 20px 104px 20px;
+                .card__detallePrograma{
+                background: $azul__oscuro;
+                display: flex;
+                flex-direction: row;
+                img{
+                    color: $blanco;
+                    padding: 5px 0px 0px 32px;
+                }
+                .card-text-detallePrograma{
+                    padding: 25px 10px 0px 25px;
+                    color: $blanco;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 20px;
+                    span{
+                        display: block;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 16px;
+                        a{
+                            text-decoration: none;
+                            color: $blanco;
+                        }
+                    }
+                    img{
+                        padding: unset;
+                        width: 20px;
+                    }
+                }
+            }
+        }
+    }
+    /* Sección Requisistos para participar si tienes un negocio */
+    .container__participarNegocio{
+        max-width: 85%;
+        margin: auto;
+        p{
+            padding: unset;
+            margin: unset;
+            color: $azul__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px;
+            padding: 32px 0px 0px 20px;
+        }
+        h4{
+            padding: unset;
+            margin: unset;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px;
+            padding: 16px 0px 0px 20px;
+        }
+        .list__container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            padding: unset;
+            padding: 16px 0px 0px 28px;
+            list-style: none;
+            div{
+                display: flex;
+                width: 328px;
+                padding: 24px 0px;
+                .iconoParticipantes1{
+                    width: 24px;
+                    position: relative;
+                    top: -14px;
+                    left: -9px;
+                }
+                .iconoParticipantes2{
+                    width: 24px;
+                    position: relative;
+                    top: -12px;
+                    left: -9px;
+                }
+                .iconoParticipantes3{
+                    width: 24px;
+                    position: relative;
+                    top: -14px;
+                    left: -9px;
+                }
+                .iconoParticipantes4{
+                    width: 24px;
+                    position: relative;
+                    top: 8px;
+                    left: -9px;
+                }
+                .iconoParticipantes5{
+                    width: 24px;
+                    position: relative;
+                    top: 8px;
+                    left: -9px;
+                }
+                .iconoParticipantes6{
+                    width: 24px;
+                    position: relative;
+                    top: 8px;
+                    left: -9px;
+                }
+                .iconoParticipantes7{
+                    width: 24px;
+                    position: relative;
+                    top: 8px;
+                    left: -9px;
+                }
+                li{
+                    padding: 15px 20px 0px 0px;
+                    color: $negro__letras;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 150%;
+                    span{
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+    /* Sección Candidatura */
+    .seccionCandidatura{
+        max-width: 85%;
+        margin: auto;
+        display: flex;
+        .card__candidatura{
+            display: flex;
+            padding: 64 20px 0px 20px;
+            margin: 32px 20px 0px 20px;
+            width: 335px;
+            background-color: $azul__oscuro;
+            img{
+                padding: 0px 20px 0px 25px;
+            }
+            p{
+                color: $blanco;
+                padding: 20px 20px 0px 0px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                span{
+                    display: block;
+                    line-height: 16px;
+                    a{
+                        text-decoration: none;
+                        color: $blanco;
+                    }
+                }
+                img{
+                    padding: unset;
+                    width: 20px;
+                }
+            }
+        }
+        .card__comiteInversion{
+            display: flex;
+            margin: 32px 20px 0px 20px;
+            background-color: $azul__oscuro;
+            width: 335px;
+            img{
+                width: 72px;
+                padding: 8px 20px 20px 25px;
+            }
+            p{
+                color: $blanco;
+                padding: 20px 20px 0px 0px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                span{
+                    display: block;
+                    font-weight: 600;
+                    line-height: 16px;
+                    a{
+                        text-decoration: none;
+                        color: $blanco;
+                    }
+                }            
+                img{
+                    padding: unset;
+                    width: 20px;
+                }
+            }
+        }
+    }
+    /* Sección Socios */
+    .container__socios{
+        max-width: 85%;
+        margin: auto;
+        p{
+            padding: 64px 0px 0px 22px;
+            color: $azul__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px;
+        }
+        div{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            img{
+                width: 146px;
+                padding: 0px 20px 120px 20px;
+            }
+        }
+    }
+    .footer__emprender{
+        margin-top: 40px;
+    }
+}
+@media only screen and (min-width:1401px) and (max-width:1600px){
 
 }
