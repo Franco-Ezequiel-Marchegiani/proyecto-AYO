@@ -63,6 +63,24 @@ body{
                     font-size: 24px;
                     line-height: 120%;
                 }
+                .subSubTituloAyoImpulso{
+                    color: $negro__header;
+                        padding: 0px 20px 16px 8px;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 150%;
+                }
+                .subSubTituloAyoImpulso::before{
+                    content: "|";
+                    color: $verde;
+                    background-color:$verde;
+                    position: relative;
+                    top: 0px;
+                    width: 1px;
+                    left: -10px;
+                }
                 div{
                     p{
                         color: $negro__header;
@@ -310,6 +328,24 @@ body{
                     font-weight: bold;
                     font-size: 24px;
                     line-height: 120%;
+                }
+                .subSubTituloAyoImpulso{
+                    color: $negro__header;
+                        padding: 0px 20px 16px 8px;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 150%;
+                }
+                .subSubTituloAyoImpulso::before{
+                    content: "|";
+                    color: $verde;
+                    background-color:$verde;
+                    position: relative;
+                    top: 0px;
+                    width: 1px;
+                    left: -10px;
                 }
                 div{
                     p{
@@ -560,6 +596,24 @@ body{
                     font-size: 24px;
                     line-height: 120%;
                 }
+                .subSubTituloAyoImpulso{
+                    color: $negro__header;
+                        padding: 0px 20px 16px 8px;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 150%;
+                }
+                .subSubTituloAyoImpulso::before{
+                    content: "|";
+                    color: $verde;
+                    background-color:$verde;
+                    position: relative;
+                    top: 0px;
+                    width: 1px;
+                    left: -10px;
+                }
                 div{
                     p{
                         color: $negro__header;
@@ -753,7 +807,345 @@ body{
 
 }
 @media only screen and (min-width:1001px) and (max-width:1200px){
+    /* Sección Imagen Inicio */
+    .imagen__inicio__ayoImpulso{
+        background-image: url("../../imagenes/ayoImpulso/1programaImpulsoDesktop.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        div{
+            max-width: 85%;
+            margin: auto;
+            h1{
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 34px;
+                line-height: 40px;
+                padding: 128px 20px 0px 20px;
+            }
+            span{
+                display: block;
+            }
+            
+            p{
+                padding: 16px 20px 0px 20px;
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                span{
+                    display: block;
+                }
+            }
+            a{
+                img{
+                    margin: 4px 0px 156px 20px;
+                }
+            }
+        }
+    }
+    /* Sección Proyecto de Apoyo */
+    .proyectoApoyo{
+        background-color: $grisClaro__fondo;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+        p{
+            max-width: 85%;
+            margin: auto;
+            padding: 32px 0px 8px 20px;
+            color: $verde;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px;
+        }
+        .divProyectoApoyo_Container{
+            
+            .divProyectoApoyo_Container_border{
+                max-width: 85%;
+                margin: auto;
+                h2{
+                    max-width: 80%;
+                    color: $gris__oscuro;
+                    padding: 0px 20px 24px 20px;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 34px;
+                    line-height: 40px;
+                }
+                /* Error responsive desktop, no aplica el display:flex y no se mantiene a la izquierda */
+                .subSubTituloAyoImpulso{
+                    text-align: start;
+                    padding: 20px 0px 40px 0px;
+                    position: relative;
+                    left: -32px;
+                    color: $negro__letras;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 16px;
+                        span{
+                            font-weight: bold;
+                        }
+                }
+                .subSubTituloAyoImpulso::before{
+                    content: "|";
+                    color: $verde;
+                    background-color:$verde;
+                    position: relative;
+                    top: 0px;
+                    width: 1px;
+                    left: -10px;
+                }
+                .divContainerDesktop__ayoImpulso{
+                    display: flex;
+                }
+                div{
+                    p{
+                        color: $negro__header;
+                        padding: 0px 20px 16px 8px;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 150%;
+                    }
+                    .utimoTexto_ProyectoApoyo_AyoImpulsa{
+                        padding-bottom: 32px;
+                    }
+                    p::before{
+                        content: "|";
+                        color: $verde;
+                        background-color:$verde;
+                        position: relative;
+                        top: 0px;
+                        width: 1px;
+                        left: -10px;
+                    }
 
+                    .texto__propuestaMentoriaProyectImpulso::before{
+                        content: "|";
+                        color: $verde;
+                        background-color:$verde;
+                        position: relative;
+                        top: 0px;
+                        width: 1px;
+                        left: -10px;
+                    }
+                }
+                
+                .cajaSubTituloAyoImpulso1{
+                    max-width: 342px;
+                }
+                .cajaSubTituloAyoImpulso2{
+                    max-width: 342px;
+                }
+                .cajaSubTituloAyoImpulso3{
+                    max-width: 278px;
+                }
+                .containerDeContainers__textoPropuestaMentoriaProyectImpulso{
+                    display: flex;
+                    .container__textoPropuestaMentoriaProyectImpulso{
+                        
+                        background-color: $blanco;
+                        .texto__propuestaMentoriaProyectImpulso{
+                            color: $negro__header;
+                            padding: 0px 20px 16px 20px;
+                            font-family: Raleway;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 20px;
+                        }
+                        .ultimoTexto__propuestaMentoriaProyectImpulso{
+                            padding-bottom: 32px;
+                        }
+                    }
+                }
+                section{
+                    background-color: $blanco;
+                }
+                h3{
+                    background-color: $blanco;
+                    padding: 64px 20px 40px 20px;
+                    color: $gris__oscuro;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 120%;
+                }
+            }
+        }
+    }
+    /* Sección Boton */
+    .seccionCardMentores{
+        background-color: $blanco;
+        
+        .contenedorCardMentores{
+            max-width: 85%;
+            margin: auto;
+            .card__mentores{
+                display: flex;
+                margin: 36px 20px 80px 20px;
+                background-color: $verde;
+                
+                width: 336px;
+                p{
+                    padding: 32px 20px 16px 8px;
+                    a{
+                        text-decoration: none;
+                        color: $blanco;
+                        padding: 20px 20px 0px 0px;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 20px;
+                        span{
+                            font-weight: 600;
+                            line-height: 16px;
+                        }            
+                        img{
+                            padding: unset;
+                            width: 20px;
+                        }
+                    }
+                }
+                img{
+                    padding: 5px 20px 0px 40px;
+                }
+            }
+        }
+    }
+    /* Sección Global Dignity */
+    .globalDignity__container{
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+        margin-bottom: 14px;
+        .globalDignity__containerDesktop{
+            max-width: 85%;
+            margin: auto;
+            .contenedorImagenGlobalDignity{
+                max-width: 85%;
+                margin: auto;
+                display: flex;
+                justify-content: flex-end;
+                img{
+                    padding: 80px 20px 40px 20px;
+                    width: 350px;
+                }
+            }
+            p{
+                padding: 0px 0px 0px 20px;
+                position: relative;
+                bottom: 240px;
+                color: $verde;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 16px;         
+            }
+            .text__container__globalDignity{
+                padding-left: 20px;
+                .text__container__globalDignity__border{
+                    h4{
+                        max-width: 50%;
+                        padding: 0px 20px 20px 0px;
+                        position: relative;
+                        bottom: 240px;
+                        color: $gris__oscuro;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 34px;
+                        line-height: 40px;               
+                    }
+                    p{
+                        padding: 0px 20px 8px 8px;
+                        color: $negro__letras;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 150%;
+                        span{
+                            font-family: Raleway;
+                            font-style: normal;
+                            font-weight: bold;  
+                            font-size: 14px;
+                            line-height: 20px;
+                        }
+                    }
+                    .texto__globalDignity__border1{
+                        max-width: 50%;
+                        position: relative;
+                        bottom: 240px;
+                        padding: 0px 20px 8px 8px;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 150%;
+                    }
+                    .contenedorTextosDesktopGlobalDignity{
+                        display: flex;
+                        padding-top: 80px;
+                        padding-bottom: 0px;
+                    }
+                    .texto__globalDignity__border2{
+                        max-width: 336px;
+                        padding-bottom: 0px;
+                    }
+                    .texto__globalDignity__border3{
+                        max-width: 336px;
+                        padding-bottom: 0px;
+                    }
+                    .texto__globalDignity__border4{
+                        max-width: 336px;
+                        padding: unset;
+                    }
+                    p::before{
+                        content: "|";
+                        color: $verde;
+                        background-color:$verde;
+                        position: relative;
+                        top: 0px;
+                        width: 1px;
+                        left: -10px;
+                    }
+                }
+            }
+        }
+    }
+    .conoce_mas__ayoImpulso{
+        p{
+            color: $verde;
+            padding: 24px 0px 16px 20px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px;
+        }
+        div{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .logoGlobalDignity{
+                padding: 0px 12px 64px 0px;
+            }
+            .logoGlobalDignitySpain{
+                padding: 0px 0px 56px 12px
+            }
+        }
+    }
 }
 @media only screen and (min-width:1201px) and (max-width:1400px){
 

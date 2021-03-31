@@ -4339,6 +4339,22 @@ body {
           font-weight: bold;
           font-size: 24px;
           line-height: 120%; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .subSubTituloAyoImpulso {
+          color: #1A1A1A;
+          padding: 0px 20px 16px 8px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .subSubTituloAyoImpulso::before {
+          content: "|";
+          color: #80BD41;
+          background-color: #80BD41;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
         .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div p {
           color: #1A1A1A;
           padding: 0px 20px 16px 8px;
@@ -4538,6 +4554,22 @@ body {
           font-weight: bold;
           font-size: 24px;
           line-height: 120%; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .subSubTituloAyoImpulso {
+          color: #1A1A1A;
+          padding: 0px 20px 16px 8px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .subSubTituloAyoImpulso::before {
+          content: "|";
+          color: #80BD41;
+          background-color: #80BD41;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
         .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div p {
           color: #1A1A1A;
           padding: 0px 20px 16px 8px;
@@ -4738,6 +4770,22 @@ body {
           font-weight: bold;
           font-size: 24px;
           line-height: 120%; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .subSubTituloAyoImpulso {
+          color: #1A1A1A;
+          padding: 0px 20px 16px 8px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .subSubTituloAyoImpulso::before {
+          content: "|";
+          color: #80BD41;
+          background-color: #80BD41;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
         .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div p {
           color: #1A1A1A;
           padding: 0px 20px 16px 8px;
@@ -4862,6 +4910,275 @@ body {
         .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border .texto__globalDignity__border4 {
           padding-bottom: 24px; }
         .globalDignity__container .text__container__globalDignity .text__container__globalDignity__border p::before {
+          content: "|";
+          color: #80BD41;
+          background-color: #80BD41;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
+  .conoce_mas__ayoImpulso p {
+    color: #80BD41;
+    padding: 24px 0px 16px 20px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px; }
+  .conoce_mas__ayoImpulso div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .conoce_mas__ayoImpulso div .logoGlobalDignity {
+      padding: 0px 12px 64px 0px; }
+    .conoce_mas__ayoImpulso div .logoGlobalDignitySpain {
+      padding: 0px 0px 56px 12px; } }
+
+@media only screen and (min-width: 1001px) and (max-width: 1200px) {
+  /* Sección Imagen Inicio */
+  .imagen__inicio__ayoImpulso {
+    background-image: url("../../imagenes/ayoImpulso/1programaImpulsoDesktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .imagen__inicio__ayoImpulso div {
+      max-width: 85%;
+      margin: auto; }
+      .imagen__inicio__ayoImpulso div h1 {
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px;
+        padding: 128px 20px 0px 20px; }
+      .imagen__inicio__ayoImpulso div span {
+        display: block; }
+      .imagen__inicio__ayoImpulso div p {
+        padding: 16px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .imagen__inicio__ayoImpulso div p span {
+          display: block; }
+      .imagen__inicio__ayoImpulso div a img {
+        margin: 4px 0px 156px 20px; }
+  /* Sección Proyecto de Apoyo */
+  .proyectoApoyo {
+    background-color: #FCFCFC;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
+    .proyectoApoyo p {
+      max-width: 85%;
+      margin: auto;
+      padding: 32px 0px 8px 20px;
+      color: #80BD41;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px; }
+    .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border {
+      max-width: 85%;
+      margin: auto;
+      /* Error responsive desktop, no aplica el display:flex y no se mantiene a la izquierda */ }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border h2 {
+        max-width: 80%;
+        color: #2D2926;
+        padding: 0px 20px 24px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .subSubTituloAyoImpulso {
+        text-align: start;
+        padding: 20px 0px 40px 0px;
+        position: relative;
+        left: -32px;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .subSubTituloAyoImpulso span {
+          font-weight: bold; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .subSubTituloAyoImpulso::before {
+        content: "|";
+        color: #80BD41;
+        background-color: #80BD41;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .divContainerDesktop__ayoImpulso {
+        display: flex; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div p {
+        color: #1A1A1A;
+        padding: 0px 20px 16px 8px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div .utimoTexto_ProyectoApoyo_AyoImpulsa {
+        padding-bottom: 32px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div p::before {
+        content: "|";
+        color: #80BD41;
+        background-color: #80BD41;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div .texto__propuestaMentoriaProyectImpulso::before {
+        content: "|";
+        color: #80BD41;
+        background-color: #80BD41;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .cajaSubTituloAyoImpulso1 {
+        max-width: 342px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .cajaSubTituloAyoImpulso2 {
+        max-width: 342px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .cajaSubTituloAyoImpulso3 {
+        max-width: 278px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .containerDeContainers__textoPropuestaMentoriaProyectImpulso {
+        display: flex; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .containerDeContainers__textoPropuestaMentoriaProyectImpulso .container__textoPropuestaMentoriaProyectImpulso {
+          background-color: #FFFFFF; }
+          .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .containerDeContainers__textoPropuestaMentoriaProyectImpulso .container__textoPropuestaMentoriaProyectImpulso .texto__propuestaMentoriaProyectImpulso {
+            color: #1A1A1A;
+            padding: 0px 20px 16px 20px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .containerDeContainers__textoPropuestaMentoriaProyectImpulso .container__textoPropuestaMentoriaProyectImpulso .ultimoTexto__propuestaMentoriaProyectImpulso {
+            padding-bottom: 32px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border section {
+        background-color: #FFFFFF; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border h3 {
+        background-color: #FFFFFF;
+        padding: 64px 20px 40px 20px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+  /* Sección Boton */
+  .seccionCardMentores {
+    background-color: #FFFFFF; }
+    .seccionCardMentores .contenedorCardMentores {
+      max-width: 85%;
+      margin: auto; }
+      .seccionCardMentores .contenedorCardMentores .card__mentores {
+        display: flex;
+        margin: 36px 20px 80px 20px;
+        background-color: #80BD41;
+        width: 336px; }
+        .seccionCardMentores .contenedorCardMentores .card__mentores p {
+          padding: 32px 20px 16px 8px; }
+          .seccionCardMentores .contenedorCardMentores .card__mentores p a {
+            text-decoration: none;
+            color: #FFFFFF;
+            padding: 20px 20px 0px 0px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px; }
+            .seccionCardMentores .contenedorCardMentores .card__mentores p a span {
+              font-weight: 600;
+              line-height: 16px; }
+            .seccionCardMentores .contenedorCardMentores .card__mentores p a img {
+              padding: unset;
+              width: 20px; }
+        .seccionCardMentores .contenedorCardMentores .card__mentores img {
+          padding: 5px 20px 0px 40px; }
+  /* Sección Global Dignity */
+  .globalDignity__container {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    margin-bottom: 14px; }
+    .globalDignity__container .globalDignity__containerDesktop {
+      max-width: 85%;
+      margin: auto; }
+      .globalDignity__container .globalDignity__containerDesktop .contenedorImagenGlobalDignity {
+        max-width: 85%;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end; }
+        .globalDignity__container .globalDignity__containerDesktop .contenedorImagenGlobalDignity img {
+          padding: 80px 20px 40px 20px;
+          width: 350px; }
+      .globalDignity__container .globalDignity__containerDesktop p {
+        padding: 0px 0px 0px 20px;
+        position: relative;
+        bottom: 240px;
+        color: #80BD41;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px; }
+      .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity {
+        padding-left: 20px; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border h4 {
+          max-width: 50%;
+          padding: 0px 20px 20px 0px;
+          position: relative;
+          bottom: 240px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 34px;
+          line-height: 40px; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border p {
+          padding: 0px 20px 8px 8px;
+          color: #000000;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
+          .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border p span {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border .texto__globalDignity__border1 {
+          max-width: 50%;
+          position: relative;
+          bottom: 240px;
+          padding: 0px 20px 8px 8px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 150%; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border .contenedorTextosDesktopGlobalDignity {
+          display: flex;
+          padding-top: 80px;
+          padding-bottom: 0px; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border .texto__globalDignity__border2 {
+          max-width: 336px;
+          padding-bottom: 0px; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border .texto__globalDignity__border3 {
+          max-width: 336px;
+          padding-bottom: 0px; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border .texto__globalDignity__border4 {
+          max-width: 336px;
+          padding: unset; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border p::before {
           content: "|";
           color: #80BD41;
           background-color: #80BD41;
