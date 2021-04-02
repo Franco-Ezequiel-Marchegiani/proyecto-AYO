@@ -311,7 +311,7 @@ body {
         color: #000000; }
       .navbar__nav .container-fluid .navbar-collapse {
         background-image: #FFFFFF;
-        padding: 30px 0px 20px 5px; }
+        padding: 30px 0px 20px 80px; }
         .navbar__nav .container-fluid .navbar-collapse .nav-link {
           padding: 8px 16px 24px 8px;
           color: #000000;
@@ -4982,8 +4982,7 @@ body {
       line-height: 20px; }
     .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border {
       max-width: 85%;
-      margin: auto;
-      /* Error responsive desktop, no aplica el display:flex y no se mantiene a la izquierda */ }
+      margin: auto; }
       .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border h2 {
         max-width: 80%;
         color: #2D2926;
@@ -4993,11 +4992,12 @@ body {
         font-weight: bold;
         font-size: 34px;
         line-height: 40px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .pruebaxd {
+        display: flex;
+        justify-content: flex-start;
+        padding-right: 440px; }
       .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .subSubTituloAyoImpulso {
-        text-align: start;
-        padding: 20px 0px 40px 0px;
-        position: relative;
-        left: -32px;
+        padding: 20px 80px 40px 0px;
         color: #000000;
         font-family: Raleway;
         font-style: normal;
@@ -5114,14 +5114,16 @@ body {
         max-width: 85%;
         margin: auto;
         display: flex;
-        justify-content: flex-end; }
+        justify-content: flex-end;
+        position: relative;
+        top: 16px; }
         .globalDignity__container .globalDignity__containerDesktop .contenedorImagenGlobalDignity img {
-          padding: 80px 20px 40px 20px;
+          padding: 80px 20px 0px 20px;
           width: 350px; }
       .globalDignity__container .globalDignity__containerDesktop p {
         padding: 0px 0px 0px 20px;
         position: relative;
-        bottom: 240px;
+        bottom: 200px;
         color: #80BD41;
         font-family: Raleway;
         font-style: normal;
@@ -5134,7 +5136,7 @@ body {
           max-width: 50%;
           padding: 0px 20px 20px 0px;
           position: relative;
-          bottom: 240px;
+          bottom: 200px;
           color: #2D2926;
           font-family: Raleway;
           font-style: normal;
@@ -5158,7 +5160,7 @@ body {
         .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border .texto__globalDignity__border1 {
           max-width: 50%;
           position: relative;
-          bottom: 240px;
+          bottom: 200px;
           padding: 0px 20px 8px 8px;
           font-family: Raleway;
           font-style: normal;
@@ -5167,8 +5169,9 @@ body {
           line-height: 150%; }
         .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border .contenedorTextosDesktopGlobalDignity {
           display: flex;
-          padding-top: 80px;
-          padding-bottom: 0px; }
+          padding: 0;
+          position: relative;
+          top: 80px; }
         .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border .texto__globalDignity__border2 {
           max-width: 336px;
           padding-bottom: 0px; }
@@ -5187,21 +5190,578 @@ body {
           width: 1px;
           left: -10px; }
   .conoce_mas__ayoImpulso p {
+    text-align: center;
     color: #80BD41;
-    padding: 24px 0px 16px 20px;
+    padding: 40px 0px 32px 20px;
     font-family: Raleway;
     font-style: normal;
     font-weight: 600;
-    font-size: 11px;
-    line-height: 13px; }
+    font-size: 14px;
+    line-height: 16px; }
   .conoce_mas__ayoImpulso div {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center; }
     .conoce_mas__ayoImpulso div .logoGlobalDignity {
-      padding: 0px 12px 64px 0px; }
+      padding: 0px 12px 64px 0px;
+      width: 160px; }
     .conoce_mas__ayoImpulso div .logoGlobalDignitySpain {
-      padding: 0px 0px 56px 12px; } }
+      padding: 0px 0px 56px 12px;
+      width: 160px; } }
+
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+  /* Sección Imagen Inicio */
+  .imagen__inicio__ayoImpulso {
+    background-image: url("../../imagenes/ayoImpulso/1programaImpulsoDesktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .imagen__inicio__ayoImpulso div {
+      max-width: 85%;
+      margin: auto; }
+      .imagen__inicio__ayoImpulso div h1 {
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px;
+        padding: 128px 20px 0px 20px; }
+      .imagen__inicio__ayoImpulso div span {
+        display: block; }
+      .imagen__inicio__ayoImpulso div p {
+        padding: 16px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .imagen__inicio__ayoImpulso div p span {
+          display: block; }
+      .imagen__inicio__ayoImpulso div a img {
+        margin: 4px 0px 156px 20px; }
+  /* Sección Proyecto de Apoyo */
+  .proyectoApoyo {
+    background-color: #FCFCFC;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
+    .proyectoApoyo p {
+      max-width: 85%;
+      margin: auto;
+      padding: 32px 0px 8px 20px;
+      color: #80BD41;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px; }
+    .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border {
+      max-width: 85%;
+      margin: auto; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border h2 {
+        max-width: 80%;
+        color: #2D2926;
+        padding: 0px 20px 24px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .pruebaxd {
+        display: flex;
+        justify-content: flex-start;
+        padding-right: 640px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .subSubTituloAyoImpulso {
+        padding: 20px 80px 40px 0px;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .subSubTituloAyoImpulso span {
+          font-weight: bold; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .subSubTituloAyoImpulso::before {
+        content: "|";
+        color: #80BD41;
+        background-color: #80BD41;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .divContainerDesktop__ayoImpulso {
+        display: flex;
+        justify-content: flex-start;
+        justify-content: space-between; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div p {
+        color: #1A1A1A;
+        padding: 0px 20px 16px 8px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div .utimoTexto_ProyectoApoyo_AyoImpulsa {
+        padding-bottom: 32px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div p::before {
+        content: "|";
+        color: #80BD41;
+        background-color: #80BD41;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div .texto__propuestaMentoriaProyectImpulso::before {
+        content: "|";
+        color: #80BD41;
+        background-color: #80BD41;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .cajaSubTituloAyoImpulso1 {
+        max-width: 420px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .cajaSubTituloAyoImpulso2 {
+        max-width: 420px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .cajaSubTituloAyoImpulso3 {
+        max-width: 420px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .containerDeContainers__textoPropuestaMentoriaProyectImpulso {
+        display: flex; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .containerDeContainers__textoPropuestaMentoriaProyectImpulso .container__textoPropuestaMentoriaProyectImpulso {
+          background-color: #FFFFFF; }
+          .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .containerDeContainers__textoPropuestaMentoriaProyectImpulso .container__textoPropuestaMentoriaProyectImpulso .texto__propuestaMentoriaProyectImpulso {
+            color: #1A1A1A;
+            padding: 0px 20px 16px 20px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .containerDeContainers__textoPropuestaMentoriaProyectImpulso .container__textoPropuestaMentoriaProyectImpulso .ultimoTexto__propuestaMentoriaProyectImpulso {
+            padding-bottom: 32px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border section {
+        background-color: #FFFFFF; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border h3 {
+        background-color: #FFFFFF;
+        padding: 64px 20px 40px 20px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+  /* Sección Boton */
+  .seccionCardMentores {
+    background-color: #FFFFFF; }
+    .seccionCardMentores .contenedorCardMentores {
+      max-width: 85%;
+      margin: auto; }
+      .seccionCardMentores .contenedorCardMentores .card__mentores {
+        display: flex;
+        margin: 36px 20px 80px 20px;
+        background-color: #80BD41;
+        width: 336px; }
+        .seccionCardMentores .contenedorCardMentores .card__mentores p {
+          padding: 32px 20px 16px 8px; }
+          .seccionCardMentores .contenedorCardMentores .card__mentores p a {
+            text-decoration: none;
+            color: #FFFFFF;
+            padding: 20px 20px 0px 0px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px; }
+            .seccionCardMentores .contenedorCardMentores .card__mentores p a span {
+              font-weight: 600;
+              line-height: 16px; }
+            .seccionCardMentores .contenedorCardMentores .card__mentores p a img {
+              padding: unset;
+              width: 20px; }
+        .seccionCardMentores .contenedorCardMentores .card__mentores img {
+          padding: 5px 20px 0px 40px; }
+  /* Sección Global Dignity */
+  .globalDignity__container {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    margin-bottom: 14px; }
+    .globalDignity__container .globalDignity__containerDesktop {
+      max-width: 85%;
+      margin: auto; }
+      .globalDignity__container .globalDignity__containerDesktop .contenedorImagenGlobalDignity {
+        max-width: 85%;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        top: 16px; }
+        .globalDignity__container .globalDignity__containerDesktop .contenedorImagenGlobalDignity img {
+          padding: 80px 20px 0px 20px;
+          width: 350px; }
+      .globalDignity__container .globalDignity__containerDesktop p {
+        padding: 0px 0px 0px 20px;
+        position: relative;
+        bottom: 200px;
+        color: #80BD41;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px; }
+      .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity {
+        padding-left: 20px; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border h4 {
+          max-width: 50%;
+          padding: 0px 20px 20px 0px;
+          position: relative;
+          bottom: 200px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 34px;
+          line-height: 40px; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border p {
+          padding: 0px 20px 8px 8px;
+          color: #000000;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
+          .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border p span {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border .texto__globalDignity__border1 {
+          max-width: 50%;
+          position: relative;
+          bottom: 200px;
+          padding: 0px 20px 8px 8px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 150%; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border .contenedorTextosDesktopGlobalDignity {
+          display: flex;
+          padding: 0;
+          position: relative;
+          top: 80px; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border .texto__globalDignity__border2 {
+          max-width: 336px;
+          padding-bottom: 0px; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border .texto__globalDignity__border3 {
+          max-width: 336px;
+          padding-bottom: 0px; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border .texto__globalDignity__border4 {
+          max-width: 336px;
+          padding: unset; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border p::before {
+          content: "|";
+          color: #80BD41;
+          background-color: #80BD41;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
+  .conoce_mas__ayoImpulso p {
+    text-align: center;
+    color: #80BD41;
+    padding: 40px 0px 32px 20px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px; }
+  .conoce_mas__ayoImpulso div {
+    display: flex;
+    justify-content: center; }
+    .conoce_mas__ayoImpulso div .logoGlobalDignity {
+      padding: 0px 12px 64px 0px;
+      width: 160px; }
+    .conoce_mas__ayoImpulso div .logoGlobalDignitySpain {
+      padding: 0px 0px 56px 12px;
+      width: 160px; } }
+
+@media only screen and (min-width: 1401px) and (max-width: 1600px) {
+  /* Sección Imagen Inicio */
+  .imagen__inicio__ayoImpulso {
+    background-image: url("../../imagenes/ayoImpulso/1programaImpulsoDesktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .imagen__inicio__ayoImpulso div {
+      max-width: 85%;
+      margin: auto; }
+      .imagen__inicio__ayoImpulso div h1 {
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px;
+        padding: 128px 20px 0px 20px; }
+      .imagen__inicio__ayoImpulso div span {
+        display: block; }
+      .imagen__inicio__ayoImpulso div p {
+        padding: 16px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .imagen__inicio__ayoImpulso div p span {
+          display: block; }
+      .imagen__inicio__ayoImpulso div a img {
+        margin: 4px 0px 156px 20px; }
+  /* Sección Proyecto de Apoyo */
+  .proyectoApoyo {
+    background-color: #FCFCFC;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
+    .proyectoApoyo p {
+      max-width: 85%;
+      margin: auto;
+      padding: 32px 0px 8px 20px;
+      color: #80BD41;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px; }
+    .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border {
+      max-width: 85%;
+      margin: auto; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border h2 {
+        max-width: 80%;
+        color: #2D2926;
+        padding: 0px 20px 24px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .pruebaxd {
+        display: flex;
+        justify-content: flex-start;
+        padding: unset;
+        padding-right: 800px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .subSubTituloAyoImpulso {
+        padding: unset;
+        padding: 20px 0px 40px 0px;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .subSubTituloAyoImpulso span {
+          font-weight: bold; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .subSubTituloAyoImpulso::before {
+        content: "|";
+        color: #80BD41;
+        background-color: #80BD41;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .divContainerDesktop__ayoImpulso {
+        display: flex;
+        justify-content: flex-start;
+        justify-content: space-between; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div p {
+        color: #1A1A1A;
+        padding: 0px 20px 16px 8px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div .utimoTexto_ProyectoApoyo_AyoImpulsa {
+        padding-bottom: 32px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div p::before {
+        content: "|";
+        color: #80BD41;
+        background-color: #80BD41;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div .texto__propuestaMentoriaProyectImpulso::before {
+        content: "|";
+        color: #80BD41;
+        background-color: #80BD41;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .cajaSubTituloAyoImpulso1 {
+        max-width: 420px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .cajaSubTituloAyoImpulso2 {
+        max-width: 420px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .cajaSubTituloAyoImpulso3 {
+        max-width: 420px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .containerDeContainers__textoPropuestaMentoriaProyectImpulso {
+        display: flex; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .containerDeContainers__textoPropuestaMentoriaProyectImpulso .container__textoPropuestaMentoriaProyectImpulso {
+          background-color: #FFFFFF; }
+          .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .containerDeContainers__textoPropuestaMentoriaProyectImpulso .container__textoPropuestaMentoriaProyectImpulso .texto__propuestaMentoriaProyectImpulso {
+            color: #1A1A1A;
+            padding: 0px 20px 16px 20px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .containerDeContainers__textoPropuestaMentoriaProyectImpulso .container__textoPropuestaMentoriaProyectImpulso .ultimoTexto__propuestaMentoriaProyectImpulso {
+            padding-bottom: 32px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border section {
+        background-color: #FFFFFF; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border h3 {
+        background-color: #FFFFFF;
+        padding: 64px 20px 40px 20px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+  /* Sección Boton */
+  .seccionCardMentores {
+    background-color: #FFFFFF; }
+    .seccionCardMentores .contenedorCardMentores {
+      max-width: 85%;
+      margin: auto; }
+      .seccionCardMentores .contenedorCardMentores .card__mentores {
+        display: flex;
+        margin: 36px 20px 80px 20px;
+        background-color: #80BD41;
+        width: 336px; }
+        .seccionCardMentores .contenedorCardMentores .card__mentores p {
+          padding: 32px 20px 16px 8px; }
+          .seccionCardMentores .contenedorCardMentores .card__mentores p a {
+            text-decoration: none;
+            color: #FFFFFF;
+            padding: 20px 20px 0px 0px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px; }
+            .seccionCardMentores .contenedorCardMentores .card__mentores p a span {
+              font-weight: 600;
+              line-height: 16px; }
+            .seccionCardMentores .contenedorCardMentores .card__mentores p a img {
+              padding: unset;
+              width: 20px; }
+        .seccionCardMentores .contenedorCardMentores .card__mentores img {
+          padding: 5px 20px 0px 40px; }
+  /* Sección Global Dignity */
+  .globalDignity__container {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    margin-bottom: 14px; }
+    .globalDignity__container .globalDignity__containerDesktop {
+      max-width: 85%;
+      margin: auto; }
+      .globalDignity__container .globalDignity__containerDesktop .contenedorImagenGlobalDignity {
+        max-width: 85%;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        top: 16px; }
+        .globalDignity__container .globalDignity__containerDesktop .contenedorImagenGlobalDignity img {
+          padding: 80px 20px 0px 20px;
+          width: 350px; }
+      .globalDignity__container .globalDignity__containerDesktop p {
+        padding: 0px 0px 0px 20px;
+        position: relative;
+        bottom: 200px;
+        color: #80BD41;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px; }
+      .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity {
+        padding-left: 20px; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border h4 {
+          max-width: 50%;
+          padding: 0px 20px 20px 0px;
+          position: relative;
+          bottom: 200px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 34px;
+          line-height: 40px; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border p {
+          padding: 0px 20px 8px 8px;
+          color: #000000;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
+          .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border p span {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border .texto__globalDignity__border1 {
+          max-width: 50%;
+          position: relative;
+          bottom: 200px;
+          padding: 0px 20px 8px 8px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 150%; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border .contenedorTextosDesktopGlobalDignity {
+          display: flex;
+          justify-content: space-between;
+          padding: 0;
+          position: relative;
+          top: 80px; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border .texto__globalDignity__border2 {
+          max-width: 540px;
+          padding-bottom: 0px; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border .texto__globalDignity__border3 {
+          max-width: 540px;
+          padding-bottom: 0px; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border .texto__globalDignity__border4 {
+          max-width: 540px;
+          padding: unset; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border p::before {
+          content: "|";
+          color: #80BD41;
+          background-color: #80BD41;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
+  .conoce_mas__ayoImpulso p {
+    text-align: center;
+    color: #80BD41;
+    padding: 40px 0px 32px 20px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px; }
+  .conoce_mas__ayoImpulso div {
+    display: flex;
+    justify-content: center; }
+    .conoce_mas__ayoImpulso div .logoGlobalDignity {
+      padding: 0px 12px 64px 0px;
+      width: 160px; }
+    .conoce_mas__ayoImpulso div .logoGlobalDignitySpain {
+      padding: 0px 0px 56px 12px;
+      width: 160px; } }
 
 /*** Variables Colores  ***/
 body {
@@ -5958,30 +6518,31 @@ body {
     position: relative;
     top: -24px;
     margin: 48px 20px 48px 0px;
-    background-color: #FFC20E;
-    display: flex; }
-    .contenedor__detalleProgramaIncuba img {
-      padding: unset;
-      padding: 20px 0px 15px 30px;
-      width: 48px; }
-    .contenedor__detalleProgramaIncuba p {
-      text-decoration: none;
-      padding: unset;
-      padding: 32px 5px 10px 24px;
-      color: #FFFFFF;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 20px; }
-      .contenedor__detalleProgramaIncuba p .imgText__detallePrograma {
+    background-color: #FFC20E; }
+    .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba {
+      display: flex; }
+      .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba img {
         padding: unset;
-        width: 24px; }
-      .contenedor__detalleProgramaIncuba p span a {
+        padding: 20px 0px 15px 30px;
+        width: 48px; }
+      .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p {
         text-decoration: none;
+        padding: unset;
+        padding: 32px 5px 10px 24px;
         color: #FFFFFF;
-        font-weight: 600;
-        line-height: 16px; } }
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p .imgText__detallePrograma {
+          padding: unset;
+          width: 24px; }
+        .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span a {
+          text-decoration: none;
+          color: #FFFFFF;
+          font-weight: 600;
+          line-height: 16px; } }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
   .container__imagen__ayoincuba {
@@ -6152,32 +6713,33 @@ body {
     position: relative;
     top: -24px;
     margin: 48px 20px 48px 0px;
-    background-color: #FFC20E;
-    display: flex; }
-    .contenedor__detalleProgramaIncuba img {
-      padding: unset;
-      padding: 20px 0px 15px 30px;
-      width: 48px; }
-    .contenedor__detalleProgramaIncuba p {
-      text-decoration: none;
-      color: #FFFFFF;
-      padding: unset;
-      padding: 32px 5px 10px 24px;
-      color: #FFFFFF;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 20px; }
-      .contenedor__detalleProgramaIncuba p .imgText__detallePrograma {
+    background-color: #FFC20E; }
+    .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba {
+      display: flex; }
+      .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba img {
         padding: unset;
-        width: 24px; }
-      .contenedor__detalleProgramaIncuba p span a {
+        padding: 20px 0px 15px 30px;
+        width: 48px; }
+      .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p {
         text-decoration: none;
         color: #FFFFFF;
-        display: block;
-        font-weight: 600;
-        line-height: 16px; } }
+        padding: unset;
+        padding: 32px 5px 10px 24px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p .imgText__detallePrograma {
+          padding: unset;
+          width: 24px; }
+        .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span a {
+          text-decoration: none;
+          color: #FFFFFF;
+          display: block;
+          font-weight: 600;
+          line-height: 16px; } }
 
 @media only screen and (min-width: 481px) and (max-width: 599px) {
   .container__imagen__ayoincuba {
@@ -6348,29 +6910,687 @@ body {
     position: relative;
     top: -24px;
     margin: 48px 20px 48px 0px;
-    background-color: #FFC20E;
-    display: flex; }
-    .contenedor__detalleProgramaIncuba img {
-      padding: unset;
-      padding: 20px 0px 15px 30px;
-      width: 48px; }
-    .contenedor__detalleProgramaIncuba p {
-      text-decoration: none;
-      color: #FFFFFF;
-      padding: unset;
-      padding: 32px 5px 10px 24px;
-      color: #FFFFFF;
+    background-color: #FFC20E; }
+    .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba {
+      display: flex; }
+      .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba img {
+        padding: unset;
+        padding: 20px 0px 15px 30px;
+        width: 48px; }
+      .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p {
+        text-decoration: none;
+        color: #FFFFFF;
+        padding: unset;
+        padding: 32px 5px 10px 24px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p .imgText__detallePrograma {
+          padding: unset;
+          width: 24px; }
+        .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span a {
+          text-decoration: none;
+          color: #FFFFFF; } }
+
+@media only screen and (min-width: 1001px) and (max-width: 1200px) {
+  .container__imagen__ayoincuba {
+    background-image: url("../../imagenes/ayoIncuba/1ayoIncubaDesktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .container__imagen__ayoincuba .divContainer__imagen__ayoincuba {
+      max-width: 85%;
+      margin: auto;
+      padding-bottom: 80px; }
+      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba h1 {
+        padding: 120px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+        .container__imagen__ayoincuba .divContainer__imagen__ayoincuba h1 span {
+          display: block; }
+      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba p {
+        padding: 16px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .container__imagen__ayoincuba .divContainer__imagen__ayoincuba p span {
+          display: block; }
+      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba a img {
+        margin: 4px 0px 56px 20px; }
+  /* Sección Apoyo e Impulso */
+  .seccionApoyoImpulso {
+    background-color: #FCFCFC;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
+    .seccionApoyoImpulso .subTitulo_apoyoImpulso {
+      max-width: 85%;
+      margin: auto;
+      color: #FFC20E;
+      padding: 32px 0px 16px 20px;
       font-family: Raleway;
       font-style: normal;
-      font-weight: 500;
+      font-weight: 600;
       font-size: 14px;
-      line-height: 20px; }
-      .contenedor__detalleProgramaIncuba p .imgText__detallePrograma {
-        padding: unset;
-        width: 24px; }
-      .contenedor__detalleProgramaIncuba p span a {
-        text-decoration: none;
-        color: #FFFFFF; } }
+      line-height: 16px; }
+    .seccionApoyoImpulso .container__apoyoImpulso {
+      max-width: 85%;
+      margin: auto;
+      padding-left: 8px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde h2 {
+        padding: 0px 20px 24px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 120%; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde p {
+        padding: 0px 20px 14px 16px;
+        color: #1A1A1A;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__apoyoImpulsoDesktop {
+        display: flex;
+        justify-content: space-between; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1 {
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 32px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1::before {
+        content: "|";
+        color: #FFC20E;
+        background-color: #FFC20E;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde2::before {
+        content: "|";
+        color: #FFC20E;
+        background-color: #FFC20E;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde3::before {
+        content: "|";
+        color: #FFC20E;
+        background-color: #FFC20E;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde4::before {
+        content: "|";
+        color: #FFC20E;
+        background-color: #FFC20E;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde {
+        padding-bottom: 8px; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde h3 {
+          padding: 80px 20px 0px 8px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 34px;
+          line-height: 40px; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p {
+          padding: 24px 20px 0px 16px;
+          margin-bottom: 48px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 20px; }
+          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p span {
+            display: block; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p::before {
+          content: "|";
+          color: #FFC20E;
+          background-color: #FFC20E;
+          position: relative;
+          top: 0px;
+          width: 0px;
+          left: -10px; }
+  /* Sección Pathfinder */
+  .container__pathfinder {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    padding-left: 20px; }
+    .container__pathfinder .contenedorSombreado_pathfinder {
+      max-width: 85%;
+      margin: auto; }
+      .container__pathfinder .contenedorSombreado_pathfinder .contenedorContenidoDesktop__pathfinder {
+        display: flex;
+        flex-direction: row-reverse; }
+      .container__pathfinder .contenedorSombreado_pathfinder img {
+        width: 460px;
+        padding: 64px 20px 0px 0px; }
+      .container__pathfinder .contenedorSombreado_pathfinder p {
+        max-width: 90%;
+        padding: 64px 0px 0px 0px;
+        color: #FFC20E;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border h4 {
+        padding: 8px 20px 0px 0px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border p {
+        padding: 12px 20px 0px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border .ultimoTexto_pathfinder_borde {
+        margin-bottom: 60px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border p::before {
+        content: ".";
+        color: #FFC20E;
+        background-color: #FFC20E;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+    .container__pathfinder .contenedor__detalleProgramaIncuba {
+      width: 320px;
+      position: relative;
+      top: -112px;
+      background-color: #FFC20E; }
+      .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba {
+        margin-top: 120px;
+        display: flex;
+        margin-bottom: 48px; }
+        .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba img {
+          padding: unset;
+          padding: 20px 0px 15px 30px;
+          width: 48px; }
+        .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p {
+          text-decoration: none;
+          color: #FFFFFF;
+          padding: unset;
+          padding: 32px 5px 10px 24px;
+          color: #FFFFFF;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px; }
+          .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p .imgText__detallePrograma {
+            padding: unset;
+            width: 24px; }
+          .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span {
+            display: block; }
+            .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span a {
+              text-decoration: none;
+              color: #FFFFFF; } }
+
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+  .container__imagen__ayoincuba {
+    background-image: url("../../imagenes/ayoIncuba/1ayoIncubaDesktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .container__imagen__ayoincuba .divContainer__imagen__ayoincuba {
+      max-width: 85%;
+      margin: auto;
+      padding-bottom: 80px; }
+      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba h1 {
+        padding: 120px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+        .container__imagen__ayoincuba .divContainer__imagen__ayoincuba h1 span {
+          display: block; }
+      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba p {
+        padding: 16px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .container__imagen__ayoincuba .divContainer__imagen__ayoincuba p span {
+          display: block; }
+      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba a img {
+        margin: 4px 0px 56px 20px; }
+  /* Sección Apoyo e Impulso */
+  .seccionApoyoImpulso {
+    background-color: #FCFCFC;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
+    .seccionApoyoImpulso .subTitulo_apoyoImpulso {
+      max-width: 85%;
+      margin: auto;
+      color: #FFC20E;
+      padding: 32px 0px 16px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px; }
+    .seccionApoyoImpulso .container__apoyoImpulso {
+      max-width: 85%;
+      margin: auto;
+      padding-left: 8px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde h2 {
+        padding: 0px 20px 24px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 120%; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde p {
+        padding: 0px 20px 14px 16px;
+        color: #1A1A1A;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__apoyoImpulsoDesktop {
+        display: flex;
+        justify-content: space-between; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1 {
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 32px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1::before {
+        content: "|";
+        color: #FFC20E;
+        background-color: #FFC20E;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde2::before {
+        content: "|";
+        color: #FFC20E;
+        background-color: #FFC20E;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde3::before {
+        content: "|";
+        color: #FFC20E;
+        background-color: #FFC20E;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde4::before {
+        content: "|";
+        color: #FFC20E;
+        background-color: #FFC20E;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde {
+        padding-bottom: 8px; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde h3 {
+          padding: 80px 20px 0px 8px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 34px;
+          line-height: 40px; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p {
+          padding: 24px 20px 0px 16px;
+          margin-bottom: 48px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 20px; }
+          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p span {
+            display: block; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p::before {
+          content: "|";
+          color: #FFC20E;
+          background-color: #FFC20E;
+          position: relative;
+          top: 0px;
+          width: 0px;
+          left: -10px; }
+  /* Sección Pathfinder */
+  .container__pathfinder {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    padding-left: 20px; }
+    .container__pathfinder .contenedorSombreado_pathfinder {
+      max-width: 85%;
+      margin: auto; }
+      .container__pathfinder .contenedorSombreado_pathfinder .contenedorContenidoDesktop__pathfinder {
+        display: flex;
+        flex-direction: row-reverse; }
+      .container__pathfinder .contenedorSombreado_pathfinder img {
+        width: 460px;
+        padding: 64px 20px 0px 0px; }
+      .container__pathfinder .contenedorSombreado_pathfinder p {
+        max-width: 90%;
+        padding: 64px 0px 0px 0px;
+        color: #FFC20E;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border h4 {
+        padding: 8px 20px 0px 0px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border p {
+        padding: 12px 20px 0px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border .ultimoTexto_pathfinder_borde {
+        margin-bottom: 60px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border p::before {
+        content: ".";
+        color: #FFC20E;
+        background-color: #FFC20E;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+    .container__pathfinder .contenedor__detalleProgramaIncuba {
+      width: 320px;
+      position: relative;
+      top: -112px;
+      background-color: #FFC20E; }
+      .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba {
+        margin-top: 120px;
+        display: flex;
+        margin-bottom: 48px; }
+        .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba img {
+          padding: unset;
+          padding: 20px 0px 15px 30px;
+          width: 48px; }
+        .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p {
+          text-decoration: none;
+          color: #FFFFFF;
+          padding: unset;
+          padding: 32px 5px 10px 24px;
+          color: #FFFFFF;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px; }
+          .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p .imgText__detallePrograma {
+            padding: unset;
+            width: 24px; }
+          .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span {
+            display: block; }
+            .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span a {
+              text-decoration: none;
+              color: #FFFFFF; } }
+
+@media only screen and (min-width: 1401px) and (max-width: 1600px) {
+  .container__imagen__ayoincuba {
+    background-image: url("../../imagenes/ayoIncuba/1ayoIncubaDesktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .container__imagen__ayoincuba .divContainer__imagen__ayoincuba {
+      max-width: 85%;
+      margin: auto;
+      padding-bottom: 80px; }
+      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba h1 {
+        padding: 120px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+        .container__imagen__ayoincuba .divContainer__imagen__ayoincuba h1 span {
+          display: block; }
+      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba p {
+        padding: 16px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .container__imagen__ayoincuba .divContainer__imagen__ayoincuba p span {
+          display: block; }
+      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba a img {
+        margin: 4px 0px 56px 20px; }
+  /* Sección Apoyo e Impulso */
+  .seccionApoyoImpulso {
+    background-color: #FCFCFC;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
+    .seccionApoyoImpulso .subTitulo_apoyoImpulso {
+      max-width: 85%;
+      margin: auto;
+      color: #FFC20E;
+      padding: 32px 0px 16px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px; }
+    .seccionApoyoImpulso .container__apoyoImpulso {
+      max-width: 85%;
+      margin: auto;
+      padding-left: 8px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde h2 {
+        padding: 0px 20px 24px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 120%; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde p {
+        padding: 0px 20px 14px 16px;
+        color: #1A1A1A;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__apoyoImpulsoDesktop {
+        display: flex;
+        justify-content: space-between; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1 {
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 32px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1::before {
+        content: "|";
+        color: #FFC20E;
+        background-color: #FFC20E;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde2::before {
+        content: "|";
+        color: #FFC20E;
+        background-color: #FFC20E;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde3::before {
+        content: "|";
+        color: #FFC20E;
+        background-color: #FFC20E;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde4::before {
+        content: "|";
+        color: #FFC20E;
+        background-color: #FFC20E;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde {
+        padding-bottom: 8px; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde h3 {
+          padding: 80px 20px 0px 8px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 34px;
+          line-height: 40px; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p {
+          padding: 24px 20px 0px 16px;
+          margin-bottom: 48px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 20px; }
+          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p span {
+            display: block; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p::before {
+          content: "|";
+          color: #FFC20E;
+          background-color: #FFC20E;
+          position: relative;
+          top: 0px;
+          width: 0px;
+          left: -10px; }
+  /* Sección Pathfinder */
+  .container__pathfinder {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    padding-left: 20px; }
+    .container__pathfinder .contenedorSombreado_pathfinder {
+      max-width: 85%;
+      margin: auto; }
+      .container__pathfinder .contenedorSombreado_pathfinder .contenedorContenidoDesktop__pathfinder {
+        display: flex;
+        flex-direction: row-reverse; }
+      .container__pathfinder .contenedorSombreado_pathfinder img {
+        width: 502px;
+        padding: 64px 20px 0px 0px; }
+      .container__pathfinder .contenedorSombreado_pathfinder p {
+        max-width: 90%;
+        padding: 64px 0px 0px 0px;
+        color: #FFC20E;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border h4 {
+        padding: 8px 20px 0px 0px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border p {
+        padding: 12px 20px 0px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border .ultimoTexto_pathfinder_borde {
+        margin-bottom: 60px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border p::before {
+        content: ".";
+        color: #FFC20E;
+        background-color: #FFC20E;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+    .container__pathfinder .contenedor__detalleProgramaIncuba {
+      width: 320px;
+      position: relative;
+      top: -112px;
+      background-color: #FFC20E; }
+      .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba {
+        margin-top: 120px;
+        display: flex;
+        margin-bottom: 48px; }
+        .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba img {
+          padding: unset;
+          padding: 20px 0px 15px 30px;
+          width: 48px; }
+        .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p {
+          text-decoration: none;
+          color: #FFFFFF;
+          padding: unset;
+          padding: 32px 5px 10px 24px;
+          color: #FFFFFF;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px; }
+          .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p .imgText__detallePrograma {
+            padding: unset;
+            width: 24px; }
+          .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span {
+            display: block; }
+            .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span a {
+              text-decoration: none;
+              color: #FFFFFF; } }
 
 /*** Variables Colores  ***/
 body {
@@ -8772,6 +9992,273 @@ body {
         font-size: 14px;
         line-height: 20px; }
         .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto span {
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 16px; }
+          .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto span a {
+            text-decoration: none;
+            color: #FFFFFF; }
+        .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto img {
+          padding: unset;
+          width: 20px; } }
+
+@media only screen and (min-width: 1001px) and (max-width: 1200px) {
+  .seccionImagen_medicionImpacto {
+    background-image: url("../../imagenes/medicionImpacto/portadaDesktop.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 100% 100%;
+    position: relative;
+    margin-bottom: 40px; }
+    .seccionImagen_medicionImpacto h1 {
+      max-width: 85%;
+      margin: auto;
+      padding: 200px 20px 200px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+  .seccionContenedora {
+    max-width: 85%;
+    margin: auto;
+    padding-left: 20px; }
+    .seccionContenedora .contenedorBorde_medicionImpacto h2 {
+      padding: 16px 20px 16px 0px;
+      color: #2D2926;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+      .seccionContenedora .contenedorBorde_medicionImpacto h2 span {
+        display: block; }
+    .seccionContenedora .contenedorBorde_medicionImpacto .contenedorDesktop_medicionImpacto {
+      display: flex;
+      justify-content: space-evenly; }
+      .seccionContenedora .contenedorBorde_medicionImpacto .contenedorDesktop_medicionImpacto .textoLargoDesktop {
+        max-width: 350px; }
+    .seccionContenedora .contenedorBorde_medicionImpacto p {
+      padding: 0px 20px 8px 8px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%; }
+      .seccionContenedora .contenedorBorde_medicionImpacto p span {
+        font-weight: bold; }
+    .seccionContenedora .contenedorBorde_medicionImpacto p::before {
+      content: "|";
+      color: #1CABE2;
+      background-color: #1CABE2;
+      position: relative;
+      top: 0px;
+      width: 0px;
+      left: -10px; }
+  .detallePrograma_medicionImpacto {
+    width: 350px;
+    height: 100vh;
+    padding: unset;
+    padding: 40px 20px 184px 0px; }
+    .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto {
+      background: #1CABE2;
+      display: flex;
+      flex-direction: row; }
+      .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto img {
+        color: #FFFFFF;
+        padding: 0px 0px 0px 32px; }
+      .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto {
+        padding: 25px 10px 8px 25px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto span {
+          display: block;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 16px; }
+          .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto span a {
+            text-decoration: none;
+            color: #FFFFFF; }
+        .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto img {
+          padding: unset;
+          width: 20px; } }
+
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+  .seccionImagen_medicionImpacto {
+    background-image: url("../../imagenes/medicionImpacto/portadaDesktop.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 100% 100%;
+    position: relative;
+    margin-bottom: 40px; }
+    .seccionImagen_medicionImpacto h1 {
+      max-width: 85%;
+      margin: auto;
+      padding: 200px 20px 200px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+  .seccionContenedora {
+    max-width: 85%;
+    margin: auto;
+    padding-left: 20px; }
+    .seccionContenedora .contenedorBorde_medicionImpacto h2 {
+      padding: 16px 20px 16px 0px;
+      color: #2D2926;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+      .seccionContenedora .contenedorBorde_medicionImpacto h2 span {
+        display: block; }
+    .seccionContenedora .contenedorBorde_medicionImpacto .contenedorDesktop_medicionImpacto {
+      display: flex;
+      justify-content: space-evenly; }
+      .seccionContenedora .contenedorBorde_medicionImpacto .contenedorDesktop_medicionImpacto .textoLargoDesktop {
+        max-width: 350px; }
+    .seccionContenedora .contenedorBorde_medicionImpacto p {
+      padding: 0px 20px 8px 8px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%; }
+      .seccionContenedora .contenedorBorde_medicionImpacto p span {
+        font-weight: bold; }
+    .seccionContenedora .contenedorBorde_medicionImpacto p::before {
+      content: "|";
+      color: #1CABE2;
+      background-color: #1CABE2;
+      position: relative;
+      top: 0px;
+      width: 0px;
+      left: -10px; }
+  .detallePrograma_medicionImpacto {
+    width: 350px;
+    height: 100vh;
+    padding: unset;
+    padding: 40px 20px 184px 0px; }
+    .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto {
+      background: #1CABE2;
+      display: flex;
+      flex-direction: row; }
+      .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto img {
+        color: #FFFFFF;
+        padding: 0px 0px 0px 32px; }
+      .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto {
+        padding: 25px 10px 8px 25px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto span {
+          display: block;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 16px; }
+          .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto span a {
+            text-decoration: none;
+            color: #FFFFFF; }
+        .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto img {
+          padding: unset;
+          width: 20px; } }
+
+@media only screen and (min-width: 1401px) and (max-width: 1600px) {
+  .seccionImagen_medicionImpacto {
+    background-image: url("../../imagenes/medicionImpacto/portadaDesktop.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 100% 100%;
+    position: relative;
+    margin-bottom: 40px; }
+    .seccionImagen_medicionImpacto h1 {
+      max-width: 85%;
+      margin: auto;
+      padding: 200px 20px 200px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+  .seccionContenedora {
+    max-width: 85%;
+    margin: auto;
+    padding-left: 20px; }
+    .seccionContenedora .contenedorBorde_medicionImpacto h2 {
+      padding: 16px 20px 16px 0px;
+      color: #2D2926;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+      .seccionContenedora .contenedorBorde_medicionImpacto h2 span {
+        display: block; }
+    .seccionContenedora .contenedorBorde_medicionImpacto .contenedorDesktop_medicionImpacto {
+      display: flex;
+      justify-content: space-evenly; }
+      .seccionContenedora .contenedorBorde_medicionImpacto .contenedorDesktop_medicionImpacto .textoLargoDesktop {
+        max-width: 450px; }
+    .seccionContenedora .contenedorBorde_medicionImpacto p {
+      padding: 0px 20px 8px 8px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%; }
+      .seccionContenedora .contenedorBorde_medicionImpacto p span {
+        font-weight: bold; }
+    .seccionContenedora .contenedorBorde_medicionImpacto p::before {
+      content: "|";
+      color: #1CABE2;
+      background-color: #1CABE2;
+      position: relative;
+      top: 0px;
+      width: 0px;
+      left: -10px; }
+  .detallePrograma_medicionImpacto {
+    width: 350px;
+    height: 100vh;
+    padding: unset;
+    padding: 40px 20px 184px 0px; }
+    .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto {
+      background: #1CABE2;
+      display: flex;
+      flex-direction: row; }
+      .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto img {
+        color: #FFFFFF;
+        padding: 0px 0px 0px 32px; }
+      .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto {
+        padding: 25px 10px 8px 25px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto span {
+          display: block;
           font-family: Raleway;
           font-style: normal;
           font-weight: 600;
