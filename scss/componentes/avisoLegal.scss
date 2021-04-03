@@ -22,6 +22,73 @@ body{
             font-size: 14px;
             line-height: 150%;
             letter-spacing: -0.15px;
+            b{
+                font-weight: bold;
+            }
+            span{
+                display: block;
+            }
+        }
+    }
+    .seccionPoliticaPrivacidad{
+        h2{
+            padding: 48px 20px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+            b{
+                font-weight: bold;
+            }
+            span{
+                display: block;
+            }
+        }
+    }
+    .seccionPoliticaCookies{
+        h3{
+            padding: 48px 20px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        .subSubTituloCookies{
+            padding: 0px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+            b{
+                font-weight: bold;
+            }
             span{
                 display: block;
             }
@@ -53,6 +120,70 @@ body{
             }
         }
     }
+    .seccionPoliticaPrivacidad{
+        h2{
+            padding: 48px 20px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+            b{
+                font-weight: bold;
+            }
+            span{
+                display: block;
+            }
+        }
+    }
+    .seccionPoliticaCookies{
+        h3{
+            padding: 48px 20px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        .subSubTituloCookies{
+            padding: 0px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+            b{
+                font-weight: bold;
+            }
+            span{
+                display: block;
+            }
+        }
+    }
 }
 @media only screen and (min-width:481px) and (max-width: 599px){
     .secctionAvisoLegal{
@@ -74,6 +205,70 @@ body{
             font-size: 14px;
             line-height: 150%;
             letter-spacing: -0.15px;
+            span{
+                display: block;
+            }
+        }
+    }
+    .seccionPoliticaPrivacidad{
+        h2{
+            padding: 48px 20px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+            b{
+                font-weight: bold;
+            }
+            span{
+                display: block;
+            }
+        }
+    }
+    .seccionPoliticaCookies{
+        h3{
+            padding: 48px 20px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        .subSubTituloCookies{
+            padding: 0px ;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+            b{
+                font-weight: bold;
+            }
             span{
                 display: block;
             }
@@ -105,7 +300,71 @@ body{
             }
         }
     }
-}
+    .seccionPoliticaPrivacidad{
+        h2{
+            padding: 48px 20px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+            b{
+                font-weight: bold;
+            }
+            span{
+                display: block;
+            }
+        }
+    }
+    .seccionPoliticaCookies{
+        h3{
+            padding: 48px 20px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        .subSubTituloCookies{
+            padding: 0px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+            b{
+                font-weight: bold;
+            }
+            span{
+                display: block;
+            }
+        }
+    }
+}   
 @media only screen and (min-width:769px) and (max-width:1000px){
     .secctionAvisoLegal{
         h1{
@@ -133,11 +392,402 @@ body{
     }
 }
 @media only screen and (min-width:1001px) and (max-width:1200px){
+    .secctionAvisoLegal{
+        max-width: 85%;
+        margin: auto;
+        h1{
+            padding: 48px 20px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
 
+            span{
+                display: block;
+            }
+        }
+    }
+    .seccionPoliticaPrivacidad{
+        max-width: 85%;
+        margin: auto;
+        h2{
+            padding: 48px 20px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+            b{
+                font-weight: bold;
+            }
+            span{
+                display: block;
+            }
+        }
+    }
+    .seccionPoliticaCookies{
+        max-width: 85%;
+        margin: auto;
+        h3{
+            padding: 48px 20px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px;
+        }
+        .subSubTituloCookies{
+            padding: 0;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+            b{
+                font-weight: bold;
+            }
+            span{
+                display: block;
+            }
+        }
+        .ultimoParrafoAvisoLegal{
+            padding-bottom: 64px;
+        }
+    }
 }
 @media only screen and (min-width:1201px) and (max-width:1400px){
+    .secctionAvisoLegal{
+        max-width: 85%;
+        margin: auto;
+        h1{
+            padding: 48px 20px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
 
+            span{
+                display: block;
+            }
+        }
+    }
+    .seccionPoliticaPrivacidad{
+        max-width: 85%;
+        margin: auto;
+        h2{
+            padding: 48px 20px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+            b{
+                font-weight: bold;
+            }
+            span{
+                display: block;
+            }
+        }
+    }
+    .seccionPoliticaCookies{
+        max-width: 85%;
+        margin: auto;
+        h3{
+            padding: 48px 20px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px;
+        }
+        .subSubTituloCookies{
+            padding: 0;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+            b{
+                font-weight: bold;
+            }
+            span{
+                display: block;
+            }
+        }
+        .ultimoParrafoAvisoLegal{
+            padding-bottom: 64px;
+        }
+    }
 }
 @media only screen and (min-width:1401px) and (max-width:1600px){
+    .secctionAvisoLegal{
+        max-width: 85%;
+        margin: auto;
+        h1{
+            padding: 48px 20px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
 
+            span{
+                display: block;
+            }
+        }
+    }
+    .seccionPoliticaPrivacidad{
+        max-width: 85%;
+        margin: auto;
+        h2{
+            padding: 48px 20px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+            b{
+                font-weight: bold;
+            }
+            span{
+                display: block;
+            }
+        }
+    }
+    .seccionPoliticaCookies{
+        max-width: 85%;
+        margin: auto;
+        h3{
+            padding: 48px 20px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px;
+        }
+        .subSubTituloCookies{
+            padding: 0;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+            b{
+                font-weight: bold;
+            }
+            span{
+                display: block;
+            }
+        }
+        .ultimoParrafoAvisoLegal{
+            padding-bottom: 64px;
+        }
+    }
+}
+@media only screen and (min-width:1601px) and (max-width:1900px){
+    .secctionAvisoLegal{
+        max-width: 85%;
+        margin: auto;
+        h1{
+            padding: 48px 20px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+
+            span{
+                display: block;
+            }
+        }
+    }
+    .seccionPoliticaPrivacidad{
+        max-width: 85%;
+        margin: auto;
+        h2{
+            padding: 48px 20px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+            b{
+                font-weight: bold;
+            }
+            span{
+                display: block;
+            }
+        }
+    }
+    .seccionPoliticaCookies{
+        max-width: 85%;
+        margin: auto;
+        h3{
+            padding: 48px 20px 16px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px;
+        }
+        .subSubTituloCookies{
+            padding: 0;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+        }
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.15px;
+            b{
+                font-weight: bold;
+            }
+            span{
+                display: block;
+            }
+        }
+        .ultimoParrafoAvisoLegal{
+            padding-bottom: 64px;
+        }
+    }
 }

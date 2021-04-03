@@ -178,14 +178,14 @@ body {
         padding: unset;
         margin-left: 8px;
         padding-left: 150px;
-        width: 150px;
+        width: 100px;
         height: 23px; }
       .navbar__nav .container-fluid .btn__header {
         background-color: #FFFFFF;
         color: #000000; }
       .navbar__nav .container-fluid .navbar-collapse {
         background-image: #FFFFFF;
-        padding: 30px 0px 20px 5px; }
+        padding: 20px 0px 0px 24px; }
         .navbar__nav .container-fluid .navbar-collapse .nav-link {
           padding: 8px 16px 24px 8px;
           color: #000000;
@@ -204,17 +204,16 @@ body {
       width: 115px;
       height: 48px;
       left: 20px;
-      top: 554px;
+      top: 54px;
       border: 1px solid #FFFFFF;
       box-sizing: border-box;
-      border-radius: 40px; }
+      border-radius: 40px;
+      margin-bottom: 60px; }
       .navbar__nav .btn__container .button__navbar a {
         text-decoration: none;
         color: #FFFFFF; }
     .navbar__nav .btn__container .btn__unete {
-      margin-bottom: 10px;
-      padding-right: 10px;
-      margin-right: 24px; }
+      margin: unset; }
     .navbar__nav .btn__container .btn__donar {
       position: relative;
       height: 0px;
@@ -241,14 +240,14 @@ body {
         padding: unset;
         margin-left: 8px;
         padding-left: 150px;
-        width: 150px;
+        width: 100px;
         height: 23px; }
       .navbar__nav .container-fluid .btn__header {
         background-color: #FFFFFF;
         color: #000000; }
       .navbar__nav .container-fluid .navbar-collapse {
         background-image: #FFFFFF;
-        padding: 30px 0px 20px 5px; }
+        padding: 20px 0px 0px 40px; }
         .navbar__nav .container-fluid .navbar-collapse .nav-link {
           padding: 8px 16px 24px 8px;
           color: #000000;
@@ -267,17 +266,16 @@ body {
       width: 115px;
       height: 48px;
       left: 20px;
-      top: 554px;
+      top: 54px;
       border: 1px solid #FFFFFF;
       box-sizing: border-box;
-      border-radius: 40px; }
+      border-radius: 40px;
+      margin-bottom: 60px; }
       .navbar__nav .btn__container .button__navbar a {
         text-decoration: none;
         color: #FFFFFF; }
     .navbar__nav .btn__container .btn__unete {
-      margin-bottom: 10px;
-      padding-right: 10px;
-      margin-right: 24px; }
+      margin: unset; }
     .navbar__nav .btn__container .btn__donar {
       position: relative;
       height: 0px;
@@ -304,14 +302,14 @@ body {
         padding: unset;
         margin-left: 8px;
         padding-left: 150px;
-        width: 150px;
+        width: 100px;
         height: 23px; }
       .navbar__nav .container-fluid .btn__header {
         background-color: #FFFFFF;
         color: #000000; }
       .navbar__nav .container-fluid .navbar-collapse {
         background-image: #FFFFFF;
-        padding: 30px 0px 20px 80px; }
+        padding: 20px 0px 0px 40px; }
         .navbar__nav .container-fluid .navbar-collapse .nav-link {
           padding: 8px 16px 24px 8px;
           color: #000000;
@@ -330,17 +328,78 @@ body {
       width: 115px;
       height: 48px;
       left: 20px;
-      top: 554px;
+      top: 54px;
       border: 1px solid #FFFFFF;
       box-sizing: border-box;
-      border-radius: 40px; }
+      border-radius: 40px;
+      margin-bottom: 60px; }
       .navbar__nav .btn__container .button__navbar a {
         text-decoration: none;
         color: #FFFFFF; }
     .navbar__nav .btn__container .btn__unete {
-      margin-bottom: 10px;
-      padding-right: 10px;
-      margin-right: 24px; }
+      margin: unset; }
+    .navbar__nav .btn__container .btn__donar {
+      position: relative;
+      height: 0px;
+      width: 0px;
+      margin-left: 0px;
+      top: 1820px;
+      background-color: transparent;
+      color: transparent;
+      font-size: 0px; } }
+
+@media only screen and (min-width: 1601px) and (max-width: 1900px) {
+  .navbar__nav {
+    background-color: #FFFFFF;
+    color: #2D2926;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
+    .navbar__nav .container-fluid {
+      max-width: 85%;
+      background-color: #FFFFFF;
+      color: #2D2926; }
+      .navbar__nav .container-fluid .navbar-brand img {
+        box-sizing: border-box;
+        display: block;
+        background: url(../../imagenes/logo.jpg);
+        padding: unset;
+        margin-left: 8px;
+        padding-left: 150px;
+        width: 100px;
+        height: 23px; }
+      .navbar__nav .container-fluid .btn__header {
+        background-color: #FFFFFF;
+        color: #000000; }
+      .navbar__nav .container-fluid .navbar-collapse {
+        background-image: #FFFFFF;
+        padding: 20px 0px 0px 40px; }
+        .navbar__nav .container-fluid .navbar-collapse .nav-link {
+          padding: 8px 16px 24px 8px;
+          color: #000000;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 16px; }
+    .navbar__nav .btn__container .button__navbar {
+      font-size: 16px;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 24px;
+      background-color: #1A1A1A;
+      color: #FFFFFF;
+      width: 115px;
+      height: 48px;
+      left: 20px;
+      top: 54px;
+      border: 1px solid #FFFFFF;
+      box-sizing: border-box;
+      border-radius: 40px;
+      margin-bottom: 60px; }
+      .navbar__nav .btn__container .button__navbar a {
+        text-decoration: none;
+        color: #FFFFFF; }
+    .navbar__nav .btn__container .btn__unete {
+      margin: unset; }
     .navbar__nav .btn__container .btn__donar {
       position: relative;
       height: 0px;
@@ -1402,6 +1461,22 @@ body {
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 0px 20px; }
+  .card1 {
+    width: 335px;
+    height: 376px;
+    grid-area: card1; }
+  .card2 {
+    width: 335px;
+    height: 376px;
+    grid-area: card2; }
+  .card3 {
+    width: 335px;
+    height: 376px;
+    grid-area: card3; }
+  .card4 {
+    width: 335px;
+    height: 376px;
+    grid-area: card4; }
   .card {
     display: flex;
     flex-direction: column;
@@ -1417,6 +1492,24 @@ body {
     grid-template-areas: "imagen" "titulo" "texto" "boton";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; }
+  .card-body1 {
+    position: relative;
+    bottom: 16px; }
+  .card-body2 {
+    position: relative;
+    bottom: 36px; }
+  .card-body3 {
+    position: relative;
+    bottom: 32px; }
+  .card-body4 {
+    position: relative;
+    bottom: 52px; }
+  .card-button2 {
+    position: relative;
+    top: 24px; }
+  .card-button4 {
+    position: relative;
+    top: 32px; }
   .card-img-top {
     width: 335px;
     height: 143px;
@@ -1728,12 +1821,20 @@ body {
     padding: 0px 20px;
     justify-items: center; }
   .card1 {
+    width: 335px;
+    height: 376px;
     grid-area: card1; }
   .card2 {
+    width: 335px;
+    height: 376px;
     grid-area: card2; }
   .card3 {
+    width: 335px;
+    height: 376px;
     grid-area: card3; }
   .card4 {
+    width: 335px;
+    height: 376px;
     grid-area: card4; }
   .card {
     display: flex;
@@ -1750,6 +1851,24 @@ body {
     grid-template-areas: "imagen" "titulo" "texto" "boton";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; }
+  .card-body1 {
+    position: relative;
+    bottom: 16px; }
+  .card-body2 {
+    position: relative;
+    bottom: 36px; }
+  .card-body3 {
+    position: relative;
+    bottom: 32px; }
+  .card-body4 {
+    position: relative;
+    bottom: 52px; }
+  .card-button2 {
+    position: relative;
+    top: 24px; }
+  .card-button4 {
+    position: relative;
+    top: 32px; }
   .card-img-top {
     width: 335px;
     height: 143px;
@@ -2061,12 +2180,20 @@ body {
     padding: 0px 20px;
     justify-items: center; }
   .card1 {
+    width: 335px;
+    height: 376px;
     grid-area: card1; }
   .card2 {
+    width: 335px;
+    height: 376px;
     grid-area: card2; }
   .card3 {
+    width: 335px;
+    height: 376px;
     grid-area: card3; }
   .card4 {
+    width: 335px;
+    height: 376px;
     grid-area: card4; }
   .card {
     display: flex;
@@ -2083,6 +2210,24 @@ body {
     grid-template-areas: "imagen" "titulo" "texto" "boton";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; }
+  .card-body1 {
+    position: relative;
+    bottom: 16px; }
+  .card-body2 {
+    position: relative;
+    bottom: 36px; }
+  .card-body3 {
+    position: relative;
+    bottom: 32px; }
+  .card-body4 {
+    position: relative;
+    bottom: 52px; }
+  .card-button2 {
+    position: relative;
+    top: 24px; }
+  .card-button4 {
+    position: relative;
+    top: 32px; }
   .card-img-top {
     width: 335px;
     height: 143px;
@@ -6344,6 +6489,714 @@ body {
       width: 120px;
       padding: 0px 16px 24px 16px; } }
 
+@media only screen and (min-width: 1001px) and (max-width: 1200px) {
+  .container__imagen__ayoAcelera {
+    background-image: url("../../imagenes/ayoAcelera/1ayoAceleraDesktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .container__imagen__ayoAcelera .contenedor__imagenDesktop__ayoAcelera {
+      max-width: 85%;
+      margin: auto;
+      padding-bottom: 80px; }
+      .container__imagen__ayoAcelera .contenedor__imagenDesktop__ayoAcelera h1 {
+        padding: 120px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+        .container__imagen__ayoAcelera .contenedor__imagenDesktop__ayoAcelera h1 span {
+          display: block; }
+      .container__imagen__ayoAcelera .contenedor__imagenDesktop__ayoAcelera p {
+        padding: 0px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .container__imagen__ayoAcelera .contenedor__imagenDesktop__ayoAcelera p span {
+          display: block; }
+      .container__imagen__ayoAcelera .contenedor__imagenDesktop__ayoAcelera a img {
+        margin: 4px 0px 56px 20px; }
+  /* Sección Apoyo e Impulso */
+  .seccionFortalecimientoCapacidades {
+    background-color: #FCFCFC; }
+    .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades {
+      max-width: 85%;
+      margin: auto; }
+      .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .subTitulo_FortalecimientoCapacidades {
+        color: #E2231A;
+        padding: 32px 0px 0px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px; }
+      .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades {
+        padding-left: 20px;
+        padding-bottom: 40px;
+        background-color: #FCFCFC; }
+        .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedorDesktop__fortalecimientoCapacidades {
+          display: flex;
+          justify-content: space-between; }
+        .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades h2 {
+          padding: 0px 20px 32px 0px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 34px;
+          line-height: 40px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades h2 span {
+            display: block; }
+        .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades p {
+          padding: 0px 20px 0px 8px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
+        .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr {
+          background-color: #FCFCFC; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .text__fortalecimientoCapacidades {
+            padding-bottom: 12px;
+            color: #1A1A1A;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%; }
+            .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .text__fortalecimientoCapacidades span {
+              font-family: Raleway;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 14px;
+              line-height: 150%; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .ultimoTextoFortalecimientoCapacidades {
+            padding-bottom: 24px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .text__fortalecimientoCapacidades::before {
+            content: "|";
+            color: #E2231A;
+            background-color: #E2231A;
+            position: relative;
+            top: 0px;
+            width: 0px;
+            left: -10px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos h3 {
+            padding: 48px 20px 24px 0px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px; }
+            .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos h3 span {
+              display: block; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos .text__fortalecimientoEquipos {
+            padding: 16px 20px 12px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos .ultimoTextoFortalecimientoEquipos {
+            padding-left: 80px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos .text__fortalecimientoEquipos::before {
+            content: "|";
+            color: #E2231A;
+            background-color: #E2231A;
+            position: relative;
+            top: 0px;
+            width: 0px;
+            left: -10px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__triatlonSocial h4 {
+            padding: 64px 20px 24px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__triatlonSocial p {
+            max-width: 70%;
+            padding: 12px 20px 0px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__triatlonSocial p::before {
+            content: "|";
+            color: #E2231A;
+            background-color: #E2231A;
+            position: relative;
+            top: 0px;
+            width: 0px;
+            left: -10px; }
+        .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn {
+          background: rgba(226, 35, 26, 0.85);
+          margin: 48px 20px 48px 0px;
+          display: flex;
+          width: 350px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn img {
+            padding: unset;
+            padding: 8px 0px 15px 30px;
+            width: 48px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn {
+            padding: unset;
+            padding: 32px 5px 10px 24px;
+            color: #FFFFFF;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px; }
+            .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn .imgText__detallePrograma {
+              padding: unset;
+              width: 24px; }
+            .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn span {
+              display: block; }
+              .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn span a {
+                text-decoration: none;
+                color: #FFFFFF; }
+  .seccionFortalecimientoEstrategico {
+    background-color: #FFFFFF; }
+    .seccionFortalecimientoEstrategico .fortalecimientoEstrategico {
+      max-width: 85%;
+      margin: auto; }
+      .seccionFortalecimientoEstrategico .fortalecimientoEstrategico h5 {
+        padding: 32px 20px 40px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+        .seccionFortalecimientoEstrategico .fortalecimientoEstrategico h5 span {
+          display: block; }
+      .seccionFortalecimientoEstrategico .fortalecimientoEstrategico .contenedorDesktop__fortalecimientoEstrategico {
+        display: flex;
+        justify-content: space-between; }
+        .seccionFortalecimientoEstrategico .fortalecimientoEstrategico .contenedorDesktop__fortalecimientoEstrategico p {
+          max-width: 45%;
+          color: #2D2926;
+          padding: 0px 20px 12px 28px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 20px; }
+        .seccionFortalecimientoEstrategico .fortalecimientoEstrategico .contenedorDesktop__fortalecimientoEstrategico p::before {
+          content: "|";
+          color: #E2231A;
+          background-color: #E2231A;
+          position: relative;
+          top: 0px;
+          width: 0px;
+          left: -10px; }
+        .seccionFortalecimientoEstrategico .fortalecimientoEstrategico .contenedorDesktop__fortalecimientoEstrategico .ultimoTextoFortalecimientoEstrategico_ayoAcelera {
+          padding-bottom: 48px; }
+    .seccionFortalecimientoEstrategico .iniciativaAyoAcelera_texto {
+      max-width: 85%;
+      margin: auto; }
+      .seccionFortalecimientoEstrategico .iniciativaAyoAcelera_texto p {
+        color: #E2231A;
+        padding: 24px 0px 8px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px; }
+    .seccionFortalecimientoEstrategico .logosIniciativaColaboración_container {
+      display: flex; }
+      .seccionFortalecimientoEstrategico .logosIniciativaColaboración_container .logoNK5IniciativaColaboracion {
+        margin-left: 40px; }
+      .seccionFortalecimientoEstrategico .logosIniciativaColaboración_container img {
+        width: 120px;
+        padding: 0px 16px 24px 16px;
+        margin: 20px 40px 40px 0px; } }
+
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+  .container__imagen__ayoAcelera {
+    background-image: url("../../imagenes/ayoAcelera/1ayoAceleraDesktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .container__imagen__ayoAcelera .contenedor__imagenDesktop__ayoAcelera {
+      max-width: 85%;
+      margin: auto;
+      padding-bottom: 80px; }
+      .container__imagen__ayoAcelera .contenedor__imagenDesktop__ayoAcelera h1 {
+        padding: 120px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+        .container__imagen__ayoAcelera .contenedor__imagenDesktop__ayoAcelera h1 span {
+          display: block; }
+      .container__imagen__ayoAcelera .contenedor__imagenDesktop__ayoAcelera p {
+        padding: 0px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .container__imagen__ayoAcelera .contenedor__imagenDesktop__ayoAcelera p span {
+          display: block; }
+      .container__imagen__ayoAcelera .contenedor__imagenDesktop__ayoAcelera a img {
+        margin: 4px 0px 56px 20px; }
+  /* Sección Apoyo e Impulso */
+  .seccionFortalecimientoCapacidades {
+    background-color: #FCFCFC; }
+    .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades {
+      max-width: 85%;
+      margin: auto; }
+      .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .subTitulo_FortalecimientoCapacidades {
+        color: #E2231A;
+        padding: 32px 0px 0px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px; }
+      .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades {
+        padding-left: 20px;
+        padding-bottom: 40px;
+        background-color: #FCFCFC; }
+        .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedorDesktop__fortalecimientoCapacidades {
+          display: flex;
+          justify-content: space-between; }
+        .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades h2 {
+          padding: 0px 20px 32px 0px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 34px;
+          line-height: 40px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades h2 span {
+            display: block; }
+        .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades p {
+          padding: 0px 20px 0px 8px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
+        .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr {
+          background-color: #FCFCFC; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .text__fortalecimientoCapacidades {
+            padding-bottom: 12px;
+            color: #1A1A1A;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%; }
+            .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .text__fortalecimientoCapacidades span {
+              font-family: Raleway;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 14px;
+              line-height: 150%; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .ultimoTextoFortalecimientoCapacidades {
+            padding-bottom: 24px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .text__fortalecimientoCapacidades::before {
+            content: "|";
+            color: #E2231A;
+            background-color: #E2231A;
+            position: relative;
+            top: 0px;
+            width: 0px;
+            left: -10px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos h3 {
+            padding: 48px 20px 24px 0px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px; }
+            .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos h3 span {
+              display: block; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos .text__fortalecimientoEquipos {
+            padding: 16px 20px 12px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos .ultimoTextoFortalecimientoEquipos {
+            padding-left: 40px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos .text__fortalecimientoEquipos::before {
+            content: "|";
+            color: #E2231A;
+            background-color: #E2231A;
+            position: relative;
+            top: 0px;
+            width: 0px;
+            left: -10px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__triatlonSocial h4 {
+            padding: 64px 20px 24px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__triatlonSocial p {
+            max-width: 70%;
+            padding: 12px 20px 0px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__triatlonSocial p::before {
+            content: "|";
+            color: #E2231A;
+            background-color: #E2231A;
+            position: relative;
+            top: 0px;
+            width: 0px;
+            left: -10px; }
+        .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn {
+          background: rgba(226, 35, 26, 0.85);
+          margin: 48px 20px 48px 0px;
+          display: flex;
+          width: 350px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn img {
+            padding: unset;
+            padding: 8px 0px 15px 30px;
+            width: 48px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn {
+            padding: unset;
+            padding: 32px 5px 10px 24px;
+            color: #FFFFFF;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px; }
+            .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn .imgText__detallePrograma {
+              padding: unset;
+              width: 24px; }
+            .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn span {
+              display: block; }
+              .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn span a {
+                text-decoration: none;
+                color: #FFFFFF; }
+  .seccionFortalecimientoEstrategico {
+    background-color: #FFFFFF; }
+    .seccionFortalecimientoEstrategico .fortalecimientoEstrategico {
+      max-width: 85%;
+      margin: auto; }
+      .seccionFortalecimientoEstrategico .fortalecimientoEstrategico h5 {
+        padding: 32px 20px 40px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+        .seccionFortalecimientoEstrategico .fortalecimientoEstrategico h5 span {
+          display: block; }
+      .seccionFortalecimientoEstrategico .fortalecimientoEstrategico .contenedorDesktop__fortalecimientoEstrategico {
+        display: flex;
+        justify-content: space-between; }
+        .seccionFortalecimientoEstrategico .fortalecimientoEstrategico .contenedorDesktop__fortalecimientoEstrategico p {
+          max-width: 45%;
+          color: #2D2926;
+          padding: 0px 20px 12px 28px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 20px; }
+        .seccionFortalecimientoEstrategico .fortalecimientoEstrategico .contenedorDesktop__fortalecimientoEstrategico p::before {
+          content: "|";
+          color: #E2231A;
+          background-color: #E2231A;
+          position: relative;
+          top: 0px;
+          width: 0px;
+          left: -10px; }
+        .seccionFortalecimientoEstrategico .fortalecimientoEstrategico .contenedorDesktop__fortalecimientoEstrategico .ultimoTextoFortalecimientoEstrategico_ayoAcelera {
+          padding-bottom: 48px; }
+    .seccionFortalecimientoEstrategico .iniciativaAyoAcelera_texto {
+      max-width: 85%;
+      margin: auto; }
+      .seccionFortalecimientoEstrategico .iniciativaAyoAcelera_texto p {
+        color: #E2231A;
+        padding: 24px 0px 8px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px; }
+    .seccionFortalecimientoEstrategico .logosIniciativaColaboración_container {
+      display: flex; }
+      .seccionFortalecimientoEstrategico .logosIniciativaColaboración_container .logoNK5IniciativaColaboracion {
+        margin-left: 40px; }
+      .seccionFortalecimientoEstrategico .logosIniciativaColaboración_container img {
+        width: 120px;
+        padding: 0px 16px 24px 16px;
+        margin: 20px 40px 40px 0px; } }
+
+@media only screen and (min-width: 1401px) and (max-width: 1600px) {
+  .container__imagen__ayoAcelera {
+    background-image: url("../../imagenes/ayoAcelera/1ayoAceleraDesktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .container__imagen__ayoAcelera .contenedor__imagenDesktop__ayoAcelera {
+      max-width: 85%;
+      margin: auto;
+      padding-bottom: 80px; }
+      .container__imagen__ayoAcelera .contenedor__imagenDesktop__ayoAcelera h1 {
+        padding: 120px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+        .container__imagen__ayoAcelera .contenedor__imagenDesktop__ayoAcelera h1 span {
+          display: block; }
+      .container__imagen__ayoAcelera .contenedor__imagenDesktop__ayoAcelera p {
+        padding: 0px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .container__imagen__ayoAcelera .contenedor__imagenDesktop__ayoAcelera p span {
+          display: block; }
+      .container__imagen__ayoAcelera .contenedor__imagenDesktop__ayoAcelera a img {
+        margin: 4px 0px 56px 20px; }
+  /* Sección Apoyo e Impulso */
+  .seccionFortalecimientoCapacidades {
+    background-color: #FCFCFC; }
+    .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades {
+      max-width: 85%;
+      margin: auto; }
+      .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .subTitulo_FortalecimientoCapacidades {
+        color: #E2231A;
+        padding: 32px 0px 0px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px; }
+      .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades {
+        padding-left: 20px;
+        padding-bottom: 40px;
+        background-color: #FCFCFC; }
+        .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedorDesktop__fortalecimientoCapacidades {
+          display: flex;
+          justify-content: space-between; }
+        .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades h2 {
+          padding: 0px 20px 32px 0px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 34px;
+          line-height: 40px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades h2 span {
+            display: block; }
+        .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades p {
+          padding: 0px 20px 0px 8px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
+        .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr {
+          background-color: #FCFCFC; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .text__fortalecimientoCapacidades {
+            padding-bottom: 12px;
+            color: #1A1A1A;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%; }
+            .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .text__fortalecimientoCapacidades span {
+              font-family: Raleway;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 14px;
+              line-height: 150%; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .ultimoTextoFortalecimientoCapacidades {
+            padding-bottom: 24px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .text__fortalecimientoCapacidades::before {
+            content: "|";
+            color: #E2231A;
+            background-color: #E2231A;
+            position: relative;
+            top: 0px;
+            width: 0px;
+            left: -10px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos h3 {
+            padding: 48px 20px 24px 0px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px; }
+            .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos h3 span {
+              display: block; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos .text__fortalecimientoEquipos {
+            padding: 16px 20px 12px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos .ultimoTextoFortalecimientoEquipos {
+            padding-left: 64px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos .text__fortalecimientoEquipos::before {
+            content: "|";
+            color: #E2231A;
+            background-color: #E2231A;
+            position: relative;
+            top: 0px;
+            width: 0px;
+            left: -10px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__triatlonSocial h4 {
+            padding: 64px 20px 24px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__triatlonSocial p {
+            max-width: 70%;
+            padding: 12px 20px 0px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__triatlonSocial p::before {
+            content: "|";
+            color: #E2231A;
+            background-color: #E2231A;
+            position: relative;
+            top: 0px;
+            width: 0px;
+            left: -10px; }
+        .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn {
+          background: rgba(226, 35, 26, 0.85);
+          margin: 48px 20px 48px 0px;
+          display: flex;
+          width: 350px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn img {
+            padding: unset;
+            padding: 8px 0px 15px 30px;
+            width: 48px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn {
+            padding: unset;
+            padding: 32px 5px 10px 24px;
+            color: #FFFFFF;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px; }
+            .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn .imgText__detallePrograma {
+              padding: unset;
+              width: 24px; }
+            .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn span {
+              display: block; }
+              .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn span a {
+                text-decoration: none;
+                color: #FFFFFF; }
+  .seccionFortalecimientoEstrategico {
+    background-color: #FFFFFF; }
+    .seccionFortalecimientoEstrategico .fortalecimientoEstrategico {
+      max-width: 85%;
+      margin: auto; }
+      .seccionFortalecimientoEstrategico .fortalecimientoEstrategico h5 {
+        padding: 32px 20px 40px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+        .seccionFortalecimientoEstrategico .fortalecimientoEstrategico h5 span {
+          display: block; }
+      .seccionFortalecimientoEstrategico .fortalecimientoEstrategico .contenedorDesktop__fortalecimientoEstrategico {
+        display: flex;
+        justify-content: space-between; }
+        .seccionFortalecimientoEstrategico .fortalecimientoEstrategico .contenedorDesktop__fortalecimientoEstrategico p {
+          max-width: 45%;
+          color: #2D2926;
+          padding: 0px 20px 12px 28px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 20px; }
+        .seccionFortalecimientoEstrategico .fortalecimientoEstrategico .contenedorDesktop__fortalecimientoEstrategico p::before {
+          content: "|";
+          color: #E2231A;
+          background-color: #E2231A;
+          position: relative;
+          top: 0px;
+          width: 0px;
+          left: -10px; }
+        .seccionFortalecimientoEstrategico .fortalecimientoEstrategico .contenedorDesktop__fortalecimientoEstrategico .ultimoTextoFortalecimientoEstrategico_ayoAcelera {
+          padding-bottom: 48px; }
+    .seccionFortalecimientoEstrategico .iniciativaAyoAcelera_texto {
+      max-width: 85%;
+      margin: auto; }
+      .seccionFortalecimientoEstrategico .iniciativaAyoAcelera_texto p {
+        color: #E2231A;
+        padding: 24px 0px 8px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px; }
+    .seccionFortalecimientoEstrategico .logosIniciativaColaboración_container {
+      display: flex; }
+      .seccionFortalecimientoEstrategico .logosIniciativaColaboración_container .logoNK5IniciativaColaboracion {
+        margin-left: 40px; }
+      .seccionFortalecimientoEstrategico .logosIniciativaColaboración_container img {
+        width: 120px;
+        padding: 0px 16px 24px 16px;
+        margin: 20px 40px 40px 0px; } }
+
 /*** Variables Colores  ***/
 body {
   font-family: 'Raleway', sans-serif; }
@@ -8286,8 +9139,6 @@ body {
       font-weight: bold;
       font-size: 34px;
       line-height: 40px; }
-      .container__imagen__sobreAyo h1 span {
-        display: block; }
     .container__imagen__sobreAyo p {
       padding: 16px 20px 0px 20px;
       color: #FFFFFF;
@@ -8630,8 +9481,6 @@ body {
       font-weight: bold;
       font-size: 34px;
       line-height: 40px; }
-      .container__imagen__sobreAyo h1 span {
-        display: block; }
     .container__imagen__sobreAyo p {
       padding: 16px 20px 0px 20px;
       color: #FFFFFF;
@@ -8910,7 +9759,10 @@ body {
           display: block; }
       .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagen6_sobreAyo {
         position: relative;
-        top: -8px; }
+        top: 6px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo .contenedorIntegranteEquipo4 {
+        position: relative;
+        top: 6px; }
   .seccionColaboradores_sobreAyo {
     position: relative;
     top: -56px; }
@@ -8965,6 +9817,9 @@ body {
         .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .cargoIntegranteColaboradores_sobreAyo span {
           display: block; }
       .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen2_sobreAyo {
+        position: relative;
+        top: 8px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen3_sobreAyo {
         position: relative;
         top: 8px; }
       .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen4_sobreAyo {
@@ -9272,6 +10127,12 @@ body {
       .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagen2_sobreAyo {
         position: relative;
         top: -8px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagen3_sobreAyo {
+        position: relative;
+        bottom: 4px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagen5_sobreAyo {
+        position: relative;
+        bottom: 14px; }
       .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagen6_sobreAyo {
         position: relative;
         top: -8px; }
@@ -9343,6 +10204,1706 @@ body {
       .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen6_sobreAyo {
         position: relative;
         top: 8px; } }
+
+@media only screen and (min-width: 1001px) and (max-width: 1200px) {
+  .container__imagen__sobreAyo {
+    background-image: url("../../imagenes/sobreNosotros/1sobreNosotrosDesktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .container__imagen__sobreAyo div {
+      max-width: 85%;
+      margin: auto; }
+      .container__imagen__sobreAyo div h1 {
+        padding: 160px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+        .container__imagen__sobreAyo div h1 span {
+          display: block; }
+      .container__imagen__sobreAyo div p {
+        padding: 16px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .container__imagen__sobreAyo div p span {
+          display: block; }
+      .container__imagen__sobreAyo div .btn__container__imagen {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        position: relative;
+        right: 64px;
+        padding-top: 10px; }
+        .container__imagen__sobreAyo div .btn__container__imagen a {
+          width: 115px;
+          height: 48px;
+          padding: 0px 104px 0px 20px;
+          margin-bottom: 104px; }
+  .seccionMV_sobreAyo {
+    max-width: 85%;
+    margin: auto;
+    padding: unset;
+    padding: 0px 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    align-items: center; }
+    .seccionMV_sobreAyo .cardMision {
+      width: 335px;
+      height: 336px;
+      margin: 64px 16px 64px 0px; }
+      .seccionMV_sobreAyo .cardMision .textoCard {
+        position: relative;
+        bottom: 40px; }
+    .seccionMV_sobreAyo .cardVision {
+      width: 335px;
+      height: 336px;
+      margin: 64px 0px 64px 16px; }
+  .subTitulo__seccionMV {
+    color: #1CABE2;
+    padding: unset;
+    padding: 8px 0px 0px 10px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 120%; }
+  .textoCard {
+    padding-left: 10px;
+    text-align: start;
+    color: #000000;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px; }
+  .estrategiaContainer_SobreAyo {
+    background-color: #1CABE2;
+    color: #FFFFFF; }
+    .estrategiaContainer_SobreAyo .contenedorEstrategiaDesktop_sobreAyo {
+      max-width: 85%;
+      margin: auto; }
+      .estrategiaContainer_SobreAyo .contenedorEstrategiaDesktop_sobreAyo h2 {
+        padding: 40px 0px 24px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+      .estrategiaContainer_SobreAyo .contenedorEstrategiaDesktop_sobreAyo p {
+        padding: 0px 20px 16px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+        .estrategiaContainer_SobreAyo .contenedorEstrategiaDesktop_sobreAyo p a {
+          text-decoration: none;
+          color: #FFFFFF;
+          font-weight: bold; }
+      .estrategiaContainer_SobreAyo .contenedorEstrategiaDesktop_sobreAyo .textoMarginEstrategia_sobreAyo {
+        padding-bottom: 164px; }
+  .areasEstrategicasFondo_sobreAyo {
+    background: rgba(242, 242, 242, 0.4); }
+    .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo {
+      max-width: 81%;
+      margin: auto;
+      background-color: #FFFFFF;
+      box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+      position: relative;
+      top: -140px; }
+      .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo h3 {
+        color: #000000;
+        padding: 40px 0px 8px 40px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+      .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo {
+        padding: 0px 0px 52px 40px; }
+        .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border {
+          opacity: 0.9;
+          display: flex;
+          justify-content: space-around; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .subTitulosAreasEstrategicas_sobreAyo {
+            color: #1CABE2;
+            padding: 8px 0px 0px 8px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .subTitulosAreasEstrategicas_sobreAyo::before {
+            content: "|";
+            color: #1CABE2;
+            background-color: #1CABE2;
+            position: relative;
+            top: 0px;
+            width: 1px;
+            left: -10px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border p {
+            padding: 0px 20px 0px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border span {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .contenedorIndividualAreasEstrategias__sobreAyo1 {
+            max-width: 231px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .contenedorIndividualAreasEstrategias__sobreAyo2 {
+            max-width: 293px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .contenedorIndividualAreasEstrategias__sobreAyo3 {
+            max-width: 345px; }
+  .seccionIdentidadInstitucional_sobreAyo {
+    background: rgba(242, 242, 242, 0.4);
+    position: relative;
+    top: -96px;
+    padding: 0px 20px 50px 20px; }
+    .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo {
+      max-width: 87%;
+      margin: auto; }
+      .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo h4 {
+        color: #000000;
+        padding: 20px 20px 16px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+      .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly; }
+        .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .nuestrosValores_sobreAyo {
+          max-width: 350px;
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+          background-color: #FFFFFF;
+          padding-bottom: 0px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .nuestrosValores_sobreAyo img {
+            padding: 24px 0px 10px 16px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .nuestrosValores_sobreAyo .subtituloElementosConforman_SobreAyo {
+            padding: 0px 20px 0px 16px;
+            color: #1CABE2;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 150%; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .nuestrosValores_sobreAyo .bordeAzul_identidadInstitucional {
+            padding: 0px 20px 0px 16px;
+            color: #000000;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .nuestrosValores_sobreAyo span {
+            font-weight: bold; }
+        .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .voluntariado_sobreAyo {
+          max-width: 350px;
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+          background-color: #FFFFFF;
+          padding: 0px 16px 0px 16px;
+          margin: 0px 0px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .voluntariado_sobreAyo img {
+            padding: 28px 0px 10px 0px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .voluntariado_sobreAyo .subTituloVoluntariado_sobreAyo {
+            color: #1CABE2;
+            padding: 0px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 20px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .voluntariado_sobreAyo .textVoluntariado_sobreAyo {
+            color: #000000;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+        .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .Alianzas_sobreAyo {
+          max-width: 350px;
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+          background-color: #FFFFFF;
+          padding: 0px 16px 24px 16px;
+          margin: 40px 0px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .Alianzas_sobreAyo img {
+            padding: 28px 0px 10px 0px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .Alianzas_sobreAyo .subTituloAlianzas_sobreAyo {
+            color: #1CABE2;
+            padding: 0px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 20px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .Alianzas_sobreAyo .textAlianzas_sobreAyo {
+            margin-bottom: 16px;
+            color: #000000;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+  .seccionElementosClavePosicionamiento_sobreAyo {
+    position: relative;
+    top: -96px;
+    background-color: rgba(242, 242, 242, 0.4); }
+    .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo {
+      max-width: 81%;
+      margin: auto; }
+      .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo h5 {
+        padding-bottom: 24px;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+      .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo {
+        display: grid;
+        grid-template-areas: "card1 card2" "card3 card4";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr; }
+        .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo .divItem1__sobreAyo {
+          grid-area: card1; }
+        .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo .divItem2__sobreAyo {
+          grid-area: card2; }
+        .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo .divItem3__sobreAyo {
+          grid-area: card3; }
+        .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo .divItem4__sobreAyo {
+          grid-area: card4; }
+        .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo div {
+          max-width: 400px; }
+          .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo div p {
+            color: #000000;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+            .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo div p .tildeElementosClave_sobreAyo {
+              padding-right: 8px; }
+  .seccionEquipo_sobreAyo {
+    position: relative;
+    top: -56px; }
+    .seccionEquipo_sobreAyo h6 {
+      max-width: 85%;
+      margin: auto;
+      color: #2D2926;
+      padding: 0px 0px 32px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .seccionEquipo_sobreAyo .containerEquipo_sobreAyo {
+      max-width: 81%;
+      margin: auto;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 0px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagenIntegrante_sobreAyo {
+        padding: 0px 15px 20px 10px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .nombreIntegranteEquipo_sobreAyo {
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+        .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .nombreIntegranteEquipo_sobreAyo a .logoLinkedIn_sobreAyo {
+          position: relative;
+          top: -2px;
+          padding: 0px 8px 0px 0px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .cargoIntegranteEquipo_sobreAyo {
+        padding-bottom: 24px;
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px; }
+        .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .cargoIntegranteEquipo_sobreAyo span {
+          display: block; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo .contenedorIntegranteEquipo3 {
+        position: relative;
+        top: 6px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo .contenedorIntegranteEquipo4 {
+        position: relative;
+        top: 13px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo .ultimaFoto_sobreAyo {
+        position: relative;
+        top: 3px; }
+  .seccionColaboradores_sobreAyo {
+    position: relative;
+    top: -56px; }
+    .seccionColaboradores_sobreAyo h6 {
+      max-width: 85%;
+      margin: auto;
+      color: #2D2926;
+      padding: 0px 0px 32px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo {
+      max-width: 80%;
+      margin: auto;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 0px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen1_sobreAyo {
+        width: 180px;
+        height: 180px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen3_sobreAyo {
+        width: 180px;
+        height: 180px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen5_sobreAyo {
+        width: 180px;
+        height: 180px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagenIntegrante_sobreAyo {
+        padding: 0px 10px 20px 10px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo {
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo span {
+          display: block; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo a .logoLinkedIn_sobreAyo {
+          position: relative;
+          top: -2px;
+          padding: 0px 8px 0px 0px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .cargoIntegranteColaboradores_sobreAyo {
+        padding-bottom: 24px;
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .cargoIntegranteColaboradores_sobreAyo span {
+          display: block; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen1_sobreAyo {
+        position: relative;
+        top: -8px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen3_sobreAyo {
+        position: relative;
+        top: 0px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen4_sobreAyo {
+        position: relative;
+        top: -8px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen5_sobreAyo {
+        position: relative;
+        top: -2px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen6_sobreAyo {
+        position: relative;
+        top: 8px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo .contenedorColaboradorIndividual__sobreAyo {
+        padding-right: 8px; } }
+
+@media only screen and (min-width: 1201px) and (max-width: 1246px) {
+  .container__imagen__sobreAyo {
+    background-image: url("../../imagenes/sobreNosotros/1sobreNosotrosDesktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .container__imagen__sobreAyo div {
+      max-width: 85%;
+      margin: auto; }
+      .container__imagen__sobreAyo div h1 {
+        padding: 160px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+        .container__imagen__sobreAyo div h1 span {
+          display: block; }
+      .container__imagen__sobreAyo div p {
+        padding: 16px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .container__imagen__sobreAyo div p span {
+          display: block; }
+      .container__imagen__sobreAyo div .btn__container__imagen {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        position: relative;
+        right: 64px;
+        padding-top: 10px; }
+        .container__imagen__sobreAyo div .btn__container__imagen a {
+          width: 115px;
+          height: 48px;
+          padding: 0px 104px 0px 20px;
+          margin-bottom: 104px; }
+  .seccionMV_sobreAyo {
+    max-width: 85%;
+    margin: auto;
+    padding: unset;
+    padding: 0px 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    align-items: center; }
+    .seccionMV_sobreAyo .cardMision {
+      width: 335px;
+      height: 336px;
+      margin: 64px 16px 64px 0px; }
+      .seccionMV_sobreAyo .cardMision .textoCard {
+        position: relative;
+        bottom: 40px; }
+    .seccionMV_sobreAyo .cardVision {
+      width: 335px;
+      height: 336px;
+      margin: 64px 0px 64px 16px; }
+  .subTitulo__seccionMV {
+    color: #1CABE2;
+    padding: unset;
+    padding: 8px 0px 0px 10px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 120%; }
+  .textoCard {
+    padding-left: 10px;
+    text-align: start;
+    color: #000000;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px; }
+  .estrategiaContainer_SobreAyo {
+    background-color: #1CABE2;
+    color: #FFFFFF; }
+    .estrategiaContainer_SobreAyo .contenedorEstrategiaDesktop_sobreAyo {
+      max-width: 85%;
+      margin: auto; }
+      .estrategiaContainer_SobreAyo .contenedorEstrategiaDesktop_sobreAyo h2 {
+        padding: 40px 0px 24px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+      .estrategiaContainer_SobreAyo .contenedorEstrategiaDesktop_sobreAyo p {
+        padding: 0px 20px 16px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+        .estrategiaContainer_SobreAyo .contenedorEstrategiaDesktop_sobreAyo p a {
+          text-decoration: none;
+          color: #FFFFFF;
+          font-weight: bold; }
+      .estrategiaContainer_SobreAyo .contenedorEstrategiaDesktop_sobreAyo .textoMarginEstrategia_sobreAyo {
+        padding-bottom: 164px; }
+  .areasEstrategicasFondo_sobreAyo {
+    background: rgba(242, 242, 242, 0.4); }
+    .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo {
+      max-width: 81%;
+      margin: auto;
+      background-color: #FFFFFF;
+      box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+      position: relative;
+      top: -140px; }
+      .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo h3 {
+        color: #000000;
+        padding: 40px 0px 8px 40px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+      .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo {
+        padding: 0px 0px 52px 40px; }
+        .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border {
+          opacity: 0.9;
+          display: flex;
+          justify-content: space-around; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .subTitulosAreasEstrategicas_sobreAyo {
+            color: #1CABE2;
+            padding: 8px 0px 0px 8px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .subTitulosAreasEstrategicas_sobreAyo::before {
+            content: "|";
+            color: #1CABE2;
+            background-color: #1CABE2;
+            position: relative;
+            top: 0px;
+            width: 1px;
+            left: -10px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border p {
+            padding: 0px 20px 0px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border span {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .contenedorIndividualAreasEstrategias__sobreAyo1 {
+            max-width: 231px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .contenedorIndividualAreasEstrategias__sobreAyo2 {
+            max-width: 293px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .contenedorIndividualAreasEstrategias__sobreAyo3 {
+            max-width: 345px; }
+  .seccionIdentidadInstitucional_sobreAyo {
+    background: rgba(242, 242, 242, 0.4);
+    position: relative;
+    top: -96px;
+    padding: 0px 20px 50px 20px; }
+    .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo {
+      max-width: 87%;
+      margin: auto; }
+      .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo h4 {
+        color: #000000;
+        padding: 20px 20px 16px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+      .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly; }
+        .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .nuestrosValores_sobreAyo {
+          max-width: 350px;
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+          background-color: #FFFFFF;
+          padding-bottom: 0px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .nuestrosValores_sobreAyo img {
+            padding: 24px 0px 10px 16px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .nuestrosValores_sobreAyo .subtituloElementosConforman_SobreAyo {
+            padding: 0px 20px 0px 16px;
+            color: #1CABE2;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 150%; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .nuestrosValores_sobreAyo .bordeAzul_identidadInstitucional {
+            padding: 0px 20px 0px 16px;
+            color: #000000;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .nuestrosValores_sobreAyo span {
+            font-weight: bold; }
+        .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .voluntariado_sobreAyo {
+          max-width: 350px;
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+          background-color: #FFFFFF;
+          padding: 0px 16px 0px 16px;
+          margin: 0px 0px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .voluntariado_sobreAyo img {
+            padding: 28px 0px 10px 0px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .voluntariado_sobreAyo .subTituloVoluntariado_sobreAyo {
+            color: #1CABE2;
+            padding: 0px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 20px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .voluntariado_sobreAyo .textVoluntariado_sobreAyo {
+            color: #000000;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+        .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .Alianzas_sobreAyo {
+          max-width: 350px;
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+          background-color: #FFFFFF;
+          padding: 0px 16px 24px 16px;
+          margin: 40px 0; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .Alianzas_sobreAyo img {
+            padding: 28px 0px 10px 0px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .Alianzas_sobreAyo .subTituloAlianzas_sobreAyo {
+            color: #1CABE2;
+            padding: 0px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 20px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .Alianzas_sobreAyo .textAlianzas_sobreAyo {
+            margin-bottom: 16px;
+            color: #000000;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+  .seccionElementosClavePosicionamiento_sobreAyo {
+    position: relative;
+    top: -96px;
+    background-color: rgba(242, 242, 242, 0.4); }
+    .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo {
+      max-width: 81%;
+      margin: auto; }
+      .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo h5 {
+        padding-bottom: 24px;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+      .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo {
+        display: grid;
+        grid-template-areas: "card1 card2" "card3 card4";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr; }
+        .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo .divItem1__sobreAyo {
+          grid-area: card1; }
+        .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo .divItem2__sobreAyo {
+          grid-area: card2; }
+        .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo .divItem3__sobreAyo {
+          grid-area: card3; }
+        .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo .divItem4__sobreAyo {
+          grid-area: card4; }
+        .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo div {
+          max-width: 400px; }
+          .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo div p {
+            color: #000000;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+            .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo div p .tildeElementosClave_sobreAyo {
+              padding-right: 8px; }
+  .seccionEquipo_sobreAyo {
+    position: relative;
+    top: -56px; }
+    .seccionEquipo_sobreAyo h6 {
+      max-width: 85%;
+      margin: auto;
+      color: #2D2926;
+      padding: 0px 0px 32px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .seccionEquipo_sobreAyo .containerEquipo_sobreAyo {
+      max-width: 81%;
+      margin: auto;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 0px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagenIntegrante_sobreAyo {
+        padding: 0px 15px 20px 10px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .nombreIntegranteEquipo_sobreAyo {
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+        .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .nombreIntegranteEquipo_sobreAyo a .logoLinkedIn_sobreAyo {
+          position: relative;
+          top: -2px;
+          padding: 0px 8px 0px 0px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .cargoIntegranteEquipo_sobreAyo {
+        padding-bottom: 24px;
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px; }
+        .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .cargoIntegranteEquipo_sobreAyo span {
+          display: block; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo .contenedorIntegranteEquipo3 {
+        position: relative;
+        top: 6px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo .contenedorIntegranteEquipo4 {
+        position: relative;
+        top: 13px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo .ultimaFoto_sobreAyo {
+        position: relative;
+        top: 3px; }
+  .seccionColaboradores_sobreAyo {
+    position: relative;
+    top: -56px; }
+    .seccionColaboradores_sobreAyo h6 {
+      max-width: 85%;
+      margin: auto;
+      color: #2D2926;
+      padding: 0px 0px 32px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo {
+      max-width: 80%;
+      margin: auto;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 0px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen1_sobreAyo {
+        width: 180px;
+        height: 180px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen3_sobreAyo {
+        width: 180px;
+        height: 180px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen5_sobreAyo {
+        width: 180px;
+        height: 180px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagenIntegrante_sobreAyo {
+        padding: 0px 10px 20px 10px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo {
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo span {
+          display: block; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo a .logoLinkedIn_sobreAyo {
+          position: relative;
+          top: -2px;
+          padding: 0px 8px 0px 0px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .cargoIntegranteColaboradores_sobreAyo {
+        padding-bottom: 24px;
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .cargoIntegranteColaboradores_sobreAyo span {
+          display: block; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen1_sobreAyo {
+        position: relative;
+        top: -8px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen3_sobreAyo {
+        position: relative;
+        top: 0px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen4_sobreAyo {
+        position: relative;
+        top: -8px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen5_sobreAyo {
+        position: relative;
+        top: -2px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen6_sobreAyo {
+        position: relative;
+        top: 8px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo .contenedorColaboradorIndividual__sobreAyo {
+        padding-right: 8px; } }
+
+@media only screen and (min-width: 1247px) and (max-width: 1400px) {
+  .container__imagen__sobreAyo {
+    background-image: url("../../imagenes/sobreNosotros/1sobreNosotrosDesktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .container__imagen__sobreAyo div {
+      max-width: 85%;
+      margin: auto; }
+      .container__imagen__sobreAyo div h1 {
+        padding: 160px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+        .container__imagen__sobreAyo div h1 span {
+          display: block; }
+      .container__imagen__sobreAyo div p {
+        padding: 16px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .container__imagen__sobreAyo div p span {
+          display: block; }
+      .container__imagen__sobreAyo div .btn__container__imagen {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        position: relative;
+        right: 64px;
+        padding-top: 10px; }
+        .container__imagen__sobreAyo div .btn__container__imagen a {
+          width: 115px;
+          height: 48px;
+          padding: 0px 104px 0px 20px;
+          margin-bottom: 104px; }
+  .seccionMV_sobreAyo {
+    max-width: 85%;
+    margin: auto;
+    padding: unset;
+    padding: 0px 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    align-items: center; }
+    .seccionMV_sobreAyo .cardMision {
+      width: 335px;
+      height: 336px;
+      margin: 64px 16px 64px 0px; }
+      .seccionMV_sobreAyo .cardMision .textoCard {
+        position: relative;
+        bottom: 40px; }
+    .seccionMV_sobreAyo .cardVision {
+      width: 335px;
+      height: 336px;
+      margin: 64px 0px 64px 16px; }
+  .subTitulo__seccionMV {
+    color: #1CABE2;
+    padding: unset;
+    padding: 8px 0px 0px 10px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 120%; }
+  .textoCard {
+    padding-left: 10px;
+    text-align: start;
+    color: #000000;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px; }
+  .estrategiaContainer_SobreAyo {
+    background-color: #1CABE2;
+    color: #FFFFFF; }
+    .estrategiaContainer_SobreAyo .contenedorEstrategiaDesktop_sobreAyo {
+      max-width: 85%;
+      margin: auto; }
+      .estrategiaContainer_SobreAyo .contenedorEstrategiaDesktop_sobreAyo h2 {
+        padding: 40px 0px 24px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+      .estrategiaContainer_SobreAyo .contenedorEstrategiaDesktop_sobreAyo p {
+        padding: 0px 20px 16px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+        .estrategiaContainer_SobreAyo .contenedorEstrategiaDesktop_sobreAyo p a {
+          text-decoration: none;
+          color: #FFFFFF;
+          font-weight: bold; }
+      .estrategiaContainer_SobreAyo .contenedorEstrategiaDesktop_sobreAyo .textoMarginEstrategia_sobreAyo {
+        padding-bottom: 164px; }
+  .areasEstrategicasFondo_sobreAyo {
+    background: rgba(242, 242, 242, 0.4); }
+    .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo {
+      max-width: 81%;
+      margin: auto;
+      background-color: #FFFFFF;
+      box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+      position: relative;
+      top: -140px; }
+      .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo h3 {
+        color: #000000;
+        padding: 40px 0px 8px 40px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+      .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo {
+        padding: 0px 0px 52px 40px; }
+        .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border {
+          opacity: 0.9;
+          display: flex;
+          justify-content: space-around; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .subTitulosAreasEstrategicas_sobreAyo {
+            color: #1CABE2;
+            padding: 8px 0px 0px 8px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .subTitulosAreasEstrategicas_sobreAyo::before {
+            content: "|";
+            color: #1CABE2;
+            background-color: #1CABE2;
+            position: relative;
+            top: 0px;
+            width: 1px;
+            left: -10px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border p {
+            padding: 0px 20px 0px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border span {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .contenedorIndividualAreasEstrategias__sobreAyo1 {
+            max-width: 231px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .contenedorIndividualAreasEstrategias__sobreAyo2 {
+            max-width: 293px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .contenedorIndividualAreasEstrategias__sobreAyo3 {
+            max-width: 345px; }
+  .seccionIdentidadInstitucional_sobreAyo {
+    background: rgba(242, 242, 242, 0.4);
+    position: relative;
+    top: -96px;
+    padding: 0px 20px 50px 20px; }
+    .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo {
+      max-width: 87%;
+      margin: auto; }
+      .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo h4 {
+        color: #000000;
+        padding: 20px 20px 16px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+      .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly; }
+        .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .nuestrosValores_sobreAyo {
+          max-width: 350px;
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+          background-color: #FFFFFF;
+          padding-bottom: 0px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .nuestrosValores_sobreAyo img {
+            padding: 24px 0px 10px 16px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .nuestrosValores_sobreAyo .subtituloElementosConforman_SobreAyo {
+            padding: 0px 20px 0px 16px;
+            color: #1CABE2;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 150%; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .nuestrosValores_sobreAyo .bordeAzul_identidadInstitucional {
+            padding: 0px 20px 0px 16px;
+            color: #000000;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .nuestrosValores_sobreAyo span {
+            font-weight: bold; }
+        .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .voluntariado_sobreAyo {
+          max-width: 350px;
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+          background-color: #FFFFFF;
+          padding: 0px 16px 0px 16px;
+          margin: 0px 0px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .voluntariado_sobreAyo img {
+            padding: 28px 0px 10px 0px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .voluntariado_sobreAyo .subTituloVoluntariado_sobreAyo {
+            color: #1CABE2;
+            padding: 0px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 20px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .voluntariado_sobreAyo .textVoluntariado_sobreAyo {
+            color: #000000;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+        .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .Alianzas_sobreAyo {
+          max-width: 350px;
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+          background-color: #FFFFFF;
+          padding: 0px 16px 24px 16px;
+          margin: 0px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .Alianzas_sobreAyo img {
+            padding: 28px 0px 10px 0px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .Alianzas_sobreAyo .subTituloAlianzas_sobreAyo {
+            color: #1CABE2;
+            padding: 0px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 20px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .Alianzas_sobreAyo .textAlianzas_sobreAyo {
+            margin-bottom: 16px;
+            color: #000000;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+  .seccionElementosClavePosicionamiento_sobreAyo {
+    position: relative;
+    top: -96px;
+    background-color: rgba(242, 242, 242, 0.4); }
+    .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo {
+      max-width: 81%;
+      margin: auto; }
+      .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo h5 {
+        padding-bottom: 24px;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+      .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo {
+        display: grid;
+        grid-template-areas: "card1 card2" "card3 card4";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr; }
+        .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo .divItem1__sobreAyo {
+          grid-area: card1; }
+        .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo .divItem2__sobreAyo {
+          grid-area: card2; }
+        .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo .divItem3__sobreAyo {
+          grid-area: card3; }
+        .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo .divItem4__sobreAyo {
+          grid-area: card4; }
+        .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo div {
+          max-width: 400px; }
+          .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo div p {
+            color: #000000;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+            .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo div p .tildeElementosClave_sobreAyo {
+              padding-right: 8px; }
+  .seccionEquipo_sobreAyo {
+    position: relative;
+    top: -56px; }
+    .seccionEquipo_sobreAyo h6 {
+      max-width: 85%;
+      margin: auto;
+      color: #2D2926;
+      padding: 0px 0px 32px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .seccionEquipo_sobreAyo .containerEquipo_sobreAyo {
+      max-width: 81%;
+      margin: auto;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 0px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagenIntegrante_sobreAyo {
+        padding: 0px 15px 20px 10px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .nombreIntegranteEquipo_sobreAyo {
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+        .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .nombreIntegranteEquipo_sobreAyo a .logoLinkedIn_sobreAyo {
+          position: relative;
+          top: -2px;
+          padding: 0px 8px 0px 0px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .cargoIntegranteEquipo_sobreAyo {
+        padding-bottom: 24px;
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px; }
+        .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .cargoIntegranteEquipo_sobreAyo span {
+          display: block; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo .contenedorIntegranteEquipo3 {
+        position: relative;
+        top: 6px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo .contenedorIntegranteEquipo4 {
+        position: relative;
+        top: 13px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo .ultimaFoto_sobreAyo {
+        position: relative;
+        top: 3px; }
+  .seccionColaboradores_sobreAyo {
+    position: relative;
+    top: -56px; }
+    .seccionColaboradores_sobreAyo h6 {
+      max-width: 85%;
+      margin: auto;
+      color: #2D2926;
+      padding: 0px 0px 32px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo {
+      max-width: 80%;
+      margin: auto;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 0px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen1_sobreAyo {
+        width: 180px;
+        height: 180px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen3_sobreAyo {
+        width: 180px;
+        height: 180px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen5_sobreAyo {
+        width: 180px;
+        height: 180px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagenIntegrante_sobreAyo {
+        padding: 0px 10px 20px 10px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo {
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo span {
+          display: block; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo a .logoLinkedIn_sobreAyo {
+          position: relative;
+          top: -2px;
+          padding: 0px 8px 0px 0px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .cargoIntegranteColaboradores_sobreAyo {
+        padding-bottom: 24px;
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .cargoIntegranteColaboradores_sobreAyo span {
+          display: block; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen1_sobreAyo {
+        position: relative;
+        top: -8px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen3_sobreAyo {
+        position: relative;
+        top: 0px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen4_sobreAyo {
+        position: relative;
+        top: -8px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen5_sobreAyo {
+        position: relative;
+        top: -2px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen6_sobreAyo {
+        position: relative;
+        top: 8px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo .contenedorColaboradorIndividual__sobreAyo {
+        padding-right: 8px; } }
+
+@media only screen and (min-width: 1401px) and (max-width: 1600px) {
+  .container__imagen__sobreAyo {
+    background-image: url("../../imagenes/sobreNosotros/1sobreNosotrosDesktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .container__imagen__sobreAyo div {
+      max-width: 85%;
+      margin: auto; }
+      .container__imagen__sobreAyo div h1 {
+        padding: 160px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+        .container__imagen__sobreAyo div h1 span {
+          display: block; }
+      .container__imagen__sobreAyo div p {
+        padding: 16px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .container__imagen__sobreAyo div p span {
+          display: block; }
+      .container__imagen__sobreAyo div .btn__container__imagen {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        position: relative;
+        right: 64px;
+        padding-top: 10px; }
+        .container__imagen__sobreAyo div .btn__container__imagen a {
+          width: 115px;
+          height: 48px;
+          padding: 0px 104px 0px 20px;
+          margin-bottom: 104px; }
+  .seccionMV_sobreAyo {
+    max-width: 85%;
+    margin: auto;
+    padding: unset;
+    padding: 0px 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    align-items: center; }
+    .seccionMV_sobreAyo .cardMision {
+      width: 335px;
+      height: 336px;
+      margin: 64px 16px 64px 0px; }
+      .seccionMV_sobreAyo .cardMision .textoCard {
+        position: relative;
+        bottom: 40px; }
+    .seccionMV_sobreAyo .cardVision {
+      width: 335px;
+      height: 336px;
+      margin: 64px 0px 64px 16px; }
+  .subTitulo__seccionMV {
+    color: #1CABE2;
+    padding: unset;
+    padding: 8px 0px 0px 10px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 120%; }
+  .textoCard {
+    padding-left: 10px;
+    text-align: start;
+    color: #000000;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px; }
+  .estrategiaContainer_SobreAyo {
+    background-color: #1CABE2;
+    color: #FFFFFF; }
+    .estrategiaContainer_SobreAyo .contenedorEstrategiaDesktop_sobreAyo {
+      max-width: 85%;
+      margin: auto; }
+      .estrategiaContainer_SobreAyo .contenedorEstrategiaDesktop_sobreAyo h2 {
+        padding: 40px 0px 24px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+      .estrategiaContainer_SobreAyo .contenedorEstrategiaDesktop_sobreAyo p {
+        padding: 0px 20px 16px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+        .estrategiaContainer_SobreAyo .contenedorEstrategiaDesktop_sobreAyo p a {
+          text-decoration: none;
+          color: #FFFFFF;
+          font-weight: bold; }
+      .estrategiaContainer_SobreAyo .contenedorEstrategiaDesktop_sobreAyo .textoMarginEstrategia_sobreAyo {
+        padding-bottom: 164px; }
+  .areasEstrategicasFondo_sobreAyo {
+    background: rgba(242, 242, 242, 0.4); }
+    .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo {
+      max-width: 81%;
+      margin: auto;
+      background-color: #FFFFFF;
+      box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+      position: relative;
+      top: -140px; }
+      .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo h3 {
+        color: #000000;
+        padding: 40px 0px 8px 40px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+      .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo {
+        padding: 0px 0px 52px 40px; }
+        .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border {
+          opacity: 0.9;
+          display: flex;
+          justify-content: space-around; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .subTitulosAreasEstrategicas_sobreAyo {
+            color: #1CABE2;
+            padding: 8px 0px 0px 8px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .subTitulosAreasEstrategicas_sobreAyo::before {
+            content: "|";
+            color: #1CABE2;
+            background-color: #1CABE2;
+            position: relative;
+            top: 0px;
+            width: 1px;
+            left: -10px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border p {
+            padding: 0px 20px 0px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border span {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .contenedorIndividualAreasEstrategias__sobreAyo1 {
+            max-width: 231px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .contenedorIndividualAreasEstrategias__sobreAyo2 {
+            max-width: 293px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .contenedorIndividualAreasEstrategias__sobreAyo3 {
+            max-width: 345px; }
+  .seccionIdentidadInstitucional_sobreAyo {
+    background: rgba(242, 242, 242, 0.4);
+    position: relative;
+    top: -96px;
+    padding: 0px 20px 50px 20px; }
+    .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo {
+      max-width: 87%;
+      margin: auto; }
+      .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo h4 {
+        color: #000000;
+        padding: 20px 20px 16px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+      .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly; }
+        .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .nuestrosValores_sobreAyo {
+          max-width: 350px;
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+          background-color: #FFFFFF;
+          padding-bottom: 0px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .nuestrosValores_sobreAyo img {
+            padding: 24px 0px 10px 16px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .nuestrosValores_sobreAyo .subtituloElementosConforman_SobreAyo {
+            padding: 0px 20px 0px 16px;
+            color: #1CABE2;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 150%; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .nuestrosValores_sobreAyo .bordeAzul_identidadInstitucional {
+            padding: 0px 20px 0px 16px;
+            color: #000000;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .nuestrosValores_sobreAyo span {
+            font-weight: bold; }
+        .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .voluntariado_sobreAyo {
+          max-width: 350px;
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+          background-color: #FFFFFF;
+          padding: 0px 16px 0px 16px;
+          margin: 0px 0px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .voluntariado_sobreAyo img {
+            padding: 28px 0px 10px 0px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .voluntariado_sobreAyo .subTituloVoluntariado_sobreAyo {
+            color: #1CABE2;
+            padding: 0px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 20px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .voluntariado_sobreAyo .textVoluntariado_sobreAyo {
+            color: #000000;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+        .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .Alianzas_sobreAyo {
+          max-width: 350px;
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+          background-color: #FFFFFF;
+          padding: 0px 16px 24px 16px;
+          margin: 0px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .Alianzas_sobreAyo img {
+            padding: 28px 0px 10px 0px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .Alianzas_sobreAyo .subTituloAlianzas_sobreAyo {
+            color: #1CABE2;
+            padding: 0px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 20px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .Alianzas_sobreAyo .textAlianzas_sobreAyo {
+            margin-bottom: 16px;
+            color: #000000;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+  .seccionElementosClavePosicionamiento_sobreAyo {
+    position: relative;
+    top: -96px;
+    background-color: rgba(242, 242, 242, 0.4); }
+    .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo {
+      max-width: 81%;
+      margin: auto; }
+      .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo h5 {
+        padding-bottom: 24px;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+      .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo {
+        display: grid;
+        grid-template-areas: "card1 card2" "card3 card4";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr; }
+        .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo .divItem1__sobreAyo {
+          grid-area: card1; }
+        .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo .divItem2__sobreAyo {
+          grid-area: card2; }
+        .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo .divItem3__sobreAyo {
+          grid-area: card3; }
+        .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo .divItem4__sobreAyo {
+          grid-area: card4; }
+        .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo div {
+          max-width: 400px; }
+          .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo div p {
+            color: #000000;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+            .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo div p .tildeElementosClave_sobreAyo {
+              padding-right: 8px; }
+  .seccionEquipo_sobreAyo {
+    position: relative;
+    top: -56px; }
+    .seccionEquipo_sobreAyo h6 {
+      max-width: 85%;
+      margin: auto;
+      color: #2D2926;
+      padding: 0px 0px 32px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .seccionEquipo_sobreAyo .containerEquipo_sobreAyo {
+      max-width: 81%;
+      margin: auto;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 0px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagenIntegrante_sobreAyo {
+        padding: 0px 15px 20px 10px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .nombreIntegranteEquipo_sobreAyo {
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+        .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .nombreIntegranteEquipo_sobreAyo a .logoLinkedIn_sobreAyo {
+          position: relative;
+          top: -2px;
+          padding: 0px 8px 0px 0px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .cargoIntegranteEquipo_sobreAyo {
+        padding-bottom: 24px;
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px; }
+        .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .cargoIntegranteEquipo_sobreAyo span {
+          display: block; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo .contenedorIntegranteEquipo3 {
+        position: relative;
+        top: 6px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo .contenedorIntegranteEquipo4 {
+        position: relative;
+        top: 13px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo .ultimaFoto_sobreAyo {
+        position: relative;
+        top: 3px; }
+  .seccionColaboradores_sobreAyo {
+    position: relative;
+    top: -56px; }
+    .seccionColaboradores_sobreAyo h6 {
+      max-width: 85%;
+      margin: auto;
+      color: #2D2926;
+      padding: 0px 0px 32px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo {
+      max-width: 81%;
+      margin: auto;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 0px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen1_sobreAyo {
+        width: 180px;
+        height: 180px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen3_sobreAyo {
+        width: 180px;
+        height: 180px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen5_sobreAyo {
+        width: 180px;
+        height: 180px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagenIntegrante_sobreAyo {
+        padding: 0px 10px 20px 10px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo {
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo span {
+          display: block; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo a .logoLinkedIn_sobreAyo {
+          position: relative;
+          top: -2px;
+          padding: 0px 8px 0px 0px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .cargoIntegranteColaboradores_sobreAyo {
+        padding-bottom: 24px;
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .cargoIntegranteColaboradores_sobreAyo span {
+          display: block; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen1_sobreAyo {
+        position: relative;
+        top: -8px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen3_sobreAyo {
+        position: relative;
+        top: 0px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen4_sobreAyo {
+        position: relative;
+        top: -8px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen5_sobreAyo {
+        position: relative;
+        top: -2px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen6_sobreAyo {
+        position: relative;
+        top: 8px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo .contenedorColaboradorIndividual__sobreAyo {
+        padding-right: 8px; } }
 
 /*** Variables Colores  ***/
 body {
@@ -9648,6 +12209,120 @@ body {
       width: 200px;
       padding: 20px; } }
 
+@media only screen and (min-width: 1001px) and (max-width: 1200px) {
+  .seccionHistoria img {
+    width: 100%; }
+  .seccionHistoria h1 {
+    max-width: 60%;
+    margin: auto;
+    padding: 40px 20px 8px 20px;
+    color: #2D2926;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%; }
+  .seccionHistoria h2 {
+    max-width: 60%;
+    margin: auto;
+    padding: 0px 20px 40px 20px;
+    color: #000000;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%; }
+  .seccionHistoria p {
+    max-width: 60%;
+    margin: auto;
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%; }
+    .seccionHistoria p span {
+      font-weight: bold; }
+  .seccionHistoria div {
+    /* HABÍA UN DISPLAY FLEX ACÁ */ }
+    .seccionHistoria div .imagenBotonImpulso {
+      width: 72px; }
+    .seccionHistoria div h1 {
+      max-width: 60%;
+      margin: auto;
+      padding: 40px 20px 8px 20px;
+      color: #2D2926;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+    .seccionHistoria div h2 {
+      padding: 0px 20px 40px 20px;
+      color: #000000;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 150%; }
+    .seccionHistoria div p {
+      padding: 0px 20px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%; }
+      .seccionHistoria div p span {
+        font-weight: bold; }
+  .seccionImagenesTriatlon {
+    display: flex;
+    justify-content: center; }
+    .seccionImagenesTriatlon img {
+      padding: 20px 20px;
+      height: 75%;
+      width: 75%; }
+    .seccionImagenesTriatlon .ultimaImagenTritlon {
+      padding-bottom: 64px; }
+  .seccionImagenesTriatlonLineal {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .seccionImagenesTriatlonLineal img {
+      padding: 20px 20px;
+      width: 60%; }
+  .seccionImagenesGlobalDignity {
+    height: 100vh;
+    display: flex;
+    justify-content: center; }
+    .seccionImagenesGlobalDignity img {
+      padding-top: 80px;
+      padding-bottom: 80px;
+      width: 212px; }
+  .seccionImagenesGlobalDignityDay2019 img {
+    width: 100%;
+    padding: 8px 20px 40px 20px; }
+  .seccionColaboradores .textoSeccionColaboradores__AYOseAdapta {
+    max-width: 60%;
+    margin: auto; }
+  .seccionColaboradores p {
+    padding: 20px 0px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%; }
+  .seccionColaboradores .seccionColaboradoresContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; }
+    .seccionColaboradores .seccionColaboradoresContainer img {
+      width: 200px;
+      padding: 80px 20px; } }
+
 /*** Variables Colores  ***/
 body {
   font-family: 'Raleway', sans-serif; }
@@ -9670,7 +12345,60 @@ body {
     font-size: 14px;
     line-height: 150%;
     letter-spacing: -0.15px; }
+    .secctionAvisoLegal p b {
+      font-weight: bold; }
     .secctionAvisoLegal p span {
+      display: block; }
+  .seccionPoliticaPrivacidad h2 {
+    padding: 48px 20px 16px 20px;
+    color: #2D2926;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%; }
+  .seccionPoliticaPrivacidad p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.15px; }
+    .seccionPoliticaPrivacidad p b {
+      font-weight: bold; }
+    .seccionPoliticaPrivacidad p span {
+      display: block; }
+  .seccionPoliticaCookies h3 {
+    padding: 48px 20px 16px 20px;
+    color: #2D2926;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%; }
+  .seccionPoliticaCookies .subSubTituloCookies {
+    padding: 0px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.15px; }
+  .seccionPoliticaCookies p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.15px; }
+    .seccionPoliticaCookies p b {
+      font-weight: bold; }
+    .seccionPoliticaCookies p span {
       display: block; } }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
@@ -9692,6 +12420,57 @@ body {
     line-height: 150%;
     letter-spacing: -0.15px; }
     .secctionAvisoLegal p span {
+      display: block; }
+  .seccionPoliticaPrivacidad h2 {
+    padding: 48px 20px 16px 20px;
+    color: #2D2926;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%; }
+  .seccionPoliticaPrivacidad p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.15px; }
+    .seccionPoliticaPrivacidad p b {
+      font-weight: bold; }
+    .seccionPoliticaPrivacidad p span {
+      display: block; }
+  .seccionPoliticaCookies h3 {
+    padding: 48px 20px 16px 20px;
+    color: #2D2926;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%; }
+  .seccionPoliticaCookies .subSubTituloCookies {
+    padding: 0px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.15px; }
+  .seccionPoliticaCookies p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.15px; }
+    .seccionPoliticaCookies p b {
+      font-weight: bold; }
+    .seccionPoliticaCookies p span {
       display: block; } }
 
 @media only screen and (min-width: 481px) and (max-width: 599px) {
@@ -9713,6 +12492,57 @@ body {
     line-height: 150%;
     letter-spacing: -0.15px; }
     .secctionAvisoLegal p span {
+      display: block; }
+  .seccionPoliticaPrivacidad h2 {
+    padding: 48px 20px 16px 20px;
+    color: #2D2926;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%; }
+  .seccionPoliticaPrivacidad p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.15px; }
+    .seccionPoliticaPrivacidad p b {
+      font-weight: bold; }
+    .seccionPoliticaPrivacidad p span {
+      display: block; }
+  .seccionPoliticaCookies h3 {
+    padding: 48px 20px 16px 20px;
+    color: #2D2926;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%; }
+  .seccionPoliticaCookies .subSubTituloCookies {
+    padding: 0px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.15px; }
+  .seccionPoliticaCookies p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.15px; }
+    .seccionPoliticaCookies p b {
+      font-weight: bold; }
+    .seccionPoliticaCookies p span {
       display: block; } }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
@@ -9734,6 +12564,57 @@ body {
     line-height: 150%;
     letter-spacing: -0.15px; }
     .secctionAvisoLegal p span {
+      display: block; }
+  .seccionPoliticaPrivacidad h2 {
+    padding: 48px 20px 16px 20px;
+    color: #2D2926;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%; }
+  .seccionPoliticaPrivacidad p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.15px; }
+    .seccionPoliticaPrivacidad p b {
+      font-weight: bold; }
+    .seccionPoliticaPrivacidad p span {
+      display: block; }
+  .seccionPoliticaCookies h3 {
+    padding: 48px 20px 16px 20px;
+    color: #2D2926;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%; }
+  .seccionPoliticaCookies .subSubTituloCookies {
+    padding: 0px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.15px; }
+  .seccionPoliticaCookies p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.15px; }
+    .seccionPoliticaCookies p b {
+      font-weight: bold; }
+    .seccionPoliticaCookies p span {
       display: block; } }
 
 @media only screen and (min-width: 769px) and (max-width: 1000px) {
@@ -9756,6 +12637,255 @@ body {
     letter-spacing: -0.15px; }
     .secctionAvisoLegal p span {
       display: block; } }
+
+@media only screen and (min-width: 1001px) and (max-width: 1200px) {
+  .secctionAvisoLegal {
+    max-width: 85%;
+    margin: auto; }
+    .secctionAvisoLegal h1 {
+      padding: 48px 20px 16px 20px;
+      color: #2D2926;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .secctionAvisoLegal p {
+      padding: 0px 20px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: -0.15px; }
+      .secctionAvisoLegal p span {
+        display: block; }
+  .seccionPoliticaPrivacidad {
+    max-width: 85%;
+    margin: auto; }
+    .seccionPoliticaPrivacidad h2 {
+      padding: 48px 20px 16px 20px;
+      color: #2D2926;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .seccionPoliticaPrivacidad p {
+      padding: 0px 20px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: -0.15px; }
+      .seccionPoliticaPrivacidad p b {
+        font-weight: bold; }
+      .seccionPoliticaPrivacidad p span {
+        display: block; }
+  .seccionPoliticaCookies {
+    max-width: 85%;
+    margin: auto; }
+    .seccionPoliticaCookies h3 {
+      padding: 48px 20px 16px 20px;
+      color: #2D2926;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .seccionPoliticaCookies .subSubTituloCookies {
+      padding: 0;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: -0.15px; }
+    .seccionPoliticaCookies p {
+      padding: 0px 20px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: -0.15px; }
+      .seccionPoliticaCookies p b {
+        font-weight: bold; }
+      .seccionPoliticaCookies p span {
+        display: block; }
+    .seccionPoliticaCookies .ultimoParrafoAvisoLegal {
+      padding-bottom: 64px; } }
+
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+  .secctionAvisoLegal {
+    max-width: 85%;
+    margin: auto; }
+    .secctionAvisoLegal h1 {
+      padding: 48px 20px 16px 20px;
+      color: #2D2926;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .secctionAvisoLegal p {
+      padding: 0px 20px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: -0.15px; }
+      .secctionAvisoLegal p span {
+        display: block; }
+  .seccionPoliticaPrivacidad {
+    max-width: 85%;
+    margin: auto; }
+    .seccionPoliticaPrivacidad h2 {
+      padding: 48px 20px 16px 20px;
+      color: #2D2926;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .seccionPoliticaPrivacidad p {
+      padding: 0px 20px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: -0.15px; }
+      .seccionPoliticaPrivacidad p b {
+        font-weight: bold; }
+      .seccionPoliticaPrivacidad p span {
+        display: block; }
+  .seccionPoliticaCookies {
+    max-width: 85%;
+    margin: auto; }
+    .seccionPoliticaCookies h3 {
+      padding: 48px 20px 16px 20px;
+      color: #2D2926;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .seccionPoliticaCookies .subSubTituloCookies {
+      padding: 0;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: -0.15px; }
+    .seccionPoliticaCookies p {
+      padding: 0px 20px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: -0.15px; }
+      .seccionPoliticaCookies p b {
+        font-weight: bold; }
+      .seccionPoliticaCookies p span {
+        display: block; }
+    .seccionPoliticaCookies .ultimoParrafoAvisoLegal {
+      padding-bottom: 64px; } }
+
+@media only screen and (min-width: 1401px) and (max-width: 1600px) {
+  .secctionAvisoLegal {
+    max-width: 85%;
+    margin: auto; }
+    .secctionAvisoLegal h1 {
+      padding: 48px 20px 16px 20px;
+      color: #2D2926;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .secctionAvisoLegal p {
+      padding: 0px 20px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: -0.15px; }
+      .secctionAvisoLegal p span {
+        display: block; }
+  .seccionPoliticaPrivacidad {
+    max-width: 85%;
+    margin: auto; }
+    .seccionPoliticaPrivacidad h2 {
+      padding: 48px 20px 16px 20px;
+      color: #2D2926;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .seccionPoliticaPrivacidad p {
+      padding: 0px 20px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: -0.15px; }
+      .seccionPoliticaPrivacidad p b {
+        font-weight: bold; }
+      .seccionPoliticaPrivacidad p span {
+        display: block; }
+  .seccionPoliticaCookies {
+    max-width: 85%;
+    margin: auto; }
+    .seccionPoliticaCookies h3 {
+      padding: 48px 20px 16px 20px;
+      color: #2D2926;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .seccionPoliticaCookies .subSubTituloCookies {
+      padding: 0;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: -0.15px; }
+    .seccionPoliticaCookies p {
+      padding: 0px 20px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: -0.15px; }
+      .seccionPoliticaCookies p b {
+        font-weight: bold; }
+      .seccionPoliticaCookies p span {
+        display: block; }
+    .seccionPoliticaCookies .ultimoParrafoAvisoLegal {
+      padding-bottom: 64px; } }
 
 /*** Variables Colores  ***/
 body {
