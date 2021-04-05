@@ -348,7 +348,7 @@ body {
       color: transparent;
       font-size: 0px; } }
 
-@media only screen and (min-width: 1601px) and (max-width: 1900px) {
+@media only screen and (min-width: 1601px) and (max-width: 2200px) {
   .navbar__nav {
     background-color: #FFFFFF;
     color: #2D2926;
@@ -1382,7 +1382,7 @@ body {
       white-space: nowrap;
       padding-left: 300px; }
       .section__partners .partners__containers img {
-        width: 120;
+        width: 120px;
         height: 120px;
         padding: 10px 8px; }
       .section__partners .partners__containers .nk5INvisible {
@@ -1438,7 +1438,17 @@ body {
           background-color: #1CABE2;
           color: #1CABE2;
           position: relative;
+          top: 20px;
+          bottom: 0px;
+          width: 1px;
+          left: -10px; }
+        .section__objetivosDesarrollo .container__objetivos .container__objetivos__border div .borderDesktop::before {
+          content: "|";
+          background-color: #1CABE2;
+          color: #1CABE2;
+          position: relative;
           top: 0px;
+          bottom: 0px;
           width: 1px;
           left: -10px; }
         .section__objetivosDesarrollo .container__objetivos .container__objetivos__border .text__bottom__objetivoDesarrollo {
@@ -1739,7 +1749,7 @@ body {
       white-space: nowrap;
       padding-left: 300px; }
       .section__partners .partners__containers img {
-        width: 120;
+        width: 120px;
         height: 120px;
         padding: 10px 8px; }
       .section__partners .partners__containers .nk5INvisible {
@@ -1790,14 +1800,27 @@ body {
           padding-right: 20px; }
           .section__objetivosDesarrollo .container__objetivos .container__objetivos__border p span {
             display: block; }
-        .section__objetivosDesarrollo .container__objetivos .container__objetivos__border div p::before {
-          content: "|";
-          background-color: #1CABE2;
-          color: #1CABE2;
-          position: relative;
-          top: 0px;
-          width: 1px;
-          left: -10px; }
+        .section__objetivosDesarrollo .container__objetivos .container__objetivos__border div {
+          padding-right: 8px; }
+          .section__objetivosDesarrollo .container__objetivos .container__objetivos__border div p::before {
+            content: "|";
+            background-color: #1CABE2;
+            color: #1CABE2;
+            position: relative;
+            top: 20px;
+            width: 1px;
+            left: -10px; }
+          .section__objetivosDesarrollo .container__objetivos .container__objetivos__border div .borderDesktop {
+            position: relative;
+            top: 20px; }
+          .section__objetivosDesarrollo .container__objetivos .container__objetivos__border div .borderDesktop::before {
+            content: "|";
+            background-color: #1CABE2;
+            color: #1CABE2;
+            position: relative;
+            top: 0px;
+            width: 1px;
+            left: -10px; }
         .section__objetivosDesarrollo .container__objetivos .container__objetivos__border .text__bottom__objetivoDesarrollo {
           padding-bottom: 40px; }
   /* Sección Iniciativas en Marcha */
@@ -2098,7 +2121,7 @@ body {
       white-space: nowrap;
       padding-left: 300px; }
       .section__partners .partners__containers img {
-        width: 120;
+        width: 120px;
         height: 120px;
         padding: 10px 8px; }
       .section__partners .partners__containers .nk5INvisible {
@@ -2149,14 +2172,399 @@ body {
           padding-right: 20px; }
           .section__objetivosDesarrollo .container__objetivos .container__objetivos__border p span {
             display: block; }
-        .section__objetivosDesarrollo .container__objetivos .container__objetivos__border div p::before {
-          content: "|";
-          background-color: #1CABE2;
-          color: #1CABE2;
-          position: relative;
-          top: 0px;
-          width: 1px;
-          left: -10px; }
+        .section__objetivosDesarrollo .container__objetivos .container__objetivos__border div {
+          padding-right: 40px; }
+          .section__objetivosDesarrollo .container__objetivos .container__objetivos__border div p::before {
+            content: "|";
+            background-color: #1CABE2;
+            color: #1CABE2;
+            position: relative;
+            top: 20px;
+            width: 1px;
+            left: -10px; }
+          .section__objetivosDesarrollo .container__objetivos .container__objetivos__border div .borderDesktop {
+            position: relative;
+            top: 20px; }
+          .section__objetivosDesarrollo .container__objetivos .container__objetivos__border div .borderDesktop::before {
+            content: "|";
+            background-color: #1CABE2;
+            color: #1CABE2;
+            position: relative;
+            top: 0px;
+            width: 1px;
+            left: -10px; }
+        .section__objetivosDesarrollo .container__objetivos .container__objetivos__border .text__bottom__objetivoDesarrollo {
+          padding-bottom: 40px; }
+  /* Sección Iniciativas en Marcha */
+  .seccionIniciativas {
+    max-width: 85%;
+    margin: auto; }
+  .title__iniciativas {
+    color: #000000;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    padding: 120px 20px 60px 20px; }
+  .card__container {
+    display: grid;
+    grid-template-areas: "card1 card2" "card3 card4";
+    grid-template-columns: 63% 15%;
+    grid-template-rows: 1fr 1fr;
+    padding: 0px 20px;
+    justify-items: center; }
+  .card1 {
+    width: 335px;
+    height: 376px;
+    grid-area: card1; }
+  .card2 {
+    width: 335px;
+    height: 376px;
+    grid-area: card2; }
+  .card3 {
+    width: 335px;
+    height: 376px;
+    grid-area: card3; }
+  .card4 {
+    width: 335px;
+    height: 376px;
+    grid-area: card4; }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 335px;
+    height: 376;
+    margin: 20px 0px;
+    border: none;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
+  .card-body {
+    display: grid;
+    grid-template-areas: "imagen" "titulo" "texto" "boton";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr; }
+  .card-body1 {
+    position: relative;
+    bottom: 16px; }
+  .card-body2 {
+    position: relative;
+    bottom: 36px; }
+  .card-body3 {
+    position: relative;
+    bottom: 32px; }
+  .card-body4 {
+    position: relative;
+    bottom: 52px; }
+  .card-button2 {
+    position: relative;
+    top: 24px; }
+  .card-button4 {
+    position: relative;
+    top: 32px; }
+  .card-img-top {
+    width: 335px;
+    height: 143px;
+    grid-area: imagen;
+    border-radius: unset; }
+  .card-title {
+    grid-area: titulo;
+    text-align: center;
+    color: #000000;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%; }
+    .card-title .emprende {
+      color: #2C5697; }
+    .card-title .impulso {
+      color: #80BD41; }
+    .card-title .incuba {
+      color: #FFC20E; }
+    .card-title .acelera {
+      color: #E2231A; }
+  .card-text {
+    grid-area: texto;
+    text-align: center;
+    color: #000000;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%; }
+  .card-button {
+    justify-self: center;
+    grid-area: boton;
+    color: #2D2926;
+    background: #FFFFFF;
+    border: 1px solid #2D2926;
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding: 12px 24px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px; }
+    .card-button a {
+      text-decoration: none;
+      color: #2D2926; }
+  /* Sección "Medicion De Impacto */
+  .medicionImpacto {
+    margin: 96px 0px 120px 0px;
+    background-color: #2C5697;
+    display: grid;
+    grid-template-areas: "logo" "titulo" "texto" "boton";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr; }
+  .logo__medicionImpacto {
+    justify-self: center;
+    padding: 64px 0px 24px 0px;
+    grid-area: logo; }
+  .titulo__medicionImpacto {
+    padding-bottom: 20px;
+    grid-area: titulo;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%; }
+  .texto__medicionImpacto {
+    max-width: 85%;
+    margin: auto;
+    padding: 0px 30px 60px 30px;
+    grid-area: texto;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px; }
+    .texto__medicionImpacto span {
+      display: block; }
+  .boton__medicionImpactoContainer {
+    display: flex;
+    justify-content: center; }
+    .boton__medicionImpactoContainer a .boton__medicionImpacto {
+      margin-bottom: 50px;
+      justify-self: center;
+      justify-content: center;
+      grid-area: boton;
+      background: #FFFFFF;
+      border-radius: 40px;
+      border-style: unset;
+      padding: 12px 40px;
+      color: #000000;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px; }
+  .section__noticias {
+    max-width: 85%;
+    margin: auto; }
+    .section__noticias .titulo__noticias {
+      color: #000000;
+      text-align: center;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px;
+      padding-bottom: 64px; }
+    .section__noticias .anioNoticia {
+      color: #000000;
+      text-align: center;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .section__noticias .card__container__noticias {
+      max-width: 100%;
+      display: flex;
+      overflow-x: auto; }
+      .section__noticias .card__container__noticias .card__noticias {
+        margin-bottom: 120px;
+        min-width: 246px;
+        min-height: 250px;
+        margin-right: 40px; }
+        .section__noticias .card__container__noticias .card__noticias img {
+          width: 100%;
+          height: 143px; }
+      .section__noticias .card__container__noticias .card-body a {
+        color: #000000;
+        text-decoration: none;
+        font-family: Raleway;
+        font-style: normal;
+        text-align: center; }
+        .section__noticias .card__container__noticias .card-body a .card-title-noticias {
+          color: #000000;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 22px; }
+        .section__noticias .card__container__noticias .card-body a .card-text-noticias {
+          color: #000000;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
+    .section__noticias .card__container__noticias::-webkit-scrollbar {
+      width: 0px; } }
+
+@media only screen and (min-width: 1601px) and (max-width: 2200px) {
+  .imagen__inicio__home {
+    background-image: url("../../imagenes/home/imagenInicioHomeEscritorio.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .imagen__inicio__home .text__container {
+      max-width: 85%;
+      margin: auto;
+      padding: 0px 10px 0px 10px; }
+      .imagen__inicio__home .text__container .title__home {
+        max-width: 560px;
+        text-align: left;
+        padding: 160px 20px 0px 10px;
+        display: flex;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 56px;
+        align-items: center; }
+      .imagen__inicio__home .text__container .subtitulo_inicio {
+        padding: 10px 20px 0px 10px;
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .imagen__inicio__home .text__container .subtitulo_inicio span {
+          display: block; }
+      .imagen__inicio__home .text__container .btn__container__imagen {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding-top: 10px; }
+        .imagen__inicio__home .text__container .btn__container__imagen a {
+          width: 115px;
+          height: 48px;
+          padding: 0px 120px 0px 10px; }
+        .imagen__inicio__home .text__container .btn__container__imagen .btn__donar__imagen {
+          margin-left: 15px;
+          border-radius: 40px;
+          padding: 12px 24px;
+          background-color: #2D2926;
+          color: #FFFFFF;
+          border: none; }
+          .imagen__inicio__home .text__container .btn__container__imagen .btn__donar__imagen a {
+            text-decoration: none;
+            color: #FFFFFF; }
+      .imagen__inicio__home .text__container .arrow__down__container {
+        display: flex;
+        justify-content: center; }
+        .imagen__inicio__home .text__container .arrow__down__container .arrow__down {
+          padding-top: 130px;
+          padding-bottom: 30px; }
+  .section__partners {
+    background-color: #FFFFFF; }
+    .section__partners .partners {
+      max-width: 85%;
+      margin: auto;
+      color: #1CABE2;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px;
+      padding: 48px 0px 24px 18px; }
+    .section__partners .partners__containers {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow-x: scroll;
+      white-space: nowrap;
+      padding-left: 300px; }
+      .section__partners .partners__containers img {
+        width: 120px;
+        height: 120px;
+        padding: 10px 8px; }
+      .section__partners .partners__containers .nk5INvisible {
+        padding-right: 260px; }
+  .section__objetivosDesarrollo {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; }
+    .section__objetivosDesarrollo .contenedorSeccion__objetivosDesarrollo {
+      max-width: 85%;
+      margin: auto; }
+    .section__objetivosDesarrollo .objetivosDesarrollo {
+      padding: 64px 0px 0px 20px;
+      color: #1CABE2;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px; }
+    .section__objetivosDesarrollo .title_objetivosDesarrollo {
+      padding: 0px 20px 30px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+      .section__objetivosDesarrollo .title_objetivosDesarrollo span {
+        display: block; }
+    .section__objetivosDesarrollo .container__objetivos {
+      padding-left: 20px; }
+      .section__objetivosDesarrollo .container__objetivos .container__objetivos__border {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .section__objetivosDesarrollo .container__objetivos .container__objetivos__border img {
+          padding-left: 8px; }
+        .section__objetivosDesarrollo .container__objetivos .container__objetivos__border p {
+          color: #000000;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 20px;
+          padding-left: 8px;
+          padding-right: 20px; }
+          .section__objetivosDesarrollo .container__objetivos .container__objetivos__border p span {
+            display: block; }
+        .section__objetivosDesarrollo .container__objetivos .container__objetivos__border div {
+          padding-right: 64px; }
+          .section__objetivosDesarrollo .container__objetivos .container__objetivos__border div p::before {
+            content: "|";
+            background-color: #1CABE2;
+            color: #1CABE2;
+            position: relative;
+            top: 20px;
+            width: 1px;
+            left: -10px; }
+          .section__objetivosDesarrollo .container__objetivos .container__objetivos__border div .borderDesktop {
+            position: relative;
+            top: 20px; }
+          .section__objetivosDesarrollo .container__objetivos .container__objetivos__border div .borderDesktop::before {
+            content: "|";
+            background-color: #1CABE2;
+            color: #1CABE2;
+            position: relative;
+            top: 0px;
+            width: 1px;
+            left: -10px; }
         .section__objetivosDesarrollo .container__objetivos .container__objetivos__border .text__bottom__objetivoDesarrollo {
           padding-bottom: 40px; }
   /* Sección Iniciativas en Marcha */
@@ -2530,38 +2938,38 @@ body {
         font-weight: normal;
         font-size: 14px;
         line-height: 150%; }
-    .card__container__emrender .detallePrograma {
-      width: 100%;
-      height: 109px;
-      padding: unset;
-      padding: 44px 20px 104px 20px; }
-      .card__container__emrender .detallePrograma .card__detallePrograma {
-        background: #2C5697;
-        display: flex;
-        flex-direction: row; }
-        .card__container__emrender .detallePrograma .card__detallePrograma img {
-          color: #FFFFFF;
-          padding: 5px 0px 0px 32px; }
-        .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma {
-          padding: 25px 10px 0px 25px;
-          color: #FFFFFF;
+  .detallePrograma {
+    width: 100%;
+    height: 109px;
+    padding: unset;
+    padding: 44px 20px 104px 20px; }
+    .detallePrograma .card__detallePrograma {
+      background: #2C5697;
+      display: flex;
+      flex-direction: row; }
+      .detallePrograma .card__detallePrograma img {
+        color: #FFFFFF;
+        padding: 5px 0px 0px 32px; }
+      .detallePrograma .card__detallePrograma .card-text-detallePrograma {
+        padding: 25px 10px 0px 25px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .detallePrograma .card__detallePrograma .card-text-detallePrograma span {
           font-family: Raleway;
           font-style: normal;
-          font-weight: 500;
+          font-weight: 600;
           font-size: 14px;
-          line-height: 20px; }
-          .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma span {
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 14px;
-            line-height: 16px; }
-            .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma span a {
-              text-decoration: none;
-              color: #FFFFFF; }
-          .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma img {
-            padding: unset;
-            width: 20px; }
+          line-height: 16px; }
+          .detallePrograma .card__detallePrograma .card-text-detallePrograma span a {
+            text-decoration: none;
+            color: #FFFFFF; }
+        .detallePrograma .card__detallePrograma .card-text-detallePrograma img {
+          padding: unset;
+          width: 20px; }
   /* Sección Requisistos para participar si tienes un negocio */
   .container__participarNegocio p {
     padding: unset;
@@ -2837,39 +3245,39 @@ body {
         font-weight: normal;
         font-size: 14px;
         line-height: 150%; }
-    .card__container__emrender .detallePrograma {
-      width: 100%;
-      height: 109px;
-      padding: unset;
-      padding: 44px 20px 104px 20px; }
-      .card__container__emrender .detallePrograma .card__detallePrograma {
-        background: #2C5697;
-        display: flex;
-        flex-direction: row; }
-        .card__container__emrender .detallePrograma .card__detallePrograma img {
-          color: #FFFFFF;
-          padding: 5px 0px 0px 32px; }
-        .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma {
-          padding: 25px 10px 0px 25px;
-          color: #FFFFFF;
+  .detallePrograma {
+    width: 100%;
+    height: 109px;
+    padding: unset;
+    padding: 44px 20px 104px 20px; }
+    .detallePrograma .card__detallePrograma {
+      background: #2C5697;
+      display: flex;
+      flex-direction: row; }
+      .detallePrograma .card__detallePrograma img {
+        color: #FFFFFF;
+        padding: 5px 0px 0px 32px; }
+      .detallePrograma .card__detallePrograma .card-text-detallePrograma {
+        padding: 25px 10px 0px 25px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .detallePrograma .card__detallePrograma .card-text-detallePrograma span {
+          display: block;
           font-family: Raleway;
           font-style: normal;
-          font-weight: 500;
+          font-weight: 600;
           font-size: 14px;
-          line-height: 20px; }
-          .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma span {
-            display: block;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 14px;
-            line-height: 16px; }
-            .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma span a {
-              text-decoration: none;
-              color: #FFFFFF; }
-          .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma img {
-            padding: unset;
-            width: 20px; }
+          line-height: 16px; }
+          .detallePrograma .card__detallePrograma .card-text-detallePrograma span a {
+            text-decoration: none;
+            color: #FFFFFF; }
+        .detallePrograma .card__detallePrograma .card-text-detallePrograma img {
+          padding: unset;
+          width: 20px; }
   /* Sección Requisistos para participar si tienes un negocio */
   .container__participarNegocio p {
     padding: unset;
@@ -2899,32 +3307,32 @@ body {
       display: flex; }
       .container__participarNegocio .list__container div .iconoParticipantes1 {
         position: relative;
-        top: -5px;
-        left: -9px; }
+        bottom: 5px;
+        right: 9px; }
       .container__participarNegocio .list__container div .iconoParticipantes2 {
         position: relative;
         top: 8px;
-        left: -9px; }
+        right: 9px; }
       .container__participarNegocio .list__container div .iconoParticipantes3 {
         position: relative;
-        top: -5px;
-        left: -9px; }
+        bottom: 5px;
+        right: 9px; }
       .container__participarNegocio .list__container div .iconoParticipantes4 {
         position: relative;
         top: 8px;
-        left: -9px; }
+        right: 9px; }
       .container__participarNegocio .list__container div .iconoParticipantes5 {
         position: relative;
         top: 8px;
-        left: -9px; }
+        right: 9px; }
       .container__participarNegocio .list__container div .iconoParticipantes6 {
         position: relative;
         top: 8px;
-        left: -9px; }
+        right: 9px; }
       .container__participarNegocio .list__container div .iconoParticipantes7 {
         position: relative;
         top: 8px;
-        left: -9px; }
+        right: 9px; }
       .container__participarNegocio .list__container div li {
         padding: 15px 20px 0px 0px;
         color: #000000;
@@ -3147,38 +3555,38 @@ body {
         font-weight: normal;
         font-size: 14px;
         line-height: 150%; }
-    .card__container__emrender .detallePrograma {
-      width: 100%;
-      height: 109px;
-      padding: unset;
-      padding: 44px 20px 104px 20px; }
-      .card__container__emrender .detallePrograma .card__detallePrograma {
-        background: #2C5697;
-        display: flex;
-        flex-direction: row; }
-        .card__container__emrender .detallePrograma .card__detallePrograma img {
-          color: #FFFFFF;
-          padding: 5px 0px 0px 32px; }
-        .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma {
-          padding: 25px 10px 0px 25px;
-          color: #FFFFFF;
+  .detallePrograma {
+    width: 100%;
+    height: 109px;
+    padding: unset;
+    padding: 44px 20px 104px 20px; }
+    .detallePrograma .card__detallePrograma {
+      background: #2C5697;
+      display: flex;
+      flex-direction: row; }
+      .detallePrograma .card__detallePrograma img {
+        color: #FFFFFF;
+        padding: 5px 0px 0px 32px; }
+      .detallePrograma .card__detallePrograma .card-text-detallePrograma {
+        padding: 25px 10px 0px 25px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .detallePrograma .card__detallePrograma .card-text-detallePrograma span {
           font-family: Raleway;
           font-style: normal;
-          font-weight: 500;
+          font-weight: 600;
           font-size: 14px;
-          line-height: 20px; }
-          .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma span {
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 14px;
-            line-height: 16px; }
-            .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma span a {
-              text-decoration: none;
-              color: #FFFFFF; }
-          .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma img {
-            padding: unset;
-            width: 20px; }
+          line-height: 16px; }
+          .detallePrograma .card__detallePrograma .card-text-detallePrograma span a {
+            text-decoration: none;
+            color: #FFFFFF; }
+        .detallePrograma .card__detallePrograma .card-text-detallePrograma img {
+          padding: unset;
+          width: 20px; }
   /* Sección Requisistos para participar si tienes un negocio */
   .container__participarNegocio p {
     padding: unset;
@@ -3208,32 +3616,32 @@ body {
       display: flex; }
       .container__participarNegocio .list__container div .iconoParticipantes1 {
         position: relative;
-        top: -5px;
-        left: -9px; }
+        bottom: 5px;
+        right: 9px; }
       .container__participarNegocio .list__container div .iconoParticipantes2 {
         position: relative;
         top: 8px;
         left: -9px; }
       .container__participarNegocio .list__container div .iconoParticipantes3 {
         position: relative;
-        top: -5px;
-        left: -9px; }
+        bottom: 5px;
+        right: 9px; }
       .container__participarNegocio .list__container div .iconoParticipantes4 {
         position: relative;
         top: 8px;
-        left: -9px; }
+        right: 9px; }
       .container__participarNegocio .list__container div .iconoParticipantes5 {
         position: relative;
         top: 8px;
-        left: -9px; }
+        right: 9px; }
       .container__participarNegocio .list__container div .iconoParticipantes6 {
         position: relative;
         top: 8px;
-        left: -9px; }
+        right: 9px; }
       .container__participarNegocio .list__container div .iconoParticipantes7 {
         position: relative;
         top: 8px;
-        left: -9px; }
+        right: 9px; }
       .container__participarNegocio .list__container div li {
         padding: 15px 20px 0px 0px;
         color: #000000;
@@ -3491,39 +3899,41 @@ body {
       display: block; }
     .card__container__emrender .espTrabajo .card-text-emprender span {
       display: block; }
-    .card__container__emrender .detallePrograma {
-      width: 375px;
-      height: 109px;
-      padding: unset;
-      padding: 44px 20px 104px 20px; }
-      .card__container__emrender .detallePrograma .card__detallePrograma {
-        background: #2C5697;
-        display: flex;
-        flex-direction: row; }
-        .card__container__emrender .detallePrograma .card__detallePrograma img {
-          color: #FFFFFF;
-          padding: 5px 0px 0px 32px; }
-        .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma {
-          padding: 25px 10px 0px 25px;
-          color: #FFFFFF;
+  .detallePrograma {
+    max-width: 100%;
+    margin: auto;
+    width: 375px;
+    height: 109px;
+    padding: unset;
+    padding: 44px 20px 104px 20px; }
+    .detallePrograma .card__detallePrograma {
+      background: #2C5697;
+      display: flex;
+      flex-direction: row; }
+      .detallePrograma .card__detallePrograma img {
+        color: #FFFFFF;
+        padding: 5px 0px 0px 32px; }
+      .detallePrograma .card__detallePrograma .card-text-detallePrograma {
+        padding: 25px 10px 0px 25px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+        .detallePrograma .card__detallePrograma .card-text-detallePrograma span {
+          display: block;
           font-family: Raleway;
           font-style: normal;
           font-weight: 600;
           font-size: 14px;
-          line-height: 20px; }
-          .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma span {
-            display: block;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 14px;
-            line-height: 16px; }
-            .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma span a {
-              text-decoration: none;
-              color: #FFFFFF; }
-          .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma img {
-            padding: unset;
-            width: 20px; }
+          line-height: 16px; }
+          .detallePrograma .card__detallePrograma .card-text-detallePrograma span a {
+            text-decoration: none;
+            color: #FFFFFF; }
+        .detallePrograma .card__detallePrograma .card-text-detallePrograma img {
+          padding: unset;
+          width: 20px; }
   /* Sección Requisistos para participar si tienes un negocio */
   .container__participarNegocio {
     max-width: 85%;
@@ -3563,38 +3973,38 @@ body {
         .container__participarNegocio .list__container div .iconoParticipantes1 {
           width: 24px;
           position: relative;
-          top: -12px;
-          left: -9px; }
+          bottom: 12px;
+          right: 9px; }
         .container__participarNegocio .list__container div .iconoParticipantes2 {
           width: 24px;
           position: relative;
-          top: -12px;
-          left: -9px; }
+          bottom: 12px;
+          right: 9px; }
         .container__participarNegocio .list__container div .iconoParticipantes3 {
           width: 24px;
           position: relative;
-          top: -14px;
-          left: -9px; }
+          bottom: 14px;
+          right: 9px; }
         .container__participarNegocio .list__container div .iconoParticipantes4 {
           width: 24px;
           position: relative;
           top: -14px;
-          left: -9px; }
+          right: 9px; }
         .container__participarNegocio .list__container div .iconoParticipantes5 {
           width: 24px;
           position: relative;
           top: 8px;
-          left: -9px; }
+          right: 9px; }
         .container__participarNegocio .list__container div .iconoParticipantes6 {
           width: 24px;
           position: relative;
           top: 8px;
-          left: -9px; }
+          right: 9px; }
         .container__participarNegocio .list__container div .iconoParticipantes7 {
           width: 24px;
           position: relative;
           top: 8px;
-          left: -9px; }
+          right: 9px; }
         .container__participarNegocio .list__container div li {
           padding: 15px 20px 0px 0px;
           color: #000000;
@@ -3865,39 +4275,40 @@ body {
       display: block; }
     .card__container__emrender .espTrabajo .card-text-emprender span {
       display: block; }
-    .card__container__emrender .detallePrograma {
-      width: 375px;
-      height: 109px;
-      padding: unset;
-      padding: 44px 20px 104px 20px; }
-      .card__container__emrender .detallePrograma .card__detallePrograma {
-        background: #2C5697;
-        display: flex;
-        flex-direction: row; }
-        .card__container__emrender .detallePrograma .card__detallePrograma img {
-          color: #FFFFFF;
-          padding: 5px 0px 0px 32px; }
-        .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma {
-          padding: 25px 10px 0px 25px;
-          color: #FFFFFF;
+  .detallePrograma {
+    margin: auto;
+    width: 375px;
+    height: 109px;
+    padding: unset;
+    padding: 44px 20px 104px 20px; }
+    .detallePrograma .card__detallePrograma {
+      background: #2C5697;
+      display: flex;
+      flex-direction: row; }
+      .detallePrograma .card__detallePrograma img {
+        color: #FFFFFF;
+        padding: 5px 0px 0px 32px; }
+      .detallePrograma .card__detallePrograma .card-text-detallePrograma {
+        padding: 25px 10px 0px 25px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+        .detallePrograma .card__detallePrograma .card-text-detallePrograma span {
+          display: block;
           font-family: Raleway;
           font-style: normal;
           font-weight: 600;
           font-size: 14px;
-          line-height: 20px; }
-          .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma span {
-            display: block;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 14px;
-            line-height: 16px; }
-            .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma span a {
-              text-decoration: none;
-              color: #FFFFFF; }
-          .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma img {
-            padding: unset;
-            width: 20px; }
+          line-height: 16px; }
+          .detallePrograma .card__detallePrograma .card-text-detallePrograma span a {
+            text-decoration: none;
+            color: #FFFFFF; }
+        .detallePrograma .card__detallePrograma .card-text-detallePrograma img {
+          padding: unset;
+          width: 20px; }
   /* Sección Requisistos para participar si tienes un negocio */
   .container__participarNegocio {
     max-width: 85%;
@@ -3936,33 +4347,33 @@ body {
         .container__participarNegocio .list__container div .iconoParticipantes1 {
           width: 24px;
           position: relative;
-          top: -14px;
-          left: -9px; }
+          bottom: 14px;
+          right: 9px; }
         .container__participarNegocio .list__container div .iconoParticipantes2 {
           width: 24px;
           position: relative;
-          top: -12px;
-          left: -9px; }
+          bottom: 12px;
+          right: 9px; }
         .container__participarNegocio .list__container div .iconoParticipantes3 {
           width: 24px;
           position: relative;
-          top: -14px;
-          left: -9px; }
+          bottom: 14px;
+          right: 9px; }
         .container__participarNegocio .list__container div .iconoParticipantes4 {
           width: 24px;
           position: relative;
           top: 8px;
-          left: -9px; }
+          right: 9px; }
         .container__participarNegocio .list__container div .iconoParticipantes5 {
           width: 24px;
           position: relative;
           top: 8px;
-          left: -9px; }
+          right: 9px; }
         .container__participarNegocio .list__container div .iconoParticipantes6 {
           width: 24px;
           position: relative;
           top: 8px;
-          left: -9px; }
+          right: 9px; }
         .container__participarNegocio .list__container div .iconoParticipantes7 {
           width: 24px;
           position: relative;
@@ -4238,39 +4649,40 @@ body {
       display: block; }
     .card__container__emrender .espTrabajo .card-text-emprender span {
       display: block; }
-    .card__container__emrender .detallePrograma {
-      width: 375px;
-      height: 109px;
-      padding: unset;
-      padding: 44px 20px 104px 20px; }
-      .card__container__emrender .detallePrograma .card__detallePrograma {
-        background: #2C5697;
-        display: flex;
-        flex-direction: row; }
-        .card__container__emrender .detallePrograma .card__detallePrograma img {
-          color: #FFFFFF;
-          padding: 5px 0px 0px 32px; }
-        .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma {
-          padding: 25px 10px 0px 25px;
-          color: #FFFFFF;
+  .detallePrograma {
+    margin: auto;
+    width: 375px;
+    height: 109px;
+    padding: unset;
+    padding: 44px 20px 104px 20px; }
+    .detallePrograma .card__detallePrograma {
+      background: #2C5697;
+      display: flex;
+      flex-direction: row; }
+      .detallePrograma .card__detallePrograma img {
+        color: #FFFFFF;
+        padding: 5px 0px 0px 32px; }
+      .detallePrograma .card__detallePrograma .card-text-detallePrograma {
+        padding: 25px 10px 0px 25px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+        .detallePrograma .card__detallePrograma .card-text-detallePrograma span {
+          display: block;
           font-family: Raleway;
           font-style: normal;
           font-weight: 600;
           font-size: 14px;
-          line-height: 20px; }
-          .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma span {
-            display: block;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 14px;
-            line-height: 16px; }
-            .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma span a {
-              text-decoration: none;
-              color: #FFFFFF; }
-          .card__container__emrender .detallePrograma .card__detallePrograma .card-text-detallePrograma img {
-            padding: unset;
-            width: 20px; }
+          line-height: 16px; }
+          .detallePrograma .card__detallePrograma .card-text-detallePrograma span a {
+            text-decoration: none;
+            color: #FFFFFF; }
+        .detallePrograma .card__detallePrograma .card-text-detallePrograma img {
+          padding: unset;
+          width: 20px; }
   /* Sección Requisistos para participar si tienes un negocio */
   .container__participarNegocio {
     max-width: 85%;
@@ -4309,38 +4721,429 @@ body {
         .container__participarNegocio .list__container div .iconoParticipantes1 {
           width: 24px;
           position: relative;
-          top: -14px;
-          left: -9px; }
+          bottom: 14px;
+          right: 9px; }
         .container__participarNegocio .list__container div .iconoParticipantes2 {
           width: 24px;
           position: relative;
-          top: -12px;
-          left: -9px; }
+          bottom: 12px;
+          right: 9px; }
         .container__participarNegocio .list__container div .iconoParticipantes3 {
           width: 24px;
           position: relative;
-          top: -14px;
-          left: -9px; }
+          bottom: 14px;
+          right: 9px; }
         .container__participarNegocio .list__container div .iconoParticipantes4 {
           width: 24px;
           position: relative;
           top: 8px;
-          left: -9px; }
+          right: 9px; }
         .container__participarNegocio .list__container div .iconoParticipantes5 {
           width: 24px;
           position: relative;
           top: 8px;
-          left: -9px; }
+          right: 9px; }
         .container__participarNegocio .list__container div .iconoParticipantes6 {
           width: 24px;
           position: relative;
           top: 8px;
-          left: -9px; }
+          right: 9px; }
         .container__participarNegocio .list__container div .iconoParticipantes7 {
           width: 24px;
           position: relative;
           top: 8px;
-          left: -9px; }
+          right: 9px; }
+        .container__participarNegocio .list__container div li {
+          padding: 15px 20px 0px 0px;
+          color: #000000;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
+          .container__participarNegocio .list__container div li span {
+            display: block; }
+  /* Sección Candidatura */
+  .seccionCandidatura {
+    max-width: 85%;
+    margin: auto;
+    display: flex; }
+    .seccionCandidatura .card__candidatura {
+      display: flex;
+      padding: 64 20px 0px 20px;
+      margin: 32px 20px 0px 20px;
+      width: 335px;
+      background-color: #2C5697; }
+      .seccionCandidatura .card__candidatura img {
+        padding: 0px 20px 0px 25px; }
+      .seccionCandidatura .card__candidatura p {
+        color: #FFFFFF;
+        padding: 20px 20px 0px 0px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+        .seccionCandidatura .card__candidatura p span {
+          display: block;
+          line-height: 16px; }
+          .seccionCandidatura .card__candidatura p span a {
+            text-decoration: none;
+            color: #FFFFFF; }
+        .seccionCandidatura .card__candidatura p img {
+          padding: unset;
+          width: 20px; }
+    .seccionCandidatura .card__comiteInversion {
+      display: flex;
+      margin: 32px 20px 0px 20px;
+      background-color: #2C5697;
+      width: 335px; }
+      .seccionCandidatura .card__comiteInversion img {
+        width: 72px;
+        padding: 8px 20px 20px 25px; }
+      .seccionCandidatura .card__comiteInversion p {
+        color: #FFFFFF;
+        padding: 20px 20px 0px 0px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+        .seccionCandidatura .card__comiteInversion p span {
+          display: block;
+          font-weight: 600;
+          line-height: 16px; }
+          .seccionCandidatura .card__comiteInversion p span a {
+            text-decoration: none;
+            color: #FFFFFF; }
+        .seccionCandidatura .card__comiteInversion p img {
+          padding: unset;
+          width: 20px; }
+  /* Sección Socios */
+  .container__socios {
+    max-width: 85%;
+    margin: auto; }
+    .container__socios p {
+      padding: 64px 0px 0px 22px;
+      color: #2C5697;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px; }
+    .container__socios div {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start; }
+      .container__socios div img {
+        width: 146px;
+        padding: 0px 20px 120px 20px; }
+  .footer__emprender {
+    margin-top: 40px; } }
+
+@media only screen and (min-width: 1601px) and (max-width: 2200px) {
+  /* Sección Imagen Inicio */
+  .container__impactoSocial {
+    background-image: url("../../imagenes/ayoEmprende/1ayoEmprendeDesktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .container__impactoSocial .divContainer__impactoSocial {
+      max-width: 85%;
+      margin: auto; }
+      .container__impactoSocial .divContainer__impactoSocial h1 {
+        max-width: 350px;
+        padding: 96px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px;
+        text-align: start; }
+      .container__impactoSocial .divContainer__impactoSocial p {
+        padding: 0px 20px 4px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .container__impactoSocial .divContainer__impactoSocial p span {
+          display: block; }
+      .container__impactoSocial .divContainer__impactoSocial a img {
+        padding: 0px 0px 160px 20px; }
+  .containerStartup {
+    max-width: 85%;
+    margin: auto; }
+    .containerStartup .subTitulo {
+      padding: 32px 0px 0px 20px;
+      color: #2C5697;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 13px; }
+    .containerStartup h2 {
+      padding: 0px 0px 16px 20px;
+      color: #2D2926;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+    .containerStartup p {
+      padding: 0px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px; }
+  .container__listStartup {
+    padding-left: 20px; }
+    .container__listStartup .container__listStartup-border {
+      display: flex;
+      justify-content: flex-start; }
+      .container__listStartup .container__listStartup-border div {
+        margin: 8px 56px 40px 0px; }
+        .container__listStartup .container__listStartup-border div p {
+          color: #000000;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 20px; }
+          .container__listStartup .container__listStartup-border div p span {
+            display: block; }
+        .container__listStartup .container__listStartup-border div p::before {
+          content: "|";
+          color: #2C5697;
+          background-color: #2C5697;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
+    .container__listStartup img {
+      padding: 10px 20px 16px 8px; }
+    .container__listStartup p {
+      padding: unset;
+      padding: 0px 20px 0px 8px; }
+  /* Sección Alcance */
+  .seccion__alcance {
+    margin: 32px 0px 24px 0px;
+    background-color: #2C5697; }
+    .seccion__alcance p {
+      text-align: center;
+      padding: 20px 0px 16px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px; }
+    .seccion__alcance h3 {
+      text-align: center;
+      padding: unset;
+      padding: 0px 0px 16px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .seccion__alcance .container__alcance .container__alcance-border {
+      padding: unset;
+      padding-bottom: 30px; }
+      .seccion__alcance .container__alcance .container__alcance-border div {
+        display: flex;
+        justify-content: center; }
+        .seccion__alcance .container__alcance .container__alcance-border div p {
+          text-align: start;
+          color: #DFE5EB;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 19px; }
+          .seccion__alcance .container__alcance .container__alcance-border div p span {
+            display: block; }
+        .seccion__alcance .container__alcance .container__alcance-border div .textAyoEmprende__alcance-borde {
+          position: relative;
+          right: 9px;
+          padding-bottom: 20px; }
+        .seccion__alcance .container__alcance .container__alcance-border div p::before {
+          content: "|";
+          background-color: #FFFFFF;
+          color: #FFFFFF;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
+  /* Sección Emprender*/
+  .card__container__emrender {
+    max-width: 85%;
+    margin: auto;
+    /* display: flex;
+        flex-wrap: wrap;
+        justify-content: center;  */
+    display: grid;
+    grid-template-areas: "card1 card2 card3" "card4 card5 card6";
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center; }
+    .card__container__emrender .mentoring {
+      grid-area: card1; }
+    .card__container__emrender .formacion {
+      grid-area: card2; }
+    .card__container__emrender .medImpacto {
+      grid-area: card3; }
+    .card__container__emrender .netWorking {
+      grid-area: card4; }
+    .card__container__emrender .espTrabajo {
+      grid-area: card5; }
+    .card__container__emrender .proxEtapas {
+      grid-area: card6; }
+    .card__container__emrender .card__emprender {
+      width: 335px;
+      height: 120px;
+      padding: unset;
+      margin: 0px 20px 20px 20px;
+      box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
+      .card__container__emrender .card__emprender .card-body-container-Emprender {
+        padding: unset;
+        padding: 0px 20px; }
+        .card__container__emrender .card__emprender .card-body-container-Emprender h5::before {
+          content: "|";
+          background-color: #2C5697;
+          color: #2C5697;
+          top: 0px;
+          width: 1px;
+          left: -20px;
+          position: relative; }
+      .card__container__emrender .card__emprender .card-title-emprender {
+        padding-top: 24px;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px; }
+      .card__container__emrender .card__emprender .card-text-emprender {
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%; }
+    .card__container__emrender .netWorking .card-text-emprender span {
+      display: block; }
+    .card__container__emrender .espTrabajo .card-text-emprender span {
+      display: block; }
+  .detallePrograma {
+    margin: auto;
+    width: 375px;
+    height: 109px;
+    padding: unset;
+    padding: 44px 20px 104px 20px; }
+    .detallePrograma .card__detallePrograma {
+      background: #2C5697;
+      display: flex;
+      flex-direction: row; }
+      .detallePrograma .card__detallePrograma img {
+        color: #FFFFFF;
+        padding: 5px 0px 0px 32px; }
+      .detallePrograma .card__detallePrograma .card-text-detallePrograma {
+        padding: 25px 10px 0px 25px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+        .detallePrograma .card__detallePrograma .card-text-detallePrograma span {
+          display: block;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 16px; }
+          .detallePrograma .card__detallePrograma .card-text-detallePrograma span a {
+            text-decoration: none;
+            color: #FFFFFF; }
+        .detallePrograma .card__detallePrograma .card-text-detallePrograma img {
+          padding: unset;
+          width: 20px; }
+  /* Sección Requisistos para participar si tienes un negocio */
+  .container__participarNegocio {
+    max-width: 85%;
+    margin: auto; }
+    .container__participarNegocio p {
+      padding: unset;
+      margin: unset;
+      color: #2C5697;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px;
+      padding: 32px 0px 0px 20px; }
+    .container__participarNegocio h4 {
+      padding: unset;
+      margin: unset;
+      color: #2D2926;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px;
+      padding: 16px 0px 0px 20px; }
+    .container__participarNegocio .list__container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      padding: unset;
+      padding: 16px 0px 0px 28px;
+      list-style: none; }
+      .container__participarNegocio .list__container div {
+        display: flex;
+        width: 328px;
+        padding: 24px 0px; }
+        .container__participarNegocio .list__container div .iconoParticipantes1 {
+          width: 24px;
+          position: relative;
+          bottom: 14px;
+          right: 9px; }
+        .container__participarNegocio .list__container div .iconoParticipantes2 {
+          width: 24px;
+          position: relative;
+          bottom: 12px;
+          right: 9px; }
+        .container__participarNegocio .list__container div .iconoParticipantes3 {
+          width: 24px;
+          position: relative;
+          bottom: 14px;
+          right: 9px; }
+        .container__participarNegocio .list__container div .iconoParticipantes4 {
+          width: 24px;
+          position: relative;
+          bottom: 12px;
+          right: 9px; }
+        .container__participarNegocio .list__container div .iconoParticipantes5 {
+          width: 24px;
+          position: relative;
+          top: 8px;
+          right: 9px; }
+        .container__participarNegocio .list__container div .iconoParticipantes6 {
+          width: 24px;
+          position: relative;
+          top: 8px;
+          right: 9px; }
+        .container__participarNegocio .list__container div .iconoParticipantes7 {
+          width: 24px;
+          position: relative;
+          top: 8px;
+          right: 9px; }
         .container__participarNegocio .list__container div li {
           padding: 15px 20px 0px 0px;
           color: #000000;
@@ -5908,6 +6711,285 @@ body {
       padding: 0px 0px 56px 12px;
       width: 160px; } }
 
+@media only screen and (min-width: 1601px) and (max-width: 2200px) {
+  /* Sección Imagen Inicio */
+  .imagen__inicio__ayoImpulso {
+    background-image: url("../../imagenes/ayoImpulso/1programaImpulsoDesktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .imagen__inicio__ayoImpulso div {
+      max-width: 85%;
+      margin: auto; }
+      .imagen__inicio__ayoImpulso div h1 {
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px;
+        padding: 128px 20px 0px 20px; }
+      .imagen__inicio__ayoImpulso div span {
+        display: block; }
+      .imagen__inicio__ayoImpulso div p {
+        padding: 16px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .imagen__inicio__ayoImpulso div p span {
+          display: block; }
+      .imagen__inicio__ayoImpulso div a img {
+        margin: 4px 0px 156px 20px; }
+  /* Sección Proyecto de Apoyo */
+  .proyectoApoyo {
+    background-color: #FCFCFC;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
+    .proyectoApoyo p {
+      max-width: 85%;
+      margin: auto;
+      padding: 32px 0px 8px 20px;
+      color: #80BD41;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px; }
+    .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border {
+      max-width: 85%;
+      margin: auto; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border h2 {
+        max-width: 80%;
+        color: #2D2926;
+        padding: 0px 20px 24px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .pruebaxd {
+        display: flex;
+        justify-content: flex-start;
+        padding: unset;
+        padding-right: 800px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .subSubTituloAyoImpulso {
+        padding: unset;
+        padding: 20px 0px 40px 0px;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .subSubTituloAyoImpulso span {
+          font-weight: bold; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .subSubTituloAyoImpulso::before {
+        content: "|";
+        color: #80BD41;
+        background-color: #80BD41;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .divContainerDesktop__ayoImpulso {
+        display: flex;
+        justify-content: flex-start;
+        justify-content: space-between; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div p {
+        color: #1A1A1A;
+        padding: 0px 20px 16px 8px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div .utimoTexto_ProyectoApoyo_AyoImpulsa {
+        padding-bottom: 32px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div p::before {
+        content: "|";
+        color: #80BD41;
+        background-color: #80BD41;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border div .texto__propuestaMentoriaProyectImpulso::before {
+        content: "|";
+        color: #80BD41;
+        background-color: #80BD41;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .cajaSubTituloAyoImpulso1 {
+        max-width: 420px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .cajaSubTituloAyoImpulso2 {
+        max-width: 420px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .cajaSubTituloAyoImpulso3 {
+        max-width: 420px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .containerDeContainers__textoPropuestaMentoriaProyectImpulso {
+        display: flex; }
+        .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .containerDeContainers__textoPropuestaMentoriaProyectImpulso .container__textoPropuestaMentoriaProyectImpulso {
+          background-color: #FFFFFF; }
+          .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .containerDeContainers__textoPropuestaMentoriaProyectImpulso .container__textoPropuestaMentoriaProyectImpulso .texto__propuestaMentoriaProyectImpulso {
+            color: #1A1A1A;
+            padding: 0px 20px 16px 20px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border .containerDeContainers__textoPropuestaMentoriaProyectImpulso .container__textoPropuestaMentoriaProyectImpulso .ultimoTexto__propuestaMentoriaProyectImpulso {
+            padding-bottom: 32px; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border section {
+        background-color: #FFFFFF; }
+      .proyectoApoyo .divProyectoApoyo_Container .divProyectoApoyo_Container_border h3 {
+        background-color: #FFFFFF;
+        padding: 64px 20px 40px 20px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+  /* Sección Boton */
+  .seccionCardMentores {
+    background-color: #FFFFFF; }
+    .seccionCardMentores .contenedorCardMentores {
+      max-width: 85%;
+      margin: auto; }
+      .seccionCardMentores .contenedorCardMentores .card__mentores {
+        display: flex;
+        margin: 36px 20px 80px 20px;
+        background-color: #80BD41;
+        width: 336px; }
+        .seccionCardMentores .contenedorCardMentores .card__mentores p {
+          padding: 32px 20px 16px 8px; }
+          .seccionCardMentores .contenedorCardMentores .card__mentores p a {
+            text-decoration: none;
+            color: #FFFFFF;
+            padding: 20px 20px 0px 0px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px; }
+            .seccionCardMentores .contenedorCardMentores .card__mentores p a span {
+              font-weight: 600;
+              line-height: 16px; }
+            .seccionCardMentores .contenedorCardMentores .card__mentores p a img {
+              padding: unset;
+              width: 20px; }
+        .seccionCardMentores .contenedorCardMentores .card__mentores img {
+          padding: 5px 20px 0px 40px; }
+  /* Sección Global Dignity */
+  .globalDignity__container {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    margin-bottom: 14px; }
+    .globalDignity__container .globalDignity__containerDesktop {
+      max-width: 85%;
+      margin: auto; }
+      .globalDignity__container .globalDignity__containerDesktop .contenedorImagenGlobalDignity {
+        max-width: 85%;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        top: 16px; }
+        .globalDignity__container .globalDignity__containerDesktop .contenedorImagenGlobalDignity img {
+          padding: 80px 20px 0px 20px;
+          width: 350px; }
+      .globalDignity__container .globalDignity__containerDesktop p {
+        padding: 0px 0px 0px 20px;
+        position: relative;
+        bottom: 200px;
+        color: #80BD41;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px; }
+      .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity {
+        padding-left: 20px; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border h4 {
+          max-width: 50%;
+          padding: 0px 20px 20px 0px;
+          position: relative;
+          bottom: 200px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 34px;
+          line-height: 40px; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border p {
+          padding: 0px 20px 8px 8px;
+          color: #000000;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
+          .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border p span {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border .texto__globalDignity__border1 {
+          max-width: 50%;
+          position: relative;
+          bottom: 200px;
+          padding: 0px 20px 8px 8px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 150%; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border .contenedorTextosDesktopGlobalDignity {
+          display: flex;
+          justify-content: space-between;
+          padding: 0;
+          position: relative;
+          top: 80px; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border .texto__globalDignity__border2 {
+          max-width: 540px;
+          padding-bottom: 0px; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border .texto__globalDignity__border3 {
+          max-width: 540px;
+          padding-bottom: 0px; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border .texto__globalDignity__border4 {
+          max-width: 540px;
+          padding: unset; }
+        .globalDignity__container .globalDignity__containerDesktop .text__container__globalDignity .text__container__globalDignity__border p::before {
+          content: "|";
+          color: #80BD41;
+          background-color: #80BD41;
+          position: relative;
+          top: 0px;
+          width: 1px;
+          left: -10px; }
+  .conoce_mas__ayoImpulso p {
+    text-align: center;
+    color: #80BD41;
+    padding: 40px 0px 32px 20px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px; }
+  .conoce_mas__ayoImpulso div {
+    display: flex;
+    justify-content: center; }
+    .conoce_mas__ayoImpulso div .logoGlobalDignity {
+      padding: 0px 12px 64px 0px;
+      width: 160px; }
+    .conoce_mas__ayoImpulso div .logoGlobalDignitySpain {
+      padding: 0px 0px 56px 12px;
+      width: 160px; } }
+
 /*** Variables Colores  ***/
 body {
   font-family: 'Raleway', sans-serif; }
@@ -6962,6 +8044,242 @@ body {
         margin: 20px 40px 40px 0px; } }
 
 @media only screen and (min-width: 1401px) and (max-width: 1600px) {
+  .container__imagen__ayoAcelera {
+    background-image: url("../../imagenes/ayoAcelera/1ayoAceleraDesktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .container__imagen__ayoAcelera .contenedor__imagenDesktop__ayoAcelera {
+      max-width: 85%;
+      margin: auto;
+      padding-bottom: 80px; }
+      .container__imagen__ayoAcelera .contenedor__imagenDesktop__ayoAcelera h1 {
+        padding: 120px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+        .container__imagen__ayoAcelera .contenedor__imagenDesktop__ayoAcelera h1 span {
+          display: block; }
+      .container__imagen__ayoAcelera .contenedor__imagenDesktop__ayoAcelera p {
+        padding: 0px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .container__imagen__ayoAcelera .contenedor__imagenDesktop__ayoAcelera p span {
+          display: block; }
+      .container__imagen__ayoAcelera .contenedor__imagenDesktop__ayoAcelera a img {
+        margin: 4px 0px 56px 20px; }
+  /* Sección Apoyo e Impulso */
+  .seccionFortalecimientoCapacidades {
+    background-color: #FCFCFC; }
+    .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades {
+      max-width: 85%;
+      margin: auto; }
+      .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .subTitulo_FortalecimientoCapacidades {
+        color: #E2231A;
+        padding: 32px 0px 0px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px; }
+      .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades {
+        padding-left: 20px;
+        padding-bottom: 40px;
+        background-color: #FCFCFC; }
+        .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedorDesktop__fortalecimientoCapacidades {
+          display: flex;
+          justify-content: space-between; }
+        .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades h2 {
+          padding: 0px 20px 32px 0px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 34px;
+          line-height: 40px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades h2 span {
+            display: block; }
+        .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades p {
+          padding: 0px 20px 0px 8px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%; }
+        .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr {
+          background-color: #FCFCFC; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .text__fortalecimientoCapacidades {
+            padding-bottom: 12px;
+            color: #1A1A1A;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%; }
+            .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .text__fortalecimientoCapacidades span {
+              font-family: Raleway;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 14px;
+              line-height: 150%; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .ultimoTextoFortalecimientoCapacidades {
+            padding-bottom: 24px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoCapacidades .text__fortalecimientoCapacidades::before {
+            content: "|";
+            color: #E2231A;
+            background-color: #E2231A;
+            position: relative;
+            top: 0px;
+            width: 0px;
+            left: -10px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos h3 {
+            padding: 48px 20px 24px 0px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px; }
+            .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos h3 span {
+              display: block; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos .text__fortalecimientoEquipos {
+            padding: 16px 20px 12px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos .ultimoTextoFortalecimientoEquipos {
+            padding-left: 64px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__fortalecimientoEquipos .text__fortalecimientoEquipos::before {
+            content: "|";
+            color: #E2231A;
+            background-color: #E2231A;
+            position: relative;
+            top: 0px;
+            width: 0px;
+            left: -10px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__triatlonSocial h4 {
+            padding: 64px 20px 24px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__triatlonSocial p {
+            max-width: 70%;
+            padding: 12px 20px 0px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .container__FortalecimientoCapacidades_jr .contenedor__triatlonSocial p::before {
+            content: "|";
+            color: #E2231A;
+            background-color: #E2231A;
+            position: relative;
+            top: 0px;
+            width: 0px;
+            left: -10px; }
+        .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn {
+          background: rgba(226, 35, 26, 0.85);
+          margin: 48px 20px 48px 0px;
+          display: flex;
+          width: 350px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn img {
+            padding: unset;
+            padding: 8px 0px 15px 30px;
+            width: 48px; }
+          .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn {
+            padding: unset;
+            padding: 32px 5px 10px 24px;
+            color: #FFFFFF;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px; }
+            .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn .imgText__detallePrograma {
+              padding: unset;
+              width: 24px; }
+            .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn span {
+              display: block; }
+              .seccionFortalecimientoCapacidades .contenedorSombraDesktop__fortalecerCapacidades .container__FortalecimientoCapacidades .contenedor__triatlonSocial-btn .texto__triatlonSocial-btn span a {
+                text-decoration: none;
+                color: #FFFFFF; }
+  .seccionFortalecimientoEstrategico {
+    background-color: #FFFFFF; }
+    .seccionFortalecimientoEstrategico .fortalecimientoEstrategico {
+      max-width: 85%;
+      margin: auto; }
+      .seccionFortalecimientoEstrategico .fortalecimientoEstrategico h5 {
+        padding: 32px 20px 40px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+        .seccionFortalecimientoEstrategico .fortalecimientoEstrategico h5 span {
+          display: block; }
+      .seccionFortalecimientoEstrategico .fortalecimientoEstrategico .contenedorDesktop__fortalecimientoEstrategico {
+        display: flex;
+        justify-content: space-between; }
+        .seccionFortalecimientoEstrategico .fortalecimientoEstrategico .contenedorDesktop__fortalecimientoEstrategico p {
+          max-width: 45%;
+          color: #2D2926;
+          padding: 0px 20px 12px 28px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 20px; }
+        .seccionFortalecimientoEstrategico .fortalecimientoEstrategico .contenedorDesktop__fortalecimientoEstrategico p::before {
+          content: "|";
+          color: #E2231A;
+          background-color: #E2231A;
+          position: relative;
+          top: 0px;
+          width: 0px;
+          left: -10px; }
+        .seccionFortalecimientoEstrategico .fortalecimientoEstrategico .contenedorDesktop__fortalecimientoEstrategico .ultimoTextoFortalecimientoEstrategico_ayoAcelera {
+          padding-bottom: 48px; }
+    .seccionFortalecimientoEstrategico .iniciativaAyoAcelera_texto {
+      max-width: 85%;
+      margin: auto; }
+      .seccionFortalecimientoEstrategico .iniciativaAyoAcelera_texto p {
+        color: #E2231A;
+        padding: 24px 0px 8px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px; }
+    .seccionFortalecimientoEstrategico .logosIniciativaColaboración_container {
+      display: flex; }
+      .seccionFortalecimientoEstrategico .logosIniciativaColaboración_container .logoNK5IniciativaColaboracion {
+        margin-left: 40px; }
+      .seccionFortalecimientoEstrategico .logosIniciativaColaboración_container img {
+        width: 120px;
+        padding: 0px 16px 24px 16px;
+        margin: 20px 40px 40px 0px; } }
+
+@media only screen and (min-width: 1601px) and (max-width: 2200px) {
   .container__imagen__ayoAcelera {
     background-image: url("../../imagenes/ayoAcelera/1ayoAceleraDesktop.jpg");
     background-repeat: no-repeat;
@@ -8445,6 +9763,225 @@ body {
               text-decoration: none;
               color: #FFFFFF; } }
 
+@media only screen and (min-width: 1601px) and (max-width: 2200px) {
+  .container__imagen__ayoincuba {
+    background-image: url("../../imagenes/ayoIncuba/1ayoIncubaDesktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .container__imagen__ayoincuba .divContainer__imagen__ayoincuba {
+      max-width: 85%;
+      margin: auto;
+      padding-bottom: 80px; }
+      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba h1 {
+        padding: 120px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+        .container__imagen__ayoincuba .divContainer__imagen__ayoincuba h1 span {
+          display: block; }
+      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba p {
+        padding: 16px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .container__imagen__ayoincuba .divContainer__imagen__ayoincuba p span {
+          display: block; }
+      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba a img {
+        margin: 4px 0px 56px 20px; }
+  /* Sección Apoyo e Impulso */
+  .seccionApoyoImpulso {
+    background-color: #FCFCFC;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
+    .seccionApoyoImpulso .subTitulo_apoyoImpulso {
+      max-width: 85%;
+      margin: auto;
+      color: #FFC20E;
+      padding: 32px 0px 16px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px; }
+    .seccionApoyoImpulso .container__apoyoImpulso {
+      max-width: 85%;
+      margin: auto;
+      padding-left: 8px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde h2 {
+        padding: 0px 20px 24px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 120%; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde p {
+        padding: 0px 20px 14px 16px;
+        color: #1A1A1A;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__apoyoImpulsoDesktop {
+        display: flex;
+        justify-content: space-between; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1 {
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 32px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1::before {
+        content: "|";
+        color: #FFC20E;
+        background-color: #FFC20E;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde2::before {
+        content: "|";
+        color: #FFC20E;
+        background-color: #FFC20E;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde3::before {
+        content: "|";
+        color: #FFC20E;
+        background-color: #FFC20E;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde4::before {
+        content: "|";
+        color: #FFC20E;
+        background-color: #FFC20E;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde {
+        padding-bottom: 8px; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde h3 {
+          padding: 80px 20px 0px 8px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 34px;
+          line-height: 40px; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p {
+          padding: 24px 20px 0px 16px;
+          margin-bottom: 48px;
+          color: #2D2926;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 20px; }
+          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p span {
+            display: block; }
+        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p::before {
+          content: "|";
+          color: #FFC20E;
+          background-color: #FFC20E;
+          position: relative;
+          top: 0px;
+          width: 0px;
+          left: -10px; }
+  /* Sección Pathfinder */
+  .container__pathfinder {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    padding-left: 20px; }
+    .container__pathfinder .contenedorSombreado_pathfinder {
+      max-width: 85%;
+      margin: auto; }
+      .container__pathfinder .contenedorSombreado_pathfinder .contenedorContenidoDesktop__pathfinder {
+        display: flex;
+        flex-direction: row-reverse; }
+      .container__pathfinder .contenedorSombreado_pathfinder img {
+        width: 502px;
+        padding: 64px 20px 0px 0px; }
+      .container__pathfinder .contenedorSombreado_pathfinder p {
+        max-width: 90%;
+        padding: 64px 0px 0px 0px;
+        color: #FFC20E;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border h4 {
+        padding: 8px 20px 0px 0px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border p {
+        padding: 12px 20px 0px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border .ultimoTexto_pathfinder_borde {
+        margin-bottom: 60px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border p::before {
+        content: ".";
+        color: #FFC20E;
+        background-color: #FFC20E;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+    .container__pathfinder .contenedor__detalleProgramaIncuba {
+      width: 320px;
+      position: relative;
+      top: -112px;
+      background-color: #FFC20E; }
+      .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba {
+        margin-top: 120px;
+        display: flex;
+        margin-bottom: 48px; }
+        .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba img {
+          padding: unset;
+          padding: 20px 0px 15px 30px;
+          width: 48px; }
+        .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p {
+          text-decoration: none;
+          color: #FFFFFF;
+          padding: unset;
+          padding: 32px 5px 10px 24px;
+          color: #FFFFFF;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px; }
+          .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p .imgText__detallePrograma {
+            padding: unset;
+            width: 24px; }
+          .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span {
+            display: block; }
+            .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span a {
+              text-decoration: none;
+              color: #FFFFFF; } }
+
 /*** Variables Colores  ***/
 body {
   font-family: 'Raleway', sans-serif; }
@@ -9018,6 +10555,110 @@ body {
       color: #FFFFFF; } }
 
 @media only screen and (min-width: 1401px) and (max-width: 1600px) {
+  footer {
+    background-image: url("../../imagenes/footer/fondoFooterDesktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    footer .footerContainerContent {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      max-width: 85%;
+      margin: auto; }
+  .logo__footer {
+    margin-top: 56px;
+    padding-left: 20px;
+    width: 165px;
+    height: 33px; }
+  .colum__footer {
+    padding: unset;
+    padding-top: 50px; }
+    .colum__footer a {
+      text-decoration: none; }
+      .colum__footer a p {
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        padding: 16px 0px 0px 20px;
+        list-style: none; }
+  .colum__footer2 {
+    padding: unset;
+    padding-top: 24px;
+    position: relative;
+    top: 12px; }
+    .colum__footer2 a {
+      text-decoration: none; }
+      .colum__footer2 a p {
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        padding: 16px 0px 0px 20px;
+        list-style: none; }
+  p {
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px; }
+    p img {
+      padding-right: 11px; }
+  .footer_datosPersonales {
+    padding-left: 20px; }
+    .footer_datosPersonales .footer__contactanos {
+      padding: 48px 0px 20px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px; }
+      .footer_datosPersonales .footer__contactanos a {
+        text-decoration: none;
+        color: #FFFFFF; }
+    .footer_datosPersonales .informacionDireccionFooter {
+      padding-left: 18px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px; }
+  .footer__redesSociales p {
+    padding: unset;
+    padding: 12px 0px 10px 20px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px; }
+  .footer__redesSociales .container__redesSociales__icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 20px; }
+  .footer__redesSociales img {
+    padding-right: 15px; }
+  .footer__avisoLegal {
+    padding: unset;
+    margin: unset;
+    padding: 46px 30px 40px 30px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px; }
+    .footer__avisoLegal a {
+      text-decoration: none;
+      color: #FFFFFF; } }
+
+@media only screen and (min-width: 1601px) and (max-width: 2200px) {
   footer {
     background-image: url("../../imagenes/footer/fondoFooterDesktop.jpg");
     background-repeat: no-repeat;
@@ -11905,6 +13546,431 @@ body {
       .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo .contenedorColaboradorIndividual__sobreAyo {
         padding-right: 8px; } }
 
+@media only screen and (min-width: 1601px) and (max-width: 2200px) {
+  .container__imagen__sobreAyo {
+    background-image: url("../../imagenes/sobreNosotros/1sobreNosotrosDesktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .container__imagen__sobreAyo div {
+      max-width: 85%;
+      margin: auto; }
+      .container__imagen__sobreAyo div h1 {
+        padding: 160px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+        .container__imagen__sobreAyo div h1 span {
+          display: block; }
+      .container__imagen__sobreAyo div p {
+        padding: 16px 20px 0px 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .container__imagen__sobreAyo div p span {
+          display: block; }
+      .container__imagen__sobreAyo div .btn__container__imagen {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        position: relative;
+        right: 64px;
+        padding-top: 10px; }
+        .container__imagen__sobreAyo div .btn__container__imagen a {
+          width: 115px;
+          height: 48px;
+          padding: 0px 104px 0px 20px;
+          margin-bottom: 104px; }
+  .seccionMV_sobreAyo {
+    max-width: 85%;
+    margin: auto;
+    padding: unset;
+    padding: 0px 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    align-items: center; }
+    .seccionMV_sobreAyo .cardMision {
+      width: 335px;
+      height: 336px;
+      margin: 64px 16px 64px 0px; }
+      .seccionMV_sobreAyo .cardMision .textoCard {
+        position: relative;
+        bottom: 40px; }
+    .seccionMV_sobreAyo .cardVision {
+      width: 335px;
+      height: 336px;
+      margin: 64px 0px 64px 16px; }
+  .subTitulo__seccionMV {
+    color: #1CABE2;
+    padding: unset;
+    padding: 8px 0px 0px 10px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 120%; }
+  .textoCard {
+    padding-left: 10px;
+    text-align: start;
+    color: #000000;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px; }
+  .estrategiaContainer_SobreAyo {
+    background-color: #1CABE2;
+    color: #FFFFFF; }
+    .estrategiaContainer_SobreAyo .contenedorEstrategiaDesktop_sobreAyo {
+      max-width: 85%;
+      margin: auto; }
+      .estrategiaContainer_SobreAyo .contenedorEstrategiaDesktop_sobreAyo h2 {
+        padding: 40px 0px 24px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+      .estrategiaContainer_SobreAyo .contenedorEstrategiaDesktop_sobreAyo p {
+        padding: 0px 20px 16px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+        .estrategiaContainer_SobreAyo .contenedorEstrategiaDesktop_sobreAyo p a {
+          text-decoration: none;
+          color: #FFFFFF;
+          font-weight: bold; }
+      .estrategiaContainer_SobreAyo .contenedorEstrategiaDesktop_sobreAyo .textoMarginEstrategia_sobreAyo {
+        padding-bottom: 164px; }
+  .areasEstrategicasFondo_sobreAyo {
+    background: rgba(242, 242, 242, 0.4); }
+    .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo {
+      max-width: 81%;
+      margin: auto;
+      background-color: #FFFFFF;
+      box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+      position: relative;
+      top: -140px; }
+      .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo h3 {
+        color: #000000;
+        padding: 40px 0px 8px 40px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+      .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo {
+        padding: 0px 0px 52px 40px; }
+        .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border {
+          opacity: 0.9;
+          display: flex;
+          justify-content: space-around; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .subTitulosAreasEstrategicas_sobreAyo {
+            color: #1CABE2;
+            padding: 8px 0px 0px 8px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .subTitulosAreasEstrategicas_sobreAyo::before {
+            content: "|";
+            color: #1CABE2;
+            background-color: #1CABE2;
+            position: relative;
+            top: 0px;
+            width: 1px;
+            left: -10px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border p {
+            padding: 0px 20px 0px 8px;
+            color: #2D2926;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border span {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .contenedorIndividualAreasEstrategias__sobreAyo1 {
+            max-width: 231px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .contenedorIndividualAreasEstrategias__sobreAyo2 {
+            max-width: 293px; }
+          .areasEstrategicasFondo_sobreAyo .areasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo .divPaddingAreasEstrategicas_sobreAyo-border .contenedorIndividualAreasEstrategias__sobreAyo3 {
+            max-width: 345px; }
+  .seccionIdentidadInstitucional_sobreAyo {
+    background: rgba(242, 242, 242, 0.4);
+    position: relative;
+    top: -96px;
+    padding: 0px 20px 50px 20px; }
+    .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo {
+      max-width: 87%;
+      margin: auto; }
+      .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo h4 {
+        color: #000000;
+        padding: 20px 20px 16px 20px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+      .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly; }
+        .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .nuestrosValores_sobreAyo {
+          max-width: 350px;
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+          background-color: #FFFFFF;
+          padding-bottom: 0px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .nuestrosValores_sobreAyo img {
+            padding: 24px 0px 10px 16px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .nuestrosValores_sobreAyo .subtituloElementosConforman_SobreAyo {
+            padding: 0px 20px 0px 16px;
+            color: #1CABE2;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 150%; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .nuestrosValores_sobreAyo .bordeAzul_identidadInstitucional {
+            padding: 0px 20px 0px 16px;
+            color: #000000;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .nuestrosValores_sobreAyo span {
+            font-weight: bold; }
+        .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .voluntariado_sobreAyo {
+          max-width: 350px;
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+          background-color: #FFFFFF;
+          padding: 0px 16px 0px 16px;
+          margin: 0px 0px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .voluntariado_sobreAyo img {
+            padding: 28px 0px 10px 0px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .voluntariado_sobreAyo .subTituloVoluntariado_sobreAyo {
+            color: #1CABE2;
+            padding: 0px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 20px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .voluntariado_sobreAyo .textVoluntariado_sobreAyo {
+            color: #000000;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+        .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .Alianzas_sobreAyo {
+          max-width: 350px;
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+          background-color: #FFFFFF;
+          padding: 0px 16px 24px 16px;
+          margin: 0px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .Alianzas_sobreAyo img {
+            padding: 28px 0px 10px 0px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .Alianzas_sobreAyo .subTituloAlianzas_sobreAyo {
+            color: #1CABE2;
+            padding: 0px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 20px; }
+          .seccionIdentidadInstitucional_sobreAyo .contenedorSeccionesIdentidadInstitucional_sobreAyo .contenedorCajas_sobreAyo .Alianzas_sobreAyo .textAlianzas_sobreAyo {
+            margin-bottom: 16px;
+            color: #000000;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+  .seccionElementosClavePosicionamiento_sobreAyo {
+    position: relative;
+    top: -96px;
+    background-color: rgba(242, 242, 242, 0.4); }
+    .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo {
+      max-width: 81%;
+      margin: auto; }
+      .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo h5 {
+        padding-bottom: 24px;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+      .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo {
+        display: grid;
+        grid-template-areas: "card1 card2" "card3 card4";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr; }
+        .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo .divItem1__sobreAyo {
+          grid-area: card1; }
+        .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo .divItem2__sobreAyo {
+          grid-area: card2; }
+        .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo .divItem3__sobreAyo {
+          grid-area: card3; }
+        .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo .divItem4__sobreAyo {
+          grid-area: card4; }
+        .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo div {
+          max-width: 400px; }
+          .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo div p {
+            color: #000000;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px; }
+            .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo div p .tildeElementosClave_sobreAyo {
+              padding-right: 8px; }
+  .seccionEquipo_sobreAyo {
+    position: relative;
+    top: -56px; }
+    .seccionEquipo_sobreAyo h6 {
+      max-width: 85%;
+      margin: auto;
+      color: #2D2926;
+      padding: 0px 0px 32px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .seccionEquipo_sobreAyo .containerEquipo_sobreAyo {
+      max-width: 81%;
+      margin: auto;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 0px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .imagenIntegrante_sobreAyo {
+        padding: 0px 15px 20px 10px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .nombreIntegranteEquipo_sobreAyo {
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+        .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .nombreIntegranteEquipo_sobreAyo a .logoLinkedIn_sobreAyo {
+          position: relative;
+          top: -2px;
+          padding: 0px 8px 0px 0px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .cargoIntegranteEquipo_sobreAyo {
+        padding-bottom: 24px;
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px; }
+        .seccionEquipo_sobreAyo .containerEquipo_sobreAyo div .cargoIntegranteEquipo_sobreAyo span {
+          display: block; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo .contenedorIntegranteEquipo3 {
+        position: relative;
+        top: 6px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo .contenedorIntegranteEquipo4 {
+        position: relative;
+        top: 13px; }
+      .seccionEquipo_sobreAyo .containerEquipo_sobreAyo .ultimaFoto_sobreAyo {
+        position: relative;
+        top: 3px; }
+  .seccionColaboradores_sobreAyo {
+    position: relative;
+    top: -56px; }
+    .seccionColaboradores_sobreAyo h6 {
+      max-width: 85%;
+      margin: auto;
+      color: #2D2926;
+      padding: 0px 0px 32px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo {
+      max-width: 81%;
+      margin: auto;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 0px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen1_sobreAyo {
+        width: 180px;
+        height: 180px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen3_sobreAyo {
+        width: 180px;
+        height: 180px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen5_sobreAyo {
+        width: 180px;
+        height: 180px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagenIntegrante_sobreAyo {
+        padding: 0px 10px 20px 10px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo {
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo span {
+          display: block; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .nombreIntegranteColaboradores_sobreAyo a .logoLinkedIn_sobreAyo {
+          position: relative;
+          top: -2px;
+          padding: 0px 8px 0px 0px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .cargoIntegranteColaboradores_sobreAyo {
+        padding-bottom: 24px;
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px; }
+        .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .cargoIntegranteColaboradores_sobreAyo span {
+          display: block; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen1_sobreAyo {
+        position: relative;
+        top: -8px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen3_sobreAyo {
+        position: relative;
+        top: 0px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen4_sobreAyo {
+        position: relative;
+        top: -8px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen5_sobreAyo {
+        position: relative;
+        top: -2px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo div .imagen6_sobreAyo {
+        position: relative;
+        top: 8px; }
+      .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo .contenedorColaboradorIndividual__sobreAyo {
+        padding-right: 8px; } }
+
 /*** Variables Colores  ***/
 body {
   font-family: 'Raleway', sans-serif; }
@@ -11943,17 +14009,47 @@ body {
     .seccionHistoria div .imagenBotonImpulso {
       padding: 8px;
       width: 80px; }
+  .seccionImagenesTriatlon p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%; }
+    .seccionImagenesTriatlon p span {
+      font-weight: bold; }
   .seccionImagenesTriatlon img {
     padding: 20px 20px;
     height: 100%;
     width: 100%; }
   .seccionImagenesTriatlon .ultimaImagenTritlon {
     padding-bottom: 64px; }
+  .seccionImagenesTriatlonLineal p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%; }
+    .seccionImagenesTriatlonLineal p span {
+      font-weight: bold; }
   .seccionImagenesTriatlonLineal img {
     padding: 20px 20px;
     width: 100%; }
   .seccionImagenesTriatlonLineal .ultimaImagenTritlon {
     padding-bottom: 64px; }
+  .seccionImagenesTriatlonLineal p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%; }
+    .seccionImagenesTriatlonLineal p span {
+      font-weight: bold; }
   .seccionImagenesGlobalDignity {
     display: flex;
     justify-content: center; }
@@ -12014,22 +14110,60 @@ body {
     display: flex; }
     .seccionHistoria div .imagenBotonImpulso {
       width: 72px; }
-  .seccionImagenesTriatlon {
+  .seccionImagenesTriatlon p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%; }
+    .seccionImagenesTriatlon p span {
+      font-weight: bold; }
+  .seccionImagenesTriatlon .centrarImagen__apoyoEstrategico {
     display: flex;
     justify-content: center; }
-    .seccionImagenesTriatlon img {
+    .seccionImagenesTriatlon .centrarImagen__apoyoEstrategico img {
       padding: 20px 20px;
-      height: 75%;
-      width: 75%; }
-    .seccionImagenesTriatlon .ultimaImagenTritlon {
-      padding-bottom: 64px; }
+      height: 60%;
+      width: 60%; }
+  .seccionImagenesTriatlon .ultimaImagenTritlon {
+    height: 50%;
+    width: 50%;
+    padding-bottom: 64px; }
+  .seccionImagenGlobalDignityDesk {
+    display: flex;
+    justify-content: center; }
+    .seccionImagenGlobalDignityDesk img {
+      width: 60%;
+      padding-bottom: 40px; }
   .seccionImagenesTriatlonLineal {
     display: flex;
     align-items: center;
     flex-direction: column; }
+    .seccionImagenesTriatlonLineal p {
+      padding: 0px 20px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%; }
+      .seccionImagenesTriatlonLineal p span {
+        font-weight: bold; }
     .seccionImagenesTriatlonLineal img {
       padding: 20px 20px;
       width: 75%; }
+  .seccionImagenesTriatlonLineal p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%; }
+    .seccionImagenesTriatlonLineal p span {
+      font-weight: bold; }
   .seccionImagenesGlobalDignity {
     display: flex;
     justify-content: center; }
@@ -12090,15 +14224,31 @@ body {
     display: flex; }
     .seccionHistoria div .imagenBotonImpulso {
       width: 72px; }
-  .seccionImagenesTriatlon {
+  .seccionImagenesTriatlon p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%; }
+    .seccionImagenesTriatlon p span {
+      font-weight: bold; }
+  .seccionImagenesTriatlon .centrarImagen__apoyoEstrategico {
     display: flex;
     justify-content: center; }
-    .seccionImagenesTriatlon img {
+    .seccionImagenesTriatlon .centrarImagen__apoyoEstrategico img {
       padding: 20px 20px;
-      height: 75%;
-      width: 75%; }
-    .seccionImagenesTriatlon .ultimaImagenTritlon {
-      padding-bottom: 64px; }
+      height: 50%;
+      width: 50%; }
+  .seccionImagenesTriatlon .ultimaImagenTritlon {
+    padding-bottom: 64px; }
+  .seccionImagenGlobalDignityDesk {
+    display: flex;
+    justify-content: center; }
+    .seccionImagenGlobalDignityDesk img {
+      width: 60%;
+      padding-bottom: 40px; }
   .seccionImagenesTriatlonLineal {
     display: flex;
     align-items: center;
@@ -12106,6 +14256,16 @@ body {
     .seccionImagenesTriatlonLineal img {
       padding: 20px 20px;
       width: 65%; }
+  .seccionImagenesTriatlonLineal p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%; }
+    .seccionImagenesTriatlonLineal p span {
+      font-weight: bold; }
   .seccionImagenesGlobalDignity {
     display: flex;
     justify-content: center; }
@@ -12166,22 +14326,48 @@ body {
     display: flex; }
     .seccionHistoria div .imagenBotonImpulso {
       width: 72px; }
-  .seccionImagenesTriatlon {
+  .seccionImagenesTriatlon p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%; }
+    .seccionImagenesTriatlon p span {
+      font-weight: bold; }
+  .seccionImagenesTriatlon .centrarImagen__apoyoEstrategico {
     display: flex;
     justify-content: center; }
-    .seccionImagenesTriatlon img {
+    .seccionImagenesTriatlon .centrarImagen__apoyoEstrategico img {
       padding: 20px 20px;
-      height: 75%;
-      width: 75%; }
-    .seccionImagenesTriatlon .ultimaImagenTritlon {
-      padding-bottom: 64px; }
+      height: 50%;
+      width: 50%; }
+  .seccionImagenesTriatlon .ultimaImagenTritlon {
+    padding-bottom: 64px; }
+  .seccionImagenGlobalDignityDesk {
+    display: flex;
+    justify-content: center; }
+    .seccionImagenGlobalDignityDesk img {
+      width: 60%;
+      padding-bottom: 40px; }
   .seccionImagenesTriatlonLineal {
     display: flex;
     align-items: center;
     flex-direction: column; }
     .seccionImagenesTriatlonLineal img {
       padding: 20px 20px;
-      width: 60%; }
+      width: 40%; }
+  .seccionImagenesTriatlonLineal p {
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%; }
+    .seccionImagenesTriatlonLineal p span {
+      font-weight: bold; }
   .seccionImagenesGlobalDignity {
     display: flex;
     justify-content: center; }
@@ -12279,19 +14465,72 @@ body {
   .seccionImagenesTriatlon {
     display: flex;
     justify-content: center; }
+    .seccionImagenesTriatlon p {
+      max-width: 60%;
+      margin: auto;
+      padding: 0px 20px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%; }
+      .seccionImagenesTriatlon p span {
+        font-weight: bold; }
     .seccionImagenesTriatlon img {
       padding: 20px 20px;
-      height: 75%;
-      width: 75%; }
+      width: 280px; }
     .seccionImagenesTriatlon .ultimaImagenTritlon {
       padding-bottom: 64px; }
   .seccionImagenesTriatlonLineal {
     display: flex;
     align-items: center;
     flex-direction: column; }
+    .seccionImagenesTriatlonLineal p {
+      max-width: 60%;
+      margin: auto;
+      padding: 0px 20px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%; }
+      .seccionImagenesTriatlonLineal p span {
+        font-weight: bold; }
     .seccionImagenesTriatlonLineal img {
       padding: 20px 20px;
       width: 60%; }
+  .seccionImagenGlobalDignityDesk {
+    max-width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center; }
+    .seccionImagenGlobalDignityDesk img {
+      width: 60%;
+      padding-bottom: 64px; }
+  .imagenesGrillasTriatlonSocial {
+    max-width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-areas: "imagen1 imagen2";
+    grid-template-columns: 50% 80%;
+    grid-template-rows: 1fr; }
+  .primeraImagenTritlon {
+    grid-area: imagen1; }
+  .ultimaImagenTritlon {
+    grid-area: imagen2; }
+  .seccionGrillasApoyoEstrategico {
+    max-width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-areas: "texto imagen";
+    grid-template-columns: 50% 41%;
+    grid-template-rows: 1fr; }
+  .textoSeccionApoyoEstrategico {
+    grid-area: texto; }
+  .centrarImagen__apoyoEstrategico {
+    grid-area: imagen; }
   .seccionImagenesGlobalDignity {
     height: 100vh;
     display: flex;
@@ -12303,25 +14542,538 @@ body {
   .seccionImagenesGlobalDignityDay2019 img {
     width: 100%;
     padding: 8px 20px 40px 20px; }
-  .seccionColaboradores .textoSeccionColaboradores__AYOseAdapta {
+  .seccionColaboradores {
     max-width: 60%;
     margin: auto; }
-  .seccionColaboradores p {
-    padding: 20px 0px 8px 20px;
+    .seccionColaboradores .textoSeccionColaboradores__AYOseAdapta {
+      max-width: 60%;
+      margin: auto; }
+    .seccionColaboradores p {
+      padding: 20px 0px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%; }
+    .seccionColaboradores .seccionColaboradoresContainer {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center; }
+      .seccionColaboradores .seccionColaboradoresContainer img {
+        width: 160px;
+        padding: 80px 20px; } }
+
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+  .seccionHistoria img {
+    width: 100%; }
+  .seccionHistoria h1 {
+    max-width: 60%;
+    margin: auto;
+    padding: 40px 20px 8px 20px;
+    color: #2D2926;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%; }
+  .seccionHistoria h2 {
+    max-width: 60%;
+    margin: auto;
+    padding: 0px 20px 40px 20px;
+    color: #000000;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%; }
+  .seccionHistoria p {
+    max-width: 60%;
+    margin: auto;
+    padding: 0px 20px 8px 20px;
     color: #1A1A1A;
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 150%; }
-  .seccionColaboradores .seccionColaboradoresContainer {
+    .seccionHistoria p span {
+      font-weight: bold; }
+  .seccionHistoria div {
+    /* HABÍA UN DISPLAY FLEX ACÁ */ }
+    .seccionHistoria div .imagenBotonImpulso {
+      width: 72px; }
+    .seccionHistoria div h1 {
+      max-width: 60%;
+      margin: auto;
+      padding: 40px 20px 8px 20px;
+      color: #2D2926;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+    .seccionHistoria div h2 {
+      padding: 0px 20px 40px 20px;
+      color: #000000;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 150%; }
+    .seccionHistoria div p {
+      padding: 0px 20px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%; }
+      .seccionHistoria div p span {
+        font-weight: bold; }
+  .seccionImagenesTriatlon {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: center; }
-    .seccionColaboradores .seccionColaboradoresContainer img {
-      width: 200px;
-      padding: 80px 20px; } }
+    .seccionImagenesTriatlon p {
+      max-width: 60%;
+      margin: auto;
+      padding: 0px 20px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%; }
+      .seccionImagenesTriatlon p span {
+        font-weight: bold; }
+    .seccionImagenesTriatlon img {
+      padding: 20px 20px;
+      width: 280px; }
+    .seccionImagenesTriatlon .ultimaImagenTritlon {
+      padding-bottom: 64px; }
+  .seccionImagenesTriatlonLineal {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .seccionImagenesTriatlonLineal p {
+      max-width: 60%;
+      margin: auto;
+      padding: 0px 20px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%; }
+      .seccionImagenesTriatlonLineal p span {
+        font-weight: bold; }
+    .seccionImagenesTriatlonLineal img {
+      padding: 20px 20px;
+      width: 60%; }
+  .seccionImagenGlobalDignityDesk {
+    max-width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center; }
+    .seccionImagenGlobalDignityDesk img {
+      width: 60%;
+      padding-bottom: 64px; }
+  .imagenesGrillasTriatlonSocial {
+    max-width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-areas: "imagen1 imagen2";
+    grid-template-columns: 50% 80%;
+    grid-template-rows: 1fr; }
+  .primeraImagenTritlon {
+    grid-area: imagen1; }
+  .ultimaImagenTritlon {
+    grid-area: imagen2; }
+  .seccionGrillasApoyoEstrategico {
+    max-width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-areas: "texto imagen";
+    grid-template-columns: 55% 38%;
+    grid-template-rows: 1fr; }
+  .textoSeccionApoyoEstrategico {
+    grid-area: texto; }
+  .centrarImagen__apoyoEstrategico {
+    grid-area: imagen; }
+  .seccionImagenesGlobalDignity {
+    height: 100vh;
+    display: flex;
+    justify-content: center; }
+    .seccionImagenesGlobalDignity img {
+      padding-top: 80px;
+      padding-bottom: 80px;
+      width: 212px; }
+  .seccionImagenesGlobalDignityDay2019 img {
+    width: 100%;
+    padding: 8px 20px 40px 20px; }
+  .seccionColaboradores {
+    max-width: 60%;
+    margin: auto; }
+    .seccionColaboradores .textoSeccionColaboradores__AYOseAdapta {
+      max-width: 60%;
+      margin: auto; }
+    .seccionColaboradores p {
+      padding: 20px 0px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%; }
+    .seccionColaboradores .seccionColaboradoresContainer {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center; }
+      .seccionColaboradores .seccionColaboradoresContainer img {
+        width: 160px;
+        padding: 80px 20px; } }
+
+@media only screen and (min-width: 1401px) and (max-width: 1600px) {
+  .seccionHistoria img {
+    width: 100%; }
+  .seccionHistoria h1 {
+    max-width: 60%;
+    margin: auto;
+    padding: 40px 20px 8px 20px;
+    color: #2D2926;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%; }
+  .seccionHistoria h2 {
+    max-width: 60%;
+    margin: auto;
+    padding: 0px 20px 40px 20px;
+    color: #000000;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%; }
+  .seccionHistoria p {
+    max-width: 60%;
+    margin: auto;
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%; }
+    .seccionHistoria p span {
+      font-weight: bold; }
+  .seccionHistoria div {
+    /* HABÍA UN DISPLAY FLEX ACÁ */ }
+    .seccionHistoria div .imagenBotonImpulso {
+      width: 72px; }
+    .seccionHistoria div h1 {
+      max-width: 60%;
+      margin: auto;
+      padding: 40px 20px 8px 20px;
+      color: #2D2926;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+    .seccionHistoria div h2 {
+      padding: 0px 20px 40px 20px;
+      color: #000000;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 150%; }
+    .seccionHistoria div p {
+      padding: 0px 20px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%; }
+      .seccionHistoria div p span {
+        font-weight: bold; }
+  .seccionImagenesTriatlon {
+    display: flex;
+    justify-content: center; }
+    .seccionImagenesTriatlon p {
+      max-width: 60%;
+      margin: auto;
+      padding: 0px 20px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%; }
+      .seccionImagenesTriatlon p span {
+        font-weight: bold; }
+    .seccionImagenesTriatlon img {
+      padding: 20px 20px;
+      width: 280px; }
+    .seccionImagenesTriatlon .ultimaImagenTritlon {
+      padding-bottom: 64px; }
+  .seccionImagenesTriatlonLineal {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .seccionImagenesTriatlonLineal p {
+      max-width: 60%;
+      margin: auto;
+      padding: 0px 20px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%; }
+      .seccionImagenesTriatlonLineal p span {
+        font-weight: bold; }
+    .seccionImagenesTriatlonLineal img {
+      padding: 20px 20px;
+      width: 60%; }
+  .seccionImagenGlobalDignityDesk {
+    max-width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center; }
+    .seccionImagenGlobalDignityDesk img {
+      width: 60%;
+      padding-bottom: 64px; }
+  .imagenesGrillasTriatlonSocial {
+    max-width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-areas: "imagen1 imagen2";
+    grid-template-columns: 50% 80%;
+    grid-template-rows: 1fr; }
+  .primeraImagenTritlon {
+    grid-area: imagen1; }
+  .ultimaImagenTritlon {
+    grid-area: imagen2; }
+  .seccionGrillasApoyoEstrategico {
+    max-width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-areas: "texto imagen";
+    grid-template-columns: 60% 35%;
+    grid-template-rows: 1fr; }
+  .textoSeccionApoyoEstrategico {
+    grid-area: texto; }
+  .centrarImagen__apoyoEstrategico {
+    grid-area: imagen; }
+  .seccionImagenesGlobalDignity {
+    height: 100vh;
+    display: flex;
+    justify-content: center; }
+    .seccionImagenesGlobalDignity img {
+      padding-top: 80px;
+      padding-bottom: 80px;
+      width: 212px; }
+  .seccionImagenesGlobalDignityDay2019 img {
+    width: 100%;
+    padding: 8px 20px 40px 20px; }
+  .seccionColaboradores {
+    max-width: 60%;
+    margin: auto; }
+    .seccionColaboradores .textoSeccionColaboradores__AYOseAdapta {
+      max-width: 60%;
+      margin: auto; }
+    .seccionColaboradores p {
+      padding: 20px 0px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%; }
+    .seccionColaboradores .seccionColaboradoresContainer {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center; }
+      .seccionColaboradores .seccionColaboradoresContainer img {
+        width: 160px;
+        padding: 80px 20px; } }
+
+@media only screen and (min-width: 1601px) and (max-width: 2200px) {
+  .seccionHistoria img {
+    width: 100%; }
+  .seccionHistoria h1 {
+    max-width: 60%;
+    margin: auto;
+    padding: 40px 20px 8px 20px;
+    color: #2D2926;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%; }
+  .seccionHistoria h2 {
+    max-width: 60%;
+    margin: auto;
+    padding: 0px 20px 40px 20px;
+    color: #000000;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%; }
+  .seccionHistoria p {
+    max-width: 60%;
+    margin: auto;
+    padding: 0px 20px 8px 20px;
+    color: #1A1A1A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%; }
+    .seccionHistoria p span {
+      font-weight: bold; }
+  .seccionHistoria div {
+    /* HABÍA UN DISPLAY FLEX ACÁ */ }
+    .seccionHistoria div .imagenBotonImpulso {
+      width: 72px; }
+    .seccionHistoria div h1 {
+      max-width: 60%;
+      margin: auto;
+      padding: 40px 20px 8px 20px;
+      color: #2D2926;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+    .seccionHistoria div h2 {
+      padding: 0px 20px 40px 20px;
+      color: #000000;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 150%; }
+    .seccionHistoria div p {
+      padding: 0px 20px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%; }
+      .seccionHistoria div p span {
+        font-weight: bold; }
+  .seccionImagenesTriatlon {
+    display: flex;
+    justify-content: center; }
+    .seccionImagenesTriatlon p {
+      max-width: 60%;
+      margin: auto;
+      padding: 0px 20px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%; }
+      .seccionImagenesTriatlon p span {
+        font-weight: bold; }
+    .seccionImagenesTriatlon img {
+      padding: 20px 20px;
+      width: 280px; }
+    .seccionImagenesTriatlon .ultimaImagenTritlon {
+      padding-bottom: 64px; }
+  .seccionImagenesTriatlonLineal {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .seccionImagenesTriatlonLineal p {
+      max-width: 60%;
+      margin: auto;
+      padding: 0px 20px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%; }
+      .seccionImagenesTriatlonLineal p span {
+        font-weight: bold; }
+    .seccionImagenesTriatlonLineal img {
+      padding: 20px 20px;
+      width: 60%; }
+  .seccionImagenGlobalDignityDesk {
+    max-width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center; }
+    .seccionImagenGlobalDignityDesk img {
+      width: 60%;
+      padding-bottom: 64px; }
+  .imagenesGrillasTriatlonSocial {
+    max-width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-areas: "imagen1 imagen2";
+    grid-template-columns: 50% 80%;
+    grid-template-rows: 1fr; }
+  .primeraImagenTritlon {
+    grid-area: imagen1; }
+  .ultimaImagenTritlon {
+    grid-area: imagen2; }
+  .seccionGrillasApoyoEstrategico {
+    max-width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-areas: "texto imagen";
+    grid-template-columns: 60% 35%;
+    grid-template-rows: 1fr; }
+  .textoSeccionApoyoEstrategico {
+    grid-area: texto; }
+  .centrarImagen__apoyoEstrategico {
+    grid-area: imagen; }
+  .seccionImagenesGlobalDignity {
+    height: 100vh;
+    display: flex;
+    justify-content: center; }
+    .seccionImagenesGlobalDignity img {
+      padding-top: 80px;
+      padding-bottom: 80px;
+      width: 212px; }
+  .seccionImagenesGlobalDignityDay2019 img {
+    width: 100%;
+    padding: 8px 20px 40px 20px; }
+  .seccionColaboradores {
+    max-width: 60%;
+    margin: auto; }
+    .seccionColaboradores .textoSeccionColaboradores__AYOseAdapta {
+      max-width: 60%;
+      margin: auto; }
+    .seccionColaboradores p {
+      padding: 20px 0px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%; }
+    .seccionColaboradores .seccionColaboradoresContainer {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center; }
+      .seccionColaboradores .seccionColaboradoresContainer img {
+        width: 160px;
+        padding: 80px 20px; } }
 
 /*** Variables Colores  ***/
 body {
@@ -12887,6 +15639,89 @@ body {
     .seccionPoliticaCookies .ultimoParrafoAvisoLegal {
       padding-bottom: 64px; } }
 
+@media only screen and (min-width: 1601px) and (max-width: 2200px) {
+  .secctionAvisoLegal {
+    max-width: 85%;
+    margin: auto; }
+    .secctionAvisoLegal h1 {
+      padding: 48px 20px 16px 20px;
+      color: #2D2926;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .secctionAvisoLegal p {
+      padding: 0px 20px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: -0.15px; }
+      .secctionAvisoLegal p span {
+        display: block; }
+  .seccionPoliticaPrivacidad {
+    max-width: 85%;
+    margin: auto; }
+    .seccionPoliticaPrivacidad h2 {
+      padding: 48px 20px 16px 20px;
+      color: #2D2926;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .seccionPoliticaPrivacidad p {
+      padding: 0px 20px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: -0.15px; }
+      .seccionPoliticaPrivacidad p b {
+        font-weight: bold; }
+      .seccionPoliticaPrivacidad p span {
+        display: block; }
+  .seccionPoliticaCookies {
+    max-width: 85%;
+    margin: auto; }
+    .seccionPoliticaCookies h3 {
+      padding: 48px 20px 16px 20px;
+      color: #2D2926;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+    .seccionPoliticaCookies .subSubTituloCookies {
+      padding: 0;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: -0.15px; }
+    .seccionPoliticaCookies p {
+      padding: 0px 20px 8px 20px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: -0.15px; }
+      .seccionPoliticaCookies p b {
+        font-weight: bold; }
+      .seccionPoliticaCookies p span {
+        display: block; }
+    .seccionPoliticaCookies .ultimoParrafoAvisoLegal {
+      padding-bottom: 64px; } }
+
 /*** Variables Colores  ***/
 body {
   font-family: 'Raleway', sans-serif; }
@@ -13313,6 +16148,95 @@ body {
           width: 20px; } }
 
 @media only screen and (min-width: 1401px) and (max-width: 1600px) {
+  .seccionImagen_medicionImpacto {
+    background-image: url("../../imagenes/medicionImpacto/portadaDesktop.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 100% 100%;
+    position: relative;
+    margin-bottom: 40px; }
+    .seccionImagen_medicionImpacto h1 {
+      max-width: 85%;
+      margin: auto;
+      padding: 200px 20px 200px 20px;
+      color: #FFFFFF;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px; }
+  .seccionContenedora {
+    max-width: 85%;
+    margin: auto;
+    padding-left: 20px; }
+    .seccionContenedora .contenedorBorde_medicionImpacto h2 {
+      padding: 16px 20px 16px 0px;
+      color: #2D2926;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%; }
+      .seccionContenedora .contenedorBorde_medicionImpacto h2 span {
+        display: block; }
+    .seccionContenedora .contenedorBorde_medicionImpacto .contenedorDesktop_medicionImpacto {
+      display: flex;
+      justify-content: space-evenly; }
+      .seccionContenedora .contenedorBorde_medicionImpacto .contenedorDesktop_medicionImpacto .textoLargoDesktop {
+        max-width: 450px; }
+    .seccionContenedora .contenedorBorde_medicionImpacto p {
+      padding: 0px 20px 8px 8px;
+      color: #1A1A1A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%; }
+      .seccionContenedora .contenedorBorde_medicionImpacto p span {
+        font-weight: bold; }
+    .seccionContenedora .contenedorBorde_medicionImpacto p::before {
+      content: "|";
+      color: #1CABE2;
+      background-color: #1CABE2;
+      position: relative;
+      top: 0px;
+      width: 0px;
+      left: -10px; }
+  .detallePrograma_medicionImpacto {
+    width: 350px;
+    height: 100vh;
+    padding: unset;
+    padding: 40px 20px 184px 0px; }
+    .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto {
+      background: #1CABE2;
+      display: flex;
+      flex-direction: row; }
+      .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto img {
+        color: #FFFFFF;
+        padding: 0px 0px 0px 32px; }
+      .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto {
+        padding: 25px 10px 8px 25px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto span {
+          display: block;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 16px; }
+          .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto span a {
+            text-decoration: none;
+            color: #FFFFFF; }
+        .detallePrograma_medicionImpacto .card__detalleProgramaMedicionImpacto .card-text-detalleProgramaMedicionImpacto img {
+          padding: unset;
+          width: 20px; } }
+
+@media only screen and (min-width: 1601px) and (max-width: 1900px) {
   .seccionImagen_medicionImpacto {
     background-image: url("../../imagenes/medicionImpacto/portadaDesktop.jpg");
     background-repeat: no-repeat;

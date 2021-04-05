@@ -1206,7 +1206,7 @@ body{
             white-space: nowrap;
             padding-left: 300px;
             img{
-                width: 120;
+                width: 120px;
                 height: 120px;
                 padding: 10px 8px;
             }
@@ -1275,7 +1275,18 @@ body{
                         background-color:$celeste;
                         color: $celeste;
                         position: relative;
+                        top: 20px;
+                        bottom: 0px;
+                        width: 1px;
+                        left: -10px;
+                    }
+                    .borderDesktop::before{
+                        content: "|";
+                        background-color:$celeste;
+                        color: $celeste;
+                        position: relative;
                         top: 0px;
+                        bottom: 0px;
                         width: 1px;
                         left: -10px;
                     }
@@ -1652,7 +1663,7 @@ body{
             white-space: nowrap;
             padding-left: 300px;
             img{
-                width: 120;
+                width: 120px;
                 height: 120px;
                 padding: 10px 8px;
             }
@@ -1716,7 +1727,21 @@ body{
                     }
                 }
                 div{
+                    padding-right: 8px;
                     p::before{
+                        content: "|";
+                        background-color:$celeste;
+                        color: $celeste;
+                        position: relative;
+                        top: 20px;
+                        width: 1px;
+                        left: -10px;
+                    }
+                    .borderDesktop{
+                        position: relative;
+                        top: 20px;
+                    }
+                    .borderDesktop::before{
                         content: "|";
                         background-color:$celeste;
                         color: $celeste;
@@ -2104,7 +2129,7 @@ body{
             white-space: nowrap;
             padding-left: 300px;
             img{
-                width: 120;
+                width: 120px;
                 height: 120px;
                 padding: 10px 8px;
             }
@@ -2168,7 +2193,21 @@ body{
                     }
                 }
                 div{
+                    padding-right: 40px;
                     p::before{
+                        content: "|";
+                        background-color:$celeste;
+                        color: $celeste;
+                        position: relative;
+                        top: 20px;
+                        width: 1px;
+                        left: -10px;
+                    }
+                    .borderDesktop{
+                        position: relative;
+                        top: 20px;
+                    }
+                    .borderDesktop::before{
                         content: "|";
                         background-color:$celeste;
                         color: $celeste;
@@ -2465,7 +2504,7 @@ body{
         }
     }
 }
-@media only screen and (min-width:1601px) and (max-width:1900px){
+@media only screen and (min-width:1601px) and (max-width:2200px){
     .imagen__inicio__home{
         background-image: url("../../imagenes/home/imagenInicioHomeEscritorio.jpg");
         background-repeat: no-repeat;
@@ -2556,7 +2595,7 @@ body{
             white-space: nowrap;
             padding-left: 300px;
             img{
-                width: 120;
+                width: 120px;
                 height: 120px;
                 padding: 10px 8px;
             }
@@ -2620,7 +2659,21 @@ body{
                     }
                 }
                 div{
+                    padding-right: 64px;
                     p::before{
+                        content: "|";
+                        background-color:$celeste;
+                        color: $celeste;
+                        position: relative;
+                        top: 20px;
+                        width: 1px;
+                        left: -10px;
+                    }
+                    .borderDesktop{
+                        position: relative;
+                        top: 20px;
+                    }
+                    .borderDesktop::before{
                         content: "|";
                         background-color:$celeste;
                         color: $celeste;

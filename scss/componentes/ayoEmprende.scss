@@ -183,42 +183,42 @@ body{
                 line-height: 150%;
             }
         }
-        .detallePrograma{
-            width: 100%;
-            height: 109px;
-            padding: unset;
-            padding: 44px 20px 104px 20px;
-                .card__detallePrograma{
-                background: $azul__oscuro;
-                display: flex;
-                flex-direction: row;
-                img{
-                    color: $blanco;
-                    padding: 5px 0px 0px 32px;
-                }
-                .card-text-detallePrograma{
-                    padding: 25px 10px 0px 25px;
-                    color: $blanco;
+    }
+    .detallePrograma{
+        width: 100%;
+        height: 109px;
+        padding: unset;
+        padding: 44px 20px 104px 20px;
+            .card__detallePrograma{
+            background: $azul__oscuro;
+            display: flex;
+            flex-direction: row;
+            img{
+                color: $blanco;
+                padding: 5px 0px 0px 32px;
+            }
+            .card-text-detallePrograma{
+                padding: 25px 10px 0px 25px;
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                span{
                     font-family: Raleway;
                     font-style: normal;
-                    font-weight: 500;
+                    font-weight: 600;
                     font-size: 14px;
-                    line-height: 20px;
-                    span{
-                        font-family: Raleway;
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 14px;
-                        line-height: 16px;
-                        a{
-                            text-decoration: none;
-                            color: $blanco;
-                        }
+                    line-height: 16px;
+                    a{
+                        text-decoration: none;
+                        color: $blanco;
                     }
-                    img{
-                        padding: unset;
-                        width: 20px;
-                    }
+                }
+                img{
+                    padding: unset;
+                    width: 20px;
                 }
             }
         }
@@ -567,43 +567,43 @@ body{
                 line-height: 150%;
             }
         }
-        .detallePrograma{
-            width: 100%;
-            height: 109px;
-            padding: unset;
-            padding: 44px 20px 104px 20px;
-                .card__detallePrograma{
-                background: $azul__oscuro;
-                display: flex;
-                flex-direction: row;
-                img{
-                    color: $blanco;
-                    padding: 5px 0px 0px 32px;
-                }
-                .card-text-detallePrograma{
-                    padding: 25px 10px 0px 25px;
-                    color: $blanco;
+    }
+    .detallePrograma{
+        width: 100%;
+        height: 109px;
+        padding: unset;
+        padding: 44px 20px 104px 20px;
+            .card__detallePrograma{
+            background: $azul__oscuro;
+            display: flex;
+            flex-direction: row;
+            img{
+                color: $blanco;
+                padding: 5px 0px 0px 32px;
+            }
+            .card-text-detallePrograma{
+                padding: 25px 10px 0px 25px;
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                span{
+                    display: block;
                     font-family: Raleway;
                     font-style: normal;
-                    font-weight: 500;
+                    font-weight: 600;
                     font-size: 14px;
-                    line-height: 20px;
-                    span{
-                        display: block;
-                        font-family: Raleway;
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 14px;
-                        line-height: 16px;
-                        a{
-                            text-decoration: none;
-                            color: $blanco;
-                        }
+                    line-height: 16px;
+                    a{
+                        text-decoration: none;
+                        color: $blanco;
                     }
-                    img{
-                        padding: unset;
-                        width: 20px;
-                    }
+                }
+                img{
+                    padding: unset;
+                    width: 20px;
                 }
             }
         }
@@ -641,38 +641,38 @@ body{
 
                 .iconoParticipantes1{
                     position: relative;
-                    top: -5px;
-                    left: -9px;
+                    bottom: 5px;
+                    right: 9px;
                 }
                 .iconoParticipantes2{
                     position: relative;
                     top: 8px;
-                    left: -9px;
+                    right: 9px;
                 }
                 .iconoParticipantes3{
                     position: relative;
-                    top: -5px;
-                    left: -9px;
+                    bottom: 5px;
+                    right: 9px;
                 }
                 .iconoParticipantes4{
                     position: relative;
                     top: 8px;
-                    left: -9px;
+                    right: 9px;
                 }
                 .iconoParticipantes5{
                     position: relative;
                     top: 8px;
-                    left: -9px;
+                    right: 9px;
                 }
                 .iconoParticipantes6{
                     position: relative;
                     top: 8px;
-                    left: -9px;
+                    right: 9px;
                 }
                 .iconoParticipantes7{
                     position: relative;
                     top: 8px;
-                    left: -9px;
+                    right: 9px;
                 }
                 li{
                     padding: 15px 20px 0px 0px;
@@ -954,43 +954,43 @@ body{
                 line-height: 150%;
             }
         }
-        .detallePrograma{
-            width: 100%;
-            height: 109px;
-            padding: unset;
-            padding: 44px 20px 104px 20px;
-                .card__detallePrograma{
-                background: $azul__oscuro;
-                display: flex;
-                flex-direction: row;
-                img{
-                    color: $blanco;
-                    padding: 5px 0px 0px 32px;
-                }
-                .card-text-detallePrograma{
-                    padding: 25px 10px 0px 25px;
-                    color: $blanco;
+    }
+    .detallePrograma{
+        width: 100%;
+        height: 109px;
+        padding: unset;
+        padding: 44px 20px 104px 20px;
+            .card__detallePrograma{
+            background: $azul__oscuro;
+            display: flex;
+            flex-direction: row;
+            img{
+                color: $blanco;
+                padding: 5px 0px 0px 32px;
+            }
+            .card-text-detallePrograma{
+                padding: 25px 10px 0px 25px;
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                span{
+                    
                     font-family: Raleway;
                     font-style: normal;
-                    font-weight: 500;
+                    font-weight: 600;
                     font-size: 14px;
-                    line-height: 20px;
-                    span{
-                        
-                        font-family: Raleway;
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 14px;
-                        line-height: 16px;
-                        a{
-                            text-decoration: none;
-                            color: $blanco;
-                        }
+                    line-height: 16px;
+                    a{
+                        text-decoration: none;
+                        color: $blanco;
                     }
-                    img{
-                        padding: unset;
-                        width: 20px;
-                    }
+                }
+                img{
+                    padding: unset;
+                    width: 20px;
                 }
             }
         }
@@ -1028,8 +1028,8 @@ body{
 
                 .iconoParticipantes1{
                     position: relative;
-                    top: -5px;
-                    left: -9px;
+                    bottom: 5px;
+                    right: 9px;
                 }
                 .iconoParticipantes2{
                     position: relative;
@@ -1038,28 +1038,28 @@ body{
                 }
                 .iconoParticipantes3{
                     position: relative;
-                    top: -5px;
-                    left: -9px;
+                    bottom: 5px;
+                    right: 9px;
                 }
                 .iconoParticipantes4{
                     position: relative;
                     top: 8px;
-                    left: -9px;
+                    right: 9px;
                 }
                 .iconoParticipantes5{
                     position: relative;
                     top: 8px;
-                    left: -9px;
+                    right: 9px;
                 }
                 .iconoParticipantes6{
                     position: relative;
                     top: 8px;
-                    left: -9px;
+                    right: 9px;
                 }
                 .iconoParticipantes7{
                     position: relative;
                     top: 8px;
-                    left: -9px;
+                    right: 9px;
                 }
                 li{
                     padding: 15px 20px 0px 0px;
@@ -1397,43 +1397,45 @@ body{
                }
            }     
         }
-        .detallePrograma{
-            width: 375px;
-            height: 109px;
-            padding: unset;
-            padding: 44px 20px 104px 20px;
-                .card__detallePrograma{
-                background: $azul__oscuro;
-                display: flex;
-                flex-direction: row;
-                img{
-                    color: $blanco;
-                    padding: 5px 0px 0px 32px;
-                }
-                .card-text-detallePrograma{
-                    padding: 25px 10px 0px 25px;
-                    color: $blanco;
+    }
+    .detallePrograma{
+        max-width: 100%;
+        margin: auto;
+        width: 375px;
+        height: 109px;
+        padding: unset;
+        padding: 44px 20px 104px 20px;
+            .card__detallePrograma{
+            background: $azul__oscuro;
+            display: flex;
+            flex-direction: row;
+            img{
+                color: $blanco;
+                padding: 5px 0px 0px 32px;
+            }
+            .card-text-detallePrograma{
+                padding: 25px 10px 0px 25px;
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                span{
+                    display: block;
                     font-family: Raleway;
                     font-style: normal;
                     font-weight: 600;
                     font-size: 14px;
-                    line-height: 20px;
-                    span{
-                        display: block;
-                        font-family: Raleway;
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 14px;
-                        line-height: 16px;
-                        a{
-                            text-decoration: none;
-                            color: $blanco;
-                        }
+                    line-height: 16px;
+                    a{
+                        text-decoration: none;
+                        color: $blanco;
                     }
-                    img{
-                        padding: unset;
-                        width: 20px;
-                    }
+                }
+                img{
+                    padding: unset;
+                    width: 20px;
                 }
             }
         }
@@ -1479,44 +1481,44 @@ body{
                 .iconoParticipantes1{
                     width: 24px;
                     position: relative;
-                    top: -12px;
-                    left: -9px;
+                    bottom: 12px;
+                    right: 9px;
                 }
                 .iconoParticipantes2{
                     width: 24px;
                     position: relative;
-                    top: -12px;
-                    left: -9px;
+                    bottom: 12px;
+                    right: 9px;
                 }
                 .iconoParticipantes3{
                     width: 24px;
                     position: relative;
-                    top: -14px;
-                    left: -9px;
+                    bottom: 14px;
+                    right: 9px;
                 }
                 .iconoParticipantes4{
                     width: 24px;
                     position: relative;
                     top: -14px;
-                    left: -9px;
+                    right: 9px;
                 }
                 .iconoParticipantes5{
                     width: 24px;
                     position: relative;
                     top: 8px;
-                    left: -9px;
+                    right: 9px;
                 }
                 .iconoParticipantes6{
                     width: 24px;
                     position: relative;
                     top: 8px;
-                    left: -9px;
+                    right: 9px;
                 }
                 .iconoParticipantes7{
                     width: 24px;
                     position: relative;
                     top: 8px;
-                    left: -9px;
+                    right: 9px;
                 }
                 li{
                     padding: 15px 20px 0px 0px;
@@ -1862,43 +1864,44 @@ body{
                }
            }     
         }
-        .detallePrograma{
-            width: 375px;
-            height: 109px;
-            padding: unset;
-            padding: 44px 20px 104px 20px;
-                .card__detallePrograma{
-                background: $azul__oscuro;
-                display: flex;
-                flex-direction: row;
-                img{
-                    color: $blanco;
-                    padding: 5px 0px 0px 32px;
-                }
-                .card-text-detallePrograma{
-                    padding: 25px 10px 0px 25px;
-                    color: $blanco;
+    }
+    .detallePrograma{
+        margin: auto;
+        width: 375px;
+        height: 109px;
+        padding: unset;
+        padding: 44px 20px 104px 20px;
+            .card__detallePrograma{
+            background: $azul__oscuro;
+            display: flex;
+            flex-direction: row;
+            img{
+                color: $blanco;
+                padding: 5px 0px 0px 32px;
+            }
+            .card-text-detallePrograma{
+                padding: 25px 10px 0px 25px;
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                span{
+                    display: block;
                     font-family: Raleway;
                     font-style: normal;
                     font-weight: 600;
                     font-size: 14px;
-                    line-height: 20px;
-                    span{
-                        display: block;
-                        font-family: Raleway;
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 14px;
-                        line-height: 16px;
-                        a{
-                            text-decoration: none;
-                            color: $blanco;
-                        }
+                    line-height: 16px;
+                    a{
+                        text-decoration: none;
+                        color: $blanco;
                     }
-                    img{
-                        padding: unset;
-                        width: 20px;
-                    }
+                }
+                img{
+                    padding: unset;
+                    width: 20px;
                 }
             }
         }
@@ -1943,38 +1946,38 @@ body{
                 .iconoParticipantes1{
                     width: 24px;
                     position: relative;
-                    top: -14px;
-                    left: -9px;
+                    bottom: 14px;
+                    right: 9px;
                 }
                 .iconoParticipantes2{
                     width: 24px;
                     position: relative;
-                    top: -12px;
-                    left: -9px;
+                    bottom: 12px;
+                    right: 9px;
                 }
                 .iconoParticipantes3{
                     width: 24px;
                     position: relative;
-                    top: -14px;
-                    left: -9px;
+                    bottom: 14px;
+                    right: 9px;
                 }
                 .iconoParticipantes4{
                     width: 24px;
                     position: relative;
                     top: 8px;
-                    left: -9px;
+                    right: 9px;
                 }
                 .iconoParticipantes5{
                     width: 24px;
                     position: relative;
                     top: 8px;
-                    left: -9px;
+                    right: 9px;
                 }
                 .iconoParticipantes6{
                     width: 24px;
                     position: relative;
                     top: 8px;
-                    left: -9px;
+                    right: 9px;
                 }
                 .iconoParticipantes7{
                     width: 24px;
@@ -2326,43 +2329,44 @@ body{
                }
            }     
         }
-        .detallePrograma{
-            width: 375px;
-            height: 109px;
-            padding: unset;
-            padding: 44px 20px 104px 20px;
-                .card__detallePrograma{
-                background: $azul__oscuro;
-                display: flex;
-                flex-direction: row;
-                img{
-                    color: $blanco;
-                    padding: 5px 0px 0px 32px;
-                }
-                .card-text-detallePrograma{
-                    padding: 25px 10px 0px 25px;
-                    color: $blanco;
+    }
+    .detallePrograma{
+        margin: auto;
+        width: 375px;
+        height: 109px;
+        padding: unset;
+        padding: 44px 20px 104px 20px;
+            .card__detallePrograma{
+            background: $azul__oscuro;
+            display: flex;
+            flex-direction: row;
+            img{
+                color: $blanco;
+                padding: 5px 0px 0px 32px;
+            }
+            .card-text-detallePrograma{
+                padding: 25px 10px 0px 25px;
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                span{
+                    display: block;
                     font-family: Raleway;
                     font-style: normal;
                     font-weight: 600;
                     font-size: 14px;
-                    line-height: 20px;
-                    span{
-                        display: block;
-                        font-family: Raleway;
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 14px;
-                        line-height: 16px;
-                        a{
-                            text-decoration: none;
-                            color: $blanco;
-                        }
+                    line-height: 16px;
+                    a{
+                        text-decoration: none;
+                        color: $blanco;
                     }
-                    img{
-                        padding: unset;
-                        width: 20px;
-                    }
+                }
+                img{
+                    padding: unset;
+                    width: 20px;
                 }
             }
         }
@@ -2407,44 +2411,44 @@ body{
                 .iconoParticipantes1{
                     width: 24px;
                     position: relative;
-                    top: -14px;
-                    left: -9px;
+                    bottom: 14px;
+                    right: 9px;
                 }
                 .iconoParticipantes2{
                     width: 24px;
                     position: relative;
-                    top: -12px;
-                    left: -9px;
+                    bottom: 12px;
+                    right: 9px;
                 }
                 .iconoParticipantes3{
                     width: 24px;
                     position: relative;
-                    top: -14px;
-                    left: -9px;
+                    bottom: 14px;
+                    right: 9px;
                 }
                 .iconoParticipantes4{
                     width: 24px;
                     position: relative;
                     top: 8px;
-                    left: -9px;
+                    right: 9px;
                 }
                 .iconoParticipantes5{
                     width: 24px;
                     position: relative;
                     top: 8px;
-                    left: -9px;
+                    right: 9px;
                 }
                 .iconoParticipantes6{
                     width: 24px;
                     position: relative;
                     top: 8px;
-                    left: -9px;
+                    right: 9px;
                 }
                 .iconoParticipantes7{
                     width: 24px;
                     position: relative;
                     top: 8px;
-                    left: -9px;
+                    right: 9px;
                 }
                 li{
                     padding: 15px 20px 0px 0px;
@@ -2557,7 +2561,7 @@ body{
         margin-top: 40px;
     }
 }
-@media only screen and (min-width:1601px) and (max-width:1900px){
+@media only screen and (min-width:1601px) and (max-width:2200px){
     /* Sección Imagen Inicio */
     .container__impactoSocial{
         background-image: url("../../imagenes/ayoEmprende/1ayoEmprendeDesktop.jpg");
@@ -2731,13 +2735,39 @@ body{
              
         }
     }
-    /* Sección Emprender */
+    /* Sección Emprender*/
     .card__container__emrender{
         max-width: 85%;
         margin: auto;
-        display: flex;
+        /* display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: center;  */
+         display: grid;
+        grid-template-areas: 
+        "card1 card2 card3"
+        "card4 card5 card6";
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        .mentoring{
+            grid-area: card1;
+        }
+        .formacion{
+            grid-area: card2;
+        }
+        .medImpacto{
+            grid-area: card3;
+        }
+        .netWorking{
+            grid-area: card4;
+        }
+        .espTrabajo{
+            grid-area: card5;
+        }
+        .proxEtapas{
+            grid-area: card6;
+        } 
+        
         .card__emprender{
             width: 335px;
             height: 120px;
@@ -2790,43 +2820,44 @@ body{
                }
            }     
         }
-        .detallePrograma{
-            width: 375px;
-            height: 109px;
-            padding: unset;
-            padding: 44px 20px 104px 20px;
-                .card__detallePrograma{
-                background: $azul__oscuro;
-                display: flex;
-                flex-direction: row;
-                img{
-                    color: $blanco;
-                    padding: 5px 0px 0px 32px;
-                }
-                .card-text-detallePrograma{
-                    padding: 25px 10px 0px 25px;
-                    color: $blanco;
+    }
+    .detallePrograma{
+        margin: auto;
+        width: 375px;
+        height: 109px;
+        padding: unset;
+        padding: 44px 20px 104px 20px;
+            .card__detallePrograma{
+            background: $azul__oscuro;
+            display: flex;
+            flex-direction: row;
+            img{
+                color: $blanco;
+                padding: 5px 0px 0px 32px;
+            }
+            .card-text-detallePrograma{
+                padding: 25px 10px 0px 25px;
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                span{
+                    display: block;
                     font-family: Raleway;
                     font-style: normal;
                     font-weight: 600;
                     font-size: 14px;
-                    line-height: 20px;
-                    span{
-                        display: block;
-                        font-family: Raleway;
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 14px;
-                        line-height: 16px;
-                        a{
-                            text-decoration: none;
-                            color: $blanco;
-                        }
+                    line-height: 16px;
+                    a{
+                        text-decoration: none;
+                        color: $blanco;
                     }
-                    img{
-                        padding: unset;
-                        width: 20px;
-                    }
+                }
+                img{
+                    padding: unset;
+                    width: 20px;
                 }
             }
         }
@@ -2871,44 +2902,44 @@ body{
                 .iconoParticipantes1{
                     width: 24px;
                     position: relative;
-                    top: -14px;
-                    left: -9px;
+                    bottom: 14px;
+                    right: 9px;
                 }
                 .iconoParticipantes2{
                     width: 24px;
                     position: relative;
-                    top: -12px;
-                    left: -9px;
+                    bottom: 12px;
+                    right: 9px;
                 }
                 .iconoParticipantes3{
                     width: 24px;
                     position: relative;
-                    top: -14px;
-                    left: -9px;
+                    bottom: 14px;
+                    right: 9px;
                 }
                 .iconoParticipantes4{
                     width: 24px;
                     position: relative;
-                    top: 8px;
-                    left: -9px;
+                    bottom: 12px;
+                    right: 9px;
                 }
                 .iconoParticipantes5{
                     width: 24px;
                     position: relative;
                     top: 8px;
-                    left: -9px;
+                    right: 9px;
                 }
                 .iconoParticipantes6{
                     width: 24px;
                     position: relative;
                     top: 8px;
-                    left: -9px;
+                    right: 9px;
                 }
                 .iconoParticipantes7{
                     width: 24px;
                     position: relative;
                     top: 8px;
-                    left: -9px;
+                    right: 9px;
                 }
                 li{
                     padding: 15px 20px 0px 0px;

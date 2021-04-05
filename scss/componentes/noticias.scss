@@ -46,6 +46,18 @@ body{
         }
     }
     .seccionImagenesTriatlon{
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            span{
+                font-weight: bold;
+            }
+        }
         img{
             padding: 20px 20px;
             height: 100%;
@@ -56,6 +68,18 @@ body{
         }
     }
     .seccionImagenesTriatlonLineal{
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            span{
+                font-weight: bold;
+            }
+        }
         img{
             padding: 20px 20px;
             width: 100%;
@@ -63,6 +87,20 @@ body{
         .ultimaImagenTritlon{
             padding-bottom: 64px;
         } 
+    }
+    .seccionImagenesTriatlonLineal{
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            span{
+                font-weight: bold;
+            }
+        }
     }
     .seccionImagenesGlobalDignity{
         display: flex;
@@ -144,24 +182,74 @@ body{
         }
     }
     .seccionImagenesTriatlon{
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            span{
+                font-weight: bold;
+            }
+        }
+        .centrarImagen__apoyoEstrategico{
+            display: flex;
+            justify-content: center;
+            img{
+                padding: 20px 20px;
+                height: 60%;
+                width: 60%;
+            }
+        }
+        .ultimaImagenTritlon{
+            height: 50%;
+            width:50%;
+            padding-bottom: 64px;
+        }
+    }
+    .seccionImagenGlobalDignityDesk{
         display: flex;
         justify-content: center;
         img{
-            padding: 20px 20px;
-            height: 75%;
-            width: 75%;
-        }
-        .ultimaImagenTritlon{
-            padding-bottom: 64px;
+            width: 60%;
+            padding-bottom: 40px;
         }
     }
     .seccionImagenesTriatlonLineal{
         display: flex;
         align-items: center;
         flex-direction: column;
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            span{
+                font-weight: bold;
+            }
+        }
         img{
             padding: 20px 20px;
             width: 75%;
+        }
+    }
+    .seccionImagenesTriatlonLineal{
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            span{
+                font-weight: bold;
+            }
         }
     }
     .seccionImagenesGlobalDignity{
@@ -244,15 +332,37 @@ body{
         }
     }
     .seccionImagenesTriatlon{
-        display: flex;
-        justify-content: center;
-        img{
-            padding: 20px 20px;
-            height: 75%;
-            width: 75%;
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            span{
+                font-weight: bold;
+            }
+        }
+        .centrarImagen__apoyoEstrategico{
+            display: flex;
+            justify-content: center;
+            img{
+                padding: 20px 20px;
+                height: 50%;
+                width: 50%;
+            }
         }
         .ultimaImagenTritlon{
             padding-bottom: 64px;
+        }
+    }
+    .seccionImagenGlobalDignityDesk{
+        display: flex;
+        justify-content: center;
+        img{
+            width: 60%;
+            padding-bottom: 40px;
         }
     }
     .seccionImagenesTriatlonLineal{
@@ -262,6 +372,20 @@ body{
         img{
             padding: 20px 20px;
             width: 65%;
+        }
+    }
+    .seccionImagenesTriatlonLineal{
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            span{
+                font-weight: bold;
+            }
         }
     }
     .seccionImagenesGlobalDignity{
@@ -344,15 +468,37 @@ body{
         }
     }
     .seccionImagenesTriatlon{
-        display: flex;
-        justify-content: center;
-        img{
-            padding: 20px 20px;
-            height: 75%;
-            width: 75%;
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            span{
+                font-weight: bold;
+            }
+        }
+        .centrarImagen__apoyoEstrategico{
+            display: flex;
+            justify-content: center;
+            img{
+                padding: 20px 20px;
+                height: 50%;
+                width: 50%;
+            }
         }
         .ultimaImagenTritlon{
             padding-bottom: 64px;
+        }
+    }
+    .seccionImagenGlobalDignityDesk{
+        display: flex;
+        justify-content: center;
+        img{
+            width: 60%;
+            padding-bottom: 40px;
         }
     }
     .seccionImagenesTriatlonLineal{
@@ -361,7 +507,21 @@ body{
         flex-direction: column;
         img{
             padding: 20px 20px;
-            width: 60%;
+            width: 40%;
+        }
+    }
+    .seccionImagenesTriatlonLineal{
+        p{
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            span{
+                font-weight: bold;
+            }
         }
     }
     .seccionImagenesGlobalDignity{
@@ -488,23 +648,91 @@ body{
     .seccionImagenesTriatlon{
         display: flex;
         justify-content: center;
+        p{
+            max-width: 60%;
+            margin: auto;
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            span{
+                font-weight: bold;
+            }
+        }
         img{
             padding: 20px 20px;
-            height: 75%;
-            width: 75%;
+            width: 280px;
         }
         .ultimaImagenTritlon{
             padding-bottom: 64px;
         }
     }
     .seccionImagenesTriatlonLineal{
+        
         display: flex;
         align-items: center;
         flex-direction: column;
+        p{
+            max-width: 60%;
+            margin: auto;
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            span{
+                font-weight: bold;
+            }
+        }
         img{
             padding: 20px 20px;
             width: 60%;
         }
+    }
+    .seccionImagenGlobalDignityDesk{
+        max-width: 60%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        img{
+            width: 60%;
+            padding-bottom: 64px;
+        }
+    }
+    .imagenesGrillasTriatlonSocial{
+        max-width: 60%;
+        margin: auto;
+        display: grid;
+        grid-template-areas:
+        "imagen1 imagen2";
+        grid-template-columns: 50% 80%;
+        grid-template-rows: 1fr;
+    }
+    .primeraImagenTritlon{
+        grid-area: imagen1;
+    }
+    .ultimaImagenTritlon{
+        grid-area: imagen2;        
+    }
+    .seccionGrillasApoyoEstrategico{
+        max-width: 85%;
+        margin: auto;
+        display: grid;
+        grid-template-areas:
+        "texto imagen";
+        grid-template-columns: 50% 41%;
+        grid-template-rows: 1fr;
+    }
+    .textoSeccionApoyoEstrategico{
+        grid-area: texto;
+    }
+    .centrarImagen__apoyoEstrategico{
+        grid-area: imagen;
     }
     .seccionImagenesGlobalDignity{
         height: 100vh;
@@ -523,6 +751,8 @@ body{
         }
     }
     .seccionColaboradores{
+        max-width: 60%;
+        margin: auto;
         .textoSeccionColaboradores__AYOseAdapta{
             max-width: 60%;
             margin: auto;
@@ -542,15 +772,651 @@ body{
             align-items: center;
             justify-content: center;
             img{
-                width: 200px;
+                width: 160px;
                 padding: 80px 20px;
             }
         }
     }
 }
 @media only screen and (min-width:1201px) and (max-width:1400px){
-
+    .seccionHistoria{
+        img{
+            width: 100%;
+        }
+        h1{
+            max-width: 60%;
+            margin: auto;
+            padding: 40px 20px 8px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        h2{
+            max-width: 60%;
+            margin: auto;
+            padding: 0px 20px 40px 20px;
+            color: $negro__letras;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 150%;
+        }
+        p{
+            max-width: 60%;
+            margin: auto;
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            span{
+                font-weight: bold;
+            }
+        }
+        div{/* HABÍA UN DISPLAY FLEX ACÁ */
+            .imagenBotonImpulso{
+                width: 72px;
+            }
+                h1{
+                    max-width: 60%;
+                    margin: auto;
+                    padding: 40px 20px 8px 20px;
+                    color: $gris__oscuro;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 120%;
+                }
+                h2{
+                    padding: 0px 20px 40px 20px;
+                    color: $negro__letras;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 150%;
+                }
+                p{
+                    padding: 0px 20px 8px 20px;
+                    color: $negro__header;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 150%;
+                    span{
+                        font-weight: bold;
+                    }
+                }
+        }
+        .contenedorLink__finalizaImpulso{
+        }
+    }
+    .seccionImagenesTriatlon{
+        display: flex;
+        justify-content: center;
+        p{
+            max-width: 60%;
+            margin: auto;
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            span{
+                font-weight: bold;
+            }
+        }
+        img{
+            padding: 20px 20px;
+            width: 280px;
+        }
+        .ultimaImagenTritlon{
+            padding-bottom: 64px;
+        }
+    }
+    .seccionImagenesTriatlonLineal{
+        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        p{
+            max-width: 60%;
+            margin: auto;
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            span{
+                font-weight: bold;
+            }
+        }
+        img{
+            padding: 20px 20px;
+            width: 60%;
+        }
+    }
+    .seccionImagenGlobalDignityDesk{
+        max-width: 60%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        img{
+            width: 60%;
+            padding-bottom: 64px;
+        }
+    }
+    .imagenesGrillasTriatlonSocial{
+        max-width: 60%;
+        margin: auto;
+        display: grid;
+        grid-template-areas:
+        "imagen1 imagen2";
+        grid-template-columns: 50% 80%;
+        grid-template-rows: 1fr;
+    }
+    .primeraImagenTritlon{
+        grid-area: imagen1;
+    }
+    .ultimaImagenTritlon{
+        grid-area: imagen2;        
+    }
+    .seccionGrillasApoyoEstrategico{
+        max-width: 85%;
+        margin: auto;
+        display: grid;
+        grid-template-areas:
+        "texto imagen";
+        grid-template-columns: 55% 38%;
+        grid-template-rows: 1fr;
+    }
+    .textoSeccionApoyoEstrategico{
+        grid-area: texto;
+    }
+    .centrarImagen__apoyoEstrategico{
+        grid-area: imagen;
+    }
+    .seccionImagenesGlobalDignity{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        img{
+            padding-top: 80px;
+            padding-bottom: 80px;
+            width: 212px;
+        }
+    }
+    .seccionImagenesGlobalDignityDay2019{
+        img{
+            width: 100%;
+            padding: 8px 20px 40px 20px;
+        }
+    }
+    .seccionColaboradores{
+        max-width: 60%;
+        margin: auto;
+        .textoSeccionColaboradores__AYOseAdapta{
+            max-width: 60%;
+            margin: auto;
+        }
+        p{
+            padding: 20px 0px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+        }
+        .seccionColaboradoresContainer{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: 160px;
+                padding: 80px 20px;
+            }
+        }
+    }
 }
 @media only screen and (min-width:1401px) and (max-width:1600px){
-
+    .seccionHistoria{
+        img{
+            width: 100%;
+        }
+        h1{
+            max-width: 60%;
+            margin: auto;
+            padding: 40px 20px 8px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        h2{
+            max-width: 60%;
+            margin: auto;
+            padding: 0px 20px 40px 20px;
+            color: $negro__letras;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 150%;
+        }
+        p{
+            max-width: 60%;
+            margin: auto;
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            span{
+                font-weight: bold;
+            }
+        }
+        div{/* HABÍA UN DISPLAY FLEX ACÁ */
+            .imagenBotonImpulso{
+                width: 72px;
+            }
+                h1{
+                    max-width: 60%;
+                    margin: auto;
+                    padding: 40px 20px 8px 20px;
+                    color: $gris__oscuro;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 120%;
+                }
+                h2{
+                    padding: 0px 20px 40px 20px;
+                    color: $negro__letras;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 150%;
+                }
+                p{
+                    padding: 0px 20px 8px 20px;
+                    color: $negro__header;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 150%;
+                    span{
+                        font-weight: bold;
+                    }
+                }
+        }
+        .contenedorLink__finalizaImpulso{
+        }
+    }
+    .seccionImagenesTriatlon{
+        display: flex;
+        justify-content: center;
+        p{
+            max-width: 60%;
+            margin: auto;
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            span{
+                font-weight: bold;
+            }
+        }
+        img{
+            padding: 20px 20px;
+            width: 280px;
+        }
+        .ultimaImagenTritlon{
+            padding-bottom: 64px;
+        }
+    }
+    .seccionImagenesTriatlonLineal{
+        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        p{
+            max-width: 60%;
+            margin: auto;
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            span{
+                font-weight: bold;
+            }
+        }
+        img{
+            padding: 20px 20px;
+            width: 60%;
+        }
+    }
+    .seccionImagenGlobalDignityDesk{
+        max-width: 60%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        img{
+            width: 60%;
+            padding-bottom: 64px;
+        }
+    }
+    .imagenesGrillasTriatlonSocial{
+        max-width: 60%;
+        margin: auto;
+        display: grid;
+        grid-template-areas:
+        "imagen1 imagen2";
+        grid-template-columns: 50% 80%;
+        grid-template-rows: 1fr;
+    }
+    .primeraImagenTritlon{
+        grid-area: imagen1;
+    }
+    .ultimaImagenTritlon{
+        grid-area: imagen2;        
+    }
+    .seccionGrillasApoyoEstrategico{
+        max-width: 85%;
+        margin: auto;
+        display: grid;
+        grid-template-areas:
+        "texto imagen";
+        grid-template-columns: 60% 35%;
+        grid-template-rows: 1fr;
+    }
+    .textoSeccionApoyoEstrategico{
+        grid-area: texto;
+    }
+    .centrarImagen__apoyoEstrategico{
+        grid-area: imagen;
+    }
+    .seccionImagenesGlobalDignity{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        img{
+            padding-top: 80px;
+            padding-bottom: 80px;
+            width: 212px;
+        }
+    }
+    .seccionImagenesGlobalDignityDay2019{
+        img{
+            width: 100%;
+            padding: 8px 20px 40px 20px;
+        }
+    }
+    .seccionColaboradores{
+        max-width: 60%;
+        margin: auto;
+        .textoSeccionColaboradores__AYOseAdapta{
+            max-width: 60%;
+            margin: auto;
+        }
+        p{
+            padding: 20px 0px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+        }
+        .seccionColaboradoresContainer{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: 160px;
+                padding: 80px 20px;
+            }
+        }
+    }
+}
+@media only screen and (min-width:1601px) and (max-width:2200px){
+    .seccionHistoria{
+        img{
+            width: 100%;
+        }
+        h1{
+            max-width: 60%;
+            margin: auto;
+            padding: 40px 20px 8px 20px;
+            color: $gris__oscuro;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        h2{
+            max-width: 60%;
+            margin: auto;
+            padding: 0px 20px 40px 20px;
+            color: $negro__letras;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 150%;
+        }
+        p{
+            max-width: 60%;
+            margin: auto;
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            span{
+                font-weight: bold;
+            }
+        }
+        div{/* HABÍA UN DISPLAY FLEX ACÁ */
+            .imagenBotonImpulso{
+                width: 72px;
+            }
+                h1{
+                    max-width: 60%;
+                    margin: auto;
+                    padding: 40px 20px 8px 20px;
+                    color: $gris__oscuro;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 120%;
+                }
+                h2{
+                    padding: 0px 20px 40px 20px;
+                    color: $negro__letras;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 150%;
+                }
+                p{
+                    padding: 0px 20px 8px 20px;
+                    color: $negro__header;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 150%;
+                    span{
+                        font-weight: bold;
+                    }
+                }
+        }
+        .contenedorLink__finalizaImpulso{
+        }
+    }
+    .seccionImagenesTriatlon{
+        display: flex;
+        justify-content: center;
+        p{
+            max-width: 60%;
+            margin: auto;
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            span{
+                font-weight: bold;
+            }
+        }
+        img{
+            padding: 20px 20px;
+            width: 280px;
+        }
+        .ultimaImagenTritlon{
+            padding-bottom: 64px;
+        }
+    }
+    .seccionImagenesTriatlonLineal{
+        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        p{
+            max-width: 60%;
+            margin: auto;
+            padding: 0px 20px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            span{
+                font-weight: bold;
+            }
+        }
+        img{
+            padding: 20px 20px;
+            width: 60%;
+        }
+    }
+    .seccionImagenGlobalDignityDesk{
+        max-width: 60%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        img{
+            width: 60%;
+            padding-bottom: 64px;
+        }
+    }
+    .imagenesGrillasTriatlonSocial{
+        max-width: 60%;
+        margin: auto;
+        display: grid;
+        grid-template-areas:
+        "imagen1 imagen2";
+        grid-template-columns: 50% 80%;
+        grid-template-rows: 1fr;
+    }
+    .primeraImagenTritlon{
+        grid-area: imagen1;
+    }
+    .ultimaImagenTritlon{
+        grid-area: imagen2;        
+    }
+    .seccionGrillasApoyoEstrategico{
+        max-width: 85%;
+        margin: auto;
+        display: grid;
+        grid-template-areas:
+        "texto imagen";
+        grid-template-columns: 60% 35%;
+        grid-template-rows: 1fr;
+    }
+    .textoSeccionApoyoEstrategico{
+        grid-area: texto;
+    }
+    .centrarImagen__apoyoEstrategico{
+        grid-area: imagen;
+    }
+    .seccionImagenesGlobalDignity{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        img{
+            padding-top: 80px;
+            padding-bottom: 80px;
+            width: 212px;
+        }
+    }
+    .seccionImagenesGlobalDignityDay2019{
+        img{
+            width: 100%;
+            padding: 8px 20px 40px 20px;
+        }
+    }
+    .seccionColaboradores{
+        max-width: 60%;
+        margin: auto;
+        .textoSeccionColaboradores__AYOseAdapta{
+            max-width: 60%;
+            margin: auto;
+        }
+        p{
+            padding: 20px 0px 8px 20px;
+            color: $negro__header;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+        }
+        .seccionColaboradoresContainer{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: 160px;
+                padding: 80px 20px;
+            }
+        }
+    }
 }
