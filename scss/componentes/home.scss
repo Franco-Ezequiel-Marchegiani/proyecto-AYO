@@ -1204,14 +1204,17 @@ body{
             align-items: center;
             overflow-x: scroll;
             white-space: nowrap;
-            padding-left: 300px;
+            padding-left: 400px;
             img{
                 width: 120px;
                 height: 120px;
                 padding: 10px 8px;
             }
             .nk5INvisible{
-                padding-right: 520px;
+                display: none;
+            }
+            .nk5INvisibleBlanco{
+                display: none;
             }
         }
     }
@@ -1668,7 +1671,10 @@ body{
                 padding: 10px 8px;
             }
             .nk5INvisible{
-                padding-right: 336px;
+                display: none;
+            }
+            .nk5INvisibleBlanco{
+                display: none;
             }
         }
     }
@@ -2127,14 +2133,19 @@ body{
             align-items: center;
             overflow-x: scroll;
             white-space: nowrap;
-            padding-left: 300px;
+            max-width: 80%;
+            margin: auto;
+            padding-left: 120px;
             img{
                 width: 120px;
                 height: 120px;
                 padding: 10px 8px;
             }
             .nk5INvisible{
-                padding-right: 260px;
+                display: none;
+            }
+            .nk5INvisibleBlanco{
+                display: none;
             }
         }
     }
@@ -2591,16 +2602,20 @@ body{
             display: flex;
             justify-content: center;
             align-items: center;
-            overflow-x: scroll;
             white-space: nowrap;
-            padding-left: 300px;
+            max-width: 85%;
+            margin: auto;
+            padding-left: 10px;
             img{
                 width: 120px;
                 height: 120px;
                 padding: 10px 8px;
             }
             .nk5INvisible{
-                padding-right: 260px;
+                display: none;
+            }
+            .nk5INvisibleBlanco{
+                display: none;
             }
         }
     }

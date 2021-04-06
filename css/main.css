@@ -1380,13 +1380,15 @@ body {
       align-items: center;
       overflow-x: scroll;
       white-space: nowrap;
-      padding-left: 300px; }
+      padding-left: 400px; }
       .section__partners .partners__containers img {
         width: 120px;
         height: 120px;
         padding: 10px 8px; }
       .section__partners .partners__containers .nk5INvisible {
-        padding-right: 520px; }
+        display: none; }
+      .section__partners .partners__containers .nk5INvisibleBlanco {
+        display: none; }
   .section__objetivosDesarrollo {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; }
     .section__objetivosDesarrollo .contenedorSeccion__objetivosDesarrollo {
@@ -1753,7 +1755,9 @@ body {
         height: 120px;
         padding: 10px 8px; }
       .section__partners .partners__containers .nk5INvisible {
-        padding-right: 336px; }
+        display: none; }
+      .section__partners .partners__containers .nk5INvisibleBlanco {
+        display: none; }
   .section__objetivosDesarrollo {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; }
     .section__objetivosDesarrollo .contenedorSeccion__objetivosDesarrollo {
@@ -2119,13 +2123,17 @@ body {
       align-items: center;
       overflow-x: scroll;
       white-space: nowrap;
-      padding-left: 300px; }
+      max-width: 80%;
+      margin: auto;
+      padding-left: 120px; }
       .section__partners .partners__containers img {
         width: 120px;
         height: 120px;
         padding: 10px 8px; }
       .section__partners .partners__containers .nk5INvisible {
-        padding-right: 260px; }
+        display: none; }
+      .section__partners .partners__containers .nk5INvisibleBlanco {
+        display: none; }
   .section__objetivosDesarrollo {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; }
     .section__objetivosDesarrollo .contenedorSeccion__objetivosDesarrollo {
@@ -2489,15 +2497,18 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
-      overflow-x: scroll;
       white-space: nowrap;
-      padding-left: 300px; }
+      max-width: 85%;
+      margin: auto;
+      padding-left: 10px; }
       .section__partners .partners__containers img {
         width: 120px;
         height: 120px;
         padding: 10px 8px; }
       .section__partners .partners__containers .nk5INvisible {
-        padding-right: 260px; }
+        display: none; }
+      .section__partners .partners__containers .nk5INvisibleBlanco {
+        display: none; }
   .section__objetivosDesarrollo {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; }
     .section__objetivosDesarrollo .contenedorSeccion__objetivosDesarrollo {
