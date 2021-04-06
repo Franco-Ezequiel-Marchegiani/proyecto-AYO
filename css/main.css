@@ -1380,6 +1380,8 @@ body {
       align-items: center;
       overflow-x: scroll;
       white-space: nowrap;
+      max-width: 80%;
+      margin: auto;
       padding-left: 400px; }
       .section__partners .partners__containers img {
         width: 120px;
@@ -1749,7 +1751,9 @@ body {
       align-items: center;
       overflow-x: scroll;
       white-space: nowrap;
-      padding-left: 300px; }
+      max-width: 80%;
+      margin: auto;
+      padding-left: 360px; }
       .section__partners .partners__containers img {
         width: 120px;
         height: 120px;
@@ -2125,7 +2129,7 @@ body {
       white-space: nowrap;
       max-width: 80%;
       margin: auto;
-      padding-left: 120px; }
+      padding-left: 160px; }
       .section__partners .partners__containers img {
         width: 120px;
         height: 120px;
