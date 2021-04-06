@@ -12320,7 +12320,7 @@ body {
         flex-direction: row;
         align-items: flex-start;
         position: relative;
-        right: 64px;
+        right: 80px;
         padding-top: 10px; }
         .container__imagen__sobreAyo div .btn__container__imagen a {
           width: 115px;
@@ -12745,7 +12745,7 @@ body {
         flex-direction: row;
         align-items: flex-start;
         position: relative;
-        right: 64px;
+        right: 84px;
         padding-top: 10px; }
         .container__imagen__sobreAyo div .btn__container__imagen a {
           width: 115px;
@@ -13170,7 +13170,7 @@ body {
         flex-direction: row;
         align-items: flex-start;
         position: relative;
-        right: 64px;
+        right: 94px;
         padding-top: 10px; }
         .container__imagen__sobreAyo div .btn__container__imagen a {
           width: 115px;
@@ -13595,7 +13595,7 @@ body {
         flex-direction: row;
         align-items: flex-start;
         position: relative;
-        right: 64px;
+        right: 100px;
         padding-top: 10px; }
         .container__imagen__sobreAyo div .btn__container__imagen a {
           width: 115px;
@@ -16251,7 +16251,7 @@ body {
           padding: unset;
           width: 20px; } }
 
-@media only screen and (min-width: 1601px) and (max-width: 1900px) {
+@media only screen and (min-width: 1601px) and (max-width: 2200px) {
   .seccionImagen_medicionImpacto {
     background-image: url("../../imagenes/medicionImpacto/portadaDesktop.jpg");
     background-repeat: no-repeat;
