@@ -174,7 +174,7 @@ body {
       .navbar__nav .container-fluid .navbar-brand img {
         box-sizing: border-box;
         display: block;
-        background: url(../../imagenes/logo.jpg);
+        background: url(../../imagenes/logo.svg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         padding: unset;
@@ -238,7 +238,7 @@ body {
       .navbar__nav .container-fluid .navbar-brand img {
         box-sizing: border-box;
         display: block;
-        background: url(../../imagenes/logo.jpg);
+        background: url(../../imagenes/logo.svg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         padding: unset;
@@ -302,7 +302,7 @@ body {
       .navbar__nav .container-fluid .navbar-brand img {
         box-sizing: border-box;
         display: block;
-        background: url(../../imagenes/logo.jpg);
+        background: url(../../imagenes/logo.svg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         padding: unset;
@@ -366,7 +366,7 @@ body {
       .navbar__nav .container-fluid .navbar-brand img {
         box-sizing: border-box;
         display: block;
-        background: url(../../imagenes/logo.jpg);
+        background: url(../../imagenes/logo.svg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         width: 190px;
