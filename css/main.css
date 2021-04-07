@@ -175,11 +175,13 @@ body {
         box-sizing: border-box;
         display: block;
         background: url(../../imagenes/logo.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
         padding: unset;
         margin-left: 8px;
         padding-left: 150px;
-        width: 100px;
-        height: 23px; }
+        width: 190px;
+        height: 31px; }
       .navbar__nav .container-fluid .btn__header {
         background-color: #FFFFFF;
         color: #000000; }
@@ -237,11 +239,13 @@ body {
         box-sizing: border-box;
         display: block;
         background: url(../../imagenes/logo.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
         padding: unset;
         margin-left: 8px;
         padding-left: 150px;
-        width: 100px;
-        height: 23px; }
+        width: 190px;
+        height: 31px; }
       .navbar__nav .container-fluid .btn__header {
         background-color: #FFFFFF;
         color: #000000; }
@@ -299,11 +303,13 @@ body {
         box-sizing: border-box;
         display: block;
         background: url(../../imagenes/logo.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
         padding: unset;
         margin-left: 8px;
         padding-left: 150px;
-        width: 100px;
-        height: 23px; }
+        width: 190px;
+        height: 31px; }
       .navbar__nav .container-fluid .btn__header {
         background-color: #FFFFFF;
         color: #000000; }
@@ -361,11 +367,13 @@ body {
         box-sizing: border-box;
         display: block;
         background: url(../../imagenes/logo.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 190px;
+        height: 31px;
         padding: unset;
         margin-left: 8px;
-        padding-left: 150px;
-        width: 100px;
-        height: 23px; }
+        padding-left: 150px; }
       .navbar__nav .container-fluid .btn__header {
         background-color: #FFFFFF;
         color: #000000; }
@@ -10073,6 +10081,9 @@ body {
       padding-left: 20px; }
     footer .footer__redesSociales img {
       padding-right: 15px; }
+    footer .footer__redesSociales .fa-twitter {
+      padding-right: 15px;
+      color: #FFFFFF; }
     footer .footer__avisoLegal {
       padding: unset;
       margin: unset;
@@ -10164,6 +10175,9 @@ body {
       padding-left: 20px; }
     footer .footer__redesSociales img {
       padding-right: 15px; }
+    footer .footer__redesSociales .fa-twitter {
+      padding-right: 15px;
+      color: #FFFFFF; }
     footer .footer__avisoLegal {
       padding: unset;
       margin: unset;
@@ -10255,6 +10269,9 @@ body {
       padding-left: 20px; }
     footer .footer__redesSociales img {
       padding-right: 15px; }
+    footer .footer__redesSociales .fa-twitter {
+      padding-right: 15px;
+      color: #FFFFFF; }
     footer .footer__avisoLegal {
       padding: unset;
       margin: unset;
@@ -10346,6 +10363,9 @@ body {
     padding-left: 20px; }
   .footer__redesSociales img {
     padding-right: 15px; }
+  .footer__redesSociales .fa-twitter {
+    padding-right: 15px;
+    color: #FFFFFF; }
   .footer__redesSociales .footer__avisoLegal {
     padding: unset;
     margin: unset;
@@ -10376,7 +10396,7 @@ body {
   .logo__footer {
     margin-top: 56px;
     padding-left: 20px;
-    width: 165px;
+    width: 211px;
     height: 33px; }
   .colum__footer {
     padding: unset;
@@ -10450,6 +10470,9 @@ body {
     padding-left: 20px; }
   .footer__redesSociales img {
     padding-right: 15px; }
+  .footer__redesSociales .fa-twitter {
+    padding-right: 15px;
+    color: #FFFFFF; }
   .footer__avisoLegal {
     padding: unset;
     margin: unset;
@@ -10480,7 +10503,7 @@ body {
   .logo__footer {
     margin-top: 56px;
     padding-left: 20px;
-    width: 165px;
+    width: 211px;
     height: 33px; }
   .colum__footer {
     padding: unset;
@@ -10554,6 +10577,9 @@ body {
     padding-left: 20px; }
   .footer__redesSociales img {
     padding-right: 15px; }
+  .footer__redesSociales .fa-twitter {
+    padding-right: 15px;
+    color: #FFFFFF; }
   .footer__avisoLegal {
     padding: unset;
     margin: unset;
@@ -10584,7 +10610,7 @@ body {
   .logo__footer {
     margin-top: 56px;
     padding-left: 20px;
-    width: 165px;
+    width: 211px;
     height: 33px; }
   .colum__footer {
     padding: unset;
@@ -10658,6 +10684,9 @@ body {
     padding-left: 20px; }
   .footer__redesSociales img {
     padding-right: 15px; }
+  .footer__redesSociales .fa-twitter {
+    padding-right: 15px;
+    color: #FFFFFF; }
   .footer__avisoLegal {
     padding: unset;
     margin: unset;
@@ -10688,7 +10717,7 @@ body {
   .logo__footer {
     margin-top: 56px;
     padding-left: 20px;
-    width: 165px;
+    width: 211px;
     height: 33px; }
   .colum__footer {
     padding: unset;
@@ -10762,6 +10791,9 @@ body {
     padding-left: 20px; }
   .footer__redesSociales img {
     padding-right: 15px; }
+  .footer__redesSociales .fa-twitter {
+    padding-right: 15px;
+    color: #FFFFFF; }
   .footer__avisoLegal {
     padding: unset;
     margin: unset;
