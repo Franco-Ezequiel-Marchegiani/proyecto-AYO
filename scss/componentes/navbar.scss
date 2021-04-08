@@ -205,7 +205,7 @@ body{
             }
     }     
 }
-@media only screen and (min-width:769px) and (max-width:1000px){
+@media only screen and (min-width:769px) and (max-width:991px){
     .navbar__nav{
         background-color: $negro__header;
         color:$gris__oscuro;
@@ -270,7 +270,7 @@ body{
     }
 }
 /* Desktop */
-@media only screen and (min-width:1001px) and (max-width:1200px){
+@media only screen and (min-width:992px) and (max-width:1200px){
     .navbar__nav{
         background-color: $blanco;
         color:$gris__oscuro;
