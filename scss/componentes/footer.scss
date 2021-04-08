@@ -361,104 +361,10 @@ body{
 }
 @media only screen and (min-width: 600px) and (max-width: 768px){
     footer{
-        background-image: url("../imagenes/footer/footer600.svg");
+        background-image: url("../../imagenes/footer/fondoFooter600.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
         position: relative;
-    }
-    .logo__footer{
-        margin-top: 56px;
-        padding-left: 20px;
-        width: 211px;
-        height: 33px;
-    }
-    .colum__footer{
-        padding: unset;
-        padding-top: 50px;
-        
-        a {
-            text-decoration:none;
-            p{
-                color: $blanco;
-                font-family: Raleway;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 16px;
-                line-height: 19px;
-                padding: 16px 0px 0px 20px;
-                list-style: none;
-            }
-        }
-    }
-    .colum__footer2{
-        padding: unset;
-        padding-top: 24px;
-        position: relative;
-        top: -16px;
-        a {
-            text-decoration:none;
-            p{
-                color: $blanco;
-                font-family: Raleway;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 16px;
-                line-height: 19px;
-                padding: 16px 0px 0px 20px;
-                list-style: none;
-            }
-        }
-    }
-        .footer__contactanos{
-            padding: 32px 0px 0px 20px;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 19px;
-            a{
-                text-decoration: none;
-                color: $blanco;
-            }
-        }
-        p{
-            color: $blanco;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 19px;
-            img{
-                padding-right: 11px;
-            }
-        }
-        .footer_datosPersonales{
-            padding-left: 20px;
-            p{
-                padding-left: 0px;
-            }
-        }
-    
-    .footer__redesSociales{
-        p{
-            padding: unset;
-            padding: 12px 0px 10px 20px;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 19px;
-        }
-        .container__redesSociales__icons{
-            padding-left: 20px;
-        }
-        img{
-            padding-right: 15px;
-        }
-        .fa-twitter{
-            padding-right: 15px;
-            color: $blanco;
-        }
         .footer__avisoLegal{
             padding: unset;
             margin: unset;
@@ -469,16 +375,249 @@ body{
             font-style: normal;
             font-weight: normal;
             font-size: 11px;
-            line-height: 13px;  
+            line-height: 13px;    
             a{
                 text-decoration: none;
                 color: $blanco;
-            }              
+            }    
+            .footer__avisoLegalLink{
+                text-decoration: none;
+                color: $blanco;
+            }        
+        }
+        a{
+            text-decoration: none;
+            color: $blanco;
+        }
+        .logo__footer{
+            margin-top: 56px;
+            padding-left: 20px;
+            width: 211px;
+            height: 33px;
+        }
+        .colum__footer{
+            padding: unset;
+            padding-top: 50px;
+            
+            a {
+                text-decoration:none;
+                p{
+                    color: $blanco;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 19px;
+                    padding: 16px 0px 0px 20px;
+                    list-style: none;
+                }
+            }
+        }
+        .colum__footer2{
+            padding: unset;
+            padding-top: 24px;
+            position: relative;
+            top: -16px;
+            a {
+                text-decoration:none;
+                p{
+                    color: $blanco;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 19px;
+                    padding: 16px 0px 0px 20px;
+                    list-style: none;
+                }
+            }
+        }
+            .footer__contactanos{
+                padding: 32px 0px 0px 20px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+                a{
+                    text-decoration: none;
+                    color: $blanco;
+                }
+            }
+            p{
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+                img{
+                    padding-right: 11px;
+                }
+            }
+            .footer_datosPersonales{
+                padding-left: 20px;
+                p{
+                    padding-left: 0px;
+                }
+            }
+        
+        .footer__redesSociales{
+            p{
+                padding: unset;
+                padding: 12px 0px 10px 20px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+            }
+            .container__redesSociales__icons{
+                padding-left: 20px;
+            }
+            img{
+                padding-right: 15px;
+            }
+            .fa-twitter{
+                padding-right: 15px;
+                color: $blanco;
+            }
+                
         }
     }
 }
 @media only screen and (min-width:769px) and (max-width:1000px){
-
+    footer{
+        background-image: url("../../imagenes/footer/fondoFooter600.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        .footerContainerContent{
+            max-width: 85%;
+            margin: auto;
+        }
+        .footer__avisoLegal{
+            padding: unset;
+            margin: unset;
+            max-width: 85%;
+            margin: auto;
+            padding: 46px 30px 40px 30px;
+            color: $blanco;
+            text-align: center;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 11px;
+            line-height: 13px;    
+            a{
+                text-decoration: none;
+                color: $blanco;
+            }    
+            .footer__avisoLegalLink{
+                text-decoration: none;
+                color: $blanco;
+            }        
+        }
+        a{
+            text-decoration: none;
+            color: $blanco;
+        }
+        .logo__footer{
+            margin-top: 56px;
+            padding-left: 20px;
+            width: 211px;
+            height: 33px;
+        }
+        .colum__footer{
+            padding: unset;
+            padding-top: 50px;
+            
+            a {
+                text-decoration:none;
+                p{
+                    color: $blanco;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 19px;
+                    padding: 16px 0px 0px 20px;
+                    list-style: none;
+                }
+            }
+        }
+        .colum__footer2{
+            padding: unset;
+            padding-top: 24px;
+            position: relative;
+            top: -16px;
+            a {
+                text-decoration:none;
+                p{
+                    color: $blanco;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 19px;
+                    padding: 16px 0px 0px 20px;
+                    list-style: none;
+                }
+            }
+        }
+            .footer__contactanos{
+                padding: 32px 0px 0px 20px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+                a{
+                    text-decoration: none;
+                    color: $blanco;
+                }
+            }
+            p{
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+                img{
+                    padding-right: 11px;
+                }
+            }
+            .footer_datosPersonales{
+                padding-left: 20px;
+                p{
+                    padding-left: 0px;
+                }
+            }
+        
+        .footer__redesSociales{
+            p{
+                padding: unset;
+                padding: 12px 0px 10px 20px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+            }
+            .container__redesSociales__icons{
+                padding-left: 20px;
+            }
+            img{
+                padding-right: 15px;
+            }
+            .fa-twitter{
+                padding-right: 15px;
+                color: $blanco;
+            }
+                
+        }
+    }
 }
 /* Desktop */
 @media only screen and (min-width:1001px) and (max-width:1200px){
