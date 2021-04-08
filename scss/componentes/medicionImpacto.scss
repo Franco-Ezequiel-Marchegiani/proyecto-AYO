@@ -297,11 +297,212 @@ body{
         }
     }
 }
-@media only screen and (min-width:601) and (max-width:768){
-
+@media only screen and (min-width:601px) and (max-width:768px){
+    .seccionImagen_medicionImpacto{
+        background-image: url("../../imagenes/medicionImpacto/1.jpg");
+            background-repeat: no-repeat;
+            height: 100%;
+            background-size: 100% 100%;
+            position: relative;
+            
+            margin-bottom: 40px;
+        h1{
+            padding: 360px 20px 104px 20px;
+            color: $blanco;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px;
+            span{
+                display: block;
+            }
+        }
+    }
+    .seccionContenedora{
+        padding-left: 20px;
+        .contenedorBorde_medicionImpacto{
+            border-left: 1px solid rgba(189, 189, 189, 0.5);
+            h2{
+                padding: 0px 20px 16px 8px;
+                color: $gris__oscuro;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 120%;
+            }
+            p{
+                padding: 0px 20px 8px 8px;
+                color: $negro__header;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 150%;
+                span{
+                    font-weight: bold;
+                }
+            }
+            p::before{
+                content: "|";
+                    color: $celeste;
+                    background-color:$celeste;
+                    position: relative;
+                    top: 0px;
+                    width: 0px;
+                    left: -10px;
+            }
+        }
+    }
+    .detallePrograma_medicionImpacto{
+        width: 100%;
+        height: 109px;
+        padding: unset;
+        padding: 40px 20px 146px 0px;
+            .card__detalleProgramaMedicionImpacto{
+            background: $celeste;
+            display: flex;
+            flex-direction: row;
+            img{
+                color: $blanco;
+                padding: 5px 0px 0px 32px;
+            }
+            .card-text-detalleProgramaMedicionImpacto{
+                padding: 25px 10px 0px 25px;
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                span{
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 16px;
+                    a{
+                        text-decoration: none;
+                        color: $blanco;
+                    }
+                }
+                img{
+                    padding: unset;
+                    width: 20px;
+                }
+            }
+        }
+    }
 }
 @media only screen and (min-width:769px) and (max-width:1000px){
-
+    .seccionImagen_medicionImpacto{
+        background-image: url("../../imagenes/medicionImpacto/portadaDesktop.jpg");
+            background-repeat: no-repeat;
+            height: 100%;
+            background-size: 100% 100%;
+            position: relative;
+            
+            margin-bottom: 40px;
+        h1{
+            max-width: 85%;
+            margin: auto;
+            padding: 200px 20px 200px 20px;
+            color: $blanco;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px;  
+        }
+    }
+    .seccionContenedora{
+        max-width: 85%;
+        margin: auto;
+        padding-left: 20px;
+        .contenedorBorde_medicionImpacto{
+            
+            h2{
+                padding: 16px 20px 16px 0px;
+                color: $gris__oscuro;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 120%;
+                span{
+                    display: block;
+                }
+            }
+            .contenedorDesktop_medicionImpacto{
+                display: flex;
+                justify-content: space-evenly;
+                .textoLargoDesktop{
+                    max-width: 350px;
+                }
+            }
+            p{
+                padding: 0px 20px 8px 8px;
+                color: $negro__header;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 150%;
+                span{
+                    font-weight: bold;
+                }
+            }
+            p::before{
+                content: "|";
+                    color: $celeste;
+                    background-color:$celeste;
+                    position: relative;
+                    top: 0px;
+                    width: 0px;
+                    left: -10px;
+            }
+        }
+    }
+    .detallePrograma_medicionImpacto{
+        width: 350px;
+        padding: unset;
+        padding: 40px 20px 184px 0px;
+            .card__detalleProgramaMedicionImpacto{
+            background: $celeste;
+            display: flex;
+            flex-direction: row;
+            img{
+                color: $blanco;
+                padding: 0px 0px 0px 32px;
+            }
+            .card-text-detalleProgramaMedicionImpacto{
+                padding: 25px 10px 8px 25px;
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                span{
+                    display: block;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 16px;
+                    a{
+                        text-decoration: none;
+                        color: $blanco;
+                    }
+                }
+                img{
+                    padding: unset;
+                    width: 20px;
+                }
+            }
+        }
+    }
 }
 @media only screen and (min-width:1001px) and (max-width:1200px){
     .seccionImagen_medicionImpacto{

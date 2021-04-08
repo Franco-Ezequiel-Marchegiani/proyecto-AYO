@@ -712,10 +712,532 @@ body{
     }
 }
 @media only screen and (min-width: 600px) and (max-width: 768px){
-
+    .container__imagen__ayoAcelera{
+        background-image: url("../../imagenes/ayoAcelera/1ayoAcelera600.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        h1{
+            padding: 80px 20px 0px 20px;
+            color: $blanco;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px;
+        }
+        p{
+            padding: 16px 20px 0px 20px;
+            color: $blanco;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+        }
+        a{
+            img{
+                margin: 4px 0px 56px 20px;
+            }
+        }
+    }
+    /* Sección Apoyo e Impulso */
+    .seccionFortalecimientoCapacidades{
+        background-color: $grisClaro__fondo;
+        .subTitulo_FortalecimientoCapacidades{
+            color: $rojo;
+            padding: 32px 0px 0px 20px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px;
+        }
+        .container__FortalecimientoCapacidades{
+            padding-left: 20px;
+                background-color: $grisClaro__fondo;
+                h2{
+                    padding: 0px 20px 12px 8px;
+                    color: $gris__oscuro;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 120%;
+                }
+                p{
+                    padding: 0px 20px 0px 8px;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 150%;
+                }
+            
+            .container__FortalecimientoCapacidades_jr{
+                border-left: 1px solid rgba(189, 189, 189, 0.5);
+                background-color: $blanco;
+                .contenedor__fortalecimientoCapacidades{
+                    .text__fortalecimientoCapacidades{
+                        padding-bottom: 12px;
+                        color: $negro__header;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 150%;
+                        span{
+                            font-family: Raleway;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 14px;
+                            line-height: 150%;
+                        }
+                    }
+                    .ultimoTextoFortalecimientoCapacidades{
+                        padding-bottom: 24px;
+                    }
+                    .text__fortalecimientoCapacidades::before{
+                        content: "|";
+                            color: $rojo;
+                            background-color:$rojo;
+                            position: relative;
+                            top: 0px;
+                            width: 0px;
+                            left: -10px;
+                    }
+                }
+                .contenedor__fortalecimientoEquipos{
+                    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+                    h3{
+                        padding: 36px 20px 0px 8px;
+                        color: $gris__oscuro;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 24px;
+                        line-height: 120%;
+                    }
+                    .text__fortalecimientoEquipos{
+                        padding: 16px 20px 12px 8px;
+                        color: $gris__oscuro;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+                    .ultimoTextoFortalecimientoEquipos{
+                        padding: unset;
+                        padding: 0px 20px 36px 8px;
+                    }
+                    .text__fortalecimientoEquipos::before{
+                        content: "|";
+                            color: $rojo;
+                            background-color:$rojo;
+                            position: relative;
+                            top: 0px;
+                            width: 0px;
+                            left: -10px;
+                    }
+                }
+                .contenedor__triatlonSocial{
+                    background-color: $blanco;
+                    h4{
+                        padding: 24px 20px 0px 8px;
+                        color: $gris__oscuro;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 24px;
+                        line-height: 120%;
+                    }
+                    p{
+                        padding: 12px 20px 0px 8px;
+                        color: $gris__oscuro;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+                    p::before{
+                        content: "|";
+                            color: $rojo;
+                            background-color:$rojo;
+                            position: relative;
+                            top: 0px;
+                            width: 0px;
+                            left: -10px;
+                    }
+                }
+            }
+            .contenedor__triatlonSocial-btn{
+                background: rgba(226, 35, 26, 0.85);
+                margin:48px 20px 48px 0px;
+                display: flex;
+                img{
+                    padding: unset;
+                    padding: 20px 0px 15px 30px;
+                    width: 48px;
+                }
+                .texto__triatlonSocial-btn{
+                    padding: unset;
+                    padding: 32px 5px 10px 24px;
+                    color: $blanco;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 20px;
+                    .imgText__detallePrograma{
+                        padding: unset;
+                        width: 24px;
+                    }
+                    span{
+                        a{
+                            text-decoration: none;
+                            color: $blanco;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .fortalecimientoEstrategico{
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+        h5{
+            padding: 32px 20px 12px 20px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        p{
+            padding: 0px 20px 12px 20px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+        }
+        .ultimoTextoFortalecimientoEstrategico_ayoAcelera{
+            padding-bottom: 48px;
+        }
+    }
+    .iniciativaAyoAcelera_texto{
+        p{
+            color: $rojo;
+            padding: 24px 0px 8px 20px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px;
+        }
+    }
+    .logosIniciativaColaboración_container{
+        display: flex;
+        justify-content: space-evenly;
+        img{
+            width: 120px;
+            padding: 0px 16px 24px 16px;
+        }
+    }
 }
 @media only screen and (min-width:769px) and (max-width:1000px){
-
+    .container__imagen__ayoAcelera{
+        background-image: url("../../imagenes/ayoAcelera/1ayoAceleraDesktop.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        .contenedor__imagenDesktop__ayoAcelera{
+            max-width: 85%;
+            margin: auto;
+            padding-bottom: 80px;
+            h1{
+                padding: 120px 20px 0px 20px;
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 34px;
+                line-height: 40px;
+                span{
+                    display: block;
+                }
+            }
+            p{
+                padding: 0px 20px 0px 20px;
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                span{
+                    display: block;
+                }
+            }
+            a{
+                img{
+                    margin: 4px 0px 56px 20px;
+                }
+            }
+        }
+    }
+    /* Sección Apoyo e Impulso */
+    .seccionFortalecimientoCapacidades{
+        background-color: $grisClaro__fondo;
+        .contenedorSombraDesktop__fortalecerCapacidades{
+            max-width: 85%;
+            margin: auto;
+            .subTitulo_FortalecimientoCapacidades{
+                color: $rojo;
+                padding: 32px 0px 0px 20px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 16px;
+            }
+            
+            .container__FortalecimientoCapacidades{
+                padding-left: 20px;
+                padding-bottom: 40px;
+                background-color: $grisClaro__fondo;
+                .contenedorDesktop__fortalecimientoCapacidades{
+                    display: flex;
+                    justify-content: space-between;
+                }
+                    h2{
+                        padding: 0px 20px 32px 0px;
+                        color: $gris__oscuro;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 34px;
+                        line-height: 40px;
+                        span{
+                            display: block;
+                        }
+                    }
+                    p{
+                        padding: 0px 20px 0px 8px;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 150%;
+                    }
+                
+                .container__FortalecimientoCapacidades_jr{
+                    background-color: $grisClaro__fondo;
+                    .contenedor__fortalecimientoCapacidades{
+                        .text__fortalecimientoCapacidades{
+                            padding-bottom: 12px;
+                            color: $negro__header;
+                            font-family: Raleway;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 150%;
+                            span{
+                                font-family: Raleway;
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 14px;
+                                line-height: 150%;
+                            }
+                        }
+                        .ultimoTextoFortalecimientoCapacidades{
+                            padding-bottom: 24px;
+                        }
+                        .text__fortalecimientoCapacidades::before{
+                            content: "|";
+                                color: $rojo;
+                                background-color:$rojo;
+                                position: relative;
+                                top: 0px;
+                                width: 0px;
+                                left: -10px;
+                        }
+                    }
+                    .contenedor__fortalecimientoEquipos{
+                        h3{
+                            padding: 48px 20px 24px 0px;
+                            color: $gris__oscuro;
+                            font-family: Raleway;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 34px;
+                            line-height: 40px;
+                            span{
+                                display: block;
+                            }
+                        }
+                        .text__fortalecimientoEquipos{
+                            padding: 16px 20px 12px 8px;
+                            color: $gris__oscuro;
+                            font-family: Raleway;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 20px;
+                        }
+                        .ultimoTextoFortalecimientoEquipos{
+                            padding-left: 80px;
+                            font-family: Raleway;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 20px;
+                        }
+                        .text__fortalecimientoEquipos::before{
+                            content: "|";
+                                color: $rojo;
+                                background-color:$rojo;
+                                position: relative;
+                                top: 0px;
+                                width: 0px;
+                                left: -10px;
+                        }
+                    }
+                    .contenedor__triatlonSocial{
+                        h4{
+                            padding: 64px 20px 24px 8px;
+                            color: $gris__oscuro;
+                            font-family: Raleway;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 34px;
+                            line-height: 40px;
+                        }
+                        p{
+                            max-width: 70%;
+                            padding: 12px 20px 0px 8px;
+                            color: $gris__oscuro;
+                            font-family: Raleway;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 20px;
+                        }
+                        p::before{
+                            content: "|";
+                                color: $rojo;
+                                background-color:$rojo;
+                                position: relative;
+                                top: 0px;
+                                width: 0px;
+                                left: -10px;
+                        }
+                    }
+                }
+                .contenedor__triatlonSocial-btn{
+                    background: rgba(226, 35, 26, 0.85);
+                    margin:48px 20px 48px 0px;
+                    display: flex;
+                    width: 350px;
+                    img{
+                        padding: unset;
+                        padding: 8px 0px 15px 30px;
+                        width: 48px;
+                    }
+                    .texto__triatlonSocial-btn{
+                        padding: unset;
+                        padding: 32px 5px 10px 24px;
+                        color: $blanco;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 20px;
+                        .imgText__detallePrograma{
+                            padding: unset;
+                            width: 24px;
+                        }
+                        span{
+                            display: block;
+                            a{
+                                text-decoration: none;
+                                color: $blanco;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .seccionFortalecimientoEstrategico{
+        background-color: $blanco;
+        .fortalecimientoEstrategico{
+            max-width: 85%;
+            margin: auto;
+            h5{
+                padding: 32px 20px 40px 20px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 120%;
+                span{
+                    display: block;
+                }
+            }
+            .contenedorDesktop__fortalecimientoEstrategico{
+                display: flex;
+                justify-content: space-between;
+                p{
+                    max-width: 45%;
+                    color: $gris__oscuro;
+                    padding: 0px 20px 12px 28px;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+                p::before{
+                    content: "|";
+                        color: $rojo;
+                        background-color:$rojo;
+                        position: relative;
+                        top: 0px;
+                        width: 0px;
+                        left: -10px;
+                }
+                .ultimoTextoFortalecimientoEstrategico_ayoAcelera{
+                    padding-bottom: 48px;
+                }
+            }
+        }
+        .iniciativaAyoAcelera_texto{
+            max-width: 85%;
+            margin: auto;
+            p{
+                color: $rojo;
+                padding: 24px 0px 8px 20px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 16px;
+            }
+        }
+        .logosIniciativaColaboración_container{
+            display: flex;
+            .logoNK5IniciativaColaboracion{
+                margin-left: 40px;
+            }
+            img{
+                width: 120px;
+                padding: 0px 16px 24px 16px;
+                margin: 20px 40px 40px 0px;
+            }
+        }
+    }
 }
 @media only screen and (min-width:1001px) and (max-width:1200px){
     .container__imagen__ayoAcelera{
