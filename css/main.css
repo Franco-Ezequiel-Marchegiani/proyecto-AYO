@@ -403,7 +403,7 @@ body {
       color: transparent;
       font-size: 0px; } }
 
-@media only screen and (min-width: 1601px) and (max-width: 2200px) {
+@media only screen and (min-width: 1601px) {
   .navbar__nav {
     background-color: #FFFFFF;
     color: #2D2926;
@@ -3087,7 +3087,7 @@ body {
     .section__noticias .card__container__noticias::-webkit-scrollbar {
       width: 0px; } }
 
-@media only screen and (min-width: 1601px) and (max-width: 2200px) {
+@media only screen and (min-width: 1601px) {
   .imagen__inicio__home {
     background-image: url("../../imagenes/home/imagenInicioHomeEscritorio.jpg");
     background-repeat: no-repeat;
@@ -6252,7 +6252,7 @@ body {
   .footer__emprender {
     margin-top: 40px; } }
 
-@media only screen and (min-width: 1601px) and (max-width: 2200px) {
+@media only screen and (min-width: 1601px) {
   /* Sección Imagen Inicio */
   .container__impactoSocial {
     background-image: url("../../imagenes/ayoEmprende/1ayoEmprendeDesktop.jpg");
@@ -8569,7 +8569,7 @@ body {
       padding: 0px 0px 56px 12px;
       width: 160px; } }
 
-@media only screen and (min-width: 1601px) and (max-width: 2200px) {
+@media only screen and (min-width: 1601px) {
   /* Sección Imagen Inicio */
   .imagen__inicio__ayoImpulso {
     background-image: url("../../imagenes/ayoImpulso/1programaImpulsoDesktop.jpg");
@@ -10564,7 +10564,7 @@ body {
         padding: 0px 16px 24px 16px;
         margin: 20px 40px 40px 0px; } }
 
-@media only screen and (min-width: 1601px) and (max-width: 2200px) {
+@media only screen and (min-width: 1601px) {
   .container__imagen__ayoAcelera {
     background-image: url("../../imagenes/ayoAcelera/1ayoAceleraDesktop.jpg");
     background-repeat: no-repeat;
@@ -12465,7 +12465,7 @@ body {
               text-decoration: none;
               color: #FFFFFF; } }
 
-@media only screen and (min-width: 1601px) and (max-width: 2200px) {
+@media only screen and (min-width: 1601px) {
   .container__imagen__ayoincuba {
     background-image: url("../../imagenes/ayoIncuba/1ayoIncubaDesktop.jpg");
     background-repeat: no-repeat;
@@ -13492,7 +13492,7 @@ body {
       text-decoration: none;
       color: #FFFFFF; } }
 
-@media only screen and (min-width: 1601px) and (max-width: 2200px) {
+@media only screen and (min-width: 1601px) {
   footer {
     background-image: url("../../imagenes/footer/fondoFooterDesktop.jpg");
     background-repeat: no-repeat;
@@ -17189,7 +17189,7 @@ body {
       .seccionColaboradores_sobreAyo .containerColaboradores_sobreAyo .contenedorColaboradorIndividual__sobreAyo {
         padding-right: 8px; } }
 
-@media only screen and (min-width: 1601px) and (max-width: 2200px) {
+@media only screen and (min-width: 1601px) {
   .container__imagen__sobreAyo {
     background-image: url("../../imagenes/sobreNosotros/1sobreNosotrosDesktop.jpg");
     background-repeat: no-repeat;
@@ -18755,7 +18755,7 @@ body {
         width: 160px;
         padding: 80px 20px; } }
 
-@media only screen and (min-width: 1601px) and (max-width: 2200px) {
+@media only screen and (min-width: 1601px) {
   .seccionHistoria img {
     width: 100%; }
   .seccionHistoria h1 {
@@ -19564,7 +19564,7 @@ body {
     .seccionPoliticaCookies .ultimoParrafoAvisoLegal {
       padding-bottom: 64px; } }
 
-@media only screen and (min-width: 1601px) and (max-width: 2200px) {
+@media only screen and (min-width: 1601px) {
   .secctionAvisoLegal {
     max-width: 85%;
     margin: auto; }
@@ -20330,7 +20330,7 @@ body {
           padding: unset;
           width: 20px; } }
 
-@media only screen and (min-width: 1601px) and (max-width: 2200px) {
+@media only screen and (min-width: 1601px) {
   .seccionImagen_medicionImpacto {
     background-image: url("../../imagenes/medicionImpacto/portadaDesktop.jpg");
     background-repeat: no-repeat;
