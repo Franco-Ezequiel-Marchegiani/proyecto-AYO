@@ -868,6 +868,9 @@ body {
         .section__objetivosDesarrollo .container__objetivos .container__objetivos__border .text__bottom__objetivoDesarrollo {
           padding-bottom: 40px; }
   /* Sección Iniciativas en Marcha */
+  .seccionIniciativas {
+    max-width: 90%;
+    margin: auto; }
   .title__iniciativas {
     color: #000000;
     font-family: Raleway;
@@ -1144,6 +1147,9 @@ body {
         .section__objetivosDesarrollo .container__objetivos .container__objetivos__border .text__bottom__objetivoDesarrollo {
           padding-bottom: 40px; }
   /* Sección Iniciativas en Marcha */
+  .seccionIniciativas {
+    max-width: 80%;
+    margin: auto; }
   .title__iniciativas {
     color: #000000;
     font-family: Raleway;
@@ -1419,7 +1425,7 @@ body {
           padding-bottom: 40px; }
   /* Sección Iniciativas en Marcha */
   .seccionIniciativas {
-    max-width: 80%;
+    max-width: 70%;
     margin: auto; }
   .title__iniciativas {
     color: #000000;
@@ -1746,7 +1752,7 @@ body {
           padding-bottom: 40px; }
   /* Sección Iniciativas en Marcha */
   .seccionIniciativas {
-    max-width: 85%;
+    max-width: 80%;
     margin: auto; }
   .title__iniciativas {
     color: #000000;
@@ -1770,10 +1776,6 @@ body {
     width: 335px;
     height: 376px;
     grid-area: card2; }
-  .card3 {
-    width: 335px;
-    height: 376px;
-    grid-area: card3; }
   .card4 {
     width: 335px;
     height: 376px;
@@ -2141,10 +2143,6 @@ body {
     width: 335px;
     height: 376px;
     grid-area: card2; }
-  .card3 {
-    width: 335px;
-    height: 376px;
-    grid-area: card3; }
   .card4 {
     width: 335px;
     height: 376px;
@@ -2503,28 +2501,18 @@ body {
     text-align: center;
     padding: 120px 20px 60px 20px; }
   .card__container {
-    display: grid;
-    grid-template-areas: "card1 card2" "card3 card4";
-    grid-template-columns: 63% 15%;
-    grid-template-rows: 1fr 1fr;
-    padding: 0px 20px;
-    justify-items: center; }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
   .card1 {
     width: 335px;
-    height: 376px;
-    grid-area: card1; }
+    height: 376px; }
   .card2 {
     width: 335px;
-    height: 376px;
-    grid-area: card2; }
-  .card3 {
-    width: 335px;
-    height: 376px;
-    grid-area: card3; }
+    height: 376px; }
   .card4 {
     width: 335px;
-    height: 376px;
-    grid-area: card4; }
+    height: 376px; }
   .card {
     display: flex;
     flex-direction: column;
@@ -2879,12 +2867,9 @@ body {
     text-align: center;
     padding: 120px 20px 60px 20px; }
   .card__container {
-    display: grid;
-    grid-template-areas: "card1 card2" "card3 card4";
-    grid-template-columns: 63% 15%;
-    grid-template-rows: 1fr 1fr;
-    padding: 0px 20px;
-    justify-items: center; }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
   .card1 {
     width: 335px;
     height: 376px;
@@ -3254,12 +3239,9 @@ body {
     text-align: center;
     padding: 120px 20px 60px 20px; }
   .card__container {
-    display: grid;
-    grid-template-areas: "card1 card2" "card3 card4";
-    grid-template-columns: 63% 15%;
-    grid-template-rows: 1fr 1fr;
-    padding: 0px 20px;
-    justify-items: center; }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
   .card1 {
     width: 335px;
     height: 376px;
@@ -9043,7 +9025,79 @@ body {
     justify-content: space-evenly; }
     .logosIniciativaColaboración_container img {
       width: 88px;
-      padding: 0px 16px 24px 16px; } }
+      padding: 0px 16px 24px 16px; }
+  /* Sección Pathfinder */
+  .container__pathfinder {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    padding-left: 20px; }
+    .container__pathfinder img {
+      width: 100%;
+      padding: 48px 20px 0px 0px; }
+    .container__pathfinder p {
+      padding: 40px 0px 0px 4px;
+      color: #E2231A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 13px; }
+    .container__pathfinder .container__pathfinder_border {
+      border-left: 1px solid rgba(189, 189, 189, 0.5); }
+      .container__pathfinder .container__pathfinder_border h4 {
+        padding: 8px 20px 0px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+      .container__pathfinder .container__pathfinder_border p {
+        padding: 12px 20px 0px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+      .container__pathfinder .container__pathfinder_border .ultimoTexto_pathfinder_borde {
+        margin-bottom: 60px; }
+      .container__pathfinder .container__pathfinder_border p::before {
+        content: ".";
+        color: #E2231A;
+        background-color: #E2231A;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+  .contenedor__detalleProgramaIncuba {
+    position: relative;
+    top: -24px;
+    margin: 48px 20px 48px 0px;
+    background-color: #E2231A; }
+    .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba {
+      display: flex; }
+      .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba img {
+        padding: unset;
+        padding: 20px 0px 15px 30px;
+        width: 48px; }
+      .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p {
+        text-decoration: none;
+        padding: unset;
+        padding: 32px 5px 10px 24px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p .imgText__detallePrograma {
+          padding: unset;
+          width: 24px; }
+        .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span a {
+          text-decoration: none;
+          color: #FFFFFF;
+          font-weight: 600;
+          line-height: 16px; } }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
   .container__imagen__ayoAcelera {
@@ -9236,7 +9290,81 @@ body {
     justify-content: space-evenly; }
     .logosIniciativaColaboración_container img {
       width: 104px;
-      padding: 0px 16px 24px 16px; } }
+      padding: 0px 16px 24px 16px; }
+  /* Sección Pathfinder */
+  .container__pathfinder {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    padding-left: 20px; }
+    .container__pathfinder img {
+      width: 100%;
+      padding: 48px 20px 0px 0px; }
+    .container__pathfinder p {
+      padding: 40px 0px 0px 4px;
+      color: #E2231A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 13px; }
+    .container__pathfinder .container__pathfinder_border {
+      border-left: 1px solid rgba(189, 189, 189, 0.5); }
+      .container__pathfinder .container__pathfinder_border h4 {
+        padding: 8px 20px 0px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+      .container__pathfinder .container__pathfinder_border p {
+        padding: 12px 20px 0px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+      .container__pathfinder .container__pathfinder_border .ultimoTexto_pathfinder_borde {
+        margin-bottom: 60px; }
+      .container__pathfinder .container__pathfinder_border p::before {
+        content: ".";
+        color: #E2231A;
+        background-color: #E2231A;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+  .contenedor__detalleProgramaIncuba {
+    position: relative;
+    top: -24px;
+    margin: 48px 20px 48px 0px;
+    background-color: #E2231A; }
+    .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba {
+      display: flex; }
+      .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba img {
+        padding: unset;
+        padding: 20px 0px 15px 30px;
+        width: 48px; }
+      .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p {
+        text-decoration: none;
+        color: #FFFFFF;
+        padding: unset;
+        padding: 32px 5px 10px 24px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p .imgText__detallePrograma {
+          padding: unset;
+          width: 24px; }
+        .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span a {
+          text-decoration: none;
+          color: #FFFFFF;
+          display: block;
+          font-weight: 600;
+          line-height: 16px; } }
 
 @media only screen and (min-width: 481px) and (max-width: 599px) {
   .container__imagen__ayoAcelera {
@@ -9427,7 +9555,78 @@ body {
     justify-content: space-evenly; }
     .logosIniciativaColaboración_container img {
       width: 120px;
-      padding: 0px 16px 24px 16px; } }
+      padding: 0px 16px 24px 16px; }
+  /* Sección Pathfinder */
+  .container__pathfinder {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    padding-left: 20px; }
+    .container__pathfinder img {
+      width: 100%;
+      padding: 48px 20px 0px 0px; }
+    .container__pathfinder p {
+      padding: 40px 0px 0px 4px;
+      color: #E2231A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 13px; }
+    .container__pathfinder .container__pathfinder_border {
+      border-left: 1px solid rgba(189, 189, 189, 0.5); }
+      .container__pathfinder .container__pathfinder_border h4 {
+        padding: 8px 20px 0px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+      .container__pathfinder .container__pathfinder_border p {
+        padding: 12px 20px 0px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+      .container__pathfinder .container__pathfinder_border .ultimoTexto_pathfinder_borde {
+        margin-bottom: 60px; }
+      .container__pathfinder .container__pathfinder_border p::before {
+        content: ".";
+        color: #E2231A;
+        background-color: #E2231A;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+  .contenedor__detalleProgramaIncuba {
+    position: relative;
+    top: -24px;
+    margin: 48px 20px 48px 0px;
+    background-color: #E2231A; }
+    .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba {
+      display: flex; }
+      .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba img {
+        padding: unset;
+        padding: 20px 0px 15px 30px;
+        width: 48px; }
+      .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p {
+        text-decoration: none;
+        color: #FFFFFF;
+        padding: unset;
+        padding: 32px 5px 10px 24px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p .imgText__detallePrograma {
+          padding: unset;
+          width: 24px; }
+        .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span a {
+          text-decoration: none;
+          color: #FFFFFF; } }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   .container__imagen__ayoAcelera {
@@ -9618,7 +9817,82 @@ body {
     justify-content: space-evenly; }
     .logosIniciativaColaboración_container img {
       width: 120px;
-      padding: 0px 16px 24px 16px; } }
+      padding: 0px 16px 24px 16px; }
+  /* Sección Pathfinder */
+  .container__pathfinder {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    padding-left: 20px; }
+    .container__pathfinder .contenedorContenidoImagenDesktop__pathfinder {
+      display: flex;
+      justify-content: center; }
+      .container__pathfinder .contenedorContenidoImagenDesktop__pathfinder img {
+        max-width: 70%;
+        margin: auto;
+        padding: 48px 20px 0px 0px; }
+    .container__pathfinder p {
+      padding: 40px 0px 0px 4px;
+      color: #E2231A;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 13px; }
+    .container__pathfinder .container__pathfinder_border {
+      border-left: 1px solid rgba(189, 189, 189, 0.5); }
+      .container__pathfinder .container__pathfinder_border h4 {
+        padding: 8px 20px 0px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%; }
+      .container__pathfinder .container__pathfinder_border p {
+        padding: 12px 20px 0px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+      .container__pathfinder .container__pathfinder_border .ultimoTexto_pathfinder_borde {
+        margin-bottom: 60px; }
+      .container__pathfinder .container__pathfinder_border p::before {
+        content: ".";
+        color: #E2231A;
+        background-color: #E2231A;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+  .contenedor__detalleProgramaIncuba {
+    position: relative;
+    top: -24px;
+    margin: 48px 20px 48px 0px;
+    background-color: #E2231A; }
+    .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba {
+      display: flex; }
+      .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba img {
+        padding: unset;
+        padding: 20px 0px 15px 30px;
+        width: 48px; }
+      .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p {
+        text-decoration: none;
+        color: #FFFFFF;
+        padding: unset;
+        padding: 32px 5px 10px 24px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px; }
+        .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p .imgText__detallePrograma {
+          padding: unset;
+          width: 24px; }
+        .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span a {
+          text-decoration: none;
+          color: #FFFFFF; } }
 
 @media only screen and (min-width: 769px) and (max-width: 1000px) {
   .container__imagen__ayoAcelera {
@@ -9854,7 +10128,87 @@ body {
       .seccionFortalecimientoEstrategico .logosIniciativaColaboración_container img {
         width: 120px;
         padding: 0px 16px 24px 16px;
-        margin: 20px 40px 40px 0px; } }
+        margin: 20px 40px 40px 0px; }
+  /* Sección Pathfinder */
+  .container__pathfinder {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    padding-left: 20px; }
+    .container__pathfinder .contenedorSombreado_pathfinder {
+      max-width: 85%;
+      margin: auto; }
+      .container__pathfinder .contenedorSombreado_pathfinder .contenedorContenidoDesktop__pathfinder {
+        display: flex;
+        flex-direction: row-reverse; }
+      .container__pathfinder .contenedorSombreado_pathfinder img {
+        width: 320px;
+        padding: 160px 20px 0px 0px; }
+      .container__pathfinder .contenedorSombreado_pathfinder p {
+        max-width: 90%;
+        padding: 64px 0px 0px 0px;
+        color: #E2231A;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border h4 {
+        padding: 8px 20px 0px 0px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border p {
+        padding: 12px 20px 0px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border .ultimoTexto_pathfinder_borde {
+        margin-bottom: 60px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border p::before {
+        content: ".";
+        color: #E2231A;
+        background-color: #E2231A;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+    .container__pathfinder .contenedor__detalleProgramaIncuba {
+      width: 320px;
+      position: relative;
+      top: -112px;
+      background-color: #E2231A; }
+      .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba {
+        margin-top: 120px;
+        display: flex;
+        margin-bottom: 48px; }
+        .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba img {
+          padding: unset;
+          padding: 20px 0px 15px 30px;
+          width: 48px; }
+        .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p {
+          text-decoration: none;
+          color: #FFFFFF;
+          padding: unset;
+          padding: 32px 5px 10px 24px;
+          color: #FFFFFF;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px; }
+          .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p .imgText__detallePrograma {
+            padding: unset;
+            width: 24px; }
+          .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span {
+            display: block; }
+            .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span a {
+              text-decoration: none;
+              color: #FFFFFF; } }
 
 @media only screen and (min-width: 1001px) and (max-width: 1200px) {
   .container__imagen__ayoAcelera {
@@ -10090,7 +10444,87 @@ body {
       .seccionFortalecimientoEstrategico .logosIniciativaColaboración_container img {
         width: 120px;
         padding: 0px 16px 24px 16px;
-        margin: 20px 40px 40px 0px; } }
+        margin: 20px 40px 40px 0px; }
+  /* Sección Pathfinder */
+  .container__pathfinder {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    padding-left: 20px; }
+    .container__pathfinder .contenedorSombreado_pathfinder {
+      max-width: 85%;
+      margin: auto; }
+      .container__pathfinder .contenedorSombreado_pathfinder .contenedorContenidoDesktop__pathfinder {
+        display: flex;
+        flex-direction: row-reverse; }
+      .container__pathfinder .contenedorSombreado_pathfinder img {
+        width: 460px;
+        padding: 64px 20px 0px 0px; }
+      .container__pathfinder .contenedorSombreado_pathfinder p {
+        max-width: 90%;
+        padding: 64px 0px 0px 0px;
+        color: #E2231A;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border h4 {
+        padding: 8px 20px 0px 0px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border p {
+        padding: 12px 20px 0px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border .ultimoTexto_pathfinder_borde {
+        margin-bottom: 60px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border p::before {
+        content: ".";
+        color: #E2231A;
+        background-color: #E2231A;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+    .container__pathfinder .contenedor__detalleProgramaIncuba {
+      width: 320px;
+      position: relative;
+      top: -112px;
+      background-color: #E2231A; }
+      .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba {
+        margin-top: 120px;
+        display: flex;
+        margin-bottom: 48px; }
+        .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba img {
+          padding: unset;
+          padding: 20px 0px 15px 30px;
+          width: 48px; }
+        .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p {
+          text-decoration: none;
+          color: #FFFFFF;
+          padding: unset;
+          padding: 32px 5px 10px 24px;
+          color: #FFFFFF;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px; }
+          .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p .imgText__detallePrograma {
+            padding: unset;
+            width: 24px; }
+          .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span {
+            display: block; }
+            .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span a {
+              text-decoration: none;
+              color: #FFFFFF; } }
 
 @media only screen and (min-width: 1201px) and (max-width: 1400px) {
   .container__imagen__ayoAcelera {
@@ -10326,7 +10760,87 @@ body {
       .seccionFortalecimientoEstrategico .logosIniciativaColaboración_container img {
         width: 120px;
         padding: 0px 16px 24px 16px;
-        margin: 20px 40px 40px 0px; } }
+        margin: 20px 40px 40px 0px; }
+  /* Sección Pathfinder */
+  .container__pathfinder {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    padding-left: 20px; }
+    .container__pathfinder .contenedorSombreado_pathfinder {
+      max-width: 85%;
+      margin: auto; }
+      .container__pathfinder .contenedorSombreado_pathfinder .contenedorContenidoDesktop__pathfinder {
+        display: flex;
+        flex-direction: row-reverse; }
+      .container__pathfinder .contenedorSombreado_pathfinder img {
+        width: 460px;
+        padding: 64px 20px 0px 0px; }
+      .container__pathfinder .contenedorSombreado_pathfinder p {
+        max-width: 90%;
+        padding: 64px 0px 0px 0px;
+        color: #E2231A;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border h4 {
+        padding: 8px 20px 0px 0px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border p {
+        padding: 12px 20px 0px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border .ultimoTexto_pathfinder_borde {
+        margin-bottom: 60px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border p::before {
+        content: ".";
+        color: #E2231A;
+        background-color: #E2231A;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+    .container__pathfinder .contenedor__detalleProgramaIncuba {
+      width: 320px;
+      position: relative;
+      top: -112px;
+      background-color: #E2231A; }
+      .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba {
+        margin-top: 120px;
+        display: flex;
+        margin-bottom: 48px; }
+        .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba img {
+          padding: unset;
+          padding: 20px 0px 15px 30px;
+          width: 48px; }
+        .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p {
+          text-decoration: none;
+          color: #FFFFFF;
+          padding: unset;
+          padding: 32px 5px 10px 24px;
+          color: #FFFFFF;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px; }
+          .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p .imgText__detallePrograma {
+            padding: unset;
+            width: 24px; }
+          .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span {
+            display: block; }
+            .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span a {
+              text-decoration: none;
+              color: #FFFFFF; } }
 
 @media only screen and (min-width: 1401px) and (max-width: 1600px) {
   .container__imagen__ayoAcelera {
@@ -10562,7 +11076,87 @@ body {
       .seccionFortalecimientoEstrategico .logosIniciativaColaboración_container img {
         width: 120px;
         padding: 0px 16px 24px 16px;
-        margin: 20px 40px 40px 0px; } }
+        margin: 20px 40px 40px 0px; }
+  /* Sección Pathfinder */
+  .container__pathfinder {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    padding-left: 20px; }
+    .container__pathfinder .contenedorSombreado_pathfinder {
+      max-width: 85%;
+      margin: auto; }
+      .container__pathfinder .contenedorSombreado_pathfinder .contenedorContenidoDesktop__pathfinder {
+        display: flex;
+        flex-direction: row-reverse; }
+      .container__pathfinder .contenedorSombreado_pathfinder img {
+        width: 502px;
+        padding: 64px 20px 0px 0px; }
+      .container__pathfinder .contenedorSombreado_pathfinder p {
+        max-width: 90%;
+        padding: 64px 0px 0px 0px;
+        color: #E2231A;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border h4 {
+        padding: 8px 20px 0px 0px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border p {
+        padding: 12px 20px 0px 8px;
+        color: #2D2926;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border .ultimoTexto_pathfinder_borde {
+        margin-bottom: 60px; }
+      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border p::before {
+        content: ".";
+        color: #E2231A;
+        background-color: #E2231A;
+        position: relative;
+        top: 0px;
+        width: 1px;
+        left: -10px; }
+    .container__pathfinder .contenedor__detalleProgramaIncuba {
+      width: 320px;
+      position: relative;
+      top: -112px;
+      background-color: #E2231A; }
+      .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba {
+        margin-top: 120px;
+        display: flex;
+        margin-bottom: 48px; }
+        .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba img {
+          padding: unset;
+          padding: 20px 0px 15px 30px;
+          width: 48px; }
+        .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p {
+          text-decoration: none;
+          color: #FFFFFF;
+          padding: unset;
+          padding: 32px 5px 10px 24px;
+          color: #FFFFFF;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px; }
+          .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p .imgText__detallePrograma {
+            padding: unset;
+            width: 24px; }
+          .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span {
+            display: block; }
+            .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span a {
+              text-decoration: none;
+              color: #FFFFFF; } }
 
 @media only screen and (min-width: 1601px) {
   .container__imagen__ayoAcelera {
@@ -10798,1592 +11392,7 @@ body {
       .seccionFortalecimientoEstrategico .logosIniciativaColaboración_container img {
         width: 120px;
         padding: 0px 16px 24px 16px;
-        margin: 20px 40px 40px 0px; } }
-
-/*** Variables Colores  ***/
-body {
-  font-family: 'Raleway', sans-serif; }
-
-@media only screen and (max-width: 320px) {
-  .container__imagen__ayoincuba {
-    background-image: url("../../imagenes/ayoIncuba/1ayoIncuba320.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: relative; }
-    .container__imagen__ayoincuba h1 {
-      padding: 100px 20px 0px 20px;
-      color: #FFFFFF;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 34px;
-      line-height: 40px; }
-      .container__imagen__ayoincuba h1 span {
-        display: block; }
-    .container__imagen__ayoincuba p {
-      padding: 16px 20px 0px 20px;
-      color: #FFFFFF;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 20px; }
-    .container__imagen__ayoincuba a img {
-      margin: 4px 0px 56px 20px; }
-  /* Sección Apoyo e Impulso */
-  .seccionApoyoImpulso {
-    background-color: #FCFCFC;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
-    .seccionApoyoImpulso .subTitulo_apoyoImpulso {
-      color: #FFC20E;
-      padding: 32px 0px 0px 20px;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 11px;
-      line-height: 13px; }
-    .seccionApoyoImpulso .container__apoyoImpulso {
-      padding-left: 20px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde {
-        border-left: 1px solid rgba(189, 189, 189, 0.5); }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde h2 {
-          padding: 0px 20px 24px 8px;
-          color: #2D2926;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: bold;
-          font-size: 24px;
-          line-height: 120%; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde p {
-          padding: 0px 20px 14px 8px;
-          color: #1A1A1A;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 14px;
-          line-height: 150%; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1 {
-          color: #000000;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: 500;
-          font-size: 14px;
-          line-height: 20px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1::before {
-          content: "|";
-          color: #FFC20E;
-          background-color: #FFC20E;
-          position: relative;
-          top: 0px;
-          width: 1px;
-          left: -10px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde2::before {
-          content: "|";
-          color: #FFC20E;
-          background-color: #FFC20E;
-          position: relative;
-          top: 0px;
-          width: 1px;
-          left: -10px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde3::before {
-          content: "|";
-          color: #FFC20E;
-          background-color: #FFC20E;
-          position: relative;
-          top: 0px;
-          width: 1px;
-          left: -10px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde4::before {
-          content: "|";
-          color: #FFC20E;
-          background-color: #FFC20E;
-          position: relative;
-          top: 0px;
-          width: 1px;
-          left: -10px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde {
-          padding-bottom: 8px; }
-          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde h3 {
-            padding: 24px 20px 0px 8px;
-            color: #2D2926;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 24px;
-            line-height: 120%; }
-          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p {
-            padding: 24px 20px 24px 8px;
-            color: #2D2926;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 20px; }
-          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p::before {
-            content: "|";
-            color: #FFC20E;
-            background-color: #FFC20E;
-            position: relative;
-            top: 0px;
-            width: 0px;
-            left: -10px; }
-  /* Sección Pathfinder */
-  .container__pathfinder {
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
-    padding-left: 20px; }
-    .container__pathfinder img {
-      width: 100%;
-      padding: 48px 20px 0px 0px; }
-    .container__pathfinder p {
-      padding: 40px 0px 0px 4px;
-      color: #FFC20E;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 11px;
-      line-height: 13px; }
-    .container__pathfinder .container__pathfinder_border {
-      border-left: 1px solid rgba(189, 189, 189, 0.5); }
-      .container__pathfinder .container__pathfinder_border h4 {
-        padding: 8px 20px 0px 8px;
-        color: #2D2926;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 120%; }
-      .container__pathfinder .container__pathfinder_border p {
-        padding: 12px 20px 0px 8px;
-        color: #2D2926;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px; }
-      .container__pathfinder .container__pathfinder_border .ultimoTexto_pathfinder_borde {
-        margin-bottom: 60px; }
-      .container__pathfinder .container__pathfinder_border p::before {
-        content: ".";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-  .contenedor__detalleProgramaIncuba {
-    position: relative;
-    top: -24px;
-    margin: 48px 20px 48px 0px;
-    background-color: #FFC20E; }
-    .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba {
-      display: flex; }
-      .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba img {
-        padding: unset;
-        padding: 20px 0px 15px 30px;
-        width: 48px; }
-      .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p {
-        text-decoration: none;
-        padding: unset;
-        padding: 32px 5px 10px 24px;
-        color: #FFFFFF;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px; }
-        .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p .imgText__detallePrograma {
-          padding: unset;
-          width: 24px; }
-        .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span a {
-          text-decoration: none;
-          color: #FFFFFF;
-          font-weight: 600;
-          line-height: 16px; } }
-
-@media only screen and (min-width: 321px) and (max-width: 480px) {
-  .container__imagen__ayoincuba {
-    background-image: url("../../imagenes/ayoIncuba/1ayoIncuba480.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: relative; }
-    .container__imagen__ayoincuba h1 {
-      padding: 100px 20px 0px 20px;
-      color: #FFFFFF;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 34px;
-      line-height: 40px; }
-    .container__imagen__ayoincuba p {
-      padding: 16px 20px 0px 20px;
-      color: #FFFFFF;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 20px; }
-    .container__imagen__ayoincuba a img {
-      margin: 4px 0px 56px 20px; }
-  /* Sección Apoyo e Impulso */
-  .seccionApoyoImpulso {
-    background-color: #FCFCFC;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
-    .seccionApoyoImpulso .subTitulo_apoyoImpulso {
-      color: #FFC20E;
-      padding: 32px 0px 0px 20px;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 11px;
-      line-height: 13px; }
-    .seccionApoyoImpulso .container__apoyoImpulso {
-      padding-left: 20px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde {
-        border-left: 1px solid rgba(189, 189, 189, 0.5); }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde h2 {
-          padding: 0px 20px 24px 8px;
-          color: #2D2926;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: bold;
-          font-size: 24px;
-          line-height: 120%; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde p {
-          padding: 0px 20px 14px 8px;
-          color: #1A1A1A;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 14px;
-          line-height: 150%; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1 {
-          color: #000000;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: 500;
-          font-size: 14px;
-          line-height: 20px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1::before {
-          content: "|";
-          color: #FFC20E;
-          background-color: #FFC20E;
-          position: relative;
-          top: 0px;
-          width: 1px;
-          left: -10px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde2::before {
-          content: "|";
-          color: #FFC20E;
-          background-color: #FFC20E;
-          position: relative;
-          top: 0px;
-          width: 1px;
-          left: -10px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde3::before {
-          content: "|";
-          color: #FFC20E;
-          background-color: #FFC20E;
-          position: relative;
-          top: 0px;
-          width: 1px;
-          left: -10px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde4::before {
-          content: "|";
-          color: #FFC20E;
-          background-color: #FFC20E;
-          position: relative;
-          top: 0px;
-          width: 1px;
-          left: -10px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde {
-          padding-bottom: 8px; }
-          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde h3 {
-            padding: 24px 20px 0px 8px;
-            color: #2D2926;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 24px;
-            line-height: 120%; }
-          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p {
-            padding: 24px 20px 0px 8px;
-            margin-bottom: 48px;
-            color: #2D2926;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 20px; }
-          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p::before {
-            content: "|";
-            color: #FFC20E;
-            background-color: #FFC20E;
-            position: relative;
-            top: 0px;
-            width: 0px;
-            left: -10px; }
-  /* Sección Pathfinder */
-  .container__pathfinder {
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
-    padding-left: 20px; }
-    .container__pathfinder img {
-      width: 100%;
-      padding: 48px 20px 0px 0px; }
-    .container__pathfinder p {
-      padding: 40px 0px 0px 4px;
-      color: #FFC20E;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 11px;
-      line-height: 13px; }
-    .container__pathfinder .container__pathfinder_border {
-      border-left: 1px solid rgba(189, 189, 189, 0.5); }
-      .container__pathfinder .container__pathfinder_border h4 {
-        padding: 8px 20px 0px 8px;
-        color: #2D2926;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 120%; }
-      .container__pathfinder .container__pathfinder_border p {
-        padding: 12px 20px 0px 8px;
-        color: #2D2926;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px; }
-      .container__pathfinder .container__pathfinder_border .ultimoTexto_pathfinder_borde {
-        margin-bottom: 60px; }
-      .container__pathfinder .container__pathfinder_border p::before {
-        content: ".";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-  .contenedor__detalleProgramaIncuba {
-    position: relative;
-    top: -24px;
-    margin: 48px 20px 48px 0px;
-    background-color: #FFC20E; }
-    .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba {
-      display: flex; }
-      .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba img {
-        padding: unset;
-        padding: 20px 0px 15px 30px;
-        width: 48px; }
-      .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p {
-        text-decoration: none;
-        color: #FFFFFF;
-        padding: unset;
-        padding: 32px 5px 10px 24px;
-        color: #FFFFFF;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px; }
-        .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p .imgText__detallePrograma {
-          padding: unset;
-          width: 24px; }
-        .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span a {
-          text-decoration: none;
-          color: #FFFFFF;
-          display: block;
-          font-weight: 600;
-          line-height: 16px; } }
-
-@media only screen and (min-width: 481px) and (max-width: 599px) {
-  .container__imagen__ayoincuba {
-    background-image: url("../../imagenes/ayoIncuba/1ayoIncuba600.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: relative; }
-    .container__imagen__ayoincuba h1 {
-      padding: 100px 20px 0px 20px;
-      color: #FFFFFF;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 34px;
-      line-height: 40px; }
-    .container__imagen__ayoincuba p {
-      padding: 16px 20px 0px 20px;
-      color: #FFFFFF;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 20px; }
-    .container__imagen__ayoincuba a img {
-      margin: 4px 0px 56px 20px; }
-  /* Sección Apoyo e Impulso */
-  .seccionApoyoImpulso {
-    background-color: #FCFCFC;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
-    .seccionApoyoImpulso .subTitulo_apoyoImpulso {
-      color: #FFC20E;
-      padding: 32px 0px 0px 20px;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 11px;
-      line-height: 13px; }
-    .seccionApoyoImpulso .container__apoyoImpulso {
-      padding-left: 20px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde {
-        border-left: 1px solid rgba(189, 189, 189, 0.5); }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde h2 {
-          padding: 0px 20px 24px 8px;
-          color: #2D2926;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: bold;
-          font-size: 24px;
-          line-height: 120%; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde p {
-          padding: 0px 20px 14px 8px;
-          color: #1A1A1A;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 14px;
-          line-height: 150%; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1 {
-          color: #000000;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: 500;
-          font-size: 14px;
-          line-height: 20px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1::before {
-          content: "|";
-          color: #FFC20E;
-          background-color: #FFC20E;
-          position: relative;
-          top: 0px;
-          width: 1px;
-          left: -10px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde2::before {
-          content: "|";
-          color: #FFC20E;
-          background-color: #FFC20E;
-          position: relative;
-          top: 0px;
-          width: 1px;
-          left: -10px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde3::before {
-          content: "|";
-          color: #FFC20E;
-          background-color: #FFC20E;
-          position: relative;
-          top: 0px;
-          width: 1px;
-          left: -10px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde4::before {
-          content: "|";
-          color: #FFC20E;
-          background-color: #FFC20E;
-          position: relative;
-          top: 0px;
-          width: 1px;
-          left: -10px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde {
-          padding-bottom: 8px; }
-          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde h3 {
-            padding: 24px 20px 0px 8px;
-            color: #2D2926;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 24px;
-            line-height: 120%; }
-          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p {
-            padding: 24px 20px 0px 8px;
-            margin-bottom: 48px;
-            color: #2D2926;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 20px; }
-          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p::before {
-            content: "|";
-            color: #FFC20E;
-            background-color: #FFC20E;
-            position: relative;
-            top: 0px;
-            width: 0px;
-            left: -10px; }
-  /* Sección Pathfinder */
-  .container__pathfinder {
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
-    padding-left: 20px; }
-    .container__pathfinder img {
-      width: 100%;
-      padding: 48px 20px 0px 0px; }
-    .container__pathfinder p {
-      padding: 40px 0px 0px 4px;
-      color: #FFC20E;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 11px;
-      line-height: 13px; }
-    .container__pathfinder .container__pathfinder_border {
-      border-left: 1px solid rgba(189, 189, 189, 0.5); }
-      .container__pathfinder .container__pathfinder_border h4 {
-        padding: 8px 20px 0px 8px;
-        color: #2D2926;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 120%; }
-      .container__pathfinder .container__pathfinder_border p {
-        padding: 12px 20px 0px 8px;
-        color: #2D2926;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px; }
-      .container__pathfinder .container__pathfinder_border .ultimoTexto_pathfinder_borde {
-        margin-bottom: 60px; }
-      .container__pathfinder .container__pathfinder_border p::before {
-        content: ".";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-  .contenedor__detalleProgramaIncuba {
-    position: relative;
-    top: -24px;
-    margin: 48px 20px 48px 0px;
-    background-color: #FFC20E; }
-    .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba {
-      display: flex; }
-      .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba img {
-        padding: unset;
-        padding: 20px 0px 15px 30px;
-        width: 48px; }
-      .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p {
-        text-decoration: none;
-        color: #FFFFFF;
-        padding: unset;
-        padding: 32px 5px 10px 24px;
-        color: #FFFFFF;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px; }
-        .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p .imgText__detallePrograma {
-          padding: unset;
-          width: 24px; }
-        .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span a {
-          text-decoration: none;
-          color: #FFFFFF; } }
-
-@media only screen and (min-width: 600px) and (max-width: 768px) {
-  .container__imagen__ayoincuba {
-    background-image: url("../../imagenes/ayoIncuba/1ayoIncubaDesktop.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: relative; }
-    .container__imagen__ayoincuba h1 {
-      padding: 100px 20px 0px 20px;
-      color: #FFFFFF;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 34px;
-      line-height: 40px; }
-    .container__imagen__ayoincuba p {
-      padding: 16px 20px 0px 20px;
-      color: #FFFFFF;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 20px; }
-    .container__imagen__ayoincuba a img {
-      margin: 4px 0px 56px 20px; }
-  /* Sección Apoyo e Impulso */
-  .seccionApoyoImpulso {
-    background-color: #FCFCFC;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
-    .seccionApoyoImpulso .subTitulo_apoyoImpulso {
-      color: #FFC20E;
-      padding: 32px 0px 0px 20px;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 11px;
-      line-height: 13px; }
-    .seccionApoyoImpulso .container__apoyoImpulso {
-      padding-left: 20px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde {
-        border-left: 1px solid rgba(189, 189, 189, 0.5); }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde h2 {
-          padding: 0px 20px 24px 8px;
-          color: #2D2926;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: bold;
-          font-size: 24px;
-          line-height: 120%; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde p {
-          padding: 0px 20px 14px 8px;
-          color: #1A1A1A;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 14px;
-          line-height: 150%; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1 {
-          color: #000000;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: 500;
-          font-size: 14px;
-          line-height: 20px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1::before {
-          content: "|";
-          color: #FFC20E;
-          background-color: #FFC20E;
-          position: relative;
-          top: 0px;
-          width: 1px;
-          left: -10px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde2::before {
-          content: "|";
-          color: #FFC20E;
-          background-color: #FFC20E;
-          position: relative;
-          top: 0px;
-          width: 1px;
-          left: -10px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde3::before {
-          content: "|";
-          color: #FFC20E;
-          background-color: #FFC20E;
-          position: relative;
-          top: 0px;
-          width: 1px;
-          left: -10px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde4::before {
-          content: "|";
-          color: #FFC20E;
-          background-color: #FFC20E;
-          position: relative;
-          top: 0px;
-          width: 1px;
-          left: -10px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde {
-          padding-bottom: 8px; }
-          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde h3 {
-            padding: 24px 20px 0px 8px;
-            color: #2D2926;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 24px;
-            line-height: 120%; }
-          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p {
-            padding: 24px 20px 0px 8px;
-            margin-bottom: 48px;
-            color: #2D2926;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 20px; }
-          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p::before {
-            content: "|";
-            color: #FFC20E;
-            background-color: #FFC20E;
-            position: relative;
-            top: 0px;
-            width: 0px;
-            left: -10px; }
-  /* Sección Pathfinder */
-  .container__pathfinder {
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
-    padding-left: 20px; }
-    .container__pathfinder .contenedorContenidoImagenDesktop__pathfinder {
-      display: flex;
-      justify-content: center; }
-      .container__pathfinder .contenedorContenidoImagenDesktop__pathfinder img {
-        max-width: 70%;
-        margin: auto;
-        padding: 48px 20px 0px 0px; }
-    .container__pathfinder p {
-      padding: 40px 0px 0px 4px;
-      color: #FFC20E;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 11px;
-      line-height: 13px; }
-    .container__pathfinder .container__pathfinder_border {
-      border-left: 1px solid rgba(189, 189, 189, 0.5); }
-      .container__pathfinder .container__pathfinder_border h4 {
-        padding: 8px 20px 0px 8px;
-        color: #2D2926;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 120%; }
-      .container__pathfinder .container__pathfinder_border p {
-        padding: 12px 20px 0px 8px;
-        color: #2D2926;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px; }
-      .container__pathfinder .container__pathfinder_border .ultimoTexto_pathfinder_borde {
-        margin-bottom: 60px; }
-      .container__pathfinder .container__pathfinder_border p::before {
-        content: ".";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-  .contenedor__detalleProgramaIncuba {
-    position: relative;
-    top: -24px;
-    margin: 48px 20px 48px 0px;
-    background-color: #FFC20E; }
-    .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba {
-      display: flex; }
-      .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba img {
-        padding: unset;
-        padding: 20px 0px 15px 30px;
-        width: 48px; }
-      .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p {
-        text-decoration: none;
-        color: #FFFFFF;
-        padding: unset;
-        padding: 32px 5px 10px 24px;
-        color: #FFFFFF;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px; }
-        .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p .imgText__detallePrograma {
-          padding: unset;
-          width: 24px; }
-        .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span a {
-          text-decoration: none;
-          color: #FFFFFF; } }
-
-@media only screen and (min-width: 769px) and (max-width: 1000px) {
-  .container__imagen__ayoincuba {
-    background-image: url("../../imagenes/ayoIncuba/1ayoIncubaDesktop.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: relative; }
-    .container__imagen__ayoincuba .divContainer__imagen__ayoincuba {
-      max-width: 85%;
-      margin: auto;
-      padding-bottom: 80px; }
-      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba h1 {
-        padding: 120px 20px 0px 20px;
-        color: #FFFFFF;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 34px;
-        line-height: 40px; }
-        .container__imagen__ayoincuba .divContainer__imagen__ayoincuba h1 span {
-          display: block; }
-      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba p {
-        padding: 16px 20px 0px 20px;
-        color: #FFFFFF;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px; }
-        .container__imagen__ayoincuba .divContainer__imagen__ayoincuba p span {
-          display: block; }
-      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba a img {
-        margin: 4px 0px 56px 20px; }
-  /* Sección Apoyo e Impulso */
-  .seccionApoyoImpulso {
-    background-color: #FCFCFC;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
-    .seccionApoyoImpulso .subTitulo_apoyoImpulso {
-      max-width: 85%;
-      margin: auto;
-      color: #FFC20E;
-      padding: 32px 0px 16px 20px;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 14px;
-      line-height: 16px; }
-    .seccionApoyoImpulso .container__apoyoImpulso {
-      max-width: 85%;
-      margin: auto;
-      padding-left: 8px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde h2 {
-        padding: 0px 20px 24px 8px;
-        color: #2D2926;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 34px;
-        line-height: 120%; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde p {
-        padding: 0px 20px 14px 16px;
-        color: #1A1A1A;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 150%; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__apoyoImpulsoDesktop {
-        display: flex;
-        justify-content: space-between; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1 {
-        color: #000000;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 20px;
-        padding-bottom: 32px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1::before {
-        content: "|";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde2::before {
-        content: "|";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde3::before {
-        content: "|";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde4::before {
-        content: "|";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde {
-        padding-bottom: 8px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde h3 {
-          padding: 80px 20px 0px 8px;
-          color: #2D2926;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: bold;
-          font-size: 34px;
-          line-height: 40px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p {
-          padding: 24px 20px 0px 16px;
-          margin-bottom: 48px;
-          color: #2D2926;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: 600;
-          font-size: 14px;
-          line-height: 20px; }
-          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p span {
-            display: block; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p::before {
-          content: "|";
-          color: #FFC20E;
-          background-color: #FFC20E;
-          position: relative;
-          top: 0px;
-          width: 0px;
-          left: -10px; }
-  /* Sección Pathfinder */
-  .container__pathfinder {
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
-    padding-left: 20px; }
-    .container__pathfinder .contenedorSombreado_pathfinder {
-      max-width: 85%;
-      margin: auto; }
-      .container__pathfinder .contenedorSombreado_pathfinder .contenedorContenidoDesktop__pathfinder {
-        display: flex;
-        flex-direction: row-reverse; }
-      .container__pathfinder .contenedorSombreado_pathfinder img {
-        width: 320px;
-        padding: 160px 20px 0px 0px; }
-      .container__pathfinder .contenedorSombreado_pathfinder p {
-        max-width: 90%;
-        padding: 64px 0px 0px 0px;
-        color: #FFC20E;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 16px; }
-      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border h4 {
-        padding: 8px 20px 0px 0px;
-        color: #2D2926;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 34px;
-        line-height: 40px; }
-      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border p {
-        padding: 12px 20px 0px 8px;
-        color: #2D2926;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 20px; }
-      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border .ultimoTexto_pathfinder_borde {
-        margin-bottom: 60px; }
-      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border p::before {
-        content: ".";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-    .container__pathfinder .contenedor__detalleProgramaIncuba {
-      width: 320px;
-      position: relative;
-      top: -112px;
-      background-color: #FFC20E; }
-      .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba {
-        margin-top: 120px;
-        display: flex;
-        margin-bottom: 48px; }
-        .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba img {
-          padding: unset;
-          padding: 20px 0px 15px 30px;
-          width: 48px; }
-        .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p {
-          text-decoration: none;
-          color: #FFFFFF;
-          padding: unset;
-          padding: 32px 5px 10px 24px;
-          color: #FFFFFF;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: 500;
-          font-size: 14px;
-          line-height: 20px; }
-          .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p .imgText__detallePrograma {
-            padding: unset;
-            width: 24px; }
-          .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span {
-            display: block; }
-            .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span a {
-              text-decoration: none;
-              color: #FFFFFF; } }
-
-@media only screen and (min-width: 1001px) and (max-width: 1200px) {
-  .container__imagen__ayoincuba {
-    background-image: url("../../imagenes/ayoIncuba/1ayoIncubaDesktop.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: relative; }
-    .container__imagen__ayoincuba .divContainer__imagen__ayoincuba {
-      max-width: 85%;
-      margin: auto;
-      padding-bottom: 80px; }
-      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba h1 {
-        padding: 120px 20px 0px 20px;
-        color: #FFFFFF;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 34px;
-        line-height: 40px; }
-        .container__imagen__ayoincuba .divContainer__imagen__ayoincuba h1 span {
-          display: block; }
-      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba p {
-        padding: 16px 20px 0px 20px;
-        color: #FFFFFF;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px; }
-        .container__imagen__ayoincuba .divContainer__imagen__ayoincuba p span {
-          display: block; }
-      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba a img {
-        margin: 4px 0px 56px 20px; }
-  /* Sección Apoyo e Impulso */
-  .seccionApoyoImpulso {
-    background-color: #FCFCFC;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
-    .seccionApoyoImpulso .subTitulo_apoyoImpulso {
-      max-width: 85%;
-      margin: auto;
-      color: #FFC20E;
-      padding: 32px 0px 16px 20px;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 14px;
-      line-height: 16px; }
-    .seccionApoyoImpulso .container__apoyoImpulso {
-      max-width: 85%;
-      margin: auto;
-      padding-left: 8px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde h2 {
-        padding: 0px 20px 24px 8px;
-        color: #2D2926;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 34px;
-        line-height: 120%; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde p {
-        padding: 0px 20px 14px 16px;
-        color: #1A1A1A;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 150%; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__apoyoImpulsoDesktop {
-        display: flex;
-        justify-content: space-between; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1 {
-        color: #000000;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 20px;
-        padding-bottom: 32px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1::before {
-        content: "|";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde2::before {
-        content: "|";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde3::before {
-        content: "|";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde4::before {
-        content: "|";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde {
-        padding-bottom: 8px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde h3 {
-          padding: 80px 20px 0px 8px;
-          color: #2D2926;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: bold;
-          font-size: 34px;
-          line-height: 40px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p {
-          padding: 24px 20px 0px 16px;
-          margin-bottom: 48px;
-          color: #2D2926;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: 600;
-          font-size: 14px;
-          line-height: 20px; }
-          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p span {
-            display: block; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p::before {
-          content: "|";
-          color: #FFC20E;
-          background-color: #FFC20E;
-          position: relative;
-          top: 0px;
-          width: 0px;
-          left: -10px; }
-  /* Sección Pathfinder */
-  .container__pathfinder {
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
-    padding-left: 20px; }
-    .container__pathfinder .contenedorSombreado_pathfinder {
-      max-width: 85%;
-      margin: auto; }
-      .container__pathfinder .contenedorSombreado_pathfinder .contenedorContenidoDesktop__pathfinder {
-        display: flex;
-        flex-direction: row-reverse; }
-      .container__pathfinder .contenedorSombreado_pathfinder img {
-        width: 460px;
-        padding: 64px 20px 0px 0px; }
-      .container__pathfinder .contenedorSombreado_pathfinder p {
-        max-width: 90%;
-        padding: 64px 0px 0px 0px;
-        color: #FFC20E;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 16px; }
-      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border h4 {
-        padding: 8px 20px 0px 0px;
-        color: #2D2926;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 34px;
-        line-height: 40px; }
-      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border p {
-        padding: 12px 20px 0px 8px;
-        color: #2D2926;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 20px; }
-      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border .ultimoTexto_pathfinder_borde {
-        margin-bottom: 60px; }
-      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border p::before {
-        content: ".";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-    .container__pathfinder .contenedor__detalleProgramaIncuba {
-      width: 320px;
-      position: relative;
-      top: -112px;
-      background-color: #FFC20E; }
-      .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba {
-        margin-top: 120px;
-        display: flex;
-        margin-bottom: 48px; }
-        .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba img {
-          padding: unset;
-          padding: 20px 0px 15px 30px;
-          width: 48px; }
-        .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p {
-          text-decoration: none;
-          color: #FFFFFF;
-          padding: unset;
-          padding: 32px 5px 10px 24px;
-          color: #FFFFFF;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: 500;
-          font-size: 14px;
-          line-height: 20px; }
-          .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p .imgText__detallePrograma {
-            padding: unset;
-            width: 24px; }
-          .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span {
-            display: block; }
-            .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span a {
-              text-decoration: none;
-              color: #FFFFFF; } }
-
-@media only screen and (min-width: 1201px) and (max-width: 1400px) {
-  .container__imagen__ayoincuba {
-    background-image: url("../../imagenes/ayoIncuba/1ayoIncubaDesktop.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: relative; }
-    .container__imagen__ayoincuba .divContainer__imagen__ayoincuba {
-      max-width: 85%;
-      margin: auto;
-      padding-bottom: 80px; }
-      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba h1 {
-        padding: 120px 20px 0px 20px;
-        color: #FFFFFF;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 34px;
-        line-height: 40px; }
-        .container__imagen__ayoincuba .divContainer__imagen__ayoincuba h1 span {
-          display: block; }
-      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba p {
-        padding: 16px 20px 0px 20px;
-        color: #FFFFFF;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px; }
-        .container__imagen__ayoincuba .divContainer__imagen__ayoincuba p span {
-          display: block; }
-      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba a img {
-        margin: 4px 0px 56px 20px; }
-  /* Sección Apoyo e Impulso */
-  .seccionApoyoImpulso {
-    background-color: #FCFCFC;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
-    .seccionApoyoImpulso .subTitulo_apoyoImpulso {
-      max-width: 85%;
-      margin: auto;
-      color: #FFC20E;
-      padding: 32px 0px 16px 20px;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 14px;
-      line-height: 16px; }
-    .seccionApoyoImpulso .container__apoyoImpulso {
-      max-width: 85%;
-      margin: auto;
-      padding-left: 8px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde h2 {
-        padding: 0px 20px 24px 8px;
-        color: #2D2926;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 34px;
-        line-height: 120%; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde p {
-        padding: 0px 20px 14px 16px;
-        color: #1A1A1A;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 150%; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__apoyoImpulsoDesktop {
-        display: flex;
-        justify-content: space-between; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1 {
-        color: #000000;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 20px;
-        padding-bottom: 32px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1::before {
-        content: "|";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde2::before {
-        content: "|";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde3::before {
-        content: "|";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde4::before {
-        content: "|";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde {
-        padding-bottom: 8px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde h3 {
-          padding: 80px 20px 0px 8px;
-          color: #2D2926;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: bold;
-          font-size: 34px;
-          line-height: 40px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p {
-          padding: 24px 20px 0px 16px;
-          margin-bottom: 48px;
-          color: #2D2926;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: 600;
-          font-size: 14px;
-          line-height: 20px; }
-          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p span {
-            display: block; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p::before {
-          content: "|";
-          color: #FFC20E;
-          background-color: #FFC20E;
-          position: relative;
-          top: 0px;
-          width: 0px;
-          left: -10px; }
-  /* Sección Pathfinder */
-  .container__pathfinder {
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
-    padding-left: 20px; }
-    .container__pathfinder .contenedorSombreado_pathfinder {
-      max-width: 85%;
-      margin: auto; }
-      .container__pathfinder .contenedorSombreado_pathfinder .contenedorContenidoDesktop__pathfinder {
-        display: flex;
-        flex-direction: row-reverse; }
-      .container__pathfinder .contenedorSombreado_pathfinder img {
-        width: 460px;
-        padding: 64px 20px 0px 0px; }
-      .container__pathfinder .contenedorSombreado_pathfinder p {
-        max-width: 90%;
-        padding: 64px 0px 0px 0px;
-        color: #FFC20E;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 16px; }
-      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border h4 {
-        padding: 8px 20px 0px 0px;
-        color: #2D2926;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 34px;
-        line-height: 40px; }
-      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border p {
-        padding: 12px 20px 0px 8px;
-        color: #2D2926;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 20px; }
-      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border .ultimoTexto_pathfinder_borde {
-        margin-bottom: 60px; }
-      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border p::before {
-        content: ".";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-    .container__pathfinder .contenedor__detalleProgramaIncuba {
-      width: 320px;
-      position: relative;
-      top: -112px;
-      background-color: #FFC20E; }
-      .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba {
-        margin-top: 120px;
-        display: flex;
-        margin-bottom: 48px; }
-        .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba img {
-          padding: unset;
-          padding: 20px 0px 15px 30px;
-          width: 48px; }
-        .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p {
-          text-decoration: none;
-          color: #FFFFFF;
-          padding: unset;
-          padding: 32px 5px 10px 24px;
-          color: #FFFFFF;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: 500;
-          font-size: 14px;
-          line-height: 20px; }
-          .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p .imgText__detallePrograma {
-            padding: unset;
-            width: 24px; }
-          .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span {
-            display: block; }
-            .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span a {
-              text-decoration: none;
-              color: #FFFFFF; } }
-
-@media only screen and (min-width: 1401px) and (max-width: 1600px) {
-  .container__imagen__ayoincuba {
-    background-image: url("../../imagenes/ayoIncuba/1ayoIncubaDesktop.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: relative; }
-    .container__imagen__ayoincuba .divContainer__imagen__ayoincuba {
-      max-width: 85%;
-      margin: auto;
-      padding-bottom: 80px; }
-      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba h1 {
-        padding: 120px 20px 0px 20px;
-        color: #FFFFFF;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 34px;
-        line-height: 40px; }
-        .container__imagen__ayoincuba .divContainer__imagen__ayoincuba h1 span {
-          display: block; }
-      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba p {
-        padding: 16px 20px 0px 20px;
-        color: #FFFFFF;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px; }
-        .container__imagen__ayoincuba .divContainer__imagen__ayoincuba p span {
-          display: block; }
-      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba a img {
-        margin: 4px 0px 56px 20px; }
-  /* Sección Apoyo e Impulso */
-  .seccionApoyoImpulso {
-    background-color: #FCFCFC;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
-    .seccionApoyoImpulso .subTitulo_apoyoImpulso {
-      max-width: 85%;
-      margin: auto;
-      color: #FFC20E;
-      padding: 32px 0px 16px 20px;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 14px;
-      line-height: 16px; }
-    .seccionApoyoImpulso .container__apoyoImpulso {
-      max-width: 85%;
-      margin: auto;
-      padding-left: 8px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde h2 {
-        padding: 0px 20px 24px 8px;
-        color: #2D2926;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 34px;
-        line-height: 120%; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde p {
-        padding: 0px 20px 14px 16px;
-        color: #1A1A1A;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 150%; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__apoyoImpulsoDesktop {
-        display: flex;
-        justify-content: space-between; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1 {
-        color: #000000;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 20px;
-        padding-bottom: 32px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1::before {
-        content: "|";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde2::before {
-        content: "|";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde3::before {
-        content: "|";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde4::before {
-        content: "|";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde {
-        padding-bottom: 8px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde h3 {
-          padding: 80px 20px 0px 8px;
-          color: #2D2926;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: bold;
-          font-size: 34px;
-          line-height: 40px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p {
-          padding: 24px 20px 0px 16px;
-          margin-bottom: 48px;
-          color: #2D2926;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: 600;
-          font-size: 14px;
-          line-height: 20px; }
-          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p span {
-            display: block; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p::before {
-          content: "|";
-          color: #FFC20E;
-          background-color: #FFC20E;
-          position: relative;
-          top: 0px;
-          width: 0px;
-          left: -10px; }
+        margin: 20px 40px 40px 0px; }
   /* Sección Pathfinder */
   .container__pathfinder {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
@@ -12400,7 +11409,7 @@ body {
       .container__pathfinder .contenedorSombreado_pathfinder p {
         max-width: 90%;
         padding: 64px 0px 0px 0px;
-        color: #FFC20E;
+        color: #E2231A;
         font-family: Raleway;
         font-style: normal;
         font-weight: 600;
@@ -12426,8 +11435,8 @@ body {
         margin-bottom: 60px; }
       .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border p::before {
         content: ".";
-        color: #FFC20E;
-        background-color: #FFC20E;
+        color: #E2231A;
+        background-color: #E2231A;
         position: relative;
         top: 0px;
         width: 1px;
@@ -12436,226 +11445,7 @@ body {
       width: 320px;
       position: relative;
       top: -112px;
-      background-color: #FFC20E; }
-      .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba {
-        margin-top: 120px;
-        display: flex;
-        margin-bottom: 48px; }
-        .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba img {
-          padding: unset;
-          padding: 20px 0px 15px 30px;
-          width: 48px; }
-        .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p {
-          text-decoration: none;
-          color: #FFFFFF;
-          padding: unset;
-          padding: 32px 5px 10px 24px;
-          color: #FFFFFF;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: 500;
-          font-size: 14px;
-          line-height: 20px; }
-          .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p .imgText__detallePrograma {
-            padding: unset;
-            width: 24px; }
-          .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span {
-            display: block; }
-            .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba p span a {
-              text-decoration: none;
-              color: #FFFFFF; } }
-
-@media only screen and (min-width: 1601px) {
-  .container__imagen__ayoincuba {
-    background-image: url("../../imagenes/ayoIncuba/1ayoIncubaDesktop.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: relative; }
-    .container__imagen__ayoincuba .divContainer__imagen__ayoincuba {
-      max-width: 85%;
-      margin: auto;
-      padding-bottom: 80px; }
-      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba h1 {
-        padding: 120px 20px 0px 20px;
-        color: #FFFFFF;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 34px;
-        line-height: 40px; }
-        .container__imagen__ayoincuba .divContainer__imagen__ayoincuba h1 span {
-          display: block; }
-      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba p {
-        padding: 16px 20px 0px 20px;
-        color: #FFFFFF;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px; }
-        .container__imagen__ayoincuba .divContainer__imagen__ayoincuba p span {
-          display: block; }
-      .container__imagen__ayoincuba .divContainer__imagen__ayoincuba a img {
-        margin: 4px 0px 56px 20px; }
-  /* Sección Apoyo e Impulso */
-  .seccionApoyoImpulso {
-    background-color: #FCFCFC;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
-    .seccionApoyoImpulso .subTitulo_apoyoImpulso {
-      max-width: 85%;
-      margin: auto;
-      color: #FFC20E;
-      padding: 32px 0px 16px 20px;
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 14px;
-      line-height: 16px; }
-    .seccionApoyoImpulso .container__apoyoImpulso {
-      max-width: 85%;
-      margin: auto;
-      padding-left: 8px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde h2 {
-        padding: 0px 20px 24px 8px;
-        color: #2D2926;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 34px;
-        line-height: 120%; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde p {
-        padding: 0px 20px 14px 16px;
-        color: #1A1A1A;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 150%; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__apoyoImpulsoDesktop {
-        display: flex;
-        justify-content: space-between; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1 {
-        color: #000000;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 20px;
-        padding-bottom: 32px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde1::before {
-        content: "|";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde2::before {
-        content: "|";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde3::before {
-        content: "|";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .texto__apoyoImpulso_borde4::before {
-        content: "|";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-      .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde {
-        padding-bottom: 8px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde h3 {
-          padding: 80px 20px 0px 8px;
-          color: #2D2926;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: bold;
-          font-size: 34px;
-          line-height: 40px; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p {
-          padding: 24px 20px 0px 16px;
-          margin-bottom: 48px;
-          color: #2D2926;
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: 600;
-          font-size: 14px;
-          line-height: 20px; }
-          .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p span {
-            display: block; }
-        .seccionApoyoImpulso .container__apoyoImpulso .container__apoyoImpulso_Borde .contenedor__incubadoraIdeas_borde p::before {
-          content: "|";
-          color: #FFC20E;
-          background-color: #FFC20E;
-          position: relative;
-          top: 0px;
-          width: 0px;
-          left: -10px; }
-  /* Sección Pathfinder */
-  .container__pathfinder {
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
-    padding-left: 20px; }
-    .container__pathfinder .contenedorSombreado_pathfinder {
-      max-width: 85%;
-      margin: auto; }
-      .container__pathfinder .contenedorSombreado_pathfinder .contenedorContenidoDesktop__pathfinder {
-        display: flex;
-        flex-direction: row-reverse; }
-      .container__pathfinder .contenedorSombreado_pathfinder img {
-        width: 502px;
-        padding: 64px 20px 0px 0px; }
-      .container__pathfinder .contenedorSombreado_pathfinder p {
-        max-width: 90%;
-        padding: 64px 0px 0px 0px;
-        color: #FFC20E;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 16px; }
-      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border h4 {
-        padding: 8px 20px 0px 0px;
-        color: #2D2926;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 34px;
-        line-height: 40px; }
-      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border p {
-        padding: 12px 20px 0px 8px;
-        color: #2D2926;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 20px; }
-      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border .ultimoTexto_pathfinder_borde {
-        margin-bottom: 60px; }
-      .container__pathfinder .contenedorSombreado_pathfinder .container__pathfinder_border p::before {
-        content: ".";
-        color: #FFC20E;
-        background-color: #FFC20E;
-        position: relative;
-        top: 0px;
-        width: 1px;
-        left: -10px; }
-    .container__pathfinder .contenedor__detalleProgramaIncuba {
-      width: 320px;
-      position: relative;
-      top: -112px;
-      background-color: #FFC20E; }
+      background-color: #E2231A; }
       .container__pathfinder .contenedor__detalleProgramaIncuba .contenedorDesktop__detalleProgramaIncuba {
         margin-top: 120px;
         display: flex;

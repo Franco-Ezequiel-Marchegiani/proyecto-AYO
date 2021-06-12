@@ -500,6 +500,10 @@ body{
         }
     }
     /* Sección Iniciativas en Marcha */
+    .seccionIniciativas{
+        max-width: 90%;
+        margin: auto;
+    }
     .title__iniciativas{
         color: $negro__letras;
         font-family: Raleway;
@@ -847,6 +851,10 @@ body{
         }
     }
     /* Sección Iniciativas en Marcha */
+    .seccionIniciativas{
+        max-width: 80%;
+        margin: auto;
+    }
     .title__iniciativas{
         color: $negro__letras;
         font-family: Raleway;
@@ -1190,7 +1198,7 @@ body{
     }
     /* Sección Iniciativas en Marcha */
     .seccionIniciativas{
-        max-width: 80%;
+        max-width: 70%;
         margin: auto;
     }
     .title__iniciativas{
@@ -1593,7 +1601,7 @@ body{
     }
     /* Sección Iniciativas en Marcha */
     .seccionIniciativas{
-        max-width: 85%;
+        max-width: 80%;
         margin: auto;
     }
     .title__iniciativas{
@@ -1622,11 +1630,6 @@ body{
         width: 335px;
         height: 376px;
         grid-area: card2;
-    }
-    .card3{
-        width: 335px;
-        height: 376px;
-        grid-area: card3;
     }
     .card4{
         width: 335px;
@@ -2086,11 +2089,6 @@ body{
         height: 376px;
         grid-area: card2;
     }
-    .card3{
-        width: 335px;
-        height: 376px;
-        grid-area: card3;
-    }
     .card4{
         width: 335px;
         height: 376px;
@@ -2537,34 +2535,21 @@ body{
 
     .card__container{
         
-        display: grid;
-        grid-template-areas:
-        "card1 card2"
-        "card3 card4";
-        grid-template-columns: 63% 15%;
-        grid-template-rows: 1fr 1fr;
-        padding: 0px 20px;
-        justify-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
     .card1{
         width: 335px;
         height: 376px;
-        grid-area: card1;
     }
     .card2{
         width: 335px;
         height: 376px;
-        grid-area: card2;
-    }
-    .card3{
-        width: 335px;
-        height: 376px;
-        grid-area: card3;
     }
     .card4{
         width: 335px;
         height: 376px;
-        grid-area: card4;
     }
     .card{
         
@@ -3007,15 +2992,9 @@ body{
     }
 
     .card__container{
-        
-        display: grid;
-        grid-template-areas:
-        "card1 card2"
-        "card3 card4";
-        grid-template-columns: 63% 15%;
-        grid-template-rows: 1fr 1fr;
-        padding: 0px 20px;
-        justify-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
     .card1{
         width: 335px;
@@ -3477,15 +3456,9 @@ body{
     }
 
     .card__container{
-        
-        display: grid;
-        grid-template-areas:
-        "card1 card2"
-        "card3 card4";
-        grid-template-columns: 63% 15%;
-        grid-template-rows: 1fr 1fr;
-        padding: 0px 20px;
-        justify-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
     .card1{
         width: 335px;

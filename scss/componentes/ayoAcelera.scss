@@ -239,6 +239,95 @@ body{
             padding: 0px 16px 24px 16px;
         }
     }
+    /* Sección Pathfinder */
+    .container__pathfinder{
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+        padding-left: 20px;
+        img{
+            width: 100%;
+            padding: 48px 20px 0px 0px;
+        }
+        p{
+            padding: 40px 0px 0px 4px;
+            color: $rojo;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px;
+        }
+        .container__pathfinder_border{
+            border-left: 1px solid rgba(189, 189, 189, 0.5);
+            h4{
+                padding: 8px 20px 0px 8px;
+                color: $gris__oscuro;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 120%;
+            }
+            p{
+                padding: 12px 20px 0px 8px;
+                color: $gris__oscuro;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+            }
+            .ultimoTexto_pathfinder_borde{
+                margin-bottom: 60px;
+            }
+            p::before{
+                content: ".";
+                color: $rojo;
+                background-color:$rojo;
+                position: relative;
+                top: 0px;
+                width: 1px;
+                left: -10px;
+            }
+        }
+    }
+    .contenedor__detalleProgramaIncuba{
+        position: relative;
+        top: -24px;
+        margin:48px 20px 48px 0px;
+        background-color: $rojo;
+        .contenedorDesktop__detalleProgramaIncuba{
+            display: flex;
+            img{
+                padding: unset;
+                padding: 20px 0px 15px 30px;
+                
+                width: 48px;
+            }
+            p{
+                    text-decoration: none;
+                    padding: unset;
+                    padding: 32px 5px 10px 24px;
+                    color: $blanco;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 20px;
+                    .imgText__detallePrograma{
+                        padding: unset;
+                        width: 24px;
+                    }
+                        span{
+                            a{
+                                text-decoration: none;
+                                color: $blanco;
+                                font-weight: 600;
+                                line-height: 16px;
+                            }
+                        }
+                }
+        }
+    }
 }
 @media only screen and (min-width:321px) and (max-width: 480px){
     .container__imagen__ayoAcelera{
@@ -475,6 +564,97 @@ body{
             padding: 0px 16px 24px 16px;
         }
     }
+    /* Sección Pathfinder */
+    .container__pathfinder{
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+        padding-left: 20px;
+        img{
+            width: 100%;
+            padding: 48px 20px 0px 0px;
+        }
+        p{
+            padding: 40px 0px 0px 4px;
+            color: $rojo;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px;
+        }
+        .container__pathfinder_border{
+            border-left: 1px solid rgba(189, 189, 189, 0.5);
+            h4{
+                padding: 8px 20px 0px 8px;
+                color: $gris__oscuro;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 120%;
+            }
+            p{
+                padding: 12px 20px 0px 8px;
+                color: $gris__oscuro;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+            }
+            .ultimoTexto_pathfinder_borde{
+                margin-bottom: 60px;
+            }
+            p::before{
+                content: ".";
+                color: $rojo;
+                background-color:$rojo;
+                position: relative;
+                top: 0px;
+                width: 1px;
+                left: -10px;
+            }
+        }
+    }
+    .contenedor__detalleProgramaIncuba{
+        position: relative;
+        top: -24px;
+        margin:48px 20px 48px 0px;
+        background-color: $rojo;
+        .contenedorDesktop__detalleProgramaIncuba{
+            display: flex;
+            img{
+                padding: unset;
+                padding: 20px 0px 15px 30px;
+                
+                width: 48px;
+            }
+            p{
+                    text-decoration: none;
+                    color: $blanco;
+                    padding: unset;
+                    padding: 32px 5px 10px 24px;
+                    color: $blanco;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 20px;
+                    .imgText__detallePrograma{
+                        padding: unset;
+                        width: 24px;
+                    }
+                    span{
+                        a{
+                            text-decoration: none;
+                            color: $blanco;
+                            display: block;
+                            font-weight: 600;
+                            line-height: 16px;
+                        }
+                    }
+                }
+            }
+    }
 }
 @media only screen and (min-width:481px) and (max-width: 599px){
     .container__imagen__ayoAcelera{
@@ -710,6 +890,94 @@ body{
             padding: 0px 16px 24px 16px;
         }
     }
+    /* Sección Pathfinder */
+    .container__pathfinder{
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+        padding-left: 20px;
+        img{
+            width: 100%;
+            padding: 48px 20px 0px 0px;
+        }
+        p{
+            padding: 40px 0px 0px 4px;
+            color: $rojo;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px;
+        }
+        .container__pathfinder_border{
+            border-left: 1px solid rgba(189, 189, 189, 0.5);
+            h4{
+                padding: 8px 20px 0px 8px;
+                color: $gris__oscuro;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 120%;
+            }
+            p{
+                padding: 12px 20px 0px 8px;
+                color: $gris__oscuro;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+            }
+            .ultimoTexto_pathfinder_borde{
+                margin-bottom: 60px;
+            }
+            p::before{
+                content: ".";
+                color: $rojo;
+                background-color:$rojo;
+                position: relative;
+                top: 0px;
+                width: 1px;
+                left: -10px;
+            }
+        }
+    }
+    .contenedor__detalleProgramaIncuba{
+        position: relative;
+        top: -24px;
+        margin:48px 20px 48px 0px;
+        background-color: $rojo;
+        .contenedorDesktop__detalleProgramaIncuba{
+            display: flex;
+            img{
+                padding: unset;
+                padding: 20px 0px 15px 30px;
+                
+                width: 48px;
+            }
+            p{
+                text-decoration: none;
+                color: $blanco;
+                padding: unset;
+                padding: 32px 5px 10px 24px;
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                .imgText__detallePrograma{
+                    padding: unset;
+                    width: 24px;
+                }
+                span{
+                    a{
+                        text-decoration: none;
+                        color: $blanco;
+                    }
+                }
+            }
+        }
+    }
 }
 @media only screen and (min-width: 600px) and (max-width: 768px){
     .container__imagen__ayoAcelera{
@@ -943,6 +1211,99 @@ body{
         img{
             width: 120px;
             padding: 0px 16px 24px 16px;
+        }
+    }
+    /* Sección Pathfinder */
+    .container__pathfinder{
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+        padding-left: 20px;
+        .contenedorContenidoImagenDesktop__pathfinder{
+            display: flex;
+            justify-content: center;
+            img{
+                max-width: 70%;
+                margin: auto;
+                padding: 48px 20px 0px 0px;
+            }
+        }
+        p{
+            padding: 40px 0px 0px 4px;
+            color: $rojo;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px;
+        }
+        .container__pathfinder_border{
+            border-left: 1px solid rgba(189, 189, 189, 0.5);
+            h4{
+                padding: 8px 20px 0px 8px;
+                color: $gris__oscuro;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 120%;
+            }
+            p{
+                padding: 12px 20px 0px 8px;
+                color: $gris__oscuro;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+            }
+            .ultimoTexto_pathfinder_borde{
+                margin-bottom: 60px;
+            }
+            p::before{
+                content: ".";
+                color: $rojo;
+                background-color:$rojo;
+                position: relative;
+                top: 0px;
+                width: 1px;
+                left: -10px;
+            }
+        }
+    }
+    .contenedor__detalleProgramaIncuba{
+        position: relative;
+        top: -24px;
+        margin:48px 20px 48px 0px;
+        background-color: $rojo;
+        .contenedorDesktop__detalleProgramaIncuba{
+            display: flex;
+            img{
+                padding: unset;
+                padding: 20px 0px 15px 30px;
+                
+                width: 48px;
+            }
+            p{
+                text-decoration: none;
+                color: $blanco;
+                padding: unset;
+                padding: 32px 5px 10px 24px;
+                color: $blanco;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                .imgText__detallePrograma{
+                    padding: unset;
+                    width: 24px;
+                }
+                span{
+                    a{
+                        text-decoration: none;
+                        color: $blanco;
+                    }
+                }
+            }
         }
     }
 }
@@ -1235,6 +1596,106 @@ body{
                 width: 120px;
                 padding: 0px 16px 24px 16px;
                 margin: 20px 40px 40px 0px;
+            }
+        }
+    }
+    /* Sección Pathfinder */
+    .container__pathfinder{
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+        padding-left: 20px;
+        .contenedorSombreado_pathfinder{
+            max-width: 85%;
+            margin: auto;
+            .contenedorContenidoDesktop__pathfinder{
+                display: flex;
+                flex-direction: row-reverse;
+            }
+            img{
+                width: 320px;
+                padding: 160px 20px 0px 0px;
+            }
+            p{
+                max-width: 90%;
+                padding: 64px 0px 0px 0px;
+                color: $rojo;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 16px;
+            }
+            
+            .container__pathfinder_border{
+                h4{
+                    padding: 8px 20px 0px 0px;
+                    color: $gris__oscuro;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 34px;
+                    line-height: 40px;
+                }
+                p{
+                    padding: 12px 20px 0px 8px;
+                    color: $gris__oscuro;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+                .ultimoTexto_pathfinder_borde{
+                    margin-bottom: 60px;
+                }
+                p::before{
+                    content: ".";
+                    color: $rojo;
+                    background-color:$rojo;
+                    position: relative;
+                    top: 0px;
+                    width: 1px;
+                    left: -10px;
+                }
+            }
+        }
+        .contenedor__detalleProgramaIncuba{
+            width: 320px;
+            position: relative;
+            top: -112px;
+            background-color: $rojo;
+            .contenedorDesktop__detalleProgramaIncuba{
+                margin-top: 120px;
+                display: flex;
+                margin-bottom: 48px;
+                img{
+                    padding: unset;
+                    padding: 20px 0px 15px 30px;
+                    
+                    width: 48px;
+                }
+                p{
+                        text-decoration: none;
+                        color: $blanco;
+                        padding: unset;
+                        padding: 32px 5px 10px 24px;
+                        color: $blanco;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 20px;
+                        .imgText__detallePrograma{
+                            padding: unset;
+                            width: 24px;
+                        }
+                        span{
+                            display: block;
+                            a{
+                                text-decoration: none;
+                                color: $blanco;
+                            }
+                        }
+                    }
             }
         }
     }
@@ -1531,6 +1992,106 @@ body{
             }
         }
     }
+    /* Sección Pathfinder */
+    .container__pathfinder{
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+        padding-left: 20px;
+        .contenedorSombreado_pathfinder{
+            max-width: 85%;
+            margin: auto;
+            .contenedorContenidoDesktop__pathfinder{
+                display: flex;
+                flex-direction: row-reverse;
+            }
+            img{
+                width: 460px;
+                padding: 64px 20px 0px 0px;
+            }
+            p{
+                max-width: 90%;
+                padding: 64px 0px 0px 0px;
+                color: $rojo;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 16px;
+            }
+            
+            .container__pathfinder_border{
+                h4{
+                    padding: 8px 20px 0px 0px;
+                    color: $gris__oscuro;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 34px;
+                    line-height: 40px;
+                }
+                p{
+                    padding: 12px 20px 0px 8px;
+                    color: $gris__oscuro;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+                .ultimoTexto_pathfinder_borde{
+                    margin-bottom: 60px;
+                }
+                p::before{
+                    content: ".";
+                    color: $rojo;
+                    background-color:$rojo;
+                    position: relative;
+                    top: 0px;
+                    width: 1px;
+                    left: -10px;
+                }
+            }
+        }
+        .contenedor__detalleProgramaIncuba{
+            width: 320px;
+            position: relative;
+            top: -112px;
+            background-color: $rojo;
+            .contenedorDesktop__detalleProgramaIncuba{
+                margin-top: 120px;
+                display: flex;
+                margin-bottom: 48px;
+                img{
+                    padding: unset;
+                    padding: 20px 0px 15px 30px;
+                    
+                    width: 48px;
+                }
+                p{
+                        text-decoration: none;
+                        color: $blanco;
+                        padding: unset;
+                        padding: 32px 5px 10px 24px;
+                        color: $blanco;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 20px;
+                        .imgText__detallePrograma{
+                            padding: unset;
+                            width: 24px;
+                        }
+                        span{
+                            display: block;
+                            a{
+                                text-decoration: none;
+                                color: $blanco;
+                            }
+                        }
+                    }
+            }
+        }
+    }
 }
 @media only screen and (min-width:1201px) and (max-width:1400px){
     .container__imagen__ayoAcelera{
@@ -1821,6 +2382,106 @@ body{
                 width: 120px;
                 padding: 0px 16px 24px 16px;
                 margin: 20px 40px 40px 0px;
+            }
+        }
+    }
+    /* Sección Pathfinder */
+    .container__pathfinder{
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+        padding-left: 20px;
+        .contenedorSombreado_pathfinder{
+            max-width: 85%;
+            margin: auto;
+            .contenedorContenidoDesktop__pathfinder{
+                display: flex;
+                flex-direction: row-reverse;
+            }
+            img{
+                width: 460px;
+                padding: 64px 20px 0px 0px;
+            }
+            p{
+                max-width: 90%;
+                padding: 64px 0px 0px 0px;
+                color: $rojo;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 16px;
+            }
+            
+            .container__pathfinder_border{
+                h4{
+                    padding: 8px 20px 0px 0px;
+                    color: $gris__oscuro;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 34px;
+                    line-height: 40px;
+                }
+                p{
+                    padding: 12px 20px 0px 8px;
+                    color: $gris__oscuro;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+                .ultimoTexto_pathfinder_borde{
+                    margin-bottom: 60px;
+                }
+                p::before{
+                    content: ".";
+                    color: $rojo;
+                    background-color:$rojo;
+                    position: relative;
+                    top: 0px;
+                    width: 1px;
+                    left: -10px;
+                }
+            }
+        }
+        .contenedor__detalleProgramaIncuba{
+            width: 320px;
+            position: relative;
+            top: -112px;
+            background-color: $rojo;
+            .contenedorDesktop__detalleProgramaIncuba{
+                margin-top: 120px;
+                display: flex;
+                margin-bottom: 48px;
+                img{
+                    padding: unset;
+                    padding: 20px 0px 15px 30px;
+                    
+                    width: 48px;
+                }
+                p{
+                        text-decoration: none;
+                        color: $blanco;
+                        padding: unset;
+                        padding: 32px 5px 10px 24px;
+                        color: $blanco;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 20px;
+                        .imgText__detallePrograma{
+                            padding: unset;
+                            width: 24px;
+                        }
+                        span{
+                            display: block;
+                            a{
+                                text-decoration: none;
+                                color: $blanco;
+                            }
+                        }
+                    }
             }
         }
     }
@@ -2117,6 +2778,106 @@ body{
             }
         }
     }
+    /* Sección Pathfinder */
+    .container__pathfinder{
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+        padding-left: 20px;
+        .contenedorSombreado_pathfinder{
+            max-width: 85%;
+            margin: auto;
+            .contenedorContenidoDesktop__pathfinder{
+                display: flex;
+                flex-direction: row-reverse;
+            }
+            img{
+                width: 502px;
+                padding: 64px 20px 0px 0px;
+            }
+            p{
+                max-width: 90%;
+                padding: 64px 0px 0px 0px;
+                color: $rojo;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 16px;
+            }
+            
+            .container__pathfinder_border{
+                h4{
+                    padding: 8px 20px 0px 0px;
+                    color: $gris__oscuro;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 34px;
+                    line-height: 40px;
+                }
+                p{
+                    padding: 12px 20px 0px 8px;
+                    color: $gris__oscuro;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+                .ultimoTexto_pathfinder_borde{
+                    margin-bottom: 60px;
+                }
+                p::before{
+                    content: ".";
+                    color: $rojo;
+                    background-color:$rojo;
+                    position: relative;
+                    top: 0px;
+                    width: 1px;
+                    left: -10px;
+                }
+            }
+        }
+        .contenedor__detalleProgramaIncuba{
+            width: 320px;
+            position: relative;
+            top: -112px;
+            background-color: $rojo;
+            .contenedorDesktop__detalleProgramaIncuba{
+                margin-top: 120px;
+                display: flex;
+                margin-bottom: 48px;
+                img{
+                    padding: unset;
+                    padding: 20px 0px 15px 30px;
+                    
+                    width: 48px;
+                }
+                p{
+                        text-decoration: none;
+                        color: $blanco;
+                        padding: unset;
+                        padding: 32px 5px 10px 24px;
+                        color: $blanco;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 20px;
+                        .imgText__detallePrograma{
+                            padding: unset;
+                            width: 24px;
+                        }
+                        span{
+                            display: block;
+                            a{
+                                text-decoration: none;
+                                color: $blanco;
+                            }
+                        }
+                    }
+            }
+        }
+    }
 }
 @media only screen and (min-width:1601px){
     .container__imagen__ayoAcelera{
@@ -2407,6 +3168,106 @@ body{
                 width: 120px;
                 padding: 0px 16px 24px 16px;
                 margin: 20px 40px 40px 0px;
+            }
+        }
+    }
+    /* Sección Pathfinder */
+    .container__pathfinder{
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+        padding-left: 20px;
+        .contenedorSombreado_pathfinder{
+            max-width: 85%;
+            margin: auto;
+            .contenedorContenidoDesktop__pathfinder{
+                display: flex;
+                flex-direction: row-reverse;
+            }
+            img{
+                width: 502px;
+                padding: 64px 20px 0px 0px;
+            }
+            p{
+                max-width: 90%;
+                padding: 64px 0px 0px 0px;
+                color: $rojo;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 16px;
+            }
+            
+            .container__pathfinder_border{
+                h4{
+                    padding: 8px 20px 0px 0px;
+                    color: $gris__oscuro;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 34px;
+                    line-height: 40px;
+                }
+                p{
+                    padding: 12px 20px 0px 8px;
+                    color: $gris__oscuro;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+                .ultimoTexto_pathfinder_borde{
+                    margin-bottom: 60px;
+                }
+                p::before{
+                    content: ".";
+                    color: $rojo;
+                    background-color:$rojo;
+                    position: relative;
+                    top: 0px;
+                    width: 1px;
+                    left: -10px;
+                }
+            }
+        }
+        .contenedor__detalleProgramaIncuba{
+            width: 320px;
+            position: relative;
+            top: -112px;
+            background-color: $rojo;
+            .contenedorDesktop__detalleProgramaIncuba{
+                margin-top: 120px;
+                display: flex;
+                margin-bottom: 48px;
+                img{
+                    padding: unset;
+                    padding: 20px 0px 15px 30px;
+                    
+                    width: 48px;
+                }
+                p{
+                        text-decoration: none;
+                        color: $blanco;
+                        padding: unset;
+                        padding: 32px 5px 10px 24px;
+                        color: $blanco;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 20px;
+                        .imgText__detallePrograma{
+                            padding: unset;
+                            width: 24px;
+                        }
+                        span{
+                            display: block;
+                            a{
+                                text-decoration: none;
+                                color: $blanco;
+                            }
+                        }
+                    }
             }
         }
     }
