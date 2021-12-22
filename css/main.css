@@ -223,7 +223,7 @@ body {
       .navbar__nav .container-fluid .navbar-brand img {
         box-sizing: border-box;
         display: block;
-        background: url(../../imagenes/logo.svg);
+        background: url(../imagenes/logo.svg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         padding: unset;
@@ -287,7 +287,7 @@ body {
       .navbar__nav .container-fluid .navbar-brand img {
         box-sizing: border-box;
         display: block;
-        background: url(../../imagenes/logo.svg);
+        background: url(../imagenes/logo.svg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         padding: unset;
@@ -351,7 +351,7 @@ body {
       .navbar__nav .container-fluid .navbar-brand img {
         box-sizing: border-box;
         display: block;
-        background: url(../../imagenes/logo.svg);
+        background: url(../imagenes/logo.svg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         padding: unset;
@@ -415,7 +415,7 @@ body {
       .navbar__nav .container-fluid .navbar-brand img {
         box-sizing: border-box;
         display: block;
-        background: url(../../imagenes/logo.svg);
+        background: url(../imagenes/logo.svg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         width: 190px;
@@ -474,7 +474,7 @@ body {
 @media only screen and (max-width: 320px) {
   /* Sección Imagen de Home */
   .imagen__inicio__home {
-    background-image: url("../../imagenes/home/imagenInicioHome320.jpg");
+    background-image: url("../imagenes/home/imagenInicioHome320.jpg");
     background-repeat: no-repeat;
     height: 100%;
     background-size: 100%;
@@ -606,7 +606,10 @@ body {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
   .card-body {
     display: grid;
-    grid-template-areas: "imagen" "titulo" "texto" "boton";
+    grid-template-areas: "imagen"
+ "titulo"
+ "texto"
+ "boton";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; }
   .card-img-top {
@@ -662,7 +665,10 @@ body {
   .medicionImpacto {
     background-color: #2C5697;
     display: grid;
-    grid-template-areas: "logo" "titulo" "texto" "boton";
+    grid-template-areas: "logo"
+ "titulo"
+ "texto"
+ "boton";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; }
   .logo__medicionImpacto {
@@ -888,7 +894,10 @@ body {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
   .card-body {
     display: grid;
-    grid-template-areas: "imagen" "titulo" "texto" "boton";
+    grid-template-areas: "imagen"
+ "titulo"
+ "texto"
+ "boton";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; }
   .card-img-top {
@@ -942,7 +951,10 @@ body {
   .medicionImpacto {
     background-color: #2C5697;
     display: grid;
-    grid-template-areas: "logo" "titulo" "texto" "boton";
+    grid-template-areas: "logo"
+ "titulo"
+ "texto"
+ "boton";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; }
   .logo__medicionImpacto {
@@ -1167,7 +1179,10 @@ body {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
   .card-body {
     display: grid;
-    grid-template-areas: "imagen" "titulo" "texto" "boton";
+    grid-template-areas: "imagen"
+ "titulo"
+ "texto"
+ "boton";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; }
   .card-img-top {
@@ -1218,7 +1233,10 @@ body {
   .medicionImpacto {
     background-color: #2C5697;
     display: grid;
-    grid-template-areas: "logo" "titulo" "texto" "boton";
+    grid-template-areas: "logo"
+ "titulo"
+ "texto"
+ "boton";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; }
   .logo__medicionImpacto {
@@ -1444,7 +1462,10 @@ body {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
   .card-body {
     display: grid;
-    grid-template-areas: "imagen" "titulo" "texto" "boton";
+    grid-template-areas: "imagen"
+ "titulo"
+ "texto"
+ "boton";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; }
   .card-img-top {
@@ -1498,7 +1519,10 @@ body {
   .medicionImpacto {
     background-color: #2C5697;
     display: grid;
-    grid-template-areas: "logo" "titulo" "texto" "boton";
+    grid-template-areas: "logo"
+ "titulo"
+ "texto"
+ "boton";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; }
   .logo__medicionImpacto {
@@ -1601,7 +1625,7 @@ body {
 
 @media only screen and (min-width: 769px) and (max-width: 999px) {
   .imagen__inicio__home {
-    background-image: url("../../imagenes/home/imagenInicioHomeEscritorio.jpg");
+    background-image: url("../imagenes/home/imagenInicioHomeEscritorio.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -1792,7 +1816,10 @@ body {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
   .card-body {
     display: grid;
-    grid-template-areas: "imagen" "titulo" "texto" "boton";
+    grid-template-areas: "imagen"
+ "titulo"
+ "texto"
+ "boton";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; }
   .card-body1 {
@@ -1866,7 +1893,10 @@ body {
     margin: 96px 0px 120px 0px;
     background-color: #2C5697;
     display: grid;
-    grid-template-areas: "logo" "titulo" "texto" "boton";
+    grid-template-areas: "logo"
+ "titulo"
+ "texto"
+ "boton";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; }
   .logo__medicionImpacto {
@@ -1968,7 +1998,7 @@ body {
 
 @media only screen and (min-width: 1000px) and (max-width: 1200px) {
   .imagen__inicio__home {
-    background-image: url("../../imagenes/home/imagenInicioHomeEscritorio.jpg");
+    background-image: url("../imagenes/home/imagenInicioHomeEscritorio.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -2159,7 +2189,10 @@ body {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
   .card-body {
     display: grid;
-    grid-template-areas: "imagen" "titulo" "texto" "boton";
+    grid-template-areas: "imagen"
+ "titulo"
+ "texto"
+ "boton";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; }
   .card-body1 {
@@ -2233,7 +2266,10 @@ body {
     margin: 96px 0px 120px 0px;
     background-color: #2C5697;
     display: grid;
-    grid-template-areas: "logo" "titulo" "texto" "boton";
+    grid-template-areas: "logo"
+ "titulo"
+ "texto"
+ "boton";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; }
   .logo__medicionImpacto {
@@ -2335,7 +2371,7 @@ body {
 
 @media only screen and (min-width: 1201px) and (max-width: 1400px) {
   .imagen__inicio__home {
-    background-image: url("../../imagenes/home/imagenInicioHomeEscritorio.jpg");
+    background-image: url("../imagenes/home/imagenInicioHomeEscritorio.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -2525,7 +2561,10 @@ body {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
   .card-body {
     display: grid;
-    grid-template-areas: "imagen" "titulo" "texto" "boton";
+    grid-template-areas: "imagen"
+ "titulo"
+ "texto"
+ "boton";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; }
   .card-body1 {
@@ -2599,7 +2638,10 @@ body {
     margin: 96px 0px 120px 0px;
     background-color: #2C5697;
     display: grid;
-    grid-template-areas: "logo" "titulo" "texto" "boton";
+    grid-template-areas: "logo"
+ "titulo"
+ "texto"
+ "boton";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; }
   .logo__medicionImpacto {
@@ -2701,7 +2743,7 @@ body {
 
 @media only screen and (min-width: 1401px) and (max-width: 1600px) {
   .imagen__inicio__home {
-    background-image: url("../../imagenes/home/imagenInicioHomeEscritorio.jpg");
+    background-image: url("../imagenes/home/imagenInicioHomeEscritorio.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -2898,7 +2940,10 @@ body {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
   .card-body {
     display: grid;
-    grid-template-areas: "imagen" "titulo" "texto" "boton";
+    grid-template-areas: "imagen"
+ "titulo"
+ "texto"
+ "boton";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; }
   .card-body1 {
@@ -2972,7 +3017,10 @@ body {
     margin: 96px 0px 120px 0px;
     background-color: #2C5697;
     display: grid;
-    grid-template-areas: "logo" "titulo" "texto" "boton";
+    grid-template-areas: "logo"
+ "titulo"
+ "texto"
+ "boton";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; }
   .logo__medicionImpacto {
@@ -3074,7 +3122,7 @@ body {
 
 @media only screen and (min-width: 1601px) {
   .imagen__inicio__home {
-    background-image: url("../../imagenes/home/imagenInicioHomeEscritorio.jpg");
+    background-image: url("../imagenes/home/imagenInicioHomeEscritorio.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -3270,7 +3318,10 @@ body {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05); }
   .card-body {
     display: grid;
-    grid-template-areas: "imagen" "titulo" "texto" "boton";
+    grid-template-areas: "imagen"
+ "titulo"
+ "texto"
+ "boton";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; }
   .card-body1 {
@@ -3344,7 +3395,10 @@ body {
     margin: 96px 0px 120px 0px;
     background-color: #2C5697;
     display: grid;
-    grid-template-areas: "logo" "titulo" "texto" "boton";
+    grid-template-areas: "logo"
+ "titulo"
+ "texto"
+ "boton";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; }
   .logo__medicionImpacto {
@@ -4711,7 +4765,7 @@ body {
 @media only screen and (min-width: 769px) and (max-width: 1000px) {
   /* Sección Imagen Inicio */
   .container__impactoSocial {
-    background-image: url("../../imagenes/ayoEmprende/1ayoEmprendeDesktop.jpg");
+    background-image: url("../imagenes/ayoEmprende/1ayoEmprendeDesktop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -5092,7 +5146,7 @@ body {
 @media only screen and (min-width: 1001px) and (max-width: 1200px) {
   /* Sección Imagen Inicio */
   .container__impactoSocial {
-    background-image: url("../../imagenes/ayoEmprende/1ayoEmprendeDesktop.jpg");
+    background-image: url("../imagenes/ayoEmprende/1ayoEmprendeDesktop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -5475,7 +5529,7 @@ body {
 @media only screen and (min-width: 1201px) and (max-width: 1400px) {
   /* Sección Imagen Inicio */
   .container__impactoSocial {
-    background-image: url("../../imagenes/ayoEmprende/1ayoEmprendeDesktop.jpg");
+    background-image: url("../imagenes/ayoEmprende/1ayoEmprendeDesktop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -5856,7 +5910,7 @@ body {
 @media only screen and (min-width: 1401px) and (max-width: 1600px) {
   /* Sección Imagen Inicio */
   .container__impactoSocial {
-    background-image: url("../../imagenes/ayoEmprende/1ayoEmprendeDesktop.jpg");
+    background-image: url("../imagenes/ayoEmprende/1ayoEmprendeDesktop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -6237,7 +6291,7 @@ body {
 @media only screen and (min-width: 1601px) {
   /* Sección Imagen Inicio */
   .container__impactoSocial {
-    background-image: url("../../imagenes/ayoEmprende/1ayoEmprendeDesktop.jpg");
+    background-image: url("../imagenes/ayoEmprende/1ayoEmprendeDesktop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -6381,7 +6435,8 @@ body {
         flex-wrap: wrap;
         justify-content: center;  */
     display: grid;
-    grid-template-areas: "card1 card2 card3" "card4 card5 card6";
+    grid-template-areas: "card1 card2 card3"
+ "card4 card5 card6";
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 1fr 1fr;
     justify-items: center; }
@@ -7729,7 +7784,7 @@ body {
 @media only screen and (min-width: 1001px) and (max-width: 1200px) {
   /* Sección Imagen Inicio */
   .imagen__inicio__ayoImpulso {
-    background-image: url("../../imagenes/ayoImpulso/1programaImpulsoDesktop.jpg");
+    background-image: url("../imagenes/ayoImpulso/1programaImpulsoDesktop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -7999,7 +8054,7 @@ body {
 @media only screen and (min-width: 1201px) and (max-width: 1400px) {
   /* Sección Imagen Inicio */
   .imagen__inicio__ayoImpulso {
-    background-image: url("../../imagenes/ayoImpulso/1programaImpulsoDesktop.jpg");
+    background-image: url("../imagenes/ayoImpulso/1programaImpulsoDesktop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -8275,7 +8330,7 @@ body {
 @media only screen and (min-width: 1401px) and (max-width: 1600px) {
   /* Sección Imagen Inicio */
   .imagen__inicio__ayoImpulso {
-    background-image: url("../../imagenes/ayoImpulso/1programaImpulsoDesktop.jpg");
+    background-image: url("../imagenes/ayoImpulso/1programaImpulsoDesktop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -8554,7 +8609,7 @@ body {
 @media only screen and (min-width: 1601px) {
   /* Sección Imagen Inicio */
   .imagen__inicio__ayoImpulso {
-    background-image: url("../../imagenes/ayoImpulso/1programaImpulsoDesktop.jpg");
+    background-image: url("../imagenes/ayoImpulso/1programaImpulsoDesktop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -8836,7 +8891,7 @@ body {
 
 @media only screen and (max-width: 320px) {
   .container__imagen__ayoAcelera {
-    background-image: url("../../imagenes/ayoAcelera/1ayoAcelera320.jpg");
+    background-image: url("../imagenes/ayoAcelera/1ayoAcelera320.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative; }
@@ -9101,7 +9156,7 @@ body {
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
   .container__imagen__ayoAcelera {
-    background-image: url("../../imagenes/ayoAcelera/1ayoAcelera480.jpg");
+    background-image: url("../imagenes/ayoAcelera/1ayoAcelera480.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -9368,7 +9423,7 @@ body {
 
 @media only screen and (min-width: 481px) and (max-width: 599px) {
   .container__imagen__ayoAcelera {
-    background-image: url("../../imagenes/ayoAcelera/1ayoAcelera600.jpg");
+    background-image: url("../imagenes/ayoAcelera/1ayoAcelera600.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -9630,7 +9685,7 @@ body {
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   .container__imagen__ayoAcelera {
-    background-image: url("../../imagenes/ayoAcelera/1ayoAcelera600.jpg");
+    background-image: url("../imagenes/ayoAcelera/1ayoAcelera600.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -9896,7 +9951,7 @@ body {
 
 @media only screen and (min-width: 769px) and (max-width: 1000px) {
   .container__imagen__ayoAcelera {
-    background-image: url("../../imagenes/ayoAcelera/1ayoAceleraDesktop.jpg");
+    background-image: url("../imagenes/ayoAcelera/1ayoAceleraDesktop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -10212,7 +10267,7 @@ body {
 
 @media only screen and (min-width: 1001px) and (max-width: 1200px) {
   .container__imagen__ayoAcelera {
-    background-image: url("../../imagenes/ayoAcelera/1ayoAceleraDesktop.jpg");
+    background-image: url("../imagenes/ayoAcelera/1ayoAceleraDesktop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -10528,7 +10583,7 @@ body {
 
 @media only screen and (min-width: 1201px) and (max-width: 1400px) {
   .container__imagen__ayoAcelera {
-    background-image: url("../../imagenes/ayoAcelera/1ayoAceleraDesktop.jpg");
+    background-image: url("../imagenes/ayoAcelera/1ayoAceleraDesktop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -10844,7 +10899,7 @@ body {
 
 @media only screen and (min-width: 1401px) and (max-width: 1600px) {
   .container__imagen__ayoAcelera {
-    background-image: url("../../imagenes/ayoAcelera/1ayoAceleraDesktop.jpg");
+    background-image: url("../imagenes/ayoAcelera/1ayoAceleraDesktop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -11160,7 +11215,7 @@ body {
 
 @media only screen and (min-width: 1601px) {
   .container__imagen__ayoAcelera {
-    background-image: url("../../imagenes/ayoAcelera/1ayoAceleraDesktop.jpg");
+    background-image: url("../imagenes/ayoAcelera/1ayoAceleraDesktop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -11569,7 +11624,7 @@ body {
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
   footer {
-    background: url("../../imagenes/footer/fondoFooter480.jpg");
+    background: url("../imagenes/footer/fondoFooter480.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
@@ -11664,7 +11719,7 @@ body {
 
 @media only screen and (min-width: 481px) and (max-width: 599px) {
   footer {
-    background-image: url("../../imagenes/footer/fondoFooter600.jpg");
+    background-image: url("../imagenes/footer/fondoFooter600.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -11758,7 +11813,7 @@ body {
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   footer {
-    background-image: url("../../imagenes/footer/fondoFooter600.jpg");
+    background-image: url("../imagenes/footer/fondoFooter600.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -11858,7 +11913,7 @@ body {
 
 @media only screen and (min-width: 769px) and (max-width: 1000px) {
   footer {
-    background-image: url("../../imagenes/footer/fondoFooter600.jpg");
+    background-image: url("../imagenes/footer/fondoFooter600.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -11964,7 +12019,7 @@ body {
 /* Desktop */
 @media only screen and (min-width: 1001px) and (max-width: 1200px) {
   footer {
-    background-image: url("../../imagenes/footer/fondoFooterDesktop.jpg");
+    background-image: url("../imagenes/footer/fondoFooterDesktop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -12070,7 +12125,7 @@ body {
 
 @media only screen and (min-width: 1201px) and (max-width: 1400px) {
   footer {
-    background-image: url("../../imagenes/footer/fondoFooterDesktop.jpg");
+    background-image: url("../imagenes/footer/fondoFooterDesktop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -12177,7 +12232,7 @@ body {
 
 @media only screen and (min-width: 1401px) and (max-width: 1600px) {
   footer {
-    background-image: url("../../imagenes/footer/fondoFooterDesktop.jpg");
+    background-image: url("../imagenes/footer/fondoFooterDesktop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -12284,7 +12339,7 @@ body {
 
 @media only screen and (min-width: 1601px) {
   footer {
-    background-image: url("../../imagenes/footer/fondoFooterDesktop.jpg");
+    background-image: url("../imagenes/footer/fondoFooterDesktop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -12395,7 +12450,7 @@ body {
 
 @media only screen and (max-width: 320px) {
   .container__imagen__sobreAyo {
-    background-image: url("../../imagenes/sobreNosotros/1sobreNosotros.jpg");
+    background-image: url("../imagenes/sobreNosotros/1sobreNosotros.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative; }
@@ -12737,7 +12792,7 @@ body {
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
   .container__imagen__sobreAyo {
-    background-image: url("../../imagenes/sobreNosotros/1sobreNosotros480.jpg");
+    background-image: url("../imagenes/sobreNosotros/1sobreNosotros480.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -13099,7 +13154,7 @@ body {
 
 @media only screen and (min-width: 481px) and (max-width: 599px) {
   .container__imagen__sobreAyo {
-    background-image: url("../../imagenes/sobreNosotros/1sobreNosotros600.jpg");
+    background-image: url("../imagenes/sobreNosotros/1sobreNosotros600.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -13475,7 +13530,7 @@ body {
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   .container__imagen__sobreAyo {
-    background-image: url("../../imagenes/sobreNosotros/1sobreNosotros600.jpg");
+    background-image: url("../imagenes/sobreNosotros/1sobreNosotros600.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -13857,7 +13912,7 @@ body {
 
 @media only screen and (min-width: 769px) and (max-width: 1000px) {
   .container__imagen__sobreAyo {
-    background-image: url("../../imagenes/sobreNosotros/1sobreNosotrosDesktop.jpg");
+    background-image: url("../imagenes/sobreNosotros/1sobreNosotrosDesktop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -14281,7 +14336,7 @@ body {
 
 @media only screen and (min-width: 1001px) and (max-width: 1200px) {
   .container__imagen__sobreAyo {
-    background-image: url("../../imagenes/sobreNosotros/1sobreNosotrosDesktop.jpg");
+    background-image: url("../imagenes/sobreNosotros/1sobreNosotrosDesktop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -14552,7 +14607,8 @@ body {
         line-height: 40px; }
       .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo {
         display: grid;
-        grid-template-areas: "card1 card2" "card3 card4";
+        grid-template-areas: "card1 card2"
+ "card3 card4";
         grid-template-columns: 50% 50%;
         grid-template-rows: 1fr; }
         .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo .divItem1__sobreAyo {
@@ -14706,7 +14762,7 @@ body {
 
 @media only screen and (min-width: 1201px) and (max-width: 1246px) {
   .container__imagen__sobreAyo {
-    background-image: url("../../imagenes/sobreNosotros/1sobreNosotrosDesktop.jpg");
+    background-image: url("../imagenes/sobreNosotros/1sobreNosotrosDesktop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -14977,7 +15033,8 @@ body {
         line-height: 40px; }
       .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo {
         display: grid;
-        grid-template-areas: "card1 card2" "card3 card4";
+        grid-template-areas: "card1 card2"
+ "card3 card4";
         grid-template-columns: 50% 50%;
         grid-template-rows: 1fr; }
         .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo .divItem1__sobreAyo {
@@ -15131,7 +15188,7 @@ body {
 
 @media only screen and (min-width: 1247px) and (max-width: 1400px) {
   .container__imagen__sobreAyo {
-    background-image: url("../../imagenes/sobreNosotros/1sobreNosotrosDesktop.jpg");
+    background-image: url("../imagenes/sobreNosotros/1sobreNosotrosDesktop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -15402,7 +15459,8 @@ body {
         line-height: 40px; }
       .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo {
         display: grid;
-        grid-template-areas: "card1 card2" "card3 card4";
+        grid-template-areas: "card1 card2"
+ "card3 card4";
         grid-template-columns: 50% 50%;
         grid-template-rows: 1fr; }
         .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo .divItem1__sobreAyo {
@@ -15556,7 +15614,7 @@ body {
 
 @media only screen and (min-width: 1401px) and (max-width: 1600px) {
   .container__imagen__sobreAyo {
-    background-image: url("../../imagenes/sobreNosotros/1sobreNosotrosDesktop.jpg");
+    background-image: url("../imagenes/sobreNosotros/1sobreNosotrosDesktop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -15827,7 +15885,8 @@ body {
         line-height: 40px; }
       .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo {
         display: grid;
-        grid-template-areas: "card1 card2" "card3 card4";
+        grid-template-areas: "card1 card2"
+ "card3 card4";
         grid-template-columns: 50% 50%;
         grid-template-rows: 1fr; }
         .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo .divItem1__sobreAyo {
@@ -15981,7 +16040,7 @@ body {
 
 @media only screen and (min-width: 1601px) {
   .container__imagen__sobreAyo {
-    background-image: url("../../imagenes/sobreNosotros/1sobreNosotrosDesktop.jpg");
+    background-image: url("../imagenes/sobreNosotros/1sobreNosotrosDesktop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative; }
@@ -16252,7 +16311,8 @@ body {
         line-height: 40px; }
       .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo {
         display: grid;
-        grid-template-areas: "card1 card2" "card3 card4";
+        grid-template-areas: "card1 card2"
+ "card3 card4";
         grid-template-columns: 50% 50%;
         grid-template-rows: 1fr; }
         .seccionElementosClavePosicionamiento_sobreAyo .contenedorGlobalElementosPosicionamiento_sobreAyo .contenedorPadreElementosPosicionamiento__sobreAyo .divItem1__sobreAyo {
@@ -18443,7 +18503,7 @@ body {
 
 @media only screen and (max-width: 320px) {
   .seccionImagen_medicionImpacto {
-    background-image: url("../../imagenes/medicionImpacto/1.jpg");
+    background-image: url("../imagenes/medicionImpacto/1.jpg");
     background-repeat: no-repeat;
     height: 100%;
     background-size: 100% 100%;
@@ -18524,7 +18584,7 @@ body {
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
   .seccionImagen_medicionImpacto {
-    background-image: url("../../imagenes/medicionImpacto/1.jpg");
+    background-image: url("../imagenes/medicionImpacto/1.jpg");
     background-repeat: no-repeat;
     height: 100%;
     background-size: 100% 100%;
@@ -18605,7 +18665,7 @@ body {
 
 @media only screen and (min-width: 481px) and (max-width: 600px) {
   .seccionImagen_medicionImpacto {
-    background-image: url("../../imagenes/medicionImpacto/1.jpg");
+    background-image: url("../imagenes/medicionImpacto/1.jpg");
     background-repeat: no-repeat;
     height: 100%;
     background-size: 100% 100%;
@@ -18686,7 +18746,7 @@ body {
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
   .seccionImagen_medicionImpacto {
-    background-image: url("../../imagenes/medicionImpacto/1.jpg");
+    background-image: url("../imagenes/medicionImpacto/1.jpg");
     background-repeat: no-repeat;
     height: 100%;
     background-size: 100% 100%;
@@ -18767,7 +18827,7 @@ body {
 
 @media only screen and (min-width: 769px) and (max-width: 1000px) {
   .seccionImagen_medicionImpacto {
-    background-image: url("../../imagenes/medicionImpacto/portadaDesktop.jpg");
+    background-image: url("../imagenes/medicionImpacto/portadaDesktop.jpg");
     background-repeat: no-repeat;
     height: 100%;
     background-size: 100% 100%;
@@ -18855,7 +18915,7 @@ body {
 
 @media only screen and (min-width: 1001px) and (max-width: 1200px) {
   .seccionImagen_medicionImpacto {
-    background-image: url("../../imagenes/medicionImpacto/portadaDesktop.jpg");
+    background-image: url("../imagenes/medicionImpacto/portadaDesktop.jpg");
     background-repeat: no-repeat;
     height: 100%;
     background-size: 100% 100%;
@@ -18944,7 +19004,7 @@ body {
 
 @media only screen and (min-width: 1201px) and (max-width: 1400px) {
   .seccionImagen_medicionImpacto {
-    background-image: url("../../imagenes/medicionImpacto/portadaDesktop.jpg");
+    background-image: url("../imagenes/medicionImpacto/portadaDesktop.jpg");
     background-repeat: no-repeat;
     height: 100%;
     background-size: 100% 100%;
@@ -19033,7 +19093,7 @@ body {
 
 @media only screen and (min-width: 1401px) and (max-width: 1600px) {
   .seccionImagen_medicionImpacto {
-    background-image: url("../../imagenes/medicionImpacto/portadaDesktop.jpg");
+    background-image: url("../imagenes/medicionImpacto/portadaDesktop.jpg");
     background-repeat: no-repeat;
     height: 100%;
     background-size: 100% 100%;
@@ -19122,7 +19182,7 @@ body {
 
 @media only screen and (min-width: 1601px) {
   .seccionImagen_medicionImpacto {
-    background-image: url("../../imagenes/medicionImpacto/portadaDesktop.jpg");
+    background-image: url("../imagenes/medicionImpacto/portadaDesktop.jpg");
     background-repeat: no-repeat;
     height: 100%;
     background-size: 100% 100%;
